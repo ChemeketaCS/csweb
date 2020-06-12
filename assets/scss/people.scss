@@ -1,0 +1,49 @@
+
+// Rules for the people/ pages
+
+#profile-page {
+  font-size: 1.25rem;
+
+  h1 {
+    margin-top: 1.5rem;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 2rem;
+    color: $primary;
+  }
+
+  .card {
+    margin-top: -2rem;
+    padding-top: 2rem;
+    box-shadow: none;
+
+    background: rgb(247, 247, 247);
+
+    border: 0px;
+
+    h3 {
+      color: $gray-600;
+      font-size: 1.25em;
+    }
+
+    a, a:hover, a:focus {
+      color: $secondary;
+    }
+  }
+
+  ul.ul-contact-info {
+    font-size: 1em;
+    margin-top: 1.5rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  ul.ul-edu li .description p.course {
+    font-size: inherit; 
+  }
+  
+  ul.ul-edu li .description p.institution {
+    font-size: .9em; 
+  }
+}

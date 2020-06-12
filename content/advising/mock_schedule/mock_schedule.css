@@ -1,0 +1,22 @@
+
+#schedTable {
+  width: 100%;
+  overflow-wrap: break-word;
+  border: 1px;
+  table-layout: fixed;
+  display: table;
+}
+
+#schedTable td, #schedTable th  {
+  padding: 2px 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.csClass {
+  font-weight: bold;
+}
+
+.mathClass {
+  font-weight: bold;
+}

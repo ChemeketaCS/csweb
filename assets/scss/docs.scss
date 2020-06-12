@@ -1,0 +1,45 @@
+
+// Rules for docs formatted pages
+// i.e. advising/ and courses
+
+div.docs {
+  .docs-article-container {
+    max-width: 1000px; 
+  }
+  div.alert > div {
+    font-size: 1em;
+  }
+
+  h1 { 
+    font-size: 2.7rem;
+  }
+
+  h2 {
+    font-weight: 700;
+    margin-top: 1.5em;
+  }
+  
+  h3 {
+    font-weight: 400;
+  }
+}
+
+
+@media only print {
+  body {
+    margin: 0;
+  }
+
+  div.docs-sidebar {
+    display: none;
+  }
+  
+  div.docs .docs-article-container {
+    max-width: 100%; 
+  }
+  div.docs .docs-content {
+    flex: 100%; 
+    max-width: 100%; 
+    padding: 3rem 1rem;
+  }
+}

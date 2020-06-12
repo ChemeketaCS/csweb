@@ -1,0 +1,133 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+{{ $author := "" }}
+{{ if .author }}
+  {{ $author = .author }}
+{{ else }}
+  {{ $author = $page.Params.author }}
+{{end}}
+
+{{ $person_page_path := (printf "/authors/%s" $author) }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find an author page at `%s`. Please check the value of `author` in your About widget and create an associated author page if one does not already exist. See https://sourcethemes.com/academic/docs/page-builder/#about " $person_page_path }}
+{{end}}
+{{ $person := $person_page.Params }}
+{{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
+{{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
+
+<!-- About widget -->
+<div class="row">
+  <div class="col-12 col-lg-4 card">
+    <div id="profile">
+
+      {{ if site.Params.avatar.gravatar }}
+      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=270')" alt="{{$person_page.Title}}">
+      {{ else if $avatar }}
+      {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+      <img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
+      {{ end }}
+
+      <div class="portrait-title">
+        <h1>{{ $person_page.Title }}</h1>
+        {{ with $person.role }}
+        <h3 class="mb-3">{{ . | markdownify | emojify }}</h3>{{ end }}
+
+        {{ range $person.organizations }}
+        <h3>
+          {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+          <span>{{ .name }}</span>
+          {{ if .url }}</a>{{ end }}
+        </h3>
+        {{ end }}
+      </div>
+
+
+      <div class="person-contact">
+        <ul class="ul-contact-info">
+          {{ with $person.email }}
+            <li><a href="mailto:{{ . }}">{{ . }}</a></li>
+          {{ end }}
+          {{ with $person.phone }}
+            <li>{{ . }}</li>
+          {{ end }}
+          <li class="mt-3">
+          {{ with $person.office_map }}
+            <a href="{{ . }}">{{ $person.office }}</a><br/>
+            {{ $person.campus }}
+          {{ else }}
+            {{ $person.office }}
+            {{ $person.campus }}
+          {{ end }}
+        </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8 pl-lg-5">
+    {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
+    {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
+
+    {{ $person_page.Content }}
+
+    <div class="person-office-hours">    
+      <h2>Office Hours - {{ $person.office_hours_for }} </h2>
+      <dl>
+      {{ range $person.office_hours }}
+        <dt>
+          {{ .days }} 
+        </dt> 
+        <dd>
+            {{ range $time := .times }}
+              {{ .time }} -
+              {{ with .location }}
+                {{ with $time.location_map }}
+                  <a href="{{ . }}"> {{ $time.location }}</a>
+                {{ else }}
+                  {{ $time.location }}
+                {{ end }}
+              {{ else }}
+                {{ with $person.office_map }}
+                  <a href="{{ . }}"> Office</a>
+                {{ else }}
+                  Office
+                {{ end }}
+              {{ end }}<br/>
+            {{ end }}
+            {{/*
+              {{ range .times }}
+                {{ .time }}
+                {{ with .location }}
+                  {{ . }}
+                {{else}}
+                {{ with $person.office_map }}
+                  <a href="{{ . }}"> Office</a>
+                {{ else }}
+                  Office
+                {{ end }}
+            {{ end }}
+            */}}
+        </dd>
+      {{ end }}
+      </dl>
+    </div>
+
+    {{ with $person.education }}
+      <h2 class="mt-5">{{ i18n "education" | markdownify }}</h2>
+      <ul class="ul-edu fa-ul">
+        {{ range .courses }}
+        <li>  
+          <i class="fa-li fas fa-graduation-cap"></i>
+          <div class="description">
+            <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+            <p class="institution">{{ .institution }}</p>
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+
+  </div>
+</div>

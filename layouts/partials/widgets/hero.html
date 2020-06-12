@@ -1,0 +1,54 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $bg := $page.Params.design.background }}
+
+{{ if $page.Params.hero_media }}
+<h1 class="hero-title mb-4">
+  {{ with $page.Title }}{{ . | markdownify }}{{ end }}
+</h1>
+
+<div class="row">
+  <div class="col-md-8 order-md-1 text-center text-md-left">
+{{ end }}
+
+    {{ with $page.Content }}
+    <div class="hero-lead">{{ . }}</div>
+    {{ end }}
+
+    {{/* Call-to-action link */}}
+    {{ if $page.Params.cta.url }}
+      {{ $pack := or $page.Params.cta.icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+      {{ end }}
+      {{ $link := $page.Params.cta.url }}
+    <div class="cta-btns">
+      <a href="{{ $link | safeURL }}" class="btn btn-block {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg">{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}{{ if $page.Params.cta.icon }} <i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1 pl-2" aria-hidden="true"></i>{{end}}</a>
+      <br/>
+      {{/* Alternative Call-to-action links */}}
+      
+      {{ range $page.Params.cta_alts }}
+        {{ $link := .url }}
+        {{ $target := "" }}
+      <a href="{{ $link | safeURL }}" class="hero-cta-alt btn btn-lg btn-light btn-block">{{ .label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right pr-1 pl-2"></i></a>
+      <br/>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Call-to-action note */}}
+    {{ with $page.Params.cta_note }}
+    <p class="hero-note text-muted mb-0">
+      {{ .label | markdownify | emojify | safeHTML }}
+    </p>
+    {{ end }}
+
+  {{/* Hero image */}}
+  {{ if $page.Params.hero_media }}
+  </div>
+  <div class="d-none d-md-flex col-4 mx-auto col-md-4 order-md-2 hero-media">
+    <img src="{{ printf "img/%s" $page.Params.hero_media | relURL }}" alt="">
+  </div>
+</div>
+{{ end }}

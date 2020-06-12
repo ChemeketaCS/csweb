@@ -1,0 +1,63 @@
+
+@import "bootstrap_variables";
+$tertiary: rgb(64, 71, 20);
+$secondary: rgb(120, 31, 28);
+$primary: rgb(112, 117, 43);
+$button: rgb(186, 87, 0); // #f6d654;
+$button-active: rgb(89, 143, 148); // #f6d654;
+
+
+//Rules for various subdirectories
+@import 'docs.scss';
+@import 'homepage.scss';
+@import 'people.scss';
+
+
+@media screen and (min-width: 58em) {
+  //override acadmic resizing fonts at large window size 
+  html {
+    font-size: 1rem; 
+  }  
+}
+
+html {
+  overflow-y: scroll;
+  font-size-adjust: 0.5;
+}
+
+#navbar-main {
+  font-size: 1.25rem;
+  padding: 0 21px;
+
+  .navbar-brand {
+    font-size: 1.75rem;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .universal-wrapper {
+    width: 1200px;
+  }
+}
+
+:root {
+ // --primary: $primary;
+  --secondary: $secondary;
+  --tertiary: $tertiary;
+}
+
+
+a,
+h3.article-title a:hover,
+a:hover,
+a:focus {
+  color: $secondary;
+  font-weight: 700;
+}
+
+

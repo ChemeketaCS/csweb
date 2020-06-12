@@ -1,0 +1,97 @@
+
+// Rules for the landing page and any other widget based pages
+
+.home-section {
+  padding: 60px 0;
+}
+
+
+.wg-people {
+  h1 {
+    font-size: 3rem;
+  }
+  .section-heading {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .people-widget .portrait-title h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .portrait-title h3 {
+    font-size: 1.25rem;
+  }
+}
+
+.wg-hero {
+  .hero-title {
+    font-size: 3rem;
+    text-align: center;
+    --font-family: "Roboto", sans-serif;
+    @include media-breakpoint-up(lg) {
+      text-align: left;
+      font-size: 4rem;
+    }
+
+  }
+
+  .hero-lead {
+    --font-family: "Lato", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+
+  .hero-media { 
+    img {
+      vertical-align: middle;
+      width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .home-section {
+    background-color: white;
+    padding: 60px 0 60px 0;
+  }
+
+  .btn-lg, .btn-group-lg > .btn {
+    font-size: 1.25rem;
+  }
+  
+  .cta-btns {
+    max-width: 500px;
+
+    .btn:hover, .btn:active {
+      background-color: $button-active;
+      font-weight: inherit;
+    }
+
+    .btn {
+      border-radius: 0px;
+      border-width: 2px;
+      padding: 20px 0px;
+    }
+
+    .btn-light {
+      color: white;
+      background-color: $button;
+    }
+
+    .btn-outline-light {
+      color: white;
+      background-color: transparent;
+    }
+  }
+
+  .hero-cta-alt {
+    color: white;
+  }
+
+  a.hero-cta-alt:active, a.hero-cta-alt:focus, a.hero-cta-alt:hover {
+    text-transform: none;
+    transform: none;
+  }
+}
