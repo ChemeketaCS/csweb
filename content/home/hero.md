@@ -52,5 +52,5 @@ hero_media = "service-mark-white.svg"
 #  label = ''
 +++
 
-TESTS
+THIS IS A TEST
 Chemeketa is a great place to start working towards a four-year CS degree. Take your first two years of CS courses in small classes with faculty whose primary passion is teaching.
