@@ -24,14 +24,14 @@
       {{ end }}
       {{ $link := $page.Params.cta.url }}
     <div class="cta-btns">
-      <a href="{{ $link | safeURL }}" class="btn btn-block {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg">{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}{{ if $page.Params.cta.icon }} <i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1 pl-2" aria-hidden="true"></i>{{end}}</a>
+      <a href="{{ $link | safeURL | relURL }}" class="btn btn-block {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg">{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}{{ if $page.Params.cta.icon }} <i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1 pl-2" aria-hidden="true"></i>{{end}}</a>
       <br/>
       {{/* Alternative Call-to-action links */}}
       
       {{ range $page.Params.cta_alts }}
         {{ $link := .url }}
         {{ $target := "" }}
-      <a href="{{ $link | safeURL }}" class="hero-cta-alt btn btn-lg btn-light btn-block">{{ .label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right pr-1 pl-2"></i></a>
+      <a href="{{ $link | safeURL | relURL  }}" class="hero-cta-alt btn btn-lg btn-light btn-block">{{ .label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right pr-1 pl-2"></i></a>
       <br/>
       {{ end }}
     </div>
