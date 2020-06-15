@@ -28,7 +28,7 @@ weight: 2
   <select id="school" class="form-control">
     <option value="UNKNOWN">Unknown School</option>
     <option value="OREGON-TECH">Oregon Tech</option>
-    <option>Oregon</option>
+    <option value="OREGON">Oregon</option>
     <option value="OSU-APPLIED">OSU-Applied</option>
     <option value="OSU-SYSTEMS">OSU-Systems</option>
     <option>PSU</option>

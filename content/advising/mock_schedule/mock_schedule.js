@@ -261,7 +261,7 @@ function buildTable() {
 }
 
 function updateURL() {
-    var newURL = "?school=" + $("#school").val() + "&cs=" + $("#cs").val() + "&math=" + $("#math").val();
+    var newURL = "#school=" + $("#school").val() + "&cs=" + $("#cs").val() + "&math=" + $("#math").val();
     window.history.pushState("object or string", "CS Transfer Schedule Planner", newURL);
 }
 
@@ -269,11 +269,11 @@ function setSelections() {
     $("#school").val("UNKNOWN");
     $("#math").val("111");
     $("#cs").prop("Early");
-    var sPageURL = window.location.search.substring(1);
-    var sURLVariables = sPageURL.split('&');
-    for (var i = 0; i < sURLVariables.length; i++)
+    var hashString = window.location.hash.substring(1);
+    var hashVars = hashString.split('&');
+    for (var i = 0; i < hashVars.length; i++)
     {
-        var sParameterName = sURLVariables[i].split('=');
+        var sParameterName = hashVars[i].split('=');
         if (sParameterName[0].toLowerCase() == "school")
         {
             $("#school").val(sParameterName[1].toUpperCase());
