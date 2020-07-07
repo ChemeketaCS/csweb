@@ -6,6 +6,29 @@ div.docs {
   .docs-article-container {
     max-width: 1000px; 
   }
+  
+  .docs-sidebar {
+  
+    .docs-toc-link {
+      font-size: 1.25rem;
+    }
+    .docs-toc-item.active {
+      margin: auto 0;
+      .docs-toc-link {
+        color: $primary;
+      }
+    }
+
+    #TableOfContents li a, .toc-top li a {
+      font-size: 0.8rem;
+    }
+  }
+
+  .docs-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   div.alert > div {
     font-size: 1em;
   }
@@ -22,8 +45,52 @@ div.docs {
   h3 {
     font-weight: 400;
   }
-}
 
+
+  .mermaid {
+    svg {
+      width: 100%;
+      max-width: 720px;
+      height: auto;
+    }
+
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    line-height: 1rem;
+    display: none;
+
+    .label {
+      color: $tertiary !important;
+    }
+
+   .label .terms {
+      color: $gray-600 !important;
+      font-weight: 400 !important;
+      font-style: italic !important;
+      font-size: 1rem !important;
+    }
+
+    path  {
+      stroke: $gray-800  !important;
+      fill: $gray-800  !important;
+    }
+
+    .edgePath > path  {
+      fill: none  !important;
+    }
+
+    .node > rect {
+      stroke: $tertiary  !important;
+      fill: white  !important;
+      rx: 2px;
+      ry: 2px;
+    }
+
+  }
+  .mermaid[data-processed] {
+    display: block;
+  }
+}
 
 @media only print {
   body {
