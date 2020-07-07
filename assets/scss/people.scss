@@ -18,9 +18,10 @@
     padding-top: 2rem;
     box-shadow: none;
 
-    background: rgb(247, 247, 247);
+    background: rgba(222, 213, 179, 0.15);
 
     border: 0px;
+    border-radius: 0;
 
     h3 {
       color: $gray-600;
@@ -33,7 +34,7 @@
   }
 
   ul.ul-contact-info {
-    font-size: 1em;
+    font-size: .9em;
     margin-top: 1.5rem;
     list-style: none;
     padding: 0;
@@ -45,5 +46,13 @@
   
   ul.ul-edu li .description p.institution {
     font-size: .9em; 
+  }
+}
+
+@include media-breakpoint-up(sm) { 
+  #profile-page {
+    .card {
+      border: 1px solid rgba(222, 213, 179, 1);
+    }
   }
 }

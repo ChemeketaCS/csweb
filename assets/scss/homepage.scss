@@ -8,7 +8,7 @@
 
 .wg-people {
   h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .section-heading {
     align-items: center;
@@ -66,13 +66,13 @@
 
     .btn:hover, .btn:active {
       background-color: $button-active;
-      font-weight: inherit;
     }
 
     .btn {
       border-radius: 0px;
-      border-width: 2px;
+      border-width: 3px;
       padding: 20px 0px;
+      font-weight: 900;
     }
 
     .btn-light {
