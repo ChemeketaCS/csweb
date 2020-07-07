@@ -17,9 +17,12 @@
       {{ partial "docs_toc_foot" . }}
     </div>
     {{ end }}
-
-    <main class="col-12 col-md-9 col-xl-auto py-md-3 pl-md-5 docs-content" role="main">
-
+    
+    {{ if .Params.toc }}
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 docs-content" role="main">
+    {{ else}}
+    <main class="col-12 col-md-9 col-xl-10 py-md-3 docs-content" role="main">
+    {{ end }}
       <article class="article">
 
         <div class="docs-article-container">

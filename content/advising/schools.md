@@ -8,11 +8,11 @@ draft: false
 menu:
   advising:
     name: 'Schools'
-    weight: 80
+    weight: 20
 
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
+weight: 20
 ---
 
 Below are notes about the most popular transfer targets for Chemeketa students.

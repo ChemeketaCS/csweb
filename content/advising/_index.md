@@ -2,71 +2,61 @@
 # Course title, summary, and position.
 linktitle: Advising
 summary: CS Program Advising Resources
-weight: 1
 
 # Page metadata.
-title: CS Advising
-#date: "2018-09-09T00:00:00Z"
-#lastmod: "2018-09-09T00:00:00Z"
-draft: false  # Is this a draft? true/false
-toc: false  # Show table of contents? true/false
+title: CS Advising - Overview
 type: docs  # Do not modify.
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 1
+
 menu:
   advising:
     name: Overview
-    weight: 1
-    url: 'asdf'
-
-menu:
-  advising:
-    parent: 'Overview'
-    name: Projects
-    url: 'oganm.com/shiny/printSheetApp'
-    weight: 1
-
-
+    weight: 10
 ---
 
-## Flexibility
+## Identify your discipline
 
-This feature can be used for publishing content such as:
+Make sure you know the difference between [Computer Engineering (CE), Computer Science (CS),
+Software Engineering (SE), Information Technology (IT), and Information Systems (IS)](http://computerscience.chemeketa.edu/cs160Reader/ComputingFields/index.html).
 
-* **Online courses**
-* **Project or software documentation**
-* **Tutorials**
+* If you are interested in **CS or SE**, you are in the right place!
 
-The `courses` folder may be renamed. For example, we can rename it to `docs` for software/project documentation or `tutorials` for creating an online course.
+* If you are interested in **CE** you should talk to
+[Mark Miller](mailto:mark.miller@chemeketa.edu) from the
+[Engineering Department](https://www.chemeketa.edu/programs-classes/program-finder/engineering/).
 
-## Delete tutorials
+* If you are interested in a technically focused **IT or IS** degree, you should talk to
+[Mandy Reininger](mailto:mandy.reininger@chemeketa.edu) from the
+[CIS Department](https://www.chemeketa.edu/programs-classes/program-finder/computer-information-systems/).
 
-**To remove these pages, delete the `courses` folder and see below to delete the associated menu link.**
+* If you are interested in a business focused **IS** degree, you probably want to work on the
+[ASOT-Business degree](https://www.chemeketa.edu/programs-classes/degrees/) and transfer into a
+Business Information Systems program.
 
-## Update site menu
+## Sign up for updates
 
-After renaming or deleting the `courses` folder, you may wish to update any `[[main]]` menu links to it by editing your menu configuration at `config/_default/menus.toml`.
+Sign up for the [Computer Science mailing list](http://eepurl.com/bhlDT1) to receive news about
+updates at the four-year universities as well as transfer related events and deadlines. You can
+also view an [archive of past emails sent on the mailing list](https://us10.campaign-archive.com/home/?u=80c5b042ad9fa8e70edde9296&id=bd7a5c549ct).
 
-For example, if you delete this folder, you can remove the following from your menu configuration:
+## Schedule planning
 
-```toml
-[[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
-```
+Most students interested in earning a degree in Computer Science should work towards the
+[ASOT-CS degree](https://www.chemeketa.edu/students/advising/advising-guides/) here at
+Chemeketa. It is very similar to the standard AAOT transfer degree, but includes the CS and Math
+courses you will need for a CS degree.
 
-Or, if you are creating a software documentation site, you can rename the `courses` folder to `docs` and update the associated *Courses* menu configuration to:
+If you are interested in Western Oregon University, you do not need to take MTH 112, 251 or 252 -
+that means you will end up earning the AAOT. But you should still follow the guidance on the
+ASOT-CS degree for everything other than MTH 112/251/252.
 
-```toml
-[[main]]
-  name = "Docs"
-  url = "docs/"
-  weight = 50
-```
+You can use this [Mock Schedule builder](http://localhost:1313/advising/mock_schedule/) to explore 
+what a schedule 2 year transfer schedule to different schools might look like.
 
-## Update the docs menu
-
-If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
+{{% alert warning %}}
+Note that many schools require additional courses beyond the base ones included in the ASOT-CS.
+Make sure to check the requirements of program(s) you are interested in. You can find these
+requirements on pages 3 & 4 of the ASOT-CS degree and on the mock schedule builder.
+{{% /alert %}}

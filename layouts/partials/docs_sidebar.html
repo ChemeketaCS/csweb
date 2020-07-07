@@ -2,7 +2,7 @@
 
 {{/* Dynamically load menu for this docs page. */}}
 {{/* Attempt to get menu name from `menu_name` param, Hugo's front matter menu config, or the last dir of filepath. */}}
-{{ $menu_name := "" }}
+{{ $menu_name := "main" }}
 {{ if .Params.menu | and (not (reflect.IsMap .Params.menu)) | and (not (reflect.IsSlice .Params.menu)) }}
   {{ $menu_name = .Params.menu }}
 {{ else if .Params.menu | and (or (reflect.IsMap .Params.menu) (reflect.IsSlice .Params.menu)) }}
@@ -10,6 +10,7 @@
     {{ $menu_name = $k }}
   {{ end }}
 {{ end }}
+
 {{ $menu_name = .Params.menu_name | default $menu_name | default (path.Base (path.Split .File).Dir) }}
 {{ if not (index site.Menus $menu_name) }}
   {{ errorf "Please define menu items named `menu: %s:` in your %s front matter or define `[[menu.%s]]` in `config/default/menus.toml`. See https://sourcethemes.com/academic/docs/managing-content/#menus" $menu_name .Path $menu_name }}

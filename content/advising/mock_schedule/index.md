@@ -6,19 +6,23 @@ type: docs
 draft: false
 menu:
   advising:
-    weight: 90
+    weight: 80
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 2
----
+weight: 80
 
+js: ["mock_schedule.js"]
+css: ["mock_schedule.css"]
+---
 
 <div class="d-none d-print-block">
   <h2>Mock Transfer Schedule for <span id="schoolname">Unknown School</span></h2>
 </div>
 <div class="d-print-none">
   <p>
-  Enter information about your school, math placement and whether you are starting CS in your first term at Chemeketa or later. If you do not place into math 111 or above, you will have to take additional math courses.
+  Enter information about your school, math placement and whether you are starting CS in your first
+  term at Chemeketa or later. If you do not place into math 111 or above, you will have to take
+  additional math courses.
   </p>
 
   <form>
@@ -59,11 +63,10 @@ weight: 2
 <table id="schedTable">
 </table>
 
-
 {{% alert warning %}}
-Warning - this tool is intended for exploration. The schedules it produces are **NOT** intended to be used as is - use it as a starting point for planning your own schedule.
+Warning - this tool is intended for exploration. The schedules it produces are **NOT** intended to
+be used as is - use it as a starting point for planning your own schedule.
 {{% /alert %}}
-
 
 <div id="schoolNotes">
 <h4>School Specific Notes</h4>
@@ -74,12 +77,14 @@ Warning - this tool is intended for exploration. The schedules it produces are *
 
 <h4>General Notes</h4>
 {{% alert info %}}
-* This assumes you finish an ASOT-CS or AAOT degree at Chemeketa. If you do not finish the complete degree, you need to make sure to meet the general ed requirements of the school you transfer to.
-* Comm 111: Although there are other options to satisfy the ASOT-CS/AAOT, many schools require Comm 111 as part of their major requirements.
-* To earn the ASOT-CS or AAOT you must earn 90 credits of qualifying classes. This schedule does not necessarily include 90 credits.
+* This assumes you finish an ASOT-CS or AAOT degree at Chemeketa. If you do not finish the complete
+degree, you need to make sure to meet the general ed requirements of the school you transfer to.
+* Comm 111: Although there are other options to satisfy the ASOT-CS/AAOT, many schools require
+Comm111 as part of their major requirements.
+* To earn the ASOT-CS or AAOT you must earn 90 credits of qualifying classes. This schedule does
+not necessarily include 90 credits.
 * Make sure one arts/social sciences course meets the Cultural Literacy requirement.
 {{% /alert %}}
-
 
 <script type="text/javascript" src="mock_schedule.js" defer></script>
 <link rel="stylesheet" href="mock_schedule.css">
