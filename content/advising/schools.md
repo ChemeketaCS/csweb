@@ -7,7 +7,7 @@ draft: false
 
 menu:
   advising:
-    name: 'Schools'
+    name: 'Transfer Targets'
     weight: 20
 
 

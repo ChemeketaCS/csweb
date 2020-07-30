@@ -14,6 +14,7 @@ menu:
   advising:
     name: Overview
     weight: 10
+
 ---
 
 ## Identify your discipline
@@ -44,7 +45,7 @@ also view an [archive of past emails sent on the mailing list](https://us10.camp
 ## Schedule planning
 
 Most students interested in earning a degree in Computer Science should work towards the
-[ASOT-CS degree](https://www.chemeketa.edu/students/advising/advising-guides/) here at
+[ASOT-CS degree](https://www.chemeketa.edu/media/content-assets/documents/pdf/degrees/ASOT---CS-Degree-Requirements-and-Advising-Guide.pdf) here at
 Chemeketa. It is very similar to the standard AAOT transfer degree, but includes the CS and Math
 courses you will need for a CS degree.
 
