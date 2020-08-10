@@ -1,0 +1,24 @@
+
+//Clean up spacing in question numberings and force sub questions to be lettered
+.assignment ol ol {
+  margin-top: 0;
+  list-style-type: upper-alpha;
+}
+.assignment .article-style > ol > li {
+  margin-bottom: 1rem;
+}
+
+.assignment ol p + ol {
+  margin-top: -1rem;
+}
+
+
+.assignment blockquote {
+  margin: 2px 1.5rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.assignment .due-dates {
+  color: red;
+}

@@ -11,7 +11,8 @@ $button-active: rgb(89, 143, 148); // #f6d654;
 @import 'docs.scss';
 @import 'homepage.scss';
 @import 'people.scss';
-
+@import 'courses.scss';
+@import 'assignments.scss';
 
 @media screen and (min-width: 58em) {
   //override acadmic resizing fonts at large window size 
