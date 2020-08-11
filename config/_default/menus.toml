@@ -11,13 +11,7 @@
 
 
 [[main]]
-  name = "Advising"
+  name = "CS Advising"
   url = "advising/"
   weight = 50
-
-
-
-[[advising]]
-  name = "ASOT-CS"
-  weight = 15
-  url = "https://www.chemeketa.edu/media/content-assets/documents/pdf/degrees/ASOT---CS-Degree-Requirements-and-Advising-Guide.pdf"
+  
