@@ -12,21 +12,19 @@
 {{ end }}
 
 {{ $menu_name = .Params.menu_name | default $menu_name | default (path.Base (path.Split .File).Dir) }}
+
 {{ if not (index site.Menus $menu_name) }}
   {{ errorf "Please define menu items named `menu: %s:` in your %s front matter or define `[[menu.%s]]` in `config/default/menus.toml`. See https://sourcethemes.com/academic/docs/managing-content/#menus" $menu_name .Path $menu_name }}
 {{ end }}
 
-<form class="docs-search d-flex align-items-center">
+<div class="sidebar-nav-title align-items-center">
   <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
     <span><i class="fas fa-bars"></i></span>
   </button>
+  {{ $.Page.Title }}
+</div>
 
-  {{ if eq site.Params.search.engine 1 }}
-  <input name="q" type="search" class="form-control" placeholder="{{ i18n "search_placeholder" }}" autocomplete="off">
-  {{ end }}
-</form>
-
-<nav class="collapse docs-links" id="docs-nav">
+<nav class="sidebar-nav-menu collapse docs-links" id="docs-nav">
   
   {{ with (index site.Menus $menu_name) }}
 

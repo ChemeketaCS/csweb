@@ -62,3 +62,69 @@ a:focus {
 }
 
 
+.sidebar {
+  order: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  @include media-breakpoint-up(md) {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4.5rem;
+    z-index: 10;
+    height: calc(100vh - 4.5rem);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+.sidebar-nav-title {
+  display: flex;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 12px 6px; 
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}
+
+.sidebar-nav-menu {
+  margin-top: 1rem;
+
+  #TableOfContents li a {
+    font-size: 0.9rem;
+  }
+} 
+
+
+#TableOfContents li a,
+.toc-top li a {
+  color: rgb(100,100,100);
+}
+
+
+
+main {
+  order: 1;
+}
+
+
+@include media-breakpoint-down(sm) {
+  main h1 {
+    text-align: center;
+    display: none;
+
+  }
+  main {
+    margin-top: 1.5rem;
+  }
+
+  .article-style > h2:first-child {
+    margin-top: 0;
+  }
+
+  .sidebar-nav-menu {
+    margin-top: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 0.5rem;
+  }
+  
+}

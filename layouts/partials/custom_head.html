@@ -3,7 +3,6 @@
 
 {{/* This partial is included in `themes/academic/layouts/partials/site_head.html`. */}}
 
-
 <!-- {{ if .IsHome }}
 <style>
 @media screen and (min-width: 58em) {
@@ -14,3 +13,7 @@
 </style>
 {{ end }} -->
 
+{{ $pageLink := .RelPermalink }}
+{{- range .Params.css }}
+<link rel="stylesheet" href='{{ printf "%s%s" $pageLink . }}?{{ now.Unix }}'>
+{{- end }}

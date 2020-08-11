@@ -1,0 +1,12 @@
+{{/*  //Shouldn't need this, but we do to allow for HTML in mermaid diagrams
+<script>mermaid.initialize({securityLevel: 'loose'});</script>  */}}
+
+
+{{ $pageLink := .RelPermalink }}
+{{- range .Params.js }}
+<link rel="stylesheet" href='{{ printf "%s%s" $pageLink . }}?{{ now.Unix }}'>
+<script src="{{ printf "%s%s" $pageLink . }}?{{ now.Unix }}" defer></script>
+{{- end }}
+
+
+  

@@ -1,0 +1,41 @@
+{{- define "main" -}}
+
+{{ $current_page := . }}
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 guide-sidebar docs-sidebar sidebar">
+
+      <div class="sidebar-nav-title align-items-center">
+        <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+        {{ $.Page.Title }}
+      </div>
+
+      <nav class="sidebar-nav-menu collapse docs-links" id="docs-nav">
+          {{ $.Page.TableOfContents }}
+      </nav>
+    </div>
+
+    <main class="col-12 col-md-9 col-xl-10 py-md-3" role="main">
+
+      <article class="article">
+        <div class="guide-article-container">
+          <h1>{{ .Title }}</h1>
+
+          {{ if .Params.subtitle }}
+          <p class="pub-subtitle">{{ .Params.subtitle | markdownify }}</p>
+          {{ end }}
+
+          <hr />
+
+          <div class="article-style">{{ .Content }}</div>
+
+        </div>
+      
+      </article>
+    </main>
+  </div>
+</div>
+{{- end -}}

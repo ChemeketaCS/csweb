@@ -2,6 +2,8 @@
 // Rules for docs formatted pages
 // i.e. advising/ and courses
 
+
+
 div.docs {
   .docs-article-container {
     max-width: 1000px; 
@@ -18,15 +20,15 @@ div.docs {
         color: $primary;
       }
     }
-
-    #TableOfContents li a, .toc-top li a {
-      font-size: 0.8rem;
-    }
   }
 
   .docs-content {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    @include media-breakpoint-up(xl) {
+      padding-left: 2rem;
+      padding-right: 2rem; 
+    }
   }
 
   div.alert > div {
