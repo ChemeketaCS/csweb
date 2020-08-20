@@ -1,0 +1,7 @@
+[
+  {
+    "id": "redeploy",
+    "execute-command": "/var/www/csweb/redeploy.sh",
+    "command-working-directory": "/var/www/csweb"
+  }
+]
