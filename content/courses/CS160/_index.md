@@ -15,7 +15,7 @@ layout: single
 menu:
   cs160:
     name: 'CS 160 Intro'
-    weight: 10
+    weight: 5
 
 ---
 
