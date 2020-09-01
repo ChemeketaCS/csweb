@@ -53,7 +53,7 @@ If you are interested in Western Oregon University, you do not need to take MTH 
 that means you will end up earning the AAOT. But you should still follow the guidance on the
 ASOT-CS degree for everything other than MTH 112/251/252.
 
-You can use this [Mock Schedule builder](http://localhost:1313/advising/mock_schedule/) to explore 
+You can use this [Mock Schedule builder](/advising/mock_schedule/) to explore 
 what a schedule 2 year transfer schedule to different schools might look like.
 
 {{% alert warning %}}
