@@ -7,4 +7,4 @@
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://computerscience.chemeketa.edu/test/"
+baseurl = "https://computerscience.chemeketa.edu/"
