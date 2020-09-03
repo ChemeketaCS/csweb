@@ -65,7 +65,7 @@ elearn.
 
 * Read CS160 Reader chapter 8.10 and 8.13.
 
-* Do BigO Estimation WS. See Class Files Link for this and all future worksheets.
+* Do BigO Estimation WS.
 
 * Optional additional source: Tim Budd notes, Ch 4, pg 1-6.
 

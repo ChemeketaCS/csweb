@@ -17,7 +17,6 @@ menu:
 {{% alert warning %}}
 
 * DLL CPPLab
-* LinkedList Iterator CPPLab
 * LinkedList Sort CPPLab
 * Midterm
 
@@ -64,9 +63,9 @@ When should we use the different kinds of lists? Watch this video comparing Link
 
 ### Review
 
-Check out the Midterm Study Guide from the Class Files link. It has some tips
+Check out the Midterm Study Guide. It has some tips
 on what to review and some practice questions.
 
 ## Day 4
 
-Midterm
+Midterm - must be taken during scheduled class meeting time

@@ -68,4 +68,7 @@ and [Prim's minimum spanning tree algorithm](http://computerscience.chemeketa.ed
 
 ## Day 4
 
-Review - see Class Files for review guide.
+Review
+
+* The final is ~60-70% content from midterms 1 & 2.
+* Review guide covering new material is avilable.
