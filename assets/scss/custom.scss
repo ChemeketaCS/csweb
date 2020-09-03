@@ -128,3 +128,8 @@ main {
   }
   
 }
+
+//Bootstrap alert vertical pos
+.article-style aside p::before, div.alert > div:first-child::before {
+  top: 0.5rem;
+}
