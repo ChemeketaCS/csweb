@@ -64,8 +64,8 @@ css: ["mock_schedule.css"]
 </table>
 
 {{% alert warning %}}
-Warning - this tool is intended for exploration. The schedules it produces are **NOT** intended to
-be used as is - use it as a starting point for planning your own schedule.
+Warning - this tool is intended for exploration. The schedule it produces is **NOT** intended to
+be used as is - use  as a starting point for planning your own schedule.
 {{% /alert %}}
 
 <div id="schoolNotes">
