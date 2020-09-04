@@ -56,7 +56,8 @@ of lines of code you ever do.
 * Watch this video on using a stack to convert infix to postfix notation:
 {{< youtube videoid="HHCF0zS0HSc" >}}
 
-* Do the InToPostFix Worksheet to practice using a stack to parse mathematical expressions. There are extra examples available in the InfixToPostfixExamples.pdf.
+* Do the InToPostFix Worksheet to practice using a stack to parse mathematical expressions.
+There are extra examples available in the InfixToPostfixExamples.pdf in the Class Files link.
 
 * The StackSamples project shows demonstration programs for parsing postfix expressions and for
 parentheses checking. Make sure to check it out.

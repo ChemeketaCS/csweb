@@ -42,7 +42,7 @@ Probabilistically balanced structures - Treaps and Skip Lists
 
 ## Day 3
 
-Review - study guide available
+Review - study guide available in Class Files link
 
 ## Day 4
 

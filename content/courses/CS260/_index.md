@@ -22,7 +22,3 @@ menu:
 These pages contain curriculum resources for CS260. They are designed to supplement the text book,
 not replace it. These are not specific to any offering/term - if you are enrolled in CS260 you
 should rely on the activities list in elearn, not these.
-
-CS260 is the third part of the CS 161-162-260 sequence covering the fundamentals of programming
-and data structures. It builds directly on knowledge and skills from CS162 including programming
-in C++.
