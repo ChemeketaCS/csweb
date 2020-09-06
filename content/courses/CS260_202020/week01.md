@@ -12,23 +12,6 @@ menu:
     weight: 10
 ---
 
-## Due this week
-
-{{% alert warning %}}
-
-* Background Survey and Class Policies Review in eLearn. The review is scored as an assignment.
-The survey is not graded, but if you do not complete it you will be given a 0 on the Class Policies Review.
-* Binary Search CPPLab
-
-{{% /alert %}}
-
-## Assignment 1
-
-We won't finish with the material for assignment 1 until next week. But, as soon as your learn how to
-use git to setup the assignment, you are ready to get started on parts 1 & 2 - they are CS161 level code.
-See weeks 5 (File IO) and 9 (Structs) from [CS161]({{< ref "/courses/cs161/" >}}) if you need to review
-reading in the data. Get this done this week. Really. You will be sad if you do not.
-
 ## Learning objectives
 
 Upon finishing this learning module, you should be able to:
@@ -68,7 +51,6 @@ elearn.
 * Do BigO Estimation WS. See Class Files Link for this and all future worksheets.
 
 * Optional additional source: Tim Budd notes, Ch 4, pg 1-6.
-
 
 ## Day 2
 
@@ -139,4 +121,12 @@ Big-O Continued
 * Optional second source reading: Linear and Binary search in the
 [CS160 Reader Algorithms Chapter](http://computerscience.chemeketa.edu/cs160Reader/Algorithms/index.html)
 * Do Searching WS
-* Do Searching CPPLab - you can find the code as a QTCreator project in the Search project in the cs260Code repository
+* Do Searching CPPLab - you can find the code as a QTCreator project in the Search project in the
+cs260Code repository
+
+## Assignment 1
+
+We won't finish with the material for assignment 1 until next week. But, as soon as your learn how to
+use git to setup the assignment, you are ready to get started on parts 1 & 2 - they are CS161 level code.
+See weeks 5 (File IO) and 9 (Structs) from [CS161]({{< ref "/courses/cs161/" >}}) if you need to review
+reading in the data. Get this done this week. Really. You will be sad if you do not.

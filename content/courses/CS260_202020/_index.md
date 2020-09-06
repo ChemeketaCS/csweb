@@ -31,4 +31,3 @@ This is a transfer class; thus it must meet the requirements defined by the univ
 most students transfer into (OSU, Western, PSU, OIT and UofO). The material moves at a quick
 pace starting from week 1, be ready to work hard early on in this course; if you get behind,
 it will be very difficult to catch up.
-

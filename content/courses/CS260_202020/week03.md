@@ -12,23 +12,6 @@ menu:
     weight: 30
 ---
 
-## Due this week
-
-{{% alert warning %}}
-
-* Assignment 1 - make sure to push your code **AND** submit your writeup.
-If you are not submitting a writeup, make a blank submission to elearn so I know to grade you.
-* LinkedListClass CPPLab
-* LinkedListClass Memory CPPLab
-* LinkedList Recursion CPPLab
-
-{{% /alert %}}
-
-## Assignment 2
-
-You should already be set to do the first two parts of assignment 2. Get to it!
-The rest of the material you are learning this week.
-
 ## Learning objectives
 
 * Implement common operations, using either iteration or recursion, in a linked list
@@ -90,3 +73,8 @@ Linked Lists With Recursion
 
 * Do the LinkedList - Recursion CPPLab.
 I highly recommend drawing out some pictures while you work on the problems!
+
+## Assignment 2
+
+You should already be set to do the first two parts of assignment 2. Get to it!
+The rest of the material you are learning this week.

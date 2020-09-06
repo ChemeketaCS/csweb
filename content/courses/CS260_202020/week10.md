@@ -12,10 +12,6 @@ menu:
     weight: 100
 ---
 
-## Due this week
-
-Nothing! Work on Assignment 5.
-
 ## Learning objectives
 
 * Execute basic search based algorithms in a graph

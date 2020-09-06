@@ -12,14 +12,6 @@ menu:
     weight: 80
 ---
 
-## Due this week
-
-{{% alert warning %}}
-
-* Midterm 2
-
-{{% /alert %}}
-
 ## Learning objectives
 
 * Convert between equivalent Red-Black trees and B-Trees

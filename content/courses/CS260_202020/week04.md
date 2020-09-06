@@ -12,17 +12,6 @@ menu:
     weight: 40
 ---
 
-## Due this week
-
-{{% alert warning %}}
-
-* DLL CPPLab
-* LinkedList Iterator CPPLab
-* LinkedList Sort CPPLab
-* Midterm
-
-{{% /alert %}}
-
 ## Learning objectives
 
 * Implement common operations, using either iteration or recursion, in a linked list

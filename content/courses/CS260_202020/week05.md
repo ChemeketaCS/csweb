@@ -12,29 +12,12 @@ menu:
     weight: 50
 ---
 
-## Due this week
-
-{{% alert warning %}}
-
-* Assignment 2. Submit the writeup and push your code to github.
-* LinkedList Iterator CPPLab
-* Queues CPPLab
-* Midterm
-
-{{% /alert %}}
-
 ## Learning objectives
 
 * Solve problems using a stack
 * Implement an efficient stack or queue with a linked list or array
 * Implement a heap using an array
 * Reason about the efficiency of algorithms involving a heap
-
-## Assignment 3
-
-After completing Monday's material, are ready to do parts 1 and 2 of the assignment.
-Part 3 you are already set to go on. Parts 4 and 5 depend on the logic you will implement in the
-Heaps CPPLab later in the week
 
 ## Day 1
 
@@ -86,3 +69,9 @@ Heaps
 
 * Do the Heap WS to practice adding and removing values from a heap by hand
 Here is a [min heap simulation you can try out](http://computerscience.chemeketa.edu/UCSFDataStructures/Heap.html)
+
+## Assignment 3
+
+After completing Monday's material, are ready to do parts 1 and 2 of the assignment.
+Part 3 you are already set to go on. Parts 4 and 5 depend on the logic you will implement in the
+Heaps CPPLab later in the week

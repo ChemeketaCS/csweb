@@ -12,23 +12,6 @@ menu:
     weight: 20
 ---
 
-## Due this week
-
-{{% alert warning %}}
-
-* Quadratic Sort CPPLab
-* Merge Sort CPPLab
-* Quick Sort CPPLab
-
-{{% /alert %}}
-
-## Assignment 1
-
-Keep chipping away at assignment 1. As you finish each chunk of content this week, you are probably
-ready to tackle another part of the assignment. Do the writeup as you go. Earning the points for
-it will take less time than writing and debugging code for a part of the assignment. Don't save
-it until the coding is done.
-
 ## Learning objectives
 
 Upon finishing this learning module, you should be able to:
@@ -120,3 +103,10 @@ for demos of searching and Insertion, Selection & Merge sort
 
 * [Sorting Algorithms Compared](https://www.toptal.com/developers/sorting-algorithms)
 All kinds of algorithms run on all kinds of data
+
+## Assignment 1
+
+Keep chipping away at assignment 1. As you finish each chunk of content this week, you are probably
+ready to tackle another part of the assignment. Do the writeup as you go. Earning the points for
+it will take less time than writing and debugging code for a part of the assignment. Don't save
+it until the coding is done.

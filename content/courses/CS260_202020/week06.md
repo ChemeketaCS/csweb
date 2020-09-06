@@ -12,26 +12,10 @@ menu:
     weight: 60
 ---
 
-## Due this week
-
-{{% alert warning %}}
-
-* Assignment 3
-* Heap CPPLab
-* BST Basics CPPLab
-* BST Memory CPPLab
-* BST Removal CPPLab
-
-{{% /alert %}}
-
 ## Learning objectives
 
 * Implement a Binary Search Tree
 * Use a stack to iterate through a BST
-
-## Assignment 3
-
-Complete assignment 3 while you work on this week's material.
 
 ## Gnarly Trees
 Gnarly Trees is a data structure simulator that is particularly valuable for learning how
@@ -110,3 +94,7 @@ So don't worry too much about the code sample shown in 21.4
 {{< youtube videoid="w_7m2sNYrq8" >}}
 
 * Do the BST IterationByHand WS
+
+## Assignment 3
+
+Complete assignment 3 while you work on this week's material.

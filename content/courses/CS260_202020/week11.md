@@ -11,15 +11,6 @@ menu:
     weight: 110
 ---
 
-## Due this week
-
-{{% alert warning %}}
-
-* Assignment 5. Push code and submit writeup.
-* Final
-
-{{% /alert %}}
-
 ## Final
 
 Must be taken at scheduled time. Time/date varies by section.

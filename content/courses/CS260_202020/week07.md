@@ -12,24 +12,11 @@ menu:
     weight: 70
 ---
 
-## Due this week
-
-{{% alert warning %}}
-
-* Assignment 3. Submit writeup and push final code by deadline.
-* Saturday 11:59PM - BST Balancing CPPLab
-
-{{% /alert %}}
-
 ## Learning objectives
 
 * Perform rotations in a tree and correctly splay a node to root using rotations
 * Perform basic operations in an AVL tree
 * Identify how adding items to a B-Tree will affect its structure
-
-## Assignment 4
-
-You are 100% ready to do on assignment 4. Use this week to get a good start on it.
 
 ## Day 1
 
@@ -76,3 +63,7 @@ B-Trees
 {{< youtube videoid="kosSCEMVSIM" >}}
 
 * Experiment with Gnarly Trees. Chose DataStructures->Dictionaries->B-Tree.
+
+## Assignment 4
+
+You are 100% ready to do on assignment 4. Use this week to get a good start on it.

@@ -12,15 +12,6 @@ menu:
     weight: 90
 ---
 
-## Due this week
-
-{{% alert warning %}}
-
-* Assignment 4. Submit your writeup and push your code.
-* HashTable CPPLab
-
-{{% /alert %}}
-
 ## Learning objectives
 
 * Implement a hash table
