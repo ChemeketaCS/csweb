@@ -81,7 +81,9 @@ crashes but later parts work correctly, comment it out and leave a note in the o
 "Part 4 disabled… causes crash" so I know to go check out what you did.
 * Code that never runs because something before it crashed. Same as commented out code.
 
-## Part 0 (0% - required for assignment to be graded)
+## Part 0
+
+(0% of grade - required for assignment to be graded)
 
 Make a makefile called **MyMake** - when the make utility is executed with it, it should build an
 executable called **linux/assign1.exe** from your code files. Test this early and often.
@@ -90,7 +92,9 @@ executable called **linux/assign1.exe** from your code files. Test this early an
 There should not be an extension on the makefile filename. Make sure you do not turn in MyMake.txt
 {{% /alert %}}
 
-## Part 1 (20% of grade)
+## Part 1
+
+(20% of grade)
 
 Add a **main.cpp** with a main function.
 
@@ -114,7 +118,9 @@ I will manage the working directory when I run your code. Just open "people.txt"
 sure that the file is in the right place.
 {{% /alert %}}
 
-## Part 2 (15% of grade: 5% code/10% writeup)
+## Part 2
+
+(15% of grade: 5% code/10% writeup)
 
 Implement the **countLastName** function.
 
@@ -131,7 +137,9 @@ name "Mertz"**. Then **print out the time to run this function**.
 
 2C) How long in wall time would it take to process 1,000,000 names. Show work to justify your answer.
 
-## Part 3 (20% of grade)
+## Part 3
+
+(20% of grade)
 
 Implement the functions **binaryFindFirstByLastName** and **binaryFindLastByLastName**. They
 should do a modified binary search to return the index of the first or last person respectively
@@ -149,7 +157,9 @@ for the last C?
 | - | - | - | - | - | - | - | - | - | - |
 | A | A | A | B | B | B | B | B | C | C |
 
-## Part 4 (15% of grade: 5% code/10% writeup)
+## Part 4
+
+(15% of grade: 5% code/10% writeup)
 
 Implement the **countLastNameInSorted** function to efficiently count the number of people with a
 specified last name given that it only has to work on sorted data.
@@ -167,7 +177,9 @@ the name "Mertz"**. Then **print out the time to run this function**.
 
 4C) How long in wall time would it take to process 1,000,000 names. Show work to justify your answer.
 
-## Part 5 (15% of grade)
+## Part 5
+
+(15% of grade)
 
 Implement the **partialZipSort** function using any quadratic sort algorithm.
 
