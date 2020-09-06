@@ -22,6 +22,7 @@ menu:
 Instructions for the Linux environment you should be using for CS260.
 
 [Chemeketa DevEnv Setup](http://computerscience.chemeketa.edu/CSResources/Vagrant/ChemeketaCSDevEnvironment.pdf)
+
 [Chemeketa DevEnv Use](http://computerscience.chemeketa.edu/CSResources/Vagrant/ChemeketaCSDevBuildRun.pdf)
 
 ### QTCreator
@@ -29,6 +30,7 @@ Instructions for the Linux environment you should be using for CS260.
 You will likely still want to use QTCreator or another IDE for editing/debugging code.
 
 [Qt Creator Setup Instructions](https://docs.google.com/document/d/1AMvLP1THLpWVqYWTAQeBTeCoX0kXKRp6-aXfeSkNVag/)
+
 [QtProject settings folder](http://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
 
 ### GIT

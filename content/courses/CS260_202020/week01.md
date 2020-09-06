@@ -128,5 +128,4 @@ cs260Code repository
 
 We won't finish with the material for assignment 1 until next week. But, as soon as your learn how to
 use git to setup the assignment, you are ready to get started on parts 1 & 2 - they are CS161 level code.
-See weeks 5 (File IO) and 9 (Structs) from [CS161]({{< ref "/courses/cs161_201940/" >}}) if you need to review
-reading in the data. Get this done this week. Really. You will be sad if you do not.
+Get this done this week. Really. You will be sad if you do not.
