@@ -25,7 +25,7 @@ Review Array Lists and Learn about Amortized Analysis
 
 {{< youtube videoid="ofSkAy4sobs" >}}
 
-* Go back to week 7 of [CS162]({{< ref "/courses/cs162/" >}}) if you need/want more review on Array based Lists.
+* Go back to week 7 of [CS162]({{< ref "/courses/cs162_201940/" >}}) if you need/want more review on Array based Lists.
 
 ## Day 2
 
