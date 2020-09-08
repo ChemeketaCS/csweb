@@ -10,7 +10,12 @@ div.docs {
   }
   
   .docs-sidebar {
-  
+
+    border-bottom: 0px solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+    top: 0;
+
+
     .docs-toc-link {
       font-size: 1.25rem;
     }
@@ -18,6 +23,12 @@ div.docs {
       margin: auto 0;
       .docs-toc-link {
         color: $primary;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .docs-links {
+        max-height: inherit;
       }
     }
   }
