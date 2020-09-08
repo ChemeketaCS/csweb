@@ -1,15 +1,9 @@
 ---
 # Page metadata.
-title: Week 2 - Sorts
-summary: Sorting algorithms
+title: Week 2 - Sorting algorithms
+linktitle: Week 2
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  cs260:
-    name: Week 2
-    weight: 20
+weight: 20
 ---
 
 ## Learning objectives

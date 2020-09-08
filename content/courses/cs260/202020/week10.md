@@ -1,15 +1,9 @@
 ---
 # Page metadata.
 title: Week 10 - Graphs
-summary: Graphs
+linktitle: Week 10
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  cs260:
-    name: Week 10
-    weight: 100
+weight: 100
 ---
 
 ## Learning objectives

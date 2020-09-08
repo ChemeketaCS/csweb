@@ -1,15 +1,13 @@
 ---
 # Course title, summary, and position.
-title: CS260
+linktitle: CS161
 summary: Fall 2020
 
-#force this index page to act like a normal page
-layout: single
+weight: 1
 
 ---
 
-These pages contain curriculum resources for CS260. They are designed to supplement the text book,
-not replace it.
+These pages contain curriculum resources for CS161.
 
 The CS161-CS162-CS260 sequence serves as an introduction to computer science, software
 engineering and programming. It is intended for future Computer Science, Computer Engineering

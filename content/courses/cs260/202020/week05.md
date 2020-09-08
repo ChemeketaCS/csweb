@@ -1,15 +1,9 @@
 ---
 # Page metadata.
 title: Week 5 - Stacks, Queues, and Heaps
-summary: Stacks, Queues, and Heaps
+linktitle: Week 5
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  cs260:
-    name: Week 5
-    weight: 50
+weight: 50
 ---
 
 ## Learning objectives

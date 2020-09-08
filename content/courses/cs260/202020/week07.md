@@ -1,15 +1,9 @@
 ---
 # Page metadata.
 title: Week 7 - Balanced Trees
-summary: Balanced Trees
+linktitle: Week 7
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  cs260:
-    name: Week 7
-    weight: 70
+weight: 70
 ---
 
 ## Learning objectives

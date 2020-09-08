@@ -1,15 +1,9 @@
 ---
 # Page metadata.
 title: Week 9 - Hash Tables
-summary: Hash Tables
+linktitle: Week 9
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  cs260:
-    name: Week 9
-    weight: 90
+weight: 90
 ---
 
 ## Learning objectives

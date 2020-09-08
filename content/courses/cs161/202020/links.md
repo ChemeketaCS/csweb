@@ -1,9 +1,8 @@
 ---
-# Course title, summary, and position.
+# Page metadata.
 title: Resource Links
 
 weight: 8
-
 ---
 
 ## Tools
@@ -24,15 +23,7 @@ You will likely still want to use QTCreator or another IDE for editing/debugging
 
 [QtProject settings folder](http://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
 
-### GIT
-
-You will use Git to accept and turn in assignments.
-
-[Git Crash Course](https://docs.google.com/document/d/1S8dMsT6B2B7jW2Z0OWoV6TT8GOlYkDa9Bw0mhrUTuSU)
-
 ## Class Resources
-
-[CS260 Code Repository](https://github.com/ascholerChemeketa/cs260Code)
 
 [Book Website](https://console.pearson.com/console/home)
 
@@ -49,13 +40,3 @@ You will use Git to accept and turn in assignments.
 [Google's C++ Styleguide](https://google.github.io/styleguide/cppguide.html)
 
 [CPP FAQ](https://isocpp.org/faq)
-
-## Data Structures References
-
-[Big-O Cheat Sheet](http://bigocheatsheet.com/)
-
-### Simulators
-
-[Gnarly Trees](https://people.ksp.sk/~kuko/gnarley-trees/)
-
-[UCSF Data Structures Practice](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)

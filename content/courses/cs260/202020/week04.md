@@ -1,15 +1,9 @@
 ---
 # Page metadata.
 title: Week 4 - Linked Lists
-summary: Linked Lists - Continued
+linktitle: Week 4
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  cs260:
-    name: Week 4
-    weight: 40
+weight: 40
 ---
 
 ## Learning objectives

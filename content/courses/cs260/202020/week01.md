@@ -1,15 +1,9 @@
 ---
 # Page metadata.
 title: Week 1 - Algorithm Complexity
-summary: Big O
+linktitle: Week 1
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  cs260:
-    name: Week 1
-    weight: 10
+weight: 10
 ---
 
 ## Learning objectives

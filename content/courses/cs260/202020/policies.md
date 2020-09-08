@@ -1,14 +1,8 @@
 ---
-# Page metadata.
-title: CS260 Class Policies & Tips
+title: Class Policies & Tips
+linktitle: Class Policies
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  cs260:
-    name: 'Class Policies & Tips'
-    weight: 9
+weight: 6
 
 ---
 

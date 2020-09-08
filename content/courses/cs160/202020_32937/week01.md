@@ -1,17 +1,8 @@
 ---
-
-# Page metadata.
 title: Week 1
 summary: Computing fields and history. Indexing. Intro to Programming.
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  cs160:
-    name: Week 1
-    weight: 10
-
+weight: 10
 ---
 
 ## Upcoming deadlines

@@ -1,15 +1,9 @@
 ---
 # Page metadata.
 title: Week 6 - Binary Search Trees
-summary: Binary Search Trees
+linktitle: Week 6
 
-# Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
-# - weight: Position of link in menu.
-menu:
-  cs260:
-    name: Week 6
-    weight: 60
+weight: 60
 ---
 
 ## Learning objectives
