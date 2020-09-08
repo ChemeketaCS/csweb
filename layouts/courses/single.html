@@ -3,7 +3,37 @@
 <div class="container-fluid docs">
   <div class="row flex-xl-nowrap">
     <div class="col-12 col-md-3 col-xl-2 docs-sidebar sidebar">
-      {{ partial "docs_sidebar" . }}
+      
+      <div class="sidebar-nav-title align-items-center">
+        <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+        {{ $.Page.Title }}
+      </div>
+      
+      <nav class="sidebar-nav-menu collapse docs-links course-nav" id="course-nav">
+        
+        {{ $current_page = .}}
+      
+        <div class="docs-toc-item{{ if eq . .CurrentSection }} active{{ end }}">
+            <a class="docs-toc-link" href="{{ .CurrentSection.Permalink }}">{{ .CurrentSection.Name }}</a>
+        </div>
+          
+        {{ $menu := .CurrentSection.Pages.ByWeight }}
+        {{ range $menu }}
+          <div class="docs-toc-item{{ if eq $current_page . }} active{{ end }}">
+            <a class="docs-toc-link" {{ if .Permalink }}href="{{ .Permalink }}"{{else if .HasChildren }}href="{{ (index .Children 0).Permalink }}"{{end}}>{{ .LinkTitle }}</a>
+        
+            {{ if eq $current_page . }} 
+              {{ $.Page.TableOfContents }}
+            {{ end }}
+        
+          </div>
+        {{ end }}
+      </nav>
+      
+
+
     </div>
 
     {{ if .Params.toc }}
