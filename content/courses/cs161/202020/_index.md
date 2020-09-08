@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
+title: CS161 - Fall 2020
 linktitle: CS161
-summary: Fall 2020
 
 weight: 1
 

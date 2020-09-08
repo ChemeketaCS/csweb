@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-title: CS260
+title: CS260 - Fall 2020
 summary: Fall 2020
 
 #force this index page to act like a normal page
