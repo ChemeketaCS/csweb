@@ -16,7 +16,7 @@
         {{ $current_page = .}}
       
         <div class="docs-toc-item{{ if eq . .CurrentSection }} active{{ end }}">
-            <a class="docs-toc-link" href="{{ .CurrentSection.Permalink }}">{{ .CurrentSection.Name }}</a>
+            <a class="docs-toc-link" href="{{ .CurrentSection.Permalink }}">{{ .CurrentSection.LinkTitle }}</a>
         </div>
           
         {{ $menu := .CurrentSection.Pages.ByWeight }}
