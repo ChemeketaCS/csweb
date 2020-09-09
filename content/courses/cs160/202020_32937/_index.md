@@ -5,7 +5,6 @@ linktitle: CS160
 #force this index page to act like a normal page
 layout: single
 
-weight: 5
 ---
 
 These pages contain curriculum resources for CS160. They are designed to supplement the text book,

@@ -3,7 +3,8 @@
 title: CS161 - Fall 2020
 linktitle: CS161
 
-weight: 1
+#force this index page to act like a normal page
+layout: single
 
 ---
 
