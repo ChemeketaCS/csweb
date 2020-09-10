@@ -7,5 +7,6 @@ layout: single
 
 ---
 
-These pages contain curriculum resources for CS160. They are designed to supplement the text book,
-not replace it.
+These pages contain curriculum resources for this offering of CS160.
+
+Please refer to elearn for assignments, due dates, and announcements.

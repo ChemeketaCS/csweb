@@ -5,16 +5,6 @@ summary: Computing fields and history. Indexing. Intro to Programming.
 weight: 10
 ---
 
-## Upcoming deadlines
-
-{{< style "color" "red" >}}
-
-* Wed - Background Survey & Syllabus Quiz. Required "Participation" credit. **Complete in elearn.
-Online students who fail to complete it by the due date will be dropped as non-attenders.**
-* Next week, Monday - Assignment #1
-
-{{< /style >}}
-
 ## Learning objectives
 
 Upon finishing this learning module, you should be able to:
@@ -27,22 +17,41 @@ Upon finishing this learning module, you should be able to:
 
 ## Suggested Pacing
 
-Monday
-: Read syllabus and policies. Tackle the Computer Fields material.
+{{% alert info %}}
+The suggested pacing is provided to help you set a schedule to complete the work gradually over the
+course of the week.
 
-Tuesday
+Trying to pound through all the material in one or two giant sessions makes it much harder to
+succeed in this course. It will make it harder to actually get the work done (especially in later
+weeks where there is more work than week 1). It will also make it harder to get help in time
+for you to make use of it.
+{{% /alert %}}
+
+Day 1
+: Review class policies. Tackle the Computer Fields & Careers material.
+
+Day 2
 : Do the programming section. Check out and start the assignment (you won't be ready for all of it).
 
-Wednesday
+Day 3
 : Algorithm of the Week.
 
-Thursday
+Day 4
 : History of Computing, attempt the rest of the assignment.
 
 ## Class Policies
 
-Make sure that you have read and understood the Course Syllabus and Class Policies documents.
-Both can be found in elearn. Make sure to take the Syllabus/Policy quiz there as well.
+Make sure that you have read and understood the Syllabus and Class Policies documents.
+Both can be found in elearn. Make sure to take the background survey and Syllabus/Policy quiz in elearn.
+
+## Why CS?
+
+Why learn about CS? What kinds of things do people with CS degrees do? Watch these
+videos:
+
+{{< youtube videoid="nKIu9yen5nc" title="What Most Schools Don't Teach" >}}
+
+{{< youtube videoid="RENVVTNsVHg" title="Pathways in CS" >}}
 
 ## Computer Fields & Computing Careers
 
@@ -55,22 +64,25 @@ career opportunities and the associated educational requirements:
 
 * [US Department of Labor (Engineering Occupations)](http://www.bls.gov/ooh/architecture-and-engineering/home.htm)
 
-## Why CS?
+## Programming
 
-Why learn about CS? What kinds of things do people with CS degrees do? Watch these
-videos:
+* Complete [Code.org](https://studio.code.org/home) Unit 3, Lesson 4, Parts 2-5.
 
-{{< youtube videoid="nKIu9yen5nc" title="What Most Schools Don't Teach" >}}
+{{% alert info %}}
+To find the right
+Code.org course and to receive credit for doing the work, you will need to see the discussion board
+for instructions about how to join my section in Code.org.
 
-{{< youtube videoid="RENVVTNsVHg" title="Pathways in CS" >}}
-
-## History of Computing
-
-Read the [History of Computers chapter from the CS160Reader](http://computerscience.chemeketa.edu/cs160Reader/HistoryOfComputers/index.html)
+We will be working on the 2019-2020 version of the curriculum. Make sure you don't start the 2020-2021 version!
+{{% /alert %}}
 
 ## Algorithm of the Week: Indexing
 
 Read **Chapters 1-2 of Nine Algorithms that Changed the Future** : Introduction and Indexing Algorithm
+
+## History of Computing
+
+Read the [History of Computers chapter from the CS160Reader](http://computerscience.chemeketa.edu/cs160Reader/HistoryOfComputers/index.html)
 
 ## Optional Extras
 
