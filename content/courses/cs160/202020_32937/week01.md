@@ -55,7 +55,7 @@ videos:
 
 ## Computer Fields & Computing Careers
 
-Read the Computing Related Fields chapter of the CS160Reader.
+Read the [Computing Related Fields chapter of the CS160Reader](http://computerscience.chemeketa.edu/cs160Reader/ComputingFields/index.html).
 
 You may also want to browse through these sites for more information on various computing
 career opportunities and the associated educational requirements:

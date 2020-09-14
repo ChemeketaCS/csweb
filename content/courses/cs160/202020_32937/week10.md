@@ -1,6 +1,6 @@
 ---
 title: Week 10
-summary: Future and Limits of Computing
+summary: Future and Limits of Computing.
 
 weight: 100
 ---

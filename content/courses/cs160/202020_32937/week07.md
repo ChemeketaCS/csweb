@@ -51,19 +51,6 @@ do the sorts. (Class Files in elearn)
 
 {{< youtube videoid="DFG-XuyPYUQ" >}}
 
-## Assembly & The LMC
-
-* Read about what an assembly language is: CS160 Reader - Assembly Language and how to write assembly for the Little Computer.
-* Do **LMCWorksheet 3** (Class Files link in elearn)
-* You will need to make use of this [Little Computer Assembler](http://computerscience.chemeketa.edu/cs160Reader/_static/littleComputer/littleComputerAssembler.html)
-and the [Little Computer simulator](http://computerscience.chemeketa.edu/cs160Reader/_static/littleComputer/littleComputer.html)
-
-## Higher Level Programming Languages
-
-Read the rest of [CS160 Reader - Programming Languages chapter](http://computerscience.chemeketa.edu/cs160Reader/ProgrammingLanguages/index.html).
-It describes the higher level programming languages (like the JavaScript you are learning in the
-Code.org lessons) that people generally program in.
-
 ## Algorithm of the Week: AI Search
 
 {{% alert info %}}
