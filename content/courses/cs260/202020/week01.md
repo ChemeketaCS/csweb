@@ -29,6 +29,14 @@ under Resource Links. See this video for how to use it:
 
 ## Day 1
 
+### Zoom Topics
+
+* Class policies/overview
+* Assignment Setup
+* Big O Intro
+
+### Class startup
+
 Read the syllabus and class policies. Take the background survey and class policies quiz in
 elearn.
 
@@ -81,6 +89,10 @@ There is also a copy of my Command Line Quick Reference in the same folder.
   * [Extended Make tutorial](http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 (Most of the examples are C based. Just sub in g++ instead of gcc for C++.)
 
+### Other
+
+I also recommend that you try to start in on the Search material from day 4.
+
 ## Day 3
 
 Big-O Continued
@@ -96,6 +108,11 @@ Big-O Continued
 * Do BigO Analysis Worksheet
 
 ## Day 4
+
+### Zoom Topics
+
+* BigO Debrief. Bring your questions from BigO worksheets.
+* Assignment tips.
 
 ### C++ timing and memory
 
