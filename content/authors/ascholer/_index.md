@@ -13,17 +13,17 @@ superuser: true
 role: Instructor, Program Chair
 
 
-education:
-  courses:
-  - course: Single Subject Teaching Credential Program
-    institution: Chapman University
-    year: 2005
-  - course: MS in Computer Science
-    institution: University of Southern California
-    year: 2002
-  - course: BSc in Cognitive Science
-    institution: University of California at Los Angeles
-    year: 1996
+# education:
+#   courses:
+#   - course: Single Subject Teaching Credential Program
+#     institution: Chapman University
+#     year: 2005
+#   - course: MS in Computer Science
+#     institution: University of Southern California
+#     year: 2002
+#   - course: BSc in Cognitive Science
+#     institution: University of California at Los Angeles
+#     year: 1996
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -54,20 +54,18 @@ office_map: https://www.google.com/maps/dir//44.981061,-122.9782209/@44.9806098,
 #Building 6 map
 # https://www.google.com/maps/place/Chemeketa+Community+College+Building+6/@44.978835,-122.9781507,17z/data=!3m1!4b1!4m5!3m4!1s0x54bffdd706570ca9:0xd48c455d1391ce2!8m2!3d44.978835!4d-122.9759567
 
-office_hours_for: Spring 2020
+office_hours_for: Fall 2020
 office_hours:
-- days: Mon/Wed/Fri
+- days: Mon/Tues
   times: 
-  - time: 10:00-11:00
-    location: Building 6, Room 217
-  - time: 102:00-11:00
-    location: Building 6, Room 217
-    location_map: https://www.google.com/maps/place/Chemeketa+Community+College+Building+6/@44.978835,-122.9781507,17z/data=!3m1!4b1!4m5!3m4!1s0x54bffdd706570ca9:0xd48c455d1391ce2!8m2!3d44.978835!4d-122.9759567
-- days: Mon/Wed/Fri
+  - time: 10:20-11:20
+    location: Slack
+    location_map: https://chemeketa-scholer.slack.com/
+- days: Thurs/Fri
   times: 
-  - time: 10:00-11:00
-    location: Building 6, Room 217
-    location_map: https://www.google.com/maps/place/Chemeketa+Community+College+Building+6/@44.978835,-122.9781507,17z/data=!3m1!4b1!4m5!3m4!1s0x54bffdd706570ca9:0xd48c455d1391ce2!8m2!3d44.978835!4d-122.9759567
+  - time: 12:30-2:30
+    location: Slack
+    location_map: https://chemeketa-scholer.slack.com/
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
@@ -75,3 +73,13 @@ user_groups:
 - Instructors
 ---
 
+## Slack Office Hours
+
+While Chemeketa is doing remote instruction, I will be holding office hours in [Slack](https://chemeketa-scholer.slack.com/).
+
+If you want to do a video chat, make sure to have [Zoom installed](https://zoom.us/download)
+then drop into Slack and ask to chat.
+
+Using slack is pretty easy, but to get you started, I have prepared this
+[quick guide to using Slack](https://docs.google.com/document/d/19Om58JnoXHAEh7CdHn13iOd5TLGx2BkLb0hxfFuKPEI/edit?usp=sharing)
+and the "team norms" I have for it.
