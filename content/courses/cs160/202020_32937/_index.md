@@ -1,5 +1,5 @@
 ---
-title: CS160 Fall 2020 - Scholer
+title: CS160 Online Fall 2020 - Scholer
 linktitle: CS160
 
 #force this index page to act like a normal page
