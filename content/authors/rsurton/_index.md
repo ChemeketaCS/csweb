@@ -32,22 +32,20 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:andrew.scholer@chemeketa.edu'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:robert.surton@chemeketa.edu'  # For a direct email link, use "mailto:test@example.org".
 - icon: github
   icon_pack: fab
-  link: https://github.com/ascholerChemeketa
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  link: 'https://github.com/rahpaere'
+- icon: cv
+  icon_pack: ai
+  link: 'http://robert.surton.net/cv.pdf'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: andrew.scholer@chemeketa.edu
+email: robert.surton@chemeketa.edu
 
-phone: 503-589-7649
+phone: 503 399 6162
 
-office: Building 37, Room 127
+office: Building 37, Room 106
 campus: 4000 Lancaster Drive NE Salem, Oregon 97305
 office_map: https://www.google.com/maps/dir//44.981061,-122.9782209/@44.9806098,-122.9782337,17.75z
 
