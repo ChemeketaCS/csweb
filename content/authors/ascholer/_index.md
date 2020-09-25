@@ -73,6 +73,12 @@ user_groups:
 - Instructors
 ---
 
+## Course Resources
+
+Materials for my current classes can be found at [https://computerscience.chemeketa.edu/courses/](https://computerscience.chemeketa.edu/courses/)
+
+Materials for my classes prior to Fall 2020 can be found at [https://computerscience.chemeketa.edu/ascholer/](https://computerscience.chemeketa.edu/ascholer/)
+
 ## Slack Office Hours
 
 While Chemeketa is doing remote instruction, I will be holding office hours in [Slack](https://chemeketa-scholer.slack.com/).
