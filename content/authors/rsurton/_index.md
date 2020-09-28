@@ -57,12 +57,12 @@ office_hours:
 - days: Monday, Wednesday, Thursday
   times: 
   - time: 11:30am–12:30pm
-    location: Chat
+    location: Google Chat
     location_map: 'http://chat.google.com/'
 - days: Tuesday, Thursday
   times: 
   - time: 3:30pm–4:30pm
-    location: Chat
+    location: Google Chat
     location_map: 'http://chat.google.com/'
 
 # Organizational groups that you belong to (for People widget)
@@ -74,6 +74,6 @@ user_groups:
 ## Remote Office Hours
 
 While Chemeketa is doing remote instruction, I will be holding office hours in [Google Chat](http://chat.google.com/).
-Use your Chemeketa account to sign in to [Chat](http://chat.google.com/) or [GMail](http://mail.google.com/) and start a conversation with me.
+Use your Chemeketa account to sign in to [Google Chat](http://chat.google.com/) or [GMail](http://mail.google.com/) and start a conversation with me.
 If our discussion would benefit from video, audio, or screen sharing, we will be able to drop into a meeting from there.
 Whenever I am available for office hours, I will also be giving real-time answers via [email](mailto:robert.surton@chemeketa.edu).
