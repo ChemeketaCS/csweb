@@ -1,6 +1,6 @@
 ---
 title: Week 6
-summary: Logic, Circuits, App Design
+summary: Levels of programming. Compression.
 
 weight: 60
 ---
