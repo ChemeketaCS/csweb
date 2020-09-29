@@ -28,7 +28,6 @@ Upon finishing this learning module, you should be able to:
 **Independent:**
 
 * Do the background survey and class policies quiz by Wed
-* Do classroom Indexing activity before next meeting
 * Finish the Programming
 * Do Computer Fields reading
 
@@ -36,8 +35,8 @@ Upon finishing this learning module, you should be able to:
 
 **In class:**
 
-* Review Indexing activity
-* Do the programming section. Check out and start the assignment (you won't be ready for all of it)
+* Do Indexing activity and introduce Algorithm of the Week
+* Check out and start the assignment (you won't be ready for all of it)
 
 **Independent:**
 
