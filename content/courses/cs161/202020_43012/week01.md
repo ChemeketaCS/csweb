@@ -50,9 +50,11 @@ Do the Ch 1 reading. Ch 1.1-1.6 will be mostly review if you took CS160. If not,
 ## Getting Started With QT Creator
 
 Start by [installing and setting up Qt Creator][qtinstall].
-The video below demonstrates how and explains what you are doing:
+The video below demonstrates how and explains what you are doing;
+you will need the [QtProject][qtproject] files mentioned in the video.
 
 [qtinstall]:https://docs.google.com/document/d/1AMvLP1THLpWVqYWTAQeBTeCoX0kXKRp6-aXfeSkNVag/edit#heading=h.rihp46pqexgr
+[qtproject]:http://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip
 
 {{< youtube videoid="IouvNW1N4cM" title="QTCreator Basics" >}}
 
