@@ -99,8 +99,8 @@ the computers of that generation.
     | computer | 1-6 1-19 2-16  3-4 |
     | dog | 2-2  2-9  3-16 |
     | man | 1-3  3-2 3-11 |
-    | &lt;titlestart> | 1-1  2-1  3-1 |
-    | &lt;titleStart> | 1-4  2-6  3-5 |
+    | &lt;titleStart> | 1-1  2-1  3-1 |
+    | &lt;titleEtart> | 1-4  2-6  3-5 |
     | &lt;bodyStart> | 1-5  2-7  3-6 |
     | &lt;bodyEnd> | 1-20  2-17  3-18 |
 
