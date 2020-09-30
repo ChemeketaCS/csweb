@@ -74,8 +74,9 @@ the computers of that generation.
 
 ## Algorithm – Indexing
 
-7. Build a page-word index (like the one shown in the reading or in Q8) for the words:
-*"student"*, *"computer"*, and *"monitors"* on these three pages:
+7. Build a page-word index (like the one shown in the reading or in Q8) for the words
+*"student"*, *"computer"*, and *"monitors"* on the three pages shown below.  
+    *Ignore capitalization and punctuation. Treat "Word", "word", and "word." as all the same.*
 
     **Page 1**
 
