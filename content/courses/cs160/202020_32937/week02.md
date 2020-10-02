@@ -69,12 +69,18 @@ the discussion board or in office hours.
 
 ## Algorithm of the Week: PageRank
 
-* Read Chapter 3 of Nine Algorithms that Changed the Future
+* Read Chapter 3 of Nine Algorithms that Changed the Future.
+
+    This video has some background and tips to go with the reading:
+
+    {{< youtube videoid="GcqiaB5lBUc" title="Page Rank" >}}
+
 * Try out a [PageRank simulator](http://computerscience.chemeketa.edu/cs160Reader/_static/pageRankApp/index.html)
 (you will need to use this for your assignment).  
 * You can find instructions in the [CS160 Reader - Page Rank Supplement](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/PageRank.html)
 * You can find some sample problems and a key for them in the Class Files link in elearn. Use
 them to explore some interesting aspects of how PageRank works.
+
 
 ## Optional Extras
 

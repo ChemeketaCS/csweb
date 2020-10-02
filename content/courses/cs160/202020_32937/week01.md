@@ -80,6 +80,10 @@ We will be working on the 2019-2020 version of the curriculum. Make sure you don
 
 Read **Chapters 1-2 of Nine Algorithms that Changed the Future** : Introduction and Indexing Algorithm
 
+This video has some background and tips to go with the reading:
+
+{{< youtube videoid="s7P_E105Ojk" title="Indexing" >}}
+
 ## History of Computing
 
 Read the [History of Computers chapter from the CS160Reader](http://computerscience.chemeketa.edu/cs160Reader/HistoryOfComputers/index.html)
