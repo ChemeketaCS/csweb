@@ -7,7 +7,13 @@
 [[main]]
   name = "People"
   url = "#people"
-  weight = 25
+  weight = 20
+
+
+[[main]]
+  name = "Course Resources"
+  url = "courses/"
+  weight = 40
 
 
 [[main]]
