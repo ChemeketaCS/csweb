@@ -103,8 +103,8 @@ records your program will read and work with. Anywhere else in the instructions 
 is mentioned, it refers to this one value. *This should be the only input your program
 requires - do not ask for any other.*
 
-Then read in ***size*** records from people.txt and place them all into two arrays: 
-**persons** and **personsSorted**. 
+Then read in ***size*** records from people.txt and place them all into two arrays:
+**persons** and **personsSorted**.
 
 Sort personsSorted using: `std::sort(personsSorted, personsSorted + size);` (This is an
 exception to the no std:: algorithms rule.)
@@ -187,7 +187,9 @@ In main, use it to sort indexes 2-7 of the persons array by zip code. Then **pri
 people (last name, first name, zip)** to verify the sort worked. (Not all 10 people should be
 sorted, indexes 0-1 and 8-9 are not part of the sorted group.)
 
-Part 6) (15% of grade: 10% code/5% writeup)
+## Part 6) 
+
+(15% of grade: 10% code/5% writeup)
 
 Implement the **nameSort** function using either mergesort or quicksort. It should sort so that people
 are ordered by last name, and if they have the same last name, by first name.
