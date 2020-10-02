@@ -1,0 +1,24 @@
+{{- define "main" -}}
+
+{{ $current_page := . }}
+
+
+<div class="universal-wrapper">
+
+    <article class="key article">
+      <div class="key-article-container">
+        <h1>{{ .Title }}</h1>
+
+        {{ if .Params.subtitle }}
+        <p class="pub-subtitle">{{ .Params.subtitle | markdownify }}</p>
+        {{ end }}
+
+        <hr />
+
+        <div class="article-style">{{ .Content }}</div>
+
+      </div>
+    
+    </article>
+  </div>
+{{- end -}}
