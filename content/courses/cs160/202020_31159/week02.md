@@ -15,32 +15,31 @@ Upon finishing this learning module, you should be able to:
 * Write functions to simplify code via abstraction and reuse
 * Read function API documentation and make use of function libraries
 
-## Suggested Pacing
+### First Meeting
 
-Day 1
-: Do the Bits and Binary materials.
+**In class:**
 
-Day 2
-: Start the programming section. Try to get through 3-5 and 6. Check out and start the assignment.
+* Binary and Bits Overview
+* JS Functions Tips
 
-Day 3
-: Tackle the algorithm of the Week.
+**Independent:**
 
-Day 4
-: Finish the programming and assignment.
+* Do the Bits & Binary readings and worksheet
+* Work on programming lessons 5 & 6
+
+### Second Meeting
+
+**In class:**
+
+* PageRank Activity
+* JS Advice
+
+**Independent:**
+
+* Do the Algorithm of the Week reading
+* Finish programming
 
 ## Programming
-
-{{% alert info %}}
-I highly recommend that online students start the programming early in the week.
-It is the activity you are most likely to get stuck on. If you don't understand
-part of a reading, you are likely to be able to still get through the rest of it.
-But when you have an issue figuring out how to do something in code, it may
-prevent you from making any progress on later lessons.
-
-You can work on it in parallel with the other material, but saving it for the last
-minute is a recipe for trouble.
-{{% /alert %}}
 
 * Complete [Code.org](https://studio.code.org/home) Unit 3, Lesson 5, Parts 1-12. Don't worry about
 the last part of 3.5.6 titled Abstraction and AP Computer Science Principles.
