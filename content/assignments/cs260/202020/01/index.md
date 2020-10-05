@@ -187,7 +187,7 @@ In main, use it to sort indexes 2-7 of the persons array by zip code. Then **pri
 people (last name, first name, zip)** to verify the sort worked. (Not all 10 people should be
 sorted, indexes 0-1 and 8-9 are not part of the sorted group.)
 
-## Part 6) 
+## Part 6
 
 (15% of grade: 10% code/5% writeup)
 

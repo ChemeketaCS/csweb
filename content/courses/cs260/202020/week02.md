@@ -16,6 +16,12 @@ Upon finishing this learning module, you should be able to:
 
 ## Day 1
 
+### Zoom Topics
+
+* Debugging
+* Assignment Tips
+* Advice for week
+
 ### Debugging at scale
 
 Watch this video with tips about debugging at scale:
@@ -80,6 +86,11 @@ right algorithm.
 * Do Quicksort CPPLab
 
 ## Day 4
+
+### Zoom Topics
+
+* Recap sorting algorithms
+* Introduce bucket and radix sorts
 
 Bucket and Radix Sort
 
