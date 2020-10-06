@@ -56,16 +56,23 @@ To find out how to take a screenshot of just a part of your screen, google
 *"Windows region screenshot"* or *"Mac region screenshot"*.
 I do NOT want screenshot of your entire screen - just the drawing.
 
-9. Use Lesson 3.6.2's or 3's work area to write code to draw the shape shown below. Paste in a
-screenshot of your drawing and the complete text version of your code. Your score depends not
-only on making the correct shape, but on using multiple functions that call each other with
-descriptive names.
+9. Use Lesson 3.6.2's or 3's work area to write code to draw the shape shown below.
 
-    *  Level 1 : Draws most of the shape, has at least one function.
-    *  Level 2 : Draws shape. Has at least two functions that have meaningful names
-    *  Level 3 : Draws shape. Has at least two well named functions, layered so that at least one
+    ![Target Shape](target_shape.png)
+    
+    Paste in a screenshot of your drawing and the complete text version of your code. Your score depends not
+    only on making the correct shape, but on using multiple functions that call each other with
+    descriptive names.
+
+    Here are some "levels" of achievement. Higher levels represent a better program. (You only
+    need to submit one program. The levels are just tips to evaluate how well done your
+    program is.)
+    
+    * Level 1 : Draws most of the shape, has at least one function.
+    * Level 2 : Draws shape. Has at least two functions that have meaningful names
+    * Level 3 : Draws shape. Has at least two well named functions, layered so that at least one
     function calls other function(s)
-    *  Level 4 : Draws shape. Has well-named, layered functions. Each function is a reasonable
+    * Level 4 : Draws shape. Has well-named, layered functions. Each function is a reasonable
     length and does one clear job.  
     *A function probably shouldn't be much more than 10 lines of code. Anything much longer should be broken into sub-tasks handled by other functions.*
 
