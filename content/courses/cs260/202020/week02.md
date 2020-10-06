@@ -79,7 +79,7 @@ right algorithm.
 
 * Watch:
 
-{{< youtube videoid="8oEEFbqhCW4" >}}
+{{< youtube videoid="iUM77gRwFxg" >}}
 
 * Do Quicksort WS to practice partitioning.
 
