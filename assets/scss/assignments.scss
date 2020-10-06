@@ -1,6 +1,6 @@
 
 //Clean up spacing in question numberings and force sub questions to be lettered
-.assignment ol ol {
+.assignment ol ol, .key ol ol {
   margin-top: 0;
   list-style-type: upper-alpha;
 }
@@ -8,12 +8,12 @@
   margin-bottom: 1rem;
 }
 
-.assignment ol p + ol {
+.assignment ol p + ol, .key ol p + ol {
   margin-top: -1rem;
 }
 
 
-.assignment blockquote {
+.assignment blockquote, .key blockquote {
   margin: 2px 1.5rem;
   padding: 0.5rem;
   border: 1px solid black;
