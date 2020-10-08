@@ -78,8 +78,8 @@ the discussion board or in office hours.
 * Try out a [PageRank simulator](http://computerscience.chemeketa.edu/cs160Reader/_static/pageRankApp/index.html)
 (you will need to use this for your assignment).  
 * You can find instructions in the [CS160 Reader - Page Rank Supplement](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/PageRank.html)
-* You can find some sample problems and a key for them in the Class Files link in elearn. Use
-them to explore some interesting aspects of how PageRank works.
+* You can find a worksheet called PageRankPractice and a key for it in the Class Files link
+in elearn. Use them to explore some interesting aspects of how PageRank works.
 
 
 ## Optional Extras

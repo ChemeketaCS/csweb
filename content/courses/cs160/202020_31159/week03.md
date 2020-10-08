@@ -18,6 +18,30 @@ exchanging secret messages.
 * Write flexible functions using parameters
 * Uses Loops to avoid code repetition
 
+### First Meeting
+
+**In class:**
+
+* Data Representation
+
+**Independent:**
+
+* Do the Binary Math reading
+* Do the ASCII/Hex worksheet
+* Start programming
+
+### Second Meeting
+
+**In class:**
+
+* Cryptography Activity
+* JS Advice
+
+**Independent:**
+
+* Do the Algorithm of the Week reading
+* Finish programming
+
 ## Suggested Pacing
 
 Day 1
@@ -39,8 +63,6 @@ Day 4
 
 ## Binary Math
 
-Read [CS160 Reader - Binary and Bits Chapter](http://computerscience.chemeketa.edu/cs160Reader/Binary/index.html)
-
 Read [CS160 Reader sections 4.4 and 4.5](http://computerscience.chemeketa.edu/cs160Reader/DataRepresentation/index.html).
 
 ## Other Types of Data
@@ -55,10 +77,9 @@ Read [CS160 Reader sections 4.4 and 4.5](http://computerscience.chemeketa.edu/cs
 ## Algorithm of the Week: Private Key Cryptography
 
 * Read Ch 4 of Nine Algorithms the Changed the Future
+
 * Read CS160 Reader - [Diffie Hellman supplement](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/DiffieHellman.html).
 It has tips on how to doing clock arithmetic.
-* **Optional** The first four parts of [Modern Cryptography on Kahn Academy](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/discrete-logarithm-problem?utm_source=YT&utm_medium=Desc&utm_campaign=computerscience)
-Have videos that talk through the Diffie-Hellman algorithm.
 
 ## Optional Extras
 
