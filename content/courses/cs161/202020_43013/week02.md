@@ -14,8 +14,7 @@ Upon finishing this learning module, you should be able to:
 
 ## Deadlines this week
 
-* Monday 11:59PM - Assignment 1
-* Thursday 11:59PM - CppLab Conditionals 1 (see below)
+* Saturday 11:59PM - CppLab Conditionals 1 (see below)
 * Saturday 11:59PM - CppLab Conditionals 2
 
 ## Suggested Schedule
@@ -46,9 +45,6 @@ Upon finishing this learning module, you should be able to:
 * Read Ch 3.10-3.11, 3.13-3.16
 
 ## Online Activity Outline:
-
-If you haven't already, make sure you submit Assignment 1. It is due
-Monday at midnight.
 
 ### Data Conversions
 
