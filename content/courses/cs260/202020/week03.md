@@ -14,6 +14,11 @@ weight: 30
 
 ## Day 1
 
+### Zoom Topics
+
+* Final assignment advice
+* ArrayList review
+
 Review Array Lists and Learn about Amortized Analysis
 
 * Watch:
@@ -60,6 +65,10 @@ Linked Lists Continued
 * Do the LinkedList - Memory CPPLab
 
 ## Day 4
+
+### Zoom Topics
+
+* LinkedList Debrief
 
 Linked Lists With Recursion
 

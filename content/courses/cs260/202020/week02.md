@@ -103,6 +103,8 @@ Bucket and Radix Sort
 * [Sorting Algorithms](http://computerscience.chemeketa.edu/UCSFDataStructures/ComparisonSort.html)
 interactives
 
+* [Radix Sort Demo](http://computerscience.chemeketa.edu/UCSFDataStructures/RadixSort.html)
+
 * See [CS160 Reader Algorithms Chapter](http://computerscience.chemeketa.edu/cs160Reader/Algorithms/index.html)
 for demos of searching and Insertion, Selection & Merge sort
 
