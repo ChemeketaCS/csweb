@@ -39,8 +39,6 @@ Day 4
 
 ## Binary Math
 
-Read [CS160 Reader - Binary and Bits Chapter](http://computerscience.chemeketa.edu/cs160Reader/Binary/index.html)
-
 Read [CS160 Reader sections 4.4 and 4.5](http://computerscience.chemeketa.edu/cs160Reader/DataRepresentation/index.html).
 
 ## Other Types of Data
@@ -55,15 +53,21 @@ Read [CS160 Reader sections 4.4 and 4.5](http://computerscience.chemeketa.edu/cs
 ## Algorithm of the Week: Private Key Cryptography
 
 * Read Ch 4 of Nine Algorithms the Changed the Future
+  This video has some background and tips to go with the reading:
+
+  {{< youtube videoid="Y74GVxJtqKI" title="Shared Secrets" >}}
+
 * Read CS160 Reader - [Diffie Hellman supplement](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/DiffieHellman.html).
 It has tips on how to doing clock arithmetic.
-* **Optional** The first four parts of [Modern Cryptography on Kahn Academy](https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/discrete-logarithm-problem?utm_source=YT&utm_medium=Desc&utm_campaign=computerscience)
-Have videos that talk through the Diffie-Hellman algorithm.
 
 ## Optional Extras
 
 The [Introduction to Cryptography on Kahn Academy](https://www.khanacademy.org/computing/computer-science/cryptography)
 is great if you want to learn more about cryptography and the related math.
+
+Do you want to see the bits from a real image? Or any other file on your hard drive? Programs
+called Hex Editors allow you to see the raw information in a file and modify it. You can google
+"hex editor windows" or "hex editor mac" if you want to try one out.
 
 If you are interested in how negative numbers and decimals are represented using bits in the
 [CS160 Reader Ch4.6 & 4.7](http://computerscience.chemeketa.edu/cs160Reader/DataRepresentation/index.html).
