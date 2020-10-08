@@ -62,9 +62,7 @@ you will need the [QtProject][qtproject] files mentioned in the video.
 The videos here often show out-of-date versions of e.g. the course web site.
 If you can't find something you need here, or anything doesn't work as the video says it
 does and you can't easily see how to fix it, please raise the issue in the discussion forum.
-{{% /alert %}}
 
-{{% alert info %}}
 For any video, you can click in the lower right corner to watch on YouTube. You can then use
 the settings icon there (Gear symbol at bottom of video) to watch at higher quality. Doing
 so can make a big difference when trying to read code examples.
@@ -82,7 +80,7 @@ other tools as you get more experience.
 
 This video introduces how to work with projects and rename code files safely:
 
-{{< youtube videoid="HE1UonRCt7M" title="Working With Projects & Files" >}}
+{{< youtube videoid="HE1UonRCt7M" title="Renaming Files" >}}
 
 This video explains how to make use of course code samples:
 
@@ -92,7 +90,8 @@ This video explains how to make use of course code samples:
 
 Work your way through the first parts of Ch 2. This video gives some advice about using cin to take
 input from the user:
-{{< youtube videoid="9RxOgpTQ5ls" >}}
+
+{{< youtube videoid="9RxOgpTQ5ls" title="Inputs" >}}
 
 Do the MentalCode worksheet to practice using the debugger and test your understanding of how math
 works in C++(See Elearn for the Class Files link to access this and future practice
@@ -101,14 +100,14 @@ for learning programming. It is what lets you look at what your code is doing st
 two videos introduce it and talk about some of the odder things you will see math wise while
 programming:
 
-{{< youtube videoid="JRqF0YhhMbg" >}}
+{{< youtube videoid="JRqF0YhhMbg" title="Debugging" >}}
 
-{{< youtube videoid="Q0oeZZ411z0" >}}
+{{< youtube videoid="Q0oeZZ411z0" title="Math Weirdness" >}}
 
 Start the assignment as you finish Ch 2. This video talks through that program to show how you
 should approach building programs. One step at a time:
 
-{{< youtube videoid="Pg0RWChqu5k" >}}
+{{< youtube videoid="Pg0RWChqu5k" title="Time" >}}
 
 ## Extra Info
 
