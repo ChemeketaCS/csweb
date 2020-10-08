@@ -86,6 +86,10 @@ It has tips on how to doing clock arithmetic.
 The [Introduction to Cryptography on Kahn Academy](https://www.khanacademy.org/computing/computer-science/cryptography)
 is great if you want to learn more about cryptography and the related math.
 
+Do you want to see the bits from a real image? Or any other file on your hard drive? Programs
+called Hex Editors allow you to see the raw information in a file and modify it. You can google
+"hex editor windows" or "hex editor mac" if you want to try one out.
+
 If you are interested in how negative numbers and decimals are represented using bits in the
 [CS160 Reader Ch4.6 & 4.7](http://computerscience.chemeketa.edu/cs160Reader/DataRepresentation/index.html).
 You can also try these videos for extra insight:

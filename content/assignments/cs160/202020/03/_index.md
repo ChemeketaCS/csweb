@@ -25,7 +25,7 @@ math: true
 
     C. Which problem(s) have overflow? None, A, B, or Both?
 
-1. Convert the following hexadecimal integers to their decimal equivalents: 
+1. Convert the following hexadecimal integers to their decimal equivalents.  Show work.
     1. 3B
     1. 41
 
