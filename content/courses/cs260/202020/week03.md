@@ -52,6 +52,11 @@ it.
 
 ## Day 3
 
+### Zoom Topics
+
+* LinkedList Q & A
+* Assignment debrief
+
 Linked Lists Continued
 
 * Watch this video on memory management in a linked list:
@@ -65,10 +70,6 @@ Linked Lists Continued
 * Do the LinkedList - Memory CPPLab
 
 ## Day 4
-
-### Zoom Topics
-
-* LinkedList Debrief
 
 Linked Lists With Recursion
 
