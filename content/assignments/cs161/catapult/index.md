@@ -22,7 +22,7 @@ of a lifetime! Write a program that calculates whether a rock flung from
 a catapult will make it over a wall and hit a target. Your program
 should work for the scenario below:
 
-![A catapult stands an unknown distance in front of a 75-foot-high wall, and 150 feet beyond the wall sits a 50-foot-wide castle.](files/catapult.pngg)
+![A catapult stands an unknown distance in front of a 75-foot-high wall, and 150 feet beyond the wall sits a 50-foot-wide castle.](catapult.png)
 
 There is a 75 foot tall wall and the target is located 150 feet past it.
 The target is 50 feet wide—we will ignore the height of the target and
