@@ -5,7 +5,7 @@ linktitle: Week 1
 weight: 10
 ---
 
-## Learning objectives
+## Learning Objectives
 
 Upon finishing this learning module, you should be able to:
 
@@ -14,7 +14,11 @@ Upon finishing this learning module, you should be able to:
 * Do basic console input/output
 * Use assignment and the basic math operators
 
-## Suggested Schedule
+## Deadlines This Week
+
+* Wednesday 11:59pm - Background Survey and Class Policies Review in eLearn. The review is scored as an assignment. The survey is not graded, but if you do not complete it you will be given a 0 on the Class Policies Review.
+
+## Schedule
 
 ### Monday
 
@@ -34,7 +38,7 @@ Upon finishing this learning module, you should be able to:
 * Write a program that accepts input, calculates an answer and outputs it.
 * Ch 2.1-2.3 and 2.8-2.10
 
-### Friday
+### Thursday
 
 * Wrap up samples.
 * Development advice.
@@ -111,12 +115,15 @@ should approach building programs. One step at a time:
 
 ## Extra Info
 
+### Learncpp.com
+
+The [Learn C++](http://learncpp.com/) online tutorial covers some of the same ground as the Liang readings. Use it as a supplement or second opinion if you ever need one on a topic. This week overlaps somewhat with their chapters 0, 1.1–1.3, 2.1–2.5, and 3.1–3.2.
+
+{{% alert warning %}}
+Learncpp.com shows how to use multiple different IDE's for writing code. Until you know how to test to see if your code is standards compliant, I highly recommend sticking with QtCreator and the provided templates.
+{{% /alert %}}
+
 ### Compiling details
 
 Looking for more information on what exactly happens when code is compiled?
 Read this [compiling and linking tutorial](http://www.tenouk.com/ModuleW.html).
-
-### Learncpp.com
-
-The [Learn C++](http://learncpp.com/) online tutorial covers some of the same ground as the Liang
-readings. Use it as a supplement or second opinion if you ever need one on a topic.

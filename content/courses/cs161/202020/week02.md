@@ -5,14 +5,14 @@ linktitle: Week 2
 weight: 20
 ---
 
-## Learning objectives
+## Learning Objectives
 
 Upon finishing this learning module, you should be able to:
 
 * Use relational operators to construct simple boolean statements
 * Write a program using conditional expressions
 
-## Deadlines this week
+## Deadlines This Week
 
 * Saturday 11:59PM - CppLab Conditionals 1 (see below)
 * Saturday 11:59PM - CppLab Conditionals 2

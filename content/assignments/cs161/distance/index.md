@@ -82,7 +82,7 @@ Enter x y for point 3: `1 5`
 The area of the triangle is 6
 {{% /sample_run %}}
 
-### Sample run2: (user input in red box)
+### Sample run2: (user input in red)
 
 {{% sample_run %}}
 Enter x y for point 1: `-3 0.5`
