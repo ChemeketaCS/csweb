@@ -19,7 +19,9 @@ code. So you can modify it for testing purposes, but make sure your code does no
 your changes.
 
 You can make a QTCreator project in that folder to work with the code. But make sure that you
-don't make it as a subfolder of the git project. The easiest thing to do is probably 
+don't make it as a subfolder of the git project. The easiest thing to do is to make a QT
+Project somewhere else and then copy the .pro file and main.cpp into your assignment 1
+repository. Open the QT project and add the other files.
 
 ## Submission
 
@@ -28,7 +30,7 @@ You should submit the following:
 * In Elearn: A pdf document with your responses to write up questions.
 
 * Push final changes to github before the assignment deadline. You should get in
-the habit of pushing changes every time you get a newpart of the assignment working.
+the habit of pushing changes every time you get a new part of the assignment working.
 
 ## Overview
 
@@ -44,12 +46,13 @@ In this assignment you are not to use any library searching or sorting algorithm
 container classes (like vector). You may use library algorithms for other tasks (e.g. copying the array).
 
 ## Assignment Requirements & Output
+
 You should write one main function that does each of the tasks below in order. You should use
  functions to make your main a manageable length and easy to understand.
 
 Anything you are asked to print out should be printed in your final program with a clear label.
 
-Label each section's output, print something like this before each section:
+Label each section's output and print something like this before each section:
 ```
 -----------------------------Section 1----------------------------
 Last person read was: Bashirian, Barry

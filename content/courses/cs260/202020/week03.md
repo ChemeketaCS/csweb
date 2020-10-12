@@ -27,6 +27,8 @@ Review Array Lists and Learn about Amortized Analysis
 
 * Go back to week 7 of CS162 if you need/want more review on Array based Lists.
 
+* So the ArrayList WS
+
 ## Day 2
 
 Start Linked Lists
@@ -48,6 +50,7 @@ to understand or debug an algorithm. If you can't draw a diagram of a structure,
 it.
 {{% /alert %}}
 
+* So the LinkedList WS
 * Start the LinkedList CPPLab
 
 ## Day 3
