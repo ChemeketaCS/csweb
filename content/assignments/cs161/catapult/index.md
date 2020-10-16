@@ -80,11 +80,20 @@ Rock traveled 342.667 feet.
 {{% sample_run %}}
 Enter distance from wall: `200`
 Enter velocity: `115`
+Too far!
+Rock traveled 411.046 feet.
+{{% /sample_run %}}
+
+### Sample run 5: (user input in red)
+
+{{% sample_run %}}
+Enter distance from wall: `200`
+Enter velocity: `110`
 Hit!
 Rock traveled 376.079 feet.
 {{% /sample_run %}}
 
-### Sample run 5: (user input in red)
+### Sample run 6: (user input in red)
 
 {{% sample_run %}}
 Enter distance from wall: `300`
