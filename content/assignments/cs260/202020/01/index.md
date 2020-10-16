@@ -9,7 +9,7 @@ for searching and sorting data as well as analyze the time required to run those
 
 ## Setup
 
-Begin by accepting the assignment repository: [https://classroom.github.com/a/OuUd4DJH](https://classroom.github.com/a/OuUd4DJH)
+Begin by accepting the assignment repository listed in Elearn.
 
 A file with 100,000 names is provided here: [people.txt](people.txt)
 
