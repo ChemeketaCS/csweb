@@ -13,6 +13,11 @@ weight: 40
 
 ## Day 1
 
+### Zoom Topics
+
+* List tips & tricks
+* Midterm Overview
+
 Circular Linked Lists, Doubly Linked Lists
 
 * Watch this video on different kinds of linked lists:
@@ -52,4 +57,7 @@ on what to review and some practice questions.
 
 ## Day 4
 
-Midterm
+{{% alert warning %}}
+Midterm - take during class time in Elearn
+{{% /alert %}}
+

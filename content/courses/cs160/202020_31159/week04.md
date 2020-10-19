@@ -16,19 +16,29 @@ Upon finishing this learning module, you should be able to:
 send a private message
 * Identify how certificate authorities provide a basis for trust on the internet
 
-## Suggested Pacing
+### First Meeting
 
-Day 1
-: Start the programming.
+**In class:**
 
-Day 2
-: Work through the Logic and Circuits materials.
+* Logic & Circuits
+* Programming intro
 
-Day 3
-: Algorithm of the Week.
+**Independent:**
 
-Day 4
-: Finish the programming.
+* Do Logic & Circuit WS
+* Start programming
+
+### Second Meeting
+
+**In class:**
+
+* Asymmetric Cryptography
+* JS Advice
+
+**Independent:**
+
+* Do the Algorithm of the Week reading
+* Finish programming
 
 ## Programming
 

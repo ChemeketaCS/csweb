@@ -66,6 +66,11 @@ on the big picture of how circuits manipulate on/off values to do math in a comp
 ## Algorithm of the Week: Public Key Encryption
 
 * Read the [CS160Reader's Chapter on Authentication & Public Key Encryption](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/Authentication/index.html).
+
+  This video has some background and tips to go with the reading:
+
+  {{< youtube videoid="WqV6la_BMRQ" title="Public/Private Key Encryption" >}}
+
 * **Optional**: Read Ch 9 of Nine Algorithms book. The CS160Reader chapter is designed as a
 replacement for the Nine Algorithms chapter. They cover similar ground - the ideal of
 public/private key encryption, but CS160Reader version focuses more heavily on the use of this
