@@ -14,19 +14,29 @@ Upon finishing this learning module, you should be able to:
 * Use variables to build programs that track information
 * Manipulate strings in javascript
 
-## Suggested Pacing
+### First Meeting
 
-Day 1
-: Start the programming.
+**In class:**
 
-Day 2
-: Little Computer Branching and Assembly sections.
+* Little Computer Continued
+* Assembly
 
-Day 3
-: And do the Algorithm of the Week.
+**Independent:**
 
-Day 4
-: Finish the programming. Read the High Level Programming section.
+* Do code.org programming
+* Practice with Little Computer
+* Do the Higher Level Languages reading
+
+### Second Meeting
+
+**In class:**
+
+* Compression
+
+**Independent:**
+
+* Do the Algorithm of the Week reading
+* Do compression practice
 
 ## Programming
 

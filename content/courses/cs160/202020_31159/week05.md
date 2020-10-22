@@ -15,19 +15,29 @@ Upon finishing this learning module, you should be able to:
 * Create a working multi-screen app
 * Mentally evaluate javascript assignment statements involving arithmetic
 
-## Suggested Pacing
+### First Meeting
 
-Day 1
-: Start the programming.
+**In class:**
 
-Day 2
-: Work the Machine Architecture & The Little Computer sections.
+* Machine Architecture & The Little Computer
 
-Day 3
-: Algorithm of the Week.
+**Independent:**
 
-Day 4
-: Finish the programming. Take the Quiz.
+* Do code.org programming
+* Practice with Little Computer
+
+### Second Meeting
+
+**In class:**
+
+* Error Detection
+* Programming tips
+
+**Independent:**
+
+* Do the Algorithm of the Week reading
+* Finish programming
+* Take Quiz 2
 
 ## Programming
 

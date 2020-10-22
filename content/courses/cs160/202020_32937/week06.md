@@ -62,6 +62,11 @@ Code.org lessons) that people generally program in.
 ## Algorithm of the Week: Data Compression
 
 * Read Ch 7 of Nine Algorithms That Changed the Future
+
+    This video provides an overview of the reading:
+
+    {{< youtube videoid="c1TObgaBBAc" title="Compression" >}}
+
 * Read the Data Compression supplement page in the [CS160 Reader](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/Compression.html).
 It demonstrates how to build a Huffman code - a version of the Shortest Symbol trick from Nine Algorithms.
 * Do the compression practice worksheet (Class Files in elearn)
