@@ -50,7 +50,7 @@ Queues
 
 * Read Ch 20.8
 
-Do the Queues CPPLab where you will implement the logic for an efficient array-based queue. There is a Queue WS in the files directory that has diagrams that might be helpful while you do the CPPLab problems.
+* Do the Queues CPPLab where you will implement the logic for an efficient array-based queue. There is a Queue WS in the files directory that has diagrams that might be helpful while you do the CPPLab problems.
 
 ## Day 4
 
