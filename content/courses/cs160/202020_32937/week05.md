@@ -61,5 +61,10 @@ use of this [Little Computer simulator](http://computerscience.chemeketa.edu/cs1
 ## Algorithm of the Week: Error Detection & Correction
 
 * Read Ch 5 of Nine Algorithms That Changed the Future
+
+    This video provides an overview of the reading:
+
+    {{< youtube videoid="_ew52qiiKVQ" title="Error Detection" >}}
+
 * **Optional** The [CS160 Reader](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/ErrorCorrection.html)
 has some extra material on how credit card numbers and book ISBN numbers use check sums.

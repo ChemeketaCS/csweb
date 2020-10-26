@@ -59,7 +59,7 @@ Last person read was: Bashirian, Barry
 …
 ```
 
-There should not be a lots of extra debugging output.
+There should not be a lot of extra debugging output.
 
 ## Grading
 

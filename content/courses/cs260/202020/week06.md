@@ -16,7 +16,7 @@ Gnarly Trees is a data structure simulator that is particularly valuable for lea
 trees work. You can download it from the [Gnarly Trees webpage](https://people.ksp.sk/~kuko/gnarley-trees/)
 or this direct link. You will need to have [java installed](https://www.java.com/en/download/) on your computer to us it.
 
-This video shows how Gnarl Trees works:
+This video shows how Gnarly Trees works:
 {{< youtube videoid="kNNUq-SDw4E" >}}
 
 ## Day 1

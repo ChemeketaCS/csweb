@@ -73,7 +73,7 @@ Label each section's output and print something like this before each section:
 …
 ```
 
-There should not be a lots of extra debugging output.
+There should not be a lot of extra debugging output.
 
 ## Grading
 
