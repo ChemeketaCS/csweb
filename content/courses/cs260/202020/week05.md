@@ -20,6 +20,8 @@ weight: 50
 * Midterm Debrief
 * Assignment 3 Overview
 
+List Iterators
+
 * Watch this video on list iterators:
 {{< youtube videoid="CGqMINzg674" >}}
 
