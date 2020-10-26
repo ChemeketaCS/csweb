@@ -39,7 +39,7 @@ Day 4
 
 ## Machine Architecture & the Machine Cycle
 
-* Read about the major components of a CPU and the machine cycle: CS160 Reader - Computer Architecture
+* Read about the major components of a CPU and the machine cycle: [CS160 Reader - Computer Architecture](http://computerscience.chemeketa.edu/cs160Reader/ComputerArchitecture/index.html)
 * **Optional** This video is a good secondary source. The first 12.5 minutes do a nice job of showing a processor
  at work. (From minute 12:30 until the end gets into more detail than we are going to worry about,
  but you may find it interesting.)
@@ -49,6 +49,7 @@ Day 4
 ## Machine Code and the Little Computer
 
 * Read about what machine language is: [CS160 Reader - Machine Language](http://computerscience.chemeketa.edu/cs160Reader/ProgrammingLanguages/MachineLanguages.html)
+*Just the one page this links to, not all of the Programming Languages chapter*
 
 * Rather than try to work with real machine language, we are going to use something called the
 Little Computer to see what a program is like at this level. [Read about the Little Computer
