@@ -49,7 +49,7 @@ parentheses checking. Make sure to check it out.
 Queues
 
 * Watch:
-{{< youtube videoid="HHCF0zS0HSc" >}}
+{{< youtube videoid="l3NfnUeqef4" >}}
 
 * Here is an [array based queue simulation you can try out](http://computerscience.chemeketa.edu/UCSFDataStructures/QueueArray.html)
 
@@ -66,7 +66,7 @@ Queues
 Heaps
 
 * Watch:
-{{< youtube videoid="HHCF0zS0HSc" >}}
+{{< youtube videoid="dlsfHjuxU1s" >}}
 
 * Read Ch 19.6 - 19.6.4
 

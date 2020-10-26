@@ -24,7 +24,7 @@ This video shows how Gnarly Trees works:
 Priority Queues and HeapSort
 
 * Watch:
-{{< youtube videoid="HHCF0zS0HSc" >}}
+{{< youtube videoid="kKWyon0qJLM" >}}
 
 * Read Ch 19.6.5 and 20.9
 
