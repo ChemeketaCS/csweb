@@ -15,8 +15,8 @@ Begin by accepting the assignment repository listed in Elearn.
 
 The two data files you need are provided here:
 
-* [25000AddressesA.txt](25000AddressesA.txt)
-* [25000AddressesB.txt](25000AddressesB.txt)
+* [25000AddressesA.txt](files/25000AddressesA.txt)
+* [25000AddressesB.txt](files/25000AddressesB.txt)
 
 Download them and place into the folder with your cloned code. We will not be adding them to the repository.
 

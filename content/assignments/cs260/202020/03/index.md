@@ -15,7 +15,7 @@ Begin by accepting the assignment repository listed in Elearn.
 
 Then add this data file:
 
-* [Document.html](Document.html) *(You may need to right click the link and Save
+* [Document.html](files/Document.html) *(You may need to right click the link and Save
 As to save the file instead of opening it.)*
 
 It will be used for the Stack part of the assignment. We will not check it into source control.
@@ -256,5 +256,4 @@ For X values of 1000, 4000, 16000, 64000, and 256000
 
 5C) What is the Big-O for the new algorithm for removing n packets? Explain your reasoning.
 
-3D) How long would this algorithm take to get and then remove 10,000,000 packets? Show work.
-
+53D) How long would this algorithm take to get and then remove 10,000,000 packets? Show work.

@@ -11,7 +11,7 @@ for searching and sorting data as well as analyze the time required to run those
 
 Begin by accepting the assignment repository listed in Elearn.
 
-A file with 100,000 names is provided here: [people.txt](people.txt)
+A file with 100,000 names is provided here: [people.txt](files/people.txt)
 
 Download it and place it into the folder with your cloned code - make sure it is called **people.txt**.
 We will not be adding it to the repository - I will use my own copy of the file when I run your
