@@ -103,7 +103,7 @@ the computers of that generation.
     | dog | 2-2  2-9  3-16 |
     | man | 1-3  3-2 3-11 |
     | &lt;titleStart> | 1-1  2-1  3-1 |
-    | &lt;titleEtart> | 1-4  2-6  3-5 |
+    | &lt;titleEnd> | 1-4  2-6  3-5 |
     | &lt;bodyStart> | 1-5  2-7  3-6 |
     | &lt;bodyEnd> | 1-20  2-17  3-18 |
 
