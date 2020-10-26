@@ -1,9 +1,7 @@
 ---
 title: Future Value
 summary: Assignment covering loops
-
-math: true
--------
+---
 
 {{% cs161General %}}
 
@@ -44,7 +42,7 @@ Year\# / Month\# / Balance
 {{% /sample_run %}}
 {{% alert info %}}
 Don't worry about making the columns all lined up and pretty.
-If you like, you can print ```\t``` characters (tabs) to help line things up.
+If you like, you can print `\t` characters (tabs) to help line things up.
 {{% /alert %}}
 
 ### Hints
@@ -53,7 +51,7 @@ Build your way to the final solution. First just worry about years.  Then months
 
 You do not have to print the money to two decimal places (we will learn
 about output formatting next week) but if you want to, include
-```<iomanip>``` library and add this to the start of your main function:
+`<iomanip>` library and add this to the start of your main function:
 
 ```
 //Force output with fixed decimal, 2 decimal places
