@@ -15,8 +15,13 @@ weight: 50
 
 ## Day 1
 
+### Zoom Topics
+
+* Midterm Debrief
+* Assignment 3 Overview
+
 * Watch this video on list iterators:
-{{< youtube videoid="JJsJycy1vG4" >}}
+{{< youtube videoid="CGqMINzg674" >}}
 
 * Read Liang Ch 20.5
 
@@ -53,6 +58,10 @@ Queues
 * Do the Queues CPPLab where you will implement the logic for an efficient array-based queue. There is a Queue WS in the files directory that has diagrams that might be helpful while you do the CPPLab problems.
 
 ## Day 4
+
+### Zoom Topics
+
+* Assignment 2 Debrief
 
 Heaps
 
