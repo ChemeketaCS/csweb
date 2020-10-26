@@ -44,7 +44,7 @@ Upon finishing this learning module, you should be able to:
 * Do BooleanPractice WS
 * Read Ch 3.10-3.11, 3.13-3.16
 
-## Online Activity Outline:
+## Online Activity Outline
 
 ### Data Conversions
 

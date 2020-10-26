@@ -100,7 +100,7 @@ Go look up string on [cplusplus.com](cplusplus.com) - use the search box at the 
 
 Do the StringPractice worksheet from the Classroom files link below.  Like before, try to predict the output for each statement then test it and see if you were correct.
 
-## Extra Info:
+## Extra Info
 
 ### Learncpp.com
 

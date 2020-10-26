@@ -38,7 +38,7 @@ Upon finishing this learning module, you should be able to:
 
 * Quiz Review/CPPLab work
 
-## Online Activity Outline:
+## Online Activity Outline
 
 ### Using Functions
 
@@ -72,14 +72,14 @@ Take Quiz 1 in elearn.
 
 Do the [assignment](/assignments/cs161/catapult/).
 
-## Quiz Tips:
+## Quiz Tips
 
 The quiz will be open Thursday–Saturday in Elearn, **time limited** (60 minutes), and **not** collaborative.  
 It covers weeks 1 & 2. Make sure you block out an hour of uninterrupted
 time before you start the quiz—you can not pause the timer once you
 start.
 
-## Extra Info:
+## Extra Info
 
 ### Learncpp.com
 
