@@ -11,8 +11,12 @@
 }
 
 .sample-run {
-  white-space: pre;
-  margin-bottom: 1rem;
+  color: inherit;
+  background: inherit;
+}
+
+.sample-run code {
+  color: #c7254e;
 }
 
 article.courses {

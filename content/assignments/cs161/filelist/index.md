@@ -53,7 +53,7 @@ place. It should then display the total size in kB of the images.
 
 ### Sample output
 
-```
+{{% sample_run %}}
 Name				Type	Width	Height	Size
 Lacus.jpeg			jpeg	170	330	21.5
 Vel.jpeg			jpeg	300	220	10.4
@@ -61,7 +61,7 @@ ElementumNullam.png		png	270	280	58.6
 MontesNasceturRidiculus.jpeg	jpeg	180	220	101.5
 AtLorem.jpeg			jpeg	200	240	21.6
 Total Size:						213.5
-```
+{{% /sample_run %}}
 
 ### Hints
 
