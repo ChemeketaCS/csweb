@@ -1,7 +1,7 @@
 ---
 # Page metadata.
 title: Assignment 5
-summary: Architecture, Assembly, and Errors
+summary: Architecture, Machine Code, and Errors
 
 layout: single
 math: true
