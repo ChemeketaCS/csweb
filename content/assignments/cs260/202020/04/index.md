@@ -134,6 +134,8 @@ Do not write code that expects to be working with a string or any other specific
 
 1A) Give the time taken to read in the data for sets of sizes 10,000, 100,000, and 1,000,000.
 
+1B) Estimate the time to read in 10,000,000 records. Show work.
+
 ## Part 2
 
 (10% of grade:  5% code, 5% writeup)
@@ -223,7 +225,7 @@ that are greater than or equal to "100.000.000.000" and less than "110.000.000.0
 
 ## Part 6
 
-(10% of grade: 5% code, 5% writeup)
+(15% of grade: 10% code, 5% writeup)
 
 Add code to main.cpp and implement needed functions in MySet.h to do the following:
 
@@ -244,21 +246,12 @@ how the algorithm does its job and how that determines the BigO).
 
 ## Part 7
 
-(10% of grade: 5% code, 5% writeup)
+(5% of grade)
 
 Add code to main.cpp and implement needed functions in MySet.h to do the following:
 
 * If you did not do so as part 6, read size number of records from IPListB.txt and add
-them to a MySet\<string> called setB. 
+them to a MySet\<string> called setB.
 * Use the unionWith function to get setAUB - the set of IP addresses that are in either setA and setB. 
 
 **Print the size of this set and the smallest item in the set.**
-
-### Writeup
-
-7A) Give a table of the time to run unionWith on at least three different sizes that
-produce measurable times. Pick sizes that increase in by a constant multiple. (Something
-like 1000, 10000, 100000 or 2000, 4000, 8000)
-
-7B) Give the bigO of your algorithm. Explain why your algorithm is that BigO (describe
-how the algorithm does its job and how that determines the BigO).
