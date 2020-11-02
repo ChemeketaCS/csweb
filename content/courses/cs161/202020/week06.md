@@ -16,16 +16,12 @@ Upon finishing this learning module, you should be able to:
 
 ## Deadlines This Week
 
-* Monday - Midterm in class
 * Monday 11:59PM - Assignment 5
+* Wednesday - Midterm in class
 * Thursday 11:59PM - Functions Basics CPPLab
 * Saturday 11:59PM - Functions 2 CPPLab
 
 ## Classroom Schedule
-
-### Monday
-    
-* Midterm
 
 ### Tuesday
     
@@ -34,7 +30,8 @@ Upon finishing this learning module, you should be able to:
 * CPPLabs: Function basics
 
 ### Wednesday
-    
+
+* Midterm
 * Special Cases and Reference Parameters
 * Read Ch 6.6-6.7, 6.9, 6.11-13
 * CPPLabs: Functions 2

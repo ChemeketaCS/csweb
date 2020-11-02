@@ -34,7 +34,7 @@ true—go back to week 3 to refresh yourself.
     
 * Strings Continued
 * CPPLabs: String basics
-* Read Ch 15.14
+* Read Ch 5.14
 * CPPLabs: String loops
 
 ### Tuesday
@@ -64,7 +64,7 @@ to do some practice quiz questions as you work on the new material.
 
 Make sure you have done the strings material from the end of last
 week. Then watch this video for some tips and tricks and read Ch
-15.14:
+5.14:
 
 {{< youtube videoid="LHWfiNNS1ZE" title="String Function Tips" >}}
 
