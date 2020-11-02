@@ -40,7 +40,7 @@ Business Information Systems program.
 
 Sign up for the [Computer Science mailing list](http://eepurl.com/bhlDT1) to receive news about
 updates at the four-year universities as well as transfer related events and deadlines. You can
-also view an [archive of past emails sent on the mailing list](https://us10.campaign-archive.com/home/?u=80c5b042ad9fa8e70edde9296&id=bd7a5c549ct).
+also view an [archive of past emails sent on the mailing list](https://us10.campaign-archive.com/home/?u=80c5b042ad9fa8e70edde9296&id=bd7a5c549c).
 
 ## Schedule planning
 
