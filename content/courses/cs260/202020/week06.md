@@ -21,6 +21,11 @@ This video shows how Gnarly Trees works:
 
 ## Day 1
 
+### Zoom Topics
+
+* Queues & Trees & LogN
+* Gnarly Trees
+
 Priority Queues and HeapSort
 
 * Watch:
@@ -38,6 +43,8 @@ Priority Queues and HeapSort
 
 Watch this video on trees:
 {{< youtube videoid="TPoJKV7Qmm4" >}}
+
+* Do the Tree WS
 
 ### BSTs
 
@@ -73,6 +80,8 @@ BST's continued
 * Do the BST Removal CPPLab
 
 ## Day 4
+
+* BST Practice and Tips
 
 Tree Iterators
 
