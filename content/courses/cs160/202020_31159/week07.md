@@ -15,19 +15,22 @@ Upon finishing this learning module, you should be able to:
 * Use if/else statements in javascript
 * Write compound conditionals using Boolean logic
 
-## Suggested Pacing
+### First Meeting
 
-Day 1
-: Start the programming.
+**In class:**
 
-Day 2
-: Tackle the Sorting & Searching Algorithms
+* Sorting & Searching Algorithms
 
-Day 3
-: Do the AI Search section
+**Independent:**
 
-Day 4
-: Finish the programming. Take the Quiz.
+* Do code.org programming
+* Practice searching & sorting
+* Do the AI Search section
+* Take the Quiz
+
+{{% alert warning %}}
+No second class meeting!
+{{% /alert %}}
 
 ## Programming
 

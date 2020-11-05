@@ -14,6 +14,11 @@ weight: 70
 
 ## Day 1
 
+### Zoom Topics
+
+* Balancing overview
+* Assignment 4 overview
+
 Rotations & Splay Trees
 
 * Read Ch25.1 - 25.2
@@ -28,7 +33,7 @@ The Rotations simulator uses "child" notation to specify a rotation.
 
 ## Day 2
 
-### Balancing Basics 
+### Balancing Basics
 
 * Watch this video about basic balancing techniques in BSTs:
 {{< youtube videoid="GwMIrwjGfps" >}}
@@ -50,6 +55,10 @@ does to maintain balance. Then watch this video:
 Holiday
 
 ## Day 4
+
+{{% alert warning %}}
+No live meeting today. Check the discussion board for a recording debriefing on assignment 3.
+{{% /alert %}}
 
 B-Trees
 
