@@ -55,7 +55,7 @@ Machine learning algorithms are one of the critical ingredients in the race to b
 cars. Car companies, tech companies and others are all trying to develop autonomous vehicles to
 make roads more safe and efficient. Here are some videos about Google's efforts:
 
-<iframe src="http://embed.ted.com/talks/sebastian_thrun_google_s_driverless_car" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="max-width: 100%; margin: 0 auto; margin-bottom: 1rem; display: block;"></iframe>
+<iframe src="https://embed.ted.com/talks/sebastian_thrun_google_s_driverless_car" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="max-width: 100%; margin: 0 auto; margin-bottom: 1rem; display: block;"></iframe>
 
 {{< youtube videoid="dk3oc1Hr62g" >}}
 
