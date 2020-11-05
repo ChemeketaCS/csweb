@@ -1,0 +1,12 @@
+FLAG = -std=c++11 -g -I. -fpermissive
+COMPILER = g++
+
+all: Assign5Tester.exe Assign5Index.exe
+
+Assign5Tester.exe: IndexRecord.cpp tester.cpp IndexMap.cpp
+	mkdir -p linux
+	$(COMPILER) $(FLAG) IndexRecord.cpp  IndexMap.cpp tester.cpp -o linux/Assign5Tester.exe
+
+Assign5Index.exe: IndexMap.cpp IndexRecord.cpp
+	mkdir -p linux
+	$(COMPILER) $(FLAG) *ndexBuilder.cpp IndexMap.cpp IndexRecord.cpp -o linux/Assign5Index.exe
