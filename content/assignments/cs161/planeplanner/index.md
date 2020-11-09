@@ -66,6 +66,9 @@ receive full credit.
 
 ## Functions
 
+If you want, you can add additional functions you find useful,
+but you cannot change these and must provide all of them for full credit.
+
 * `void emptyChart(char grid[ROWS][COLS])`
 
   Fill the seating chart with all _ characters so that it is empty.
@@ -75,7 +78,9 @@ receive full credit.
   Open the file `filename` and read it to fill the seating chart.
 
   (I have provided a [sample data file](Seats.txt). Don't include
-  it in your submission; I will use my own copy.)
+  it in your submission; I will use my own copy. Also, make sure
+  that `loadTestChart` opens the provided `filename`, and does not
+  depend on it being named the same as my sample.)
 
 * `void printSeatingChart(const char grid[ROWS][COLS])`
 
@@ -110,3 +115,8 @@ receive full credit.
   (For the provided chart, the first spot where two passengers can sit
   together is 1A 1B. The first spot where three can sit together is 6C 6D
   6E. The first spot where four can sit together is 7B 7C 7D 7E.)
+
+  Hint: the easiest way to convert a number to a string is with the `to_string`
+  function. Also, the `findAdjacentSeats` function is complicated; don't try to
+  write it all at once. Think about smaller, simpler versions you can start
+  with and build up to it.
