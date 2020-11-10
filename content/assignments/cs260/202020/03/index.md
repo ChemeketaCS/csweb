@@ -256,4 +256,4 @@ For X values of 1000, 4000, 16000, 64000, and 256000
 
 5C) What is the Big-O for the new algorithm for removing n packets? Explain your reasoning.
 
-53D) How long would this algorithm take to get and then remove 10,000,000 packets? Show work.
+5D) How long would this algorithm take to get and then remove 10,000,000 packets? Show work.
