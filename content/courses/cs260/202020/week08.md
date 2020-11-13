@@ -26,6 +26,9 @@ weight: 80
 
 Probabilistically balanced structures - Treaps and Skip Lists
 
+* Watch this video:
+{{< youtube videoid="vKJDSzKABM4" >}}
+
 ## Day 3
 
 Review - study guide available in Class Files link
