@@ -45,9 +45,11 @@ sections 8.9-8.13.
 
 ## Pattern Recognition and Machine Learning
 
-* Read Ch 6 of The Nine Algorithms book
+* Read Ch 6 of The Nine Algorithms book. This video gives an overview of the highlights
+and talks about how these algorithms relate to **machine learning**:  
+    {{< youtube videoid="exsDgTof5PU" >}}
 * Read [CS160 Reader - Pattern Recognition supplement](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/PatternRecognition2.html)
-* Do the **PatternRecognitionPractice** worksheet
+* Do the **PatternRecognitionPractice** practice worksheet
 
 ## Optional Extras
 
