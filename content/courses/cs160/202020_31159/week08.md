@@ -15,19 +15,29 @@ Upon finishing this learning module, you should be able to:
 * Identify pattern recognition algorithms and predict the behavior of simple decision trees and
 neural networks
 
-## Suggested Pacing
+### First Meeting
 
-Day 1
-: Start the programming.
+**In class:**
 
-Day 2
-: Tackle the Algorithmic Efficiency section.
+* Algorithmic Efficiency intro
+* code.org tips
 
-Day 3
-: Do the Algorithm of the Week.
+**Independent:**
 
-Day 4
-: Finish the programming.
+* Algorithmic Efficiency reading & worksheet
+* Start the programming
+
+### Second Meeting
+
+**In class:**
+
+* Pattern Recognition & machine learning exploration
+
+**Independent:**
+
+* Do Pattern Recognition practice
+* Finish programming
+* Finish readings & do assignment
 
 ## Programming
 

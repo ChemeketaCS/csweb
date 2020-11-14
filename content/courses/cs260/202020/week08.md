@@ -15,6 +15,12 @@ weight: 80
 
 ## Day 1
 
+### Zoom Topics
+
+* BST and balancing pointers
+* Assignment 4 tips
+* Midterm advice
+
 * Watch this video on Red-Black trees:
 {{< youtube videoid="Pc1hfNTGh2A" >}}
 
@@ -35,4 +41,6 @@ Review - study guide available in Class Files link
 
 ## Day 4
 
+{{% alert warning %}}
 Midterm - must be taken during class
+{{% /alert %}}
