@@ -166,16 +166,6 @@ standalone from part 4.
 
 **Print out the number of items (unique addresses) in setA2.**
 
-### Writeup
-
-3A) Provide a table of times taken to get and then remove n packets for n = 1000, 4000, 16000, 64000
-
-3B) What is the Big-O of the existing algorithm for getting n packets? Explain your reasoning.
-
-3C) What is the Big-O for the existing algorithm for removing n packets? Explain your reasoning.
-
-3D) How long would this algorithm take to get and then remove 10,000,000 packets? Show work.
-
 ## Part 4
 
 (15% of grade)
