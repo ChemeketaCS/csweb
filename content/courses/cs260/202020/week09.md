@@ -14,6 +14,12 @@ weight: 90
 
 ## Day 1
 
+### Zoom Topics
+
+* Hashing overview
+* Assignment 5 tips
+* Midterm feedback
+
 ### Hashing
 
 Watch this video:
