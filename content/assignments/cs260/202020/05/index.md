@@ -137,6 +137,8 @@ In it, you will implement a hash map of IndexRecords.
 IndexRecords should be placed into the map using the **word** in the record as the *key*. The *value*
 associated with each key will be an **IndexRecord**. Collisions should be resolved by linear probing.
 
+![The IndexMap](IndexMap.png)
+
 Implement the functions needed for the second half of tester.cpp.
 
 ## Part 3
