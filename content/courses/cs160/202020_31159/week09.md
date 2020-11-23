@@ -15,19 +15,28 @@ Upon finishing this learning module, you should be able to:
 * Write simple SQL queries
 * Write while loops in javascript
 
-## Suggested Pacing
+### First Meeting
 
-Day 1
-: Do the programming.
+**In class:**
 
-Day 2
-: Tackle the Operating Systems and Parallel Processing material.
+* Parallel Processing
+* code.org tips
 
-Day 3
-: Do the Algorithm of the Week.
+**Independent:**
 
-Day 4
-: Do the SQL Section.
+* Operating Systems & Parallel Processing reading
+* Work on programming
+
+### Second Meeting
+
+**In class:**
+
+* Databases intro
+
+**Independent:**
+
+* Do Databases reading
+* Do SQL work
 
 ## Programming
 
