@@ -92,4 +92,4 @@ Read the [History of Computers chapter from the CS160Reader](http://computerscie
 
 An interesting "behind the scenes" stories about the birth of computing and where it may head in the
 future from famed inventor George Dyson:
-<iframe src="https://embed.ted.com/talks/george_dyson_at_the_birth_of_the_computer.html" width="400" height="225" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="https://embed.ted.com/talks/george_dyson_at_the_birth_of_the_computer.html" width="560" height="315" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="max-width: 100%; margin: 0 auto; display: block;"></iframe>
