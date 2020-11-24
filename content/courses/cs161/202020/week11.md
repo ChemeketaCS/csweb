@@ -7,17 +7,14 @@ weight: 110
 
 ## Deadlines This Week
 
-* Sunday (start of finals week) 11:59PM - Assignment 9
+* Sunday (start of finals week) 11:59PM - All assignments and late work
+
+{{% alert warning %}}
+No late work will be accepted past this point.
+{{% /alert %}}
 
 ## Final
 
-* In person: Wed 12:00PM (expect changes due to COVID-19)
-
-## Assignments
-
-Make sure to get assignment 9 turned in by Sunday (at the start of
-Finals week) at midnight.  
-
-{{% alert warning %}}
-No late work will be accepted for this assignment.
-{{% /alert %}}
+The final will be taken in elearn. I will post the window for taking it
+here and make an announcement by the end of the last week of class, before
+finals week.

@@ -15,18 +15,14 @@ Upon finishing this learning module, you should be able to:
 ## Deadlines This Week
 
 * NEXT WEEK - Final
-* Saturday 11:59PM (Opens Thursday)- Quiz 4 - covers weeks 8-10.  
-  * This includes the material on pointers from this
-    week (Ch 11) - you need to get through that material before you take
-    the quiz.
-* Friday 11:59PM - Photochop mini-assignment - turn in your functions
-  in elearn.
-  * Build at least two new image creation/modification functions for
-    PhotoChop. You must build make functions from two different
-    categories (Create Image/Basic Filter/Complex Filter/Size
-    Modifying/Multiple Image).
-* Sunday 11:59PM - Assignment 9. No late work will be accepted for
-  assignment 9.
+* Saturday 11:59PM - Quiz 4
+* Sunday 11:59PM - Photochop extra credit assignment
+* Sunday 11:59PM - Assignment 9
+
+{{% alert warning %}}
+No late work will be accepted after Sunday 11:59,
+to allow time for grading during finals week.
+{{% /alert %}}
 
 ## Schedule
 
@@ -51,6 +47,18 @@ Upon finishing this learning module, you should be able to:
 * Come in for quiz/final practice or assignment questions
 
 ## Activity Outline
+
+### Quiz
+
+Quiz 4 will be open from Thursday to Saturday, as usual for the previous
+quizzes. Also as usual, it will cover material from the previous
+two weeks.  Unusually, it will include the material on pointers from
+this week (from Chapter 11).
+
+{{% alert warning %}}
+Make sure you get through that material on pointers in Chapter 11
+before taking the quiz this week.
+{{% /alert %}}
 
 ### Pointers
   
@@ -85,6 +93,15 @@ Watch this video about dynamic memory:
 
 Read 11.9
 
+### Final prep
+
+The final exam will be taken in a similar manner to the midterm.
+This term's final will be different than previous term's finals, so
+the class files final prep material does not correspond perfectly to
+the material that you will encounter. In particular, there will not
+be a question about image manipulation related to PhotoChop.  However,
+that practice final might still be a good way to study the other material.
+
 ## Extra Info
 
 ### C++ Notes
@@ -102,9 +119,6 @@ These items linked to on this page have nice conscise pointer information
 This online tutorial covers *some* of the same ground as the Liang readings:  
 [LearnCpp.com 6.7-6.9](http://www.learncpp.com/) for Pointers and dynamic allocation  
 
-### Notes
+### Lastly
 
-1. Congrats—you are almost there\!
-2. Start studying for the final now. Go back to earlier chapters
-   (especially ones you had problems with), do questions from the end
-   of each chapter and check yourself.
+Congratulations—you are almost there\!

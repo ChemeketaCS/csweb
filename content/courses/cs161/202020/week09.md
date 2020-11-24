@@ -15,7 +15,7 @@ Upon finishing this learning module, you should be able to:
 ## Deadlines This Week
 
 * Monday 11:59PM - Assignment 8
-* Friday 11:59PM - Enumerations & Structs CPPLab
+* Saturday 11:59PM - Enumerations & Structs CPPLab
 
 ## Readings & Activities
 
@@ -38,10 +38,8 @@ Upon finishing this learning module, you should be able to:
 
 ### Thursday
     
-* Photochop—make sure to unpack the .zip file and open the
-  existing project. If you try to open files one at a time they
-  will not work. One question on final will involve using the
-  Image struct to write a filter that would modify an image.
+* Final assignment
+* Extra credit assignment
 
 ## Online Activity Outline
 
@@ -85,34 +83,25 @@ in the reading:
 {{< youtube videoid="Evra7WBVZTA" title="Struct Basics" >}}
 {{< youtube videoid="7mY4_oe9Ga4" title="Structs and Arrays" >}}
 
-Do the structs CPPLab by Friday
+Do Structs CPPLab
 
 ### Assignment
 
-Start work on the assignment—this final assignment has a longer
-deadline week, but it does require a bit of work to get set up and
-going. The FinalExample.cpp from the Structs And Arrays video should be
-helpful in figuring out how to structure your data/program—make sure
-to get the source code from Classroom files and check it out.
+Start working on the assignment. Because this is the final assignment,
+the deadline will work a little differently. You will have two weeks to
+work on it, but no late work will be accepted (because the week after
+that will be finals week).  This assignment does require a bit of work
+to get set up and going, so be sure to start early.
 
-### Photochop
+### PhotoChop
 
-This video introduces the PhotoChop project (see Classroom files
-link for project and PDF guide file). It puts together different
-concepts from throughout the course and gives you experience going
-into a codebase and working with code you did not write (this is
-what most software developers spend most of their time doing):  
+I have introduced an extra credit assignment called PhotoChop, which
+gives you a fun way to experiment with image manipulation and working
+in a codebase that you didn't make yourself (which is what most programmers
+spend most of their time doing). This assignment is due at the same time
+as the regular assignment, and also will not be accepted late.
 
-{{< youtube videoid="fdcLM7_4zLU" title="Photochop" >}}
-
-PhotoChop mini-assignment (turned in through elearn but scored with
-CPPLabs) is to make (at least) two new image functions—you should
-make one each from two different categories (Create New Image, Basic
-Image, Complex Image Modifcation, Moving Pixels, Combining Pixels,
-and Multiple Files). Due Friday of week 10.
-
-I will use Photochop as the basis for one question on the final. It
-contains a moderately complex structure you should already be
-familiar with, meaning I can use it to ask you to write some code
-without having to spend a lot of time figuring out a new array I'm
-asking you to work with.
+Previous versions of this class used the PhotoChop assignment as the
+basis for a question on the final; that is not true this term, and I have
+tried to remove all mention of it, but in case you have found something
+to that effect, it is wrong. The final will not refer to PhotoChop.
