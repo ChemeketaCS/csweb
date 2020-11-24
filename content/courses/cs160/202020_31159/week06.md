@@ -80,4 +80,4 @@ It demonstrates how to build a Huffman code - a version of the Shortest Symbol t
 
 How big-data and computation are transforming medicine:
 
-<iframe src="http://embed.ted.com/talks/anders_ynnerman_visualizing_the_medical_data_explosion.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="max-width: 100%; margin: 0 auto; display: block;"></iframe>
+<iframe src="https://embed.ted.com/talks/anders_ynnerman_visualizing_the_medical_data_explosion.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="max-width: 100%; margin: 0 auto; display: block;"></iframe>
