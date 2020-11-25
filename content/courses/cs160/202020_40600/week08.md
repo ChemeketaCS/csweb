@@ -62,4 +62,4 @@ make roads more safe and efficient. Here are some videos about Google's efforts:
 Machine learning has also been put to use to train computers to do more trivial things... like
 play Super Mario:
 
-{{< youtube videoid="qv6UVOQ0F44" >}}
+{{< youtube videoid="qv6UVOQ0F44" note="*[Closed captioned version of the video](https://video.chemeketa.edu/media/MarI+O+-+Machine+Learning+for+Video+Games/1_0gesfh85)*">}}
