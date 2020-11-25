@@ -41,8 +41,11 @@ Upon finishing this learning module, you should be able to:
 
 ## Programming
 
-* Complete [Code.org](https://studio.code.org/home) Unit 5, Ch 1, Lesson 4, Parts 1-27.
+* Complete [Code.org](https://studio.code.org/home) Unit 5, Ch 1, Lesson 4, Parts 1-27.  
+*Here is a [closed caption version of the video from 4-17](https://video.chemeketa.edu/media/CS+PrinciplesA+Intro+to+Variables+-+Part+2/1_thbj3njq)*
+
 * For more practice mentally simulating variables, check out the Variable Practice worksheet in the Class Files.
+
 * Complete [Code.org](https://studio.code.org/home) Unit 5, Ch 1, Lesson 5, Parts 1-6, 8-20 (You can skip part 7).
 
     Hint: if you are stuck on figuring out the bug in part 6, you can skip ahead to part 8... it will explain the idea.
