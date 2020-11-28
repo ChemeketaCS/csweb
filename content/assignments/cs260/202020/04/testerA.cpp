@@ -31,12 +31,4 @@ int main()
     cout << "Size (expect 7): " << setA.size() << endl
     << "Depth (expect 2): "
     << setA.depth() << endl << endl;
-
-    {
-        MySet<string> setA2(setA);
-
-        cout << "Size of copy (expect 7): " << setA2.size() << endl
-        << "Depth (expect 2): "
-        << setA2.depth() << endl << endl;
-    }
 }
