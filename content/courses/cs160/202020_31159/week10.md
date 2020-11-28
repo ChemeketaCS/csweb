@@ -16,17 +16,29 @@ Upon finishing this learning module, you should be able to:
 
 ## Suggested Pacing
 
-Day 1
-: Start the programming.
+### Second Meeting
 
-Day 2
-: Tackle the Future Computing material.
+**In class:**
 
-Day 3
-: Do the Algorithm of the Week.
+* Future computing
+* Code.org programming intro
 
-Day 4
-: Finish the programming. Take the quiz.
+**Independent:**
+
+* Start programming
+* Future computing reading
+
+### Second Meeting
+
+**In class:**
+
+* Computability
+
+**Independent:**
+
+* Nine Algorithms reading
+* Finish programming
+* Take Quiz
 
 ## Programming
 
