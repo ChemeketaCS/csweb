@@ -124,6 +124,8 @@ attempts to add duplicates.
 
 Your Set should work for any data type that supports the comparison operators (<, > ==).
 Do not write code that expects to be working with a string or any other specific data type.
+
+You are NOT expected to make a self balancing BST.
 {{% /alert %}}
 
 **Print out the number of items (unique addresses) in setA**

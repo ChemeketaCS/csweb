@@ -26,19 +26,14 @@ int main()
     setA.add("pact");
     setA.add("waste");
 
-
-    {
-        MySet<string> setA2(setA);
-
-        cout << "****Remove Largest****" << endl << endl;
-        cout << "Removing Largest  4 times: " << endl;
-        cout << setA2.removeLargest() << endl;
-        cout << "Size : " << setA2.size() << endl;
-        cout << setA2.removeLargest() << endl;
-        cout << "Size : " << setA2.size() << endl;
-        cout << setA2.removeLargest() << endl;
-        cout << "Size : " << setA2.size() << endl;
-        cout << setA2.removeLargest() << endl;
-        cout << "Size : " << setA2.size() << endl;
-    }
+    cout << "****Remove Largest****" << endl << endl;
+    cout << "Removing Largest  4 times: " << endl;
+    cout << setA.removeLargest() << endl;
+    cout << "Size : " << setA.size() << endl;
+    cout << setA.removeLargest() << endl;
+    cout << "Size : " << setA.size() << endl;
+    cout << setA.removeLargest() << endl;
+    cout << "Size : " << setA.size() << endl;
+    cout << setA.removeLargest() << endl;
+    cout << "Size : " << setA.size() << endl;
 }
