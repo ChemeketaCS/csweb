@@ -45,11 +45,13 @@ possible future technology: quantum computing.
 ## Algorithm of the Week: Computability
 
 * Read Ch 10 of Nine Algorithms book. It explores the idea of computability and how we know
-some things are uncomputable (and have since before there were computers!).
+some things are uncomputable (and have since before there were computers!). This video walks
+through the central argument from the chapter:  
+    {{< youtube videoid="P-JFwMQfCQ4" >}}
 
 * The [CS160 Reader - Nine Algorithms Supplement](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/Computability.html)
-has a video that talks through the dilemma
-posed in this chapter (and has a Dr. Suess style poem version of it.
+has a video that briefly recaps the halting problem and has an optional video with more
+information about Turing machines.
 
 ## Finals Week Prep
 
