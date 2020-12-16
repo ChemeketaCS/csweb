@@ -5,6 +5,7 @@ summary: Data Representation, Cryptography, Loops
 
 layout: single
 math: true
+weight: 30
 ---
 
 {{% cs160General %}}

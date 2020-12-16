@@ -6,6 +6,8 @@ linktitle: CS161
 #force this index page to act like a normal page
 layout: single
 
+weight: 202020
+
 ---
 
 These pages contain curriculum resources for CS161.

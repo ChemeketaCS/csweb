@@ -3,6 +3,7 @@ title: Catapult Calculator
 summary: Assignment covering standard math functions. 
 
 math: true
+weight: 30
 ---
 
 {{% cs161General %}}

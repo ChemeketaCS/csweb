@@ -3,6 +3,7 @@ title: Box Functions
 summary: Assignment covering functions and decomposition
 
 math: true
+weight: 60
 ---
 
 {{% cs161General %}}
@@ -152,12 +153,12 @@ cin >> x;
 
 // If at first you don't succeed...
 while (cin.fail()) {
-	cin.clear(); // Clear any errors so cin starts working.
-	cin.ignore(INT_MAX, '\n'); // Flush any existing (bad) input.
+  cin.clear(); // Clear any errors so cin starts working.
+  cin.ignore(INT_MAX, '\n'); // Flush any existing (bad) input.
 
-	// ...try, try again.
-	cout << "Enter a number:";
-	cin >> x;
+  // ...try, try again.
+  cout << "Enter a number:";
+  cin >> x;
 }
 
 // Now x has valid input.

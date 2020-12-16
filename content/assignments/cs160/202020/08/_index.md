@@ -4,6 +4,7 @@ title: Assignment 8
 summary: Algorithmic Efficiency, Pattern Recognition, and Loops
 
 layout: single
+weight: 80
 ---
 
 {{% cs160General %}}

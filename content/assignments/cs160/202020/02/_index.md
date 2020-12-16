@@ -4,6 +4,7 @@ title: Assignment 2
 summary: Binary, Functions, PageRank
 
 layout: single
+weight: 20
 ---
 
 {{% cs160General %}}

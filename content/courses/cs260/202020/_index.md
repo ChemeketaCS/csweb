@@ -5,7 +5,7 @@ summary: Fall 2020
 
 #force this index page to act like a normal page
 layout: single
-
+weight: 202020
 ---
 
 These pages contain curriculum resources for CS260. They are designed to supplement the text book,

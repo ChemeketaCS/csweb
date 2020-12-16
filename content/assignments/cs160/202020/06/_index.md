@@ -4,6 +4,7 @@ title: Assignment 6
 summary: Programming Languages, Compression, and Strings
 
 layout: single
+weight: 60
 ---
 
 {{% cs160General %}}

@@ -5,6 +5,7 @@ summary: Computing Fields and History, Indexing, Programming
 
 #Force layout as if no other content in folder
 layout: single
+weight: 10
 ---
 
 {{% cs160General %}}

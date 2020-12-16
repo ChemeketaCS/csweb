@@ -1,6 +1,7 @@
 ---
 title: Future Value
 summary: Assignment covering loops
+weight: 40
 ---
 
 {{% cs161General %}}

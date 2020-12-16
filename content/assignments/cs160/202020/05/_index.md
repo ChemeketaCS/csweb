@@ -5,6 +5,7 @@ summary: Architecture, Machine Code, and Errors
 
 layout: single
 math: true
+weight: 50
 ---
 
 {{% cs160General %}}

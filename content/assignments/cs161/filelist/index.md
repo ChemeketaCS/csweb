@@ -1,6 +1,7 @@
 ---
 title: File List Analysis
 summary: Assignment covering file I/O and string functions
+weight: 50
 ---
 
 {{% cs161General %}}
@@ -23,7 +24,7 @@ URL (web address), an MD5 hash identifying the image, and a file size in
 bytes. Here is what a line might look like:
 
 ```
-http://smugmug.com/thumbs/Lacus.jpeg?170x330	44cf8edbd53cf75be874604b39a7694c	21990
+http://smugmug.com/thumbs/Lacus.jpeg?170x330  44cf8edbd53cf75be874604b39a7694c  21990
 ```
 
 Note that the URL consists of `http://smugmug.com/thumbs/` followed by a
@@ -54,13 +55,13 @@ place. It should then display the total size in kB of the images.
 ### Sample output
 
 {{% sample_run %}}
-Name				Type	Width	Height	Size
-Lacus.jpeg			jpeg	170	330	21.5
-Vel.jpeg			jpeg	300	220	10.4
-ElementumNullam.png		png	270	280	58.6
-MontesNasceturRidiculus.jpeg	jpeg	180	220	101.5
-AtLorem.jpeg			jpeg	200	240	21.6
-Total Size:						213.5
+Name        Type  Width  Height  Size
+Lacus.jpeg      jpeg  170  330  21.5
+Vel.jpeg      jpeg  300  220  10.4
+ElementumNullam.png    png  270  280  58.6
+MontesNasceturRidiculus.jpeg  jpeg  180  220  101.5
+AtLorem.jpeg      jpeg  200  240  21.6
+Total Size:            213.5
 {{% /sample_run %}}
 
 ### Hints

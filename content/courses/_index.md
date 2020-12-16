@@ -6,4 +6,3 @@ header:
   caption: ""
   image: ""
 ---
-

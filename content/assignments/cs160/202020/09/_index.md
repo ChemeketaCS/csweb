@@ -4,6 +4,7 @@ title: Assignment 9
 summary: Operating Systems, Parallel Processing, Databases
 
 layout: single
+weight: 90
 ---
 
 {{% cs160General %}}

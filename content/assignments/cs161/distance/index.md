@@ -1,9 +1,11 @@
 ---
 # Page metadata.
-title: Distance and Power
+title: Distance and Throw Height
 summary: Assignment covering basic IO, data types, and math.
 
 math: true
+
+weight: 10
 ---
 
 {{% cs161General %}}
@@ -13,80 +15,75 @@ math: true
 Upon completion of this assignment the student will have a working C++ development environment and
 be able to write a program that does simple numeric calculations and console input and output.
 
-## Problem 1: Digit Check
+## Problem 1: Distance Translator
 
 *Submit file: assign1p1.cpp*
 
-Write a program that prompts the user for a four digit integer and prints out the individual digits
-that make up the number.You do NOT need to worry about bad input – assume the user always enters a
-four digit number. (If you already know about strings, you may not use them… you must read in the
-input as an int)
+Rather than write 30 inches, we could express the same distance as "2 feet, 6 inches."
+And rather than say 100 inches, we could say "2 yards, 2 feet, and 4 inches."
 
-{{% alert info %}}
-**Hint**  
-This is closer to the "Show current time" example than it looks… Say you start with 8237.
-What do you get if you % by 10? What do you get if you / by 10?
-{{% /alert %}}
+Write a program that prompts the user for a number (integer) of inches and then
+expresses that distance in terms of a combination of miles, yards, feet and inches.
 
-### Sample run1: (user input in red)
+These samples show what your program should do for the inputs 87 and 100000:
+
+### Sample run 1: (user input in red)
 
 {{% sample_run %}}
-Enter a number: `8237`
-7 one(s)
-3 ten(s)
-2 hundred(s)
-8 thousand(s)
+Enter the number of inches: `87`
+0 mile(s)
+2 yards(s)
+1 foot/feet
+3 inch(es)
 {{% /sample_run %}}
 
-### Sample run2: (user input in red)
+### Sample run 2: (user input in red)
 
 {{% sample_run %}}
-Enter a number: `1000`
-0 one(s)
-0 ten(s)
-0 hundred(s)
-1 thousand(s)
+Enter the number of inches: `100000`
+1 mile(s)
+1017 yards(s)
+2 foot/feet
+4 inch(es)
 {{% /sample_run %}}
 
 {{% alert warning %}}  
 That is two separate runs of the program. Each run should only ask for one input.
 {{% /alert %}}
 
-
-## Problem 2: Triangle
+## Problem 2: Throw Height
 
 *Submit file: assign1p2.cpp*
 
-Write a program that reads in the coordinates of the three vertices of a triangle and prints
-out the area of the triangle. You should read the 
+The height **h** in $meters$ an object will reach if it is thrown straight up depends on its
+initial velocity **V** in $meters/second$ and the force of gravity **g** in $meters/second^2$.
+**g** varies depending on what planet/body you are on. On Earth, g is $9.8 m/s^2$;
+on Mars, $3.7m/s^2$; on the Moon, it is $1.6 m/s^2$.
 
-To calculate the area of the triangle, use Heron's formula:
+Write a program that asks the user for an initial velocity and the force of gravity
+and uses this formula to calculate the height a thrown object will reach.
 
-$A = \sqrt{(s(s-a)(s-b)(s-c))}$
+$h = \frac{1}{2} \cdot \frac{V^2}{g}$
 
-Where a, b, and c are the lengths of the sides and s is the semi perimeter: (a + b + c)/2.
+You do NOT have to worry about how many decimal places your answer prints to.
+
+### Sample run 1: (user input in red)
+
+{{% sample_run %}}
+Enter the velocity in m/s: `20`
+Enter a value for g in m/s^2: `9.8`
+It will reach 20.4082 meters
+{{% /sample_run %}}
+
+### Sample run 2: (user input in red)
+
+{{% sample_run %}}
+Enter the velocity in m/s: `12.5`
+Enter a value for g in m/s^2: `24.8`
+It will reach 3.1502 meters
+{{% /sample_run %}}
 
 {{% alert info %}}
-**Hint**  
-You can do square root as the 0.5 power: `pow(x, 0.5)` or by using the sqrt function: `sqrt(x)`.
-Either one requires that you include `<cmath>`.
+**Hint:** If you want to use the **pow** function to square **V**, you will need to
+put ***#include \<cmath>*** near the top of your file.
 {{% /alert %}}
-
-### Sample run: (user input in red)
-
-*The given input represents a point at 1, 1 another at 4, 1 and a third at 1, 5.*
-{{% sample_run %}}
-Enter x y for point 1: `1 1`
-Enter x y for point 2: `4 1`
-Enter x y for point 3: `1 5`
-The area of the triangle is 6
-{{% /sample_run %}}
-
-### Sample run2: (user input in red)
-
-{{% sample_run %}}
-Enter x y for point 1: `-3 0.5`
-Enter x y for point 2: `12 2`
-Enter x y for point 3: `1.5 3`
-The area of the triangle is 15.375
-{{% /sample_run %}}

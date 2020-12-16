@@ -8,7 +8,14 @@
   {{ end }}
 
   {{ $paginator := .Paginate .Data.Pages }}
-  {{ range $paginator.Pages.ByDate.Reverse }}
+
+  {{ $pageList := ($paginator.Pages.ByWeight)  }}
+
+  {{ if .Params.orderDesc }}
+  {{ $pageList = ($paginator.Pages.ByWeight).Reverse }}
+  {{ end }}
+
+  {{ range $pageList }}
     {{ $link := .RelPermalink }}
     {{ $target := "" }}
     {{ with .Params.external_link }}

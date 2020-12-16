@@ -4,6 +4,7 @@ title: Assignment 7
 summary: Searching and Sorting, AI Search, 
 
 layout: single
+weight: 70
 ---
 
 {{% cs160General %}}

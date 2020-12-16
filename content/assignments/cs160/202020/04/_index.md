@@ -5,6 +5,7 @@ summary: Circuits, Asymmetric Cryptography
 
 layout: single
 math: true
+weight: 40
 ---
 
 {{% cs160General %}}

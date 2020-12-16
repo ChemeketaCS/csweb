@@ -5,6 +5,7 @@ summary: Future and limits of computing
 
 math: true
 layout: single
+weight: 100
 ---
 
 {{% cs160General %}}

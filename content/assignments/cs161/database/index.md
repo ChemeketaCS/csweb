@@ -1,6 +1,7 @@
 ---
 title: Database
 summary: Assignment covering structs
+weight: 90
 ---
 
 {{% cs161General %}}

@@ -1,6 +1,8 @@
 ---
 title: Plane Planner
 summary: Assignment covering multidimensional arrays
+
+weight: 80
 ---
 
 {{% cs161General %}}

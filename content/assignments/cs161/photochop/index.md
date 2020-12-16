@@ -1,6 +1,7 @@
 ---
 title: PhotoChop
 summary: Experiment with image manipulation in an established codebase
+weight: 95
 ---
 
 {{% cs161General %}}
@@ -58,9 +59,9 @@ the code we want such a value.
 
 ```
 struct Pixel {
-	byte red;
-	byte green;
-	byte blue;
+  byte red;
+  byte green;
+  byte blue;
 };
 ```
 
@@ -77,7 +78,7 @@ hardcoded size, in this case 128×128 pixels.
 
 ```
 struct Image {
-	Pixel data[IMG_HEIGHT][IMG_WIDTH];
+  Pixel data[IMG_HEIGHT][IMG_WIDTH];
 };
 ```
 
@@ -93,7 +94,7 @@ results of any work that you do by passing your image, a string and the
 
 ## Function ideas
 
-Make two or more functions that create or modify an existing image using the PhotoChop code. You must make your functions from different categories listed below (for example, you can’t do two “Create New Image” functions). Here are some ideas, but feel free to invent your ideas or modify these suggestions.
+Make two or more functions that create or modify an existing image using the PhotoChop code. You must make your functions from different categories listed below (for example, you can't do two "Create New Image" functions). Here are some ideas, but feel free to invent your ideas or modify these suggestions.
 
 ### Drawing a pattern (e.g. `makeAqua` and `makeGradient`)
 
@@ -113,7 +114,7 @@ Blend from one color to another.
 
 #### Circle gradient
 
-Calculate each pixel's RGB values based on the distance from the center of the image. Set each pixel to a gray value (same value for all three channels) based on pixel’s distance from center. 
+Calculate each pixel's RGB values based on the distance from the center of the image. Set each pixel to a gray value (same value for all three channels) based on pixel's distance from center. 
 
 ![](circle-gradient.png)
 
@@ -171,7 +172,7 @@ Make a rotation that goes the opposite direction from the provided `rotate`.
 
 #### Sharpen
 
-Multiply the current pixel’s RGB values by 5 and neighboring values by -1. Add them all up–this is the new value.  Subtracting the neighboring pixels will enhance any color differences, making color transitions look more abrupt and thus “sharper”
+Multiply the current pixel's RGB values by 5 and neighboring values by -1. Add them all up–this is the new value.  Subtracting the neighboring pixels will enhance any color differences, making color transitions look more abrupt and thus "sharper"
 
 Using 9 and -2 makes for a stronger effect. Just make sure the multipliers for the 5 cells add to 1.
 

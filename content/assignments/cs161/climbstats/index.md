@@ -1,6 +1,7 @@
 ---
 title: Climb Statistics
 summary: Assignment covering arrays
+weight: 70
 ---
 
 {{% cs161General %}}
