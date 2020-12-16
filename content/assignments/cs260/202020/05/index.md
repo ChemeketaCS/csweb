@@ -175,7 +175,7 @@ your work, call the number of distinct words **n** and the number of total words
 
 ## Part 4
 
-(15% of grade)
+(10% of grade)
 
 Implement the findWordPairs function. A call like:  
 `map.findWordPairs("great", "expectations");`  
