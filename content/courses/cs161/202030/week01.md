@@ -55,13 +55,19 @@ memorizing every detail.
 ## Getting Started With QT Creator
 
 Start by [installing and setting up Qt Creator][qtinstall].
-The video below demonstrates how and explains what you are doing;
-you will need the [QtProject][qtproject] files mentioned in the video.
+The video below demonstrates the last part of the installation - placing
+the [QtProject][qtproject] folder in the correct location as well as how to
+use QTCRreator to make a build a project:
 
 [qtinstall]:https://docs.google.com/document/d/1AMvLP1THLpWVqYWTAQeBTeCoX0kXKRp6-aXfeSkNVag/edit#heading=h.rihp46pqexgr
 [qtproject]:http://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip
 
-{{< youtube videoid="IouvNW1N4cM" title="QTCreator Basics" >}}
+{{< youtube videoid="OMG5vfI1CXA" title="QTCreator Basics" >}}
+
+This video explains how to make use of course code samples:
+
+{{< youtube videoid="3uHKR4rPeYI" title="Using Samples" >}}
+
 
 {{% alert info %}}
 The videos here may show versions of the website or QTCreator that don't exactly match
@@ -83,14 +89,6 @@ don't know what you are doing, you are going to have a harder time and be more l
 turn in code that does not work correctly. Start out with QTCreator and experiment with
 other tools as you get more experience.
 {{% /alert %}}
-
-This video introduces how to work with projects and rename code files safely:
-
-{{< youtube videoid="HE1UonRCt7M" title="Renaming Files" >}}
-
-This video explains how to make use of course code samples:
-
-{{< youtube videoid="LyraLTwGpzw" title="Using Samples" >}}
 
 ## C++ & Development Basics
 
