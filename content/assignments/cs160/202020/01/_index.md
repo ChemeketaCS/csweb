@@ -41,7 +41,7 @@ Complete the programming tutorials that were assigned this week. This work will 
 **Practice** grade.
 
 {{% alert warning %}}
-You will not recieve credit for this work if your username in Code.org is not set to your
+You will not receive credit for this work if your username in Code.org is not set to your
 my.chemeketa username - if you are bsmith12@my.chemeketa.edu your Code.org name should be
 bsmith12.
 {{% /alert %}}
@@ -98,15 +98,15 @@ the computers of that generation.
 
     | Word | Index |
     | --- | --- |
-    | A | 1-2  1-8  1-12  2-8  3-15 |
-    | bit | 1-7  2-10 |
-    | computer | 1-6 1-19 2-16  3-4 |
-    | dog | 2-2  2-9  3-16 |
-    | man | 1-3  3-2 3-11 |
-    | &lt;titleStart> | 1-1  2-1  3-1 |
-    | &lt;titleEnd> | 1-4  2-6  3-5 |
-    | &lt;bodyStart> | 1-5  2-7  3-6 |
-    | &lt;bodyEnd> | 1-20  2-17  3-18 |
+    | A | 1-2,  1-8,  1-12,  2-8,  3-15 |
+    | bit | 1-7,  2-10 |
+    | computer | 1-6, 1-19, 2-16,  3-4 |
+    | dog | 2-2,  2-9,  3-16 |
+    | man | 1-3,  3-2, 3-11 |
+    | \<titleStart> | 1-1,  2-1,  3-1 |
+    | \<titleEnd> | 1-4,  2-6,  3-5 |
+    | \<bodyStart> | 1-5,  2-7,  3-6 |
+    | \<bodyEnd> | 1-20,  2-17,  3-18 |
 
     Use it to answer these questions:
 
@@ -121,6 +121,6 @@ no longer be able to use it to do?
 
     | Word | Index |
     | --- | --- |
-    | A | 1 2 3 |
-    | bit | 1 2|
+    | A | 1, 2, 3 |
+    | bit | 1, 2|
     | ... | ... |
