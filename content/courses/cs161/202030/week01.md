@@ -92,21 +92,28 @@ other tools as you get more experience.
 
 ## C++ & Development Basics
 
-Work your way through the first parts of Ch 2. This video gives some advice about using cin to take
-input from the user:
+Work your way through the rest of Ch 1. This video has a quick recap to what the parts of a
+very basic program do:  
+{{< youtube videoid="sFV8NGpYzQ4" title="Hello World" >}}
 
-{{< youtube videoid="9RxOgpTQ5ls" title="Inputs" >}}
+Read 2.4-2.6 and watch this video:
+{{< youtube videoid="sn3G5sdJsQE" title="Variables" >}}
 
-Do the MentalCode worksheet to practice using the debugger and test your understanding of how math
-works in C++(See Elearn for the Class Files link to access this and future practice
-activities and other resources) . The debugger is a CRITICAL tool
-for learning programming. It is what lets you look at what your code is doing step by step. These
-two videos introduce it and talk about some of the odder things you will see math wise while
-programming:
-
+The debugger is a CRITICAL tool for learning programming. It is what lets you look at what
+your code is doing step by step. This video introduces it:
 {{< youtube videoid="JRqF0YhhMbg" title="Debugging" >}}
 
+Do the **MentalCode** worksheet to practice using the debugger and test your understanding of how math
+works in C++ (See the **Files** link in Elearn/Canvas to access this and future worksheets). There
+is a key you can use to check your work on the front of the sheet. The back you should be
+checking with the debugger!
+
+Once you are done with it, watch this video about some of weird answers:
 {{< youtube videoid="Q0oeZZ411z0" title="Math Weirdness" >}}
+
+Now you should loop back and read 2.1-2.3 if you haven't. This video reviews key bits about getting
+input:
+{{< youtube videoid="9RxOgpTQ5ls" title="Inputs" >}}
 
 Start the assignment as you finish Ch 2. This video talks through that program to show how you
 should approach building programs. One step at a time:
