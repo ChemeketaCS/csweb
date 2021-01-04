@@ -135,7 +135,7 @@ example, to find the first line of code that goes wrong.
 
 ## Learning from example work
 
-When you are not interacting with another person, but you come across an
+When you are not interacting with another person, but you come across a
 source that seems to offer a solution, you face yet another challenge.
 How can you use it without having the interactivity to control what you
 are told, or benefit from someone who can guide you without giving away
