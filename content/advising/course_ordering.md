@@ -24,16 +24,17 @@ CS161/162/260 are offered online in a sequence that runs Fall/Winter/Spring.
 
 ## Ordering
 
-Computer Science and Math courses must be taken in the order shown below:
+Computer Science and Math courses must be taken in the order shown below. A **?**
+indicates the course may or may not be offered in that term.
 
 ```mermaid
 graph TD
 
   subgraph CS
-  CS160([CS160<div class='terms'>All</div>])-->CS161([CS161<div class='terms'>F W</div>]);
-  CS161-->CS162([CS162<div class='terms'>W Sp]);
+  CS160([CS160<div class='terms'>All</div>])-->CS161([CS161<div class='terms'>F W Sp?</div>]);
+  CS161-->CS162([CS162<div class='terms'>F? W Sp]);
   CS162-->CS260([CS260<div class='terms'>F Sp</div>]);
-  CS161-->CS271([CS271<div class='terms'>W Sp</div>]);
+  CS161-->CS271([CS271<div class='terms'>W Sp?</div>]);
   CS162-->CS290([CS290<div class='terms'>Sp</div>]);
   end
   MTH111([MTH111<div class='terms'>All</div>])-->MTH112([MTH112<div class='terms'>All</div>]);
