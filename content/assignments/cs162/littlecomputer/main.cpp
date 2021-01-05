@@ -1,7 +1,7 @@
 /**
   * @file main.cpp
   * @author Andrew Scholer
-  * @brief Main function for the LittleComputer project
+  * @brief Main function for the LittlePersonComputer project
   */
 #include <iostream>
 #include <iomanip>
@@ -9,7 +9,7 @@
 
 using namespace std;
 
-#include "LittleComputer.h"
+#include "LittlePersonComputer.h"
 
 int main() { 
     //Program that adds 10 to itself and prints answer
@@ -18,14 +18,15 @@ int main() {
 
     //Build a computer with no program
     cout << "Empty computer:" << endl;
-    LittleComputer computer1;
+    LittlePersonComputer computer1;
     computer1.printState();
+
     //Add a program
     cout << "Program Loaded:" << endl;
     computer1.loadProgram(program1, program1Length);
     computer1.printState();
 	
-	//Check getMemoryAt
+    //Check getMemoryAt
     if(computer1.getMemoryAt(0) != 504)
         cout << "ERROR - memory 0 should be 504" << endl;
     if(computer1.getMemoryAt(4) != 10)
@@ -48,15 +49,15 @@ int main() {
 	cout << "----------------------------------------------------";
 	
 
-    //Build a LC with the same simple program, let it run until end
+    //Build a computer with the same simple program, let it run until end
     cout << "New computer:" << endl;
-    LittleComputer computer2(program1, program1Length);
+    LittlePersonComputer computer2(program1, program1Length);
     computer2.printState();
     cout << "Running full program:" << endl;
     int timeout = 0;
     while (!computer2.isHalted()) {
         computer2.step();
-		//computer2.printState();  //You may want to turn this on to view state while it runs
+        //computer2.printState();  //You may want to turn this on to view state while it runs
         timeout++;
         if(timeout == 20) {
             cout << "Error, program ran 20 steps... killing it." << endl;
