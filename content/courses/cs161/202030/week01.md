@@ -101,7 +101,7 @@ Read 2.4-2.6 and watch this video:
 
 The debugger is a CRITICAL tool for learning programming. It is what lets you look at what
 your code is doing step by step. This video introduces it:
-{{< youtube videoid="JRqF0YhhMbg" title="Debugging" >}}
+{{< youtube videoid="lRW1-gXp5yU" title="Debugging" >}}
 
 Do the **MentalCode** worksheet to practice using the debugger and test your understanding of how math
 works in C++ (See the **Files** link in Elearn/Canvas to access this and future worksheets). There
