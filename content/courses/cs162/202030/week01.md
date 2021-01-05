@@ -116,6 +116,8 @@ Read 9.10-9.11 and watch these videos:
 {{< youtube videoid="BwC--bd3VuA" title="Documentation" >}}
 {{< youtube videoid="P_XCKo0nP6o" title="WTH is UML?" >}}
 
+You can use [Violet](http://violet.sourceforge.net/) to draw your own UML diagrams.
+
 Complete this week's assignment—start early so that you have time to
 get assistance if you need it!
 

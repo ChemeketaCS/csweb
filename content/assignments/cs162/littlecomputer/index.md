@@ -1,6 +1,6 @@
 ---
 # Page metadata.
-title: Little Computer
+title: Little Person Computer
 summary:  Class definition and object use
 
 ---
@@ -13,23 +13,23 @@ Upon completion of this lab the student will be able to create classes to repres
 
 ## Requirements
 
-*Submit files: LittlePersonComputer.h / LittlePersonComputer.cpp*
+*Submit files: LittlePersonComputer.h, LittlePersonComputer.cpp*
 
 For full credit your code should compile and run with this [main.cpp file](main.cpp). You
 will not turn the file in, I will use my own copy to test your code.
 
 The main.cpp has only a very simple program. To test more complex behaviors,
-you can use the programs in [this text filefile](programs.txt). A working program
+you can use the code snippets from [this text file](programs.txt). A working program
 should be able to run them all (expected results are listed in the file).
 
 {{% alert warning %}}
-Since I will use my own version of main.cpp, do not modify it to match your LittleComputer!
+Since I will use my own version of main.cpp, do not modify it to match your LittlePersonComputer!
 You can/should modify main.cpp to test out your code but make sure my version still works
 with your program.
 {{% /alert %}}
 
 I should be able to build your code with:  
-`g++ -std=c++11 LittleComputer.cpp main.cpp -o program.exe`
+`g++ -std=c++11 LittlePersonComputer.cpp main.cpp -o program.exe`
 
 ## Overview
 
@@ -38,13 +38,13 @@ For this assignment, you are going to implement a version of the Little Man Comp
 demonstrations/read more about it in the
 [CS160Reader](http://computerscience.chemeketa.edu/cs160Reader/ProgrammingLanguages/LittleComputer1.html)).
 
-You will implement the class **LittleComputer** shown  in the UML diagram below in the files
-LittleComputer.h and LittleComputer.cpp. Your class will store an array representing the main memory
+You will implement the class **LittlePersonComputer** shown in the UML diagram below in the files
+LittlePersonComputer.h and LittlePersonComputer.cpp. Your class will store an array representing the main memory
 of the computer and values representing the program counter and accumulator. It will also provide
 functions to manipulate this state by doing things like loading a program or running one instruction,
 etc...
 
-{{< figure src="LittleComputer.png" alt="LittleComputer Class" >}}
+{{< figure src="LittlePersonComputer.png" alt="LittlePersonComputer Class" >}}
 
 ## Implementation Details
 
@@ -122,8 +122,6 @@ Returns true if the next instruction to be run is 0, otherwise false
 Runs the instruction according to the list of machine codes shown below.
 After running any instruction except a branch or halt, the program counter should automatically advance.
 
-The pro
-
 Here are some tips:
 
 * 000 is the same as 0 - Halt. Nothing happens when this is run.
@@ -135,7 +133,7 @@ Here are some tips:
 * **branch always** changes the PC to hold the value in XX
 * The other **branches** (700/800) test the value in the accumulator and change the **PC** to xx (if condition is true) OR advance the PC by 1 (if condition is false).
 
-{{< figure src="LittleComputerInstructions.png" title="LittleComputer instruction guide" >}}
+{{< figure src="LittlePersonComputerInstructions.png" title="LittlePersonComputer instruction guide" >}}
 
 ## Advice
 
@@ -156,7 +154,7 @@ in your code.
 ## Extension Ideas
 
 Looking for something else to do? Try one of these extensions. If you do, make sure your
-LittleComputer still works as expected on the provided code. If in doubt, submit an
+LittlePersonComputer still works as expected on the provided code. If in doubt, submit an
 unmodified program and show me your extended version in class/office hours for feedback.
 
 ### Add a run until halts
