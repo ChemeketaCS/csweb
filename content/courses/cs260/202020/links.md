@@ -22,7 +22,7 @@ You will likely still want to use QTCreator or another IDE for editing/debugging
 
 [Qt Creator Setup Instructions](https://docs.google.com/document/d/1AMvLP1THLpWVqYWTAQeBTeCoX0kXKRp6-aXfeSkNVag/)
 
-[QtProject settings folder](http://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
+[QtProject settings folder](https://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
 
 ### GIT
 

@@ -85,7 +85,7 @@ On Mac, select the highest numbered version of clang
 ## QTProject Template Setup
 
 QTCreator stores its preferences in a folder called **QTProject**.  To install the Chemeketa project templates and set some important preferences, grab this compressed QTProject folder:
-[http://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip](http://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
+[https://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip](https://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
 
 Then unzip the folder. You should end up with a folder called **QtProject** with this inside it:
 

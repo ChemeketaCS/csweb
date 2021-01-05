@@ -15,7 +15,7 @@ weight: 8
 This corresponds to the third edition of the book, so there will be some slight differences. However, it is still a useful resource for sample code and practicing for quizzes.
 
 [Qt Creator Setup Instructions](https://docs.google.com/document/d/1AMvLP1THLpWVqYWTAQeBTeCoX0kXKRp6-aXfeSkNVag/edit#heading=h.rihp46pqexgr) \
-[QtProject settings folder](http://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
+[QtProject settings folder](https://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
 
 ## C++ References
 
