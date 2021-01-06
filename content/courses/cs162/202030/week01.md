@@ -126,7 +126,7 @@ get assistance if you need it!
 Source control is going to take you a while to master—don't worry
 about doing it all this week. Watch the videos and at least work through
 part 1 of this [Git Tutorial](https://docs.google.com/document/d/1S8dMsT6B2B7jW2Z0OWoV6TT8GOlYkDa9Bw0mhrUTuSU/edit?usp=sharing%22), which will walk you through making your
-own close of the CS162 repository.
+own clone of the CS162 repository.
 
 These videos introduce the basic idea behind source control, what git is, and how we will use it:
 
