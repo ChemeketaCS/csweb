@@ -32,7 +32,7 @@ These samples show what your program should do for the inputs 87 and 100000:
 {{% sample_run %}}
 Enter the number of inches: `87`
 0 mile(s)
-2 yards(s)
+2 yard(s)
 1 foot/feet
 3 inch(es)
 {{% /sample_run %}}
@@ -42,7 +42,7 @@ Enter the number of inches: `87`
 {{% sample_run %}}
 Enter the number of inches: `100000`
 1 mile(s)
-1017 yards(s)
+1017 yard(s)
 2 foot/feet
 4 inch(es)
 {{% /sample_run %}}
