@@ -393,7 +393,7 @@ together in a single package called the Arithmetic Logic Unit (ALU).
 (I have never had it disambiguated to my satisfaction whether the Unit is
 of both Arithmetic and Logic, or if it is to be thought of as a Unit of
 an Arithmetic sort of Logic.  It bothers me because the stress should be
-Arith*met*ic in the first case, and A*rith*metic in the second case, so
+A*rith*metic in the first case, and Arith*met*ic in the second case, so
 I don't even know how to pronounce this very important concept. You will
 hear both, and it doesn't bother other people as much as it bothers me.)
 
