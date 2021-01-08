@@ -115,8 +115,9 @@ Now you should loop back and read 2.1-2.3 if you haven't. This video reviews key
 input:
 {{< youtube videoid="9RxOgpTQ5ls" title="Inputs" >}}
 
-Start the assignment as you finish Ch 2. This video talks through that program to show how you
-should approach building programs. One step at a time:
+Start the assignment as you finish 2.8-2.10 and 2.14 and 15. This video talks through
+building the time program from 2.10 to show how you
+should approach building programs... one step at a time:
 
 {{< youtube videoid="Pg0RWChqu5k" title="Time" >}}
 

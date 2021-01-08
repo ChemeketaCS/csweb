@@ -12,62 +12,40 @@ Upon finishing this learning module, you should be able to:
 * Use relational operators to construct simple boolean statements
 * Write a program using conditional expressions
 
-## Deadlines This Week
+## Schedule Checklist
 
-* Saturday 11:59PM - CppLab Conditionals 1 (see below)
-* Saturday 11:59PM - CppLab Conditionals 2
-
-## Suggested Schedule
-
-### Monday
+### Day 1
 
 * Type Conversions, other Operators
-* Read 2.7 and 2.11-2.16
+* Read 2.7, 2.11-13, and 2.16
 * Do MentalCodeOpsCasts WS
 
-### Tuesday
+### Day 2
 
 * Booleans and If
 * Read Ch 3.1-3.4
 * CppLab conditionals 1
 
-### Wednesday
+### Day 3
 
 * Nested Ifs
 * Conditional Operators
 * Read Ch 3.5-3.8
 * CppLab conditionals 2
 
-### Thursday
+### Day 4
 
 * Boolean Operations/Switch
 * Do BooleanPractice WS
 * Read Ch 3.10-3.11, 3.13-3.16
 
-## Online Activity Outline
+## Data Conversions and Other Operators
 
-### Data Conversions
-
-* Read 2.7 and 2.11-2.16. Do the MentalCodeOpsCasts worksheet (see
+* Read the last parts of chapter 2. Do the MentalCodeOpsCasts worksheet (see
   Classroom files link). Like last week, try doing in your head, then
   check it using the debugger.
 
-* Finish reading Ch 2. Ch 2.14 and 2.15 have some sample programs. As
-  you read them, focus on the problem solving process described. If
-  you were writing one of these programs yourself, you should do the
-  same thing, but then write the code a few lines at a time and test
-  them as you go (printing things out or with the debugger).  
-  Ch 2.16 has some quick tips on common mistakes - learning from other
-  people's mistakes is a lot less painful than learning from your
-  own\!
-
-### Conditionals
-
-* Read Ch 2.11-2.13. Do the MentalCodeOpsCasts worksheet (see
-  Classroom files link). Like last week, try doing in your head, then
-  check it using the debugger.
-
-* Finish reading 2.15-2.16.
+## Conditionals
 
 * Read Ch 3.1-3.4. This video introduces some of the key concepts:  
 
@@ -75,8 +53,10 @@ Upon finishing this learning module, you should be able to:
 
 * Do Conditionals 1 CPPLab. There is a link to CPPLab at the top of
   this page. Your username is the same as your Chemeketa username.
-  Initial password is "changeme" without quotes. You can change it on
-  the login screen. CPPLab is designed to give you the practice you
+  Initial password is "**changeme**" without quotes. You can change it on
+  the login screen.  
+  
+  CPPLab is designed to give you the practice you
   need to really learn how to program. Some of the problems are easy,
   some are hard. Each assignment is scored on a generous curve - you
   should make sure to do some work on each one but not panic if every
@@ -115,7 +95,7 @@ Upon finishing this learning module, you should be able to:
 * Do the Boolean Practice worksheet (see Classroom slides/examples
   link below for WS and key).
 
-* Do the [assignment](/assignments/cs161/distance/)
+* Do the assignment.
 
 ## Extra Info
 
