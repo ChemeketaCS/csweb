@@ -4,6 +4,7 @@ summary: Assignment covering standard math functions.
 
 math: true
 weight: 30
+#last used 202020
 ---
 
 {{% cs161General %}}
