@@ -509,7 +509,7 @@ the symbol for NOT:
 ![An OR gate with its third input negated with a bubble](March.png)
 
 We will need one such subcircuit for each of the 7 rows in the truth table
-with an output of 1. To put them together, think of DNF as corresponding
+with an ouput of 1. To put them together, think of DNF as corresponding
 to whitelisting. We have made a list of all the guests we want to let
 in to our party, and if someone shows up at the gate, we will let them
 through if they are the first person on the list, or the second person
