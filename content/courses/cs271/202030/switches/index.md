@@ -27,8 +27,8 @@ inverse, the NOT function, also works in this way.
 
 | switch | light |
 | --- | --- |
-| 0 | 0 |
-| 1 | 1 |
+| 0 | 1 |
+| 1 | 0 |
 
 However, I feel strongly that “down” should correspond to “off”,
 so I prefer the first arrangement.
