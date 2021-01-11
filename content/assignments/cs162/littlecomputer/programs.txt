@@ -30,7 +30,7 @@ int program2Length = 7;
  */
  //                  0    1    2    3    4    5    6   7  8
  int program3[] = { 901, 704, 507, 605, 508, 902, 000, 0, 1 };
-int program3Length = 7;
+int program3Length = 9;
 //Note : you can test 8XX instruction by changing instruction 1 to 804
 //New expected output is 1 for any input >= 0, 0 for any negative input
 
