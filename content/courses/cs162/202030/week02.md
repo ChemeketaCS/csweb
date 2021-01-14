@@ -41,7 +41,7 @@ weight: 20
 
 ### Day 3
 
--   Read 10.8 and - learncpp.com Ch 10.1/10.2 for Composition
+-   Read 10.8 and - learncpp.com Ch 16.1/16.2 for Composition
 -   Read 10.7, 10.11 - OODesign
 -   CPPLab - Composition
 
@@ -117,7 +117,7 @@ area thousands of times per second) should we worry about explicitly
 storing the calculated value.
 
 Read 10.8 about Composition. I think the treatment there is a bit weak, so I also recommend reading
-[learncpp.com](http://www.learncpp.com/) Ch 10.1/10.2 about Composition.
+[learncpp.com](http://www.learncpp.com/) Ch 16.1/16.2 about Composition.
 
 This video walks through a sample of using composition.
 
@@ -161,4 +161,4 @@ your own CS162 repository and add some files to it.
 ### Learncpp.com
 
 This online tutorial covers *some* of the same ground as the Liang readings:
-[LearnCpp.com chapters 8.10-8.11, 10.1-10.2](http://www.learncpp.com/)
+[LearnCpp.com chapters 7.12, 16.1-16.2](http://www.learncpp.com/)
