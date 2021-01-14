@@ -35,7 +35,7 @@ tasks = [
                 'exe': 'one.exe',
             }),
             Run({
-                'input': """10000""",
+                'input': """100000""",
                 'expected_output': """1 mile(s)
 1017 yard(s)
 2 foot/feet
