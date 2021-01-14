@@ -55,6 +55,13 @@ sliding [paper-and-wire NAND gate].
 
   [paper-and-wire NAND gate]: http://www.niklasroy.com/images/mrnand.gif
 
+Going yet another direction, [domino computation] is relatively easy to
+arrange and is fun to watch. (If you agree that it's fun to watch, don't
+miss the [ten thousand domino computer].)
+
+  [domino computation]: https://youtu.be/lNuPy-r1GuQ
+  [ten thousand domino computer]: https://youtu.be/OpLU__bhu2w
+
 Some very esoteric possibilities are out there, from the [eye computer]
 to the use of [live crabs].  One way to think about inventing your
 own sort of gates could be to learn how [gates are normally built from
