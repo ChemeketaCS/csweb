@@ -13,30 +13,27 @@ Upon finishing this learning module, you should be able to:
 * Generate pseudorandom numbers for a desired range
 * Use the char data type and understand how it relates to int
 
-## Deadlines This Week
-
-* Monday 11:59pm - Distance and Power assignment
-* Friday 11:59pm - Numeric Functions CPPLab
-* Saturday 11:59pm - Chars CPPLabs
-* Saturday 11:59pm Quiz 1 - see below for tips
-
 ## Schedule
 
-### Monday and Tuesday
-    
+### Day 1
+
+* Monday is a Holiday - no class meetings
+
+### Day 2
+
 * Random numbers and math functions
 * Read Ch 3.9, 3.12, 4.1-4.2
 * CPPLab Math Functions
 
-### Wednesday
-    
+### Day 3
+
 * Chars
 * Read Ch 4.3-4.7
 * CPPLab Characters
 
-### Thursday
+### Day 4
 
-* Quiz Review/CPPLab work
+* Review & Take Quiz
 
 ## Online Activity Outline
 
@@ -61,23 +58,24 @@ Read Ch 4.3-4.7. This video explains a bit about chars
 
 Do Characters CPPLab.
 
-Go to the book author's webpage (see Resources links at the top of
-the page) - go to the quiz tab and do some practice questions from
-Ch1, 2 and 3 to get ready for the quiz. The quiz will be some
-multiple choice, some short answer, and some writing code. Make sure
-to read the directions carefully before beginning. Also, see the
-quiz tips section below.
+## Quiz
 
-Take Quiz 1 in elearn.
+The quiz will be open Thursday–Saturday in Elearn, **time limited**
+(60 minutes), and **not** collaborative. It covers weeks 1 & 2. Make sure
+you block out an hour of uninterrupted time before you start the quiz — you
+can not pause the timer once you start.
 
-Do the [assignment](/assignments/cs161/catapult/).
+To practice, go to the [Resource Links]({{< ref "links/#class-resources" >}} "Resource Links")
+and look for "Book author's website". On the author's website, look for the Quiz tab:
 
-## Quiz Tips
+![Sample quiz questions](quiz.png)
 
-The quiz will be open Thursday–Saturday in Elearn, **time limited** (60 minutes), and **not** collaborative.  
-It covers weeks 1 & 2. Make sure you block out an hour of uninterrupted
-time before you start the quiz—you can not pause the timer once you
-start.
+The practice questions are based on the third edition of the book, so later chapters
+may be numbered slightly differently, but the questions are still great practice.
+
+For quiz 1, focus on Ch1, 2, and 3 (especially 2 and 3) to get ready for the quiz. The
+quiz will be some multiple choice, some short answer, and some writing code. Make sure
+to read the directions carefully before beginning. 
 
 ## Extra Info
 

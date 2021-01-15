@@ -22,39 +22,26 @@ exchanging secret messages.
 
 **In class:**
 
-* Data Representation
+* Monday is a holiday - no class meeting
 
 **Independent:**
 
-* Do the Binary Math reading
-* Do the ASCII/Hex worksheet
 * Start programming
+* Do the Nine Algorithms Reading
 
 ### Second Meeting
 
 **In class:**
 
-* Cryptography Activity
-* JS Advice
+* Binary Math
+* Representing Other Data
+* Nine Algorithms tips
 
 **Independent:**
 
-* Do the Algorithm of the Week reading
+* Do the Binary Math and Other Data Reading
+* Do the ASCII/Hex worksheet
 * Finish programming
-
-## Suggested Pacing
-
-Day 1
-: Start the programming.
-
-Day 2
-: Do Binary Math and Other Data. Continue programming.
-
-Day 3
-: Algorithm of the Week.
-
-Day 4
-: Finish the programming. Take the Quiz.
 
 ## Programming
 
