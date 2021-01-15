@@ -6,7 +6,7 @@ summary: Assignment covering basic IO, data types, and math.
 math: true
 
 weight: 10
-#last used 202020
+#last used 202030
 ---
 
 {{% cs161General %}}
