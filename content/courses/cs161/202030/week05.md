@@ -13,12 +13,6 @@ Upon finishing this learning module, you should be able to:
 * Read and write text based files
 * Format stream output
 
-## Deadlines This Week
-
-* Monday 11:59PM - Assignment 4
-* Wednesday 11:59PM - Strings Basics CPPLab
-* Friday 11:59PM - Strings Loops CPPLab
-* Saturday 11:59 - Quiz 2
 
 ## Quiz
 

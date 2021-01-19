@@ -13,12 +13,6 @@ Upon finishing this learning module, you should be able to:
 * Use C style strings and the string functions that work on them
 * Design and write code using multidimensional arrays
 
-## Deadlines This Week
-
-* Monday 11:59PM - Assignment 7
-* Monday 11:59 PM - CPPLab CString assignment
-* Saturday 11:59PM - Multidimensional Arrays CPPLab
-* Saturday 11:59PM - Quiz 3
 
 ## Quiz
 

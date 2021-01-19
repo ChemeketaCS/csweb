@@ -11,13 +11,6 @@ Upon finishing this learning module, you should be able to:
 
 * Write programs using arrays to store collections of related information
 
-## Deadlines This Week
-
-* Monday 11:59PM - Assignment 6
-* Friday 11:59PM - Arrays CPPLab
-* Saturday 11:59PM - Array Functions CPPLab
-* Sunday 11:59PM - C IO CPPLab
-* Next Monday 11:59PM - C String CPPLab
 
 ## Schedule
 

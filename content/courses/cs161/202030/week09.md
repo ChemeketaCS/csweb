@@ -12,10 +12,6 @@ Upon finishing this learning module, you should be able to:
 * Use enums and typedefs to improve code readability and safety
 * Use structs to represent heterogeneous collections of data
 
-## Deadlines This Week
-
-* Monday 11:59PM - Assignment 8
-* Saturday 11:59PM - Enumerations & Structs CPPLab
 
 ## Readings & Activities
 

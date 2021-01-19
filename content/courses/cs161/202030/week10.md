@@ -12,13 +12,6 @@ Upon finishing this learning module, you should be able to:
 * Read code that uses pointers and references
 * Create dynamically allocated storage
 
-## Deadlines This Week
-
-* NEXT WEEK - Final
-* Saturday 11:59PM - Quiz 4
-* Sunday 11:59PM - Photochop extra credit assignment
-* Sunday 11:59PM - Assignment 9
-
 {{% alert warning %}}
 No late work will be accepted after Sunday 11:59,
 to allow time for grading during finals week.
