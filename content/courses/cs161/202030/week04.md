@@ -13,13 +13,6 @@ Upon finishing this learning module, you should be able to:
 * Write programs that use repetition structures to solve problems
 * Navigate directories and compile files from the command line
 
-## Deadlines This Week
-
-* Monday 11:59PM - Catapult Calculator assignment
-* Friday 11:59PM - CPPLab Basic Loops
-* Friday 11:59PM - CPPLab Loops 2
-* Saturday 11:59PM - CPPLab Nested Loops
-
 ## Schedule
 
 ### Monday

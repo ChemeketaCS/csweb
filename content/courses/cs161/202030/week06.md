@@ -14,13 +14,6 @@ Upon finishing this learning module, you should be able to:
 * Trace code involving function calls
 * Write programs utilizing functions to decompose a problem
 
-## Deadlines This Week
-
-* Monday 11:59PM - Assignment 5
-* Wednesday - Midterm in class
-* Thursday 11:59PM - Functions Basics CPPLab
-* Saturday 11:59PM - Functions 2 CPPLab
-
 ## Classroom Schedule
 
 ### Tuesday

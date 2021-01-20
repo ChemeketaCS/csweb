@@ -1,8 +1,8 @@
 ---
-title: Future Value
+title: Payoff Planner
 summary: Assignment covering loops
 weight: 40
-#last used 202020
+#last used 202030
 ---
 
 {{% cs161General %}}
@@ -14,7 +14,11 @@ to solve problems.
 
 ## Assignment Instructions
 
-*Submit file: assign4.cpp*
+*Submit file: assign4.cpp*  
+*I should be able to compile and run your program with:*
+
+    g++ -std=c++11 assign4.cpp -o program.exe
+    program.exe       (./program.exe on a mac)
 
 Write a program that will print a table showing how fast someone's
 retirement will grow. It should take as input how much they will invest

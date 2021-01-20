@@ -14,7 +14,11 @@ from a file and use string functions to process text.
 
 ## Assignment Instructions
 
-*Submit file: assign5.cpp*
+*Submit file: assign5.cpp*  
+*I should be able to compile and run your program with:*
+
+    g++ -std=c++11 assign5.cpp -o program.exe
+    program.exe       (./program.exe on a mac)
 
 Write a program that extracts information from a text file containing
 information about images on a website.

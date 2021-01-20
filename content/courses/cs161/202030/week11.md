@@ -5,12 +5,9 @@ linktitle: Week 11
 weight: 110
 ---
 
-## Deadlines This Week
-
-* Sunday (start of finals week) 11:59PM - All assignments and late work
 
 {{% alert warning %}}
-No late work will be accepted past this point.
+No late work will be accepted past Monday.
 {{% /alert %}}
 
 ## Final
