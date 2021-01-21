@@ -13,38 +13,34 @@ Upon finishing this learning module, you should be able to:
 * Read and write text based files
 * Format stream output
 
-
 ## Quiz
 
 Open Thursday–Sat in Elearn, *time limited* (60 minutes), and *not*
-collaborative.  Covers weeks 3 and 4. Make sure you block out an hour
-of uninterrupted time before you start the quiz—you can not pause the
-timer once you start. All the advice from the first quiz still holds
-true—go back to week 3 to refresh yourself.
+collaborative.  Covers weeks 3 and 4.
 
 ## Schedule
 
-### Monday
-    
+### Day 1
+
 * Strings Continued
 * CPPLabs: String basics
 * Read Ch 5.14
 * CPPLabs: String loops
 
-### Tuesday
-    
+### Day 2
+
 * File IO and Streams
 * Read Ch 4.10 and 13.1-13.4 (14.11 is a simpler version of 13.1-4
   you can start with if you like)
 
-### Wednesday
-    
+### Day 3
+
 * String & Stream wrap-up
 * Ch 10.2.11-10.2.12
 * Midterm Review
 
-### Thursday
-    
+### Day 4
+
 * CppLab Work Time / Quiz Review
 
 ## Online Activity Outline
@@ -101,7 +97,7 @@ Take the quiz.
 
 Do the assignment.
 
-Midterm is next week\! Check the weekly files for a sample midterm.
+Midterm is next week\! Check the Files area for a sample midterm.
 
 ## Extra Info
 
