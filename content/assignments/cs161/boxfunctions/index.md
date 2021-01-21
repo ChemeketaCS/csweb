@@ -23,6 +23,27 @@ up to make a box with the dimensions $y - 2x$ by $z - 2x$ by $x$.
 
 ![A flat sheet is cut and folded into a box](cardboard.png)
 
+## Submission
+
+Submit these files:
+
+* `boxFunctions.h`
+* `boxFunctions.cpp`
+* `assign6.cpp`  (has the main function)
+
+*I should be able to compile and run your program with:*
+
+    g++ -std=c++11 boxFunctions.cpp assign6.cpp -o program.exe
+    program.exe       (./program.exe on a mac)
+
+{{% alert warning %}}
+Test building and running from the command prompt. It is possible to have something set up
+in QTCreator that works there but does not work when I compile your code using the
+commands shown above.
+
+NEVER include a .cpp file in another .cpp file.
+{{% /alert %}}
+
 ## Part A: 80% Function Building
 
 Build the following functions. They are tools that will help us write a
@@ -130,16 +151,6 @@ called more than once.
 
 ![call graph](callgraph.png)
 
-### Submit files
-
-* `boxFunctions.h`
-* `boxFunctions.cpp`
-* `assign6.cpp`
-
-{{% alert info %}}
-Recall that the `.h` file isn't compiled, it just gets `#include`d.
-However, it must be present for the `.cpp` files to compile.
-{{% /alert %}}
 
 ## Appendix
 
