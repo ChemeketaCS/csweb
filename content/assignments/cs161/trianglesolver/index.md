@@ -42,11 +42,12 @@ Given **a**, **b**, and **A**, to find B would want to focus on:
 $$ \frac{a}{sin A} = \frac{b}{sin B} $$
 
 And then rewrite it to solve for sinB:
-$$ sin B = \frac{b \cdot sin A}{a} $$
+$$ sinB = \frac{b \cdot sin A}{a} $$
 
-And then take the inverse sin (asin) of that to find B.
+Once you have sinB, you can use `asin` to figure out the measure of angleB (in radians!):
+$$ angleB = asin(sinB) $$
 
-You can find worked samples of the math on this web page. Examples 3, 4, and 5 on the website match
+You can find worked samples of the math (using degrees) on this web page. Examples 3, 4, and 5 on the website match
 the sample runs below.  
 http://mathematics.laerd.com/maths/trigonometry-sine-and-cosine-rules-3.php
 
@@ -54,7 +55,8 @@ http://mathematics.laerd.com/maths/trigonometry-sine-and-cosine-rules-3.php
 Hints:
 
 * You will have to convert between degrees and radians and vice verse. Pay attention to when you are
-using which unit.
+using which unit. Good rules of thumb are: convert any degree input to radians immediately after
+reading it in; Then convert any angles back to degrees right before trying to print them.
 
 * Answers below are shown rounded – that is optional. If you want to round, \<cmath>
 includes a round() function that can help you round to nearest whole number.
