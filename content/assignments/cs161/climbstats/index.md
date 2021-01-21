@@ -17,6 +17,17 @@ programs that use arrays.
 * `hikeFunctions.cpp`
 * `assign7.cpp`
 
+*I should be able to compile and run your program with:*
+
+    g++ -std=c++11 hikeFunctions.cpp assign7.cpp -o program.exe
+    program.exe       (./program.exe on a mac)
+
+{{% alert warning %}}
+Test building and running from the command prompt. It is possible to have something set up
+in QTCreator that works there but does not work when I compile your code using the
+commands shown above.
+{{% /alert %}}
+
 ## Climb Statistics
 
 Elevation information about a hike is recorded like the table shown
