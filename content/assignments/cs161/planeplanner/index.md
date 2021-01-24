@@ -19,6 +19,11 @@ multidimensional arrays.
 * `airplane.cpp`
 * `assign8.cpp`
 
+*I should be able to compile and run your program with:*
+
+    g++ -std=c++11 airplane.cpp assign8.cpp -o program.exe
+    program.exe       (./program.exe on a mac)
+
 ## Plane Planner
 
 An airline needs to keep track of where passengers are sitting on a

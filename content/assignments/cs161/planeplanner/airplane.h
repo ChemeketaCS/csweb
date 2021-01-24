@@ -15,12 +15,17 @@ const int ROWS = 12;
 const int COLS = 6;
 
 void emptyChart(char grid[ROWS][COLS]);
+
 void loadTestChart(char grid[ROWS][COLS], string filename);
+
 void printSeatingChart(const char grid[ROWS][COLS]);
+
 int getEmptyCount(const char grid[ROWS][COLS]);
+
 int getWindowCount(const char grid[ROWS][COLS]);
+
 bool fillSeat(char grid[ROWS][COLS], int row, char seat);
-string findAdjacentSeats(const char grid[ROWS][COLS], int
-numSeats);
+
+string findAdjacentSeats(const char grid[ROWS][COLS], int numSeats);
 
 #endif // PLANEFUNCTIONS_H
