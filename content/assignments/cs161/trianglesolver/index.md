@@ -58,10 +58,15 @@ Hints:
 using which unit. Good rules of thumb are: convert any degree input to radians immediately after
 reading it in; Then convert any angles back to degrees right before trying to print them.
 
+* Because doubles have inherit limits to their accuracy, you should not use `==` or `!=` to compare them.
+Instead of "if x == y" you should write "if the difference between x and y is small enough". The standard
+way to do that is something like: `abs(x - y) < 0.0001`. (Book section 3.6 part 6)
+
+* Use *at least* 5 decimal places for PI: 3.14159. More places will give you more accuracy.
+
 * Answers below are shown rounded – that is optional. If you want to round, \<cmath>
 includes a round() function that can help you round to nearest whole number.
 
-* Use at least 5 decimal places for PI: 3.14159
 {{% /alert %}}
 
 -----------

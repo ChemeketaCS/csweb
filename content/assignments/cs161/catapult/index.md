@@ -48,7 +48,13 @@ Your program is reading in $u$ (initial velocity). Use the value
 32.17405 for $g$ and 3.14159265359 for $π$.
 
 {{% alert info %}}
-Remember that $cos^2\ θ$ means $(cos\ θ)^2$.
+Hints:
+
+* $cos^2\ θ$ means $(cos\ θ)^2$.
+
+* Because doubles have inherit limits to their accuracy, you should not use `==` or `!=` to compare them.
+Instead of "if x == y" you should write "if the difference between x and y is small enough". The standard
+way to do that is something like: `abs(x - y) < 0.0001`. (Book section 3.6 part 6)
 {{% /alert %}}
 
 ### Sample run 1: (user input in red)
