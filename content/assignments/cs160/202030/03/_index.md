@@ -44,7 +44,7 @@ Show the math you used to get your answer.
 
 1. Use [this code.org widget](https://studio.code.org/s/pixelation/stage/5/puzzle/1) to
     make an image that looks like the picture below. You don't have to figure EXACTLY the same
-    bits/hex that I used, but the colors should be close. (The top row starts with pure red
+    bits/hex that I used, but the colors should be close. (The top row starts with pure white
     and gets darker, the middle row pure green and gets darker, the bottom row has magenta/pink; dark yellow; dark cyan)
 
     ![Sample picture](squares.png)
