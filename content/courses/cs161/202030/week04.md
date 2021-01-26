@@ -77,7 +77,7 @@ Read Ch 5.4-5.5 and 5.6-5.9 and watch this video:
 
 Do CPPLab Loops 2.
 
-Read Ch 5.10-5.13, 15.15 and watch this video:
+Read Ch 5.10-5.13, 5.15 and watch this video:
 
 {{< youtube videoid="efc37ke4DmQ" title="Nested Loops" >}}
 
