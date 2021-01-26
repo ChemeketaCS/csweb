@@ -64,6 +64,10 @@ use QTCRreator to make a build a project:
 
 {{< youtube videoid="OMG5vfI1CXA" title="QTCreator Basics" >}}
 
+If you get stuck installing QTCreator, the [repl.it](https://repl.it/languages/cpp) website can
+be used as a short term alternative for writing and running code. Use it while you work on getting QT
+up and running. It is **NOT** a long-term solution.
+
 This video explains how to make use of course code samples:
 
 {{< youtube videoid="3uHKR4rPeYI" title="Using Samples" >}}

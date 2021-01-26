@@ -17,6 +17,9 @@ This corresponds to the third edition of the book, so there will be some slight 
 [Qt Creator Setup Instructions](https://docs.google.com/document/d/1AMvLP1THLpWVqYWTAQeBTeCoX0kXKRp6-aXfeSkNVag/edit#heading=h.rihp46pqexgr) \
 [QtProject settings folder](https://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
 
+The [repl.it](https://repl.it/languages/cpp) website can be used as a short term alternative to
+QTCreator for writing code if you have setup issues. It is **NOT** a long-term solution.
+
 ## C++ References
 
 [LearnCpp.com online text](http://www.learncpp.com/)
