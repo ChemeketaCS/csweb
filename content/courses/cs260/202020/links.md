@@ -20,7 +20,7 @@ Instructions for the Linux environment you should be using for CS260.
 
 You will likely still want to use QTCreator or another IDE for editing/debugging code.
 
-[Qt Creator Setup Instructions](https://docs.google.com/document/d/1AMvLP1THLpWVqYWTAQeBTeCoX0kXKRp6-aXfeSkNVag/)
+[Qt Creator Setup Instructions](http://computerscience.chemeketa.edu/guides/qtcreator-setup/)
 
 [QtProject settings folder](https://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
 

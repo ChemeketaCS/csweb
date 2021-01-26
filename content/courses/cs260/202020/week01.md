@@ -62,7 +62,7 @@ elearn.
 
 {{< youtube videoid="yC0BSx-Emtg" title="Git & Github" >}}
 
-* Use part 1 of the [Git Crash Course](https://docs.google.com/document/d/1S8dMsT6B2B7jW2Z0OWoV6TT8GOlYkDa9Bw0mhrUTuSU/edit)
+* Use part 1 of the [Git Crash Course](https://docs.google.com/document/d/1S8dMsT6B2B7jW2Z0OWoV6TT8GOlYkDa9Bw0mhrUTuSU/)
 to get access to my samples.
 
 * Use part 4 of the Git Crash Course instructions to make a repository for assignment 1.

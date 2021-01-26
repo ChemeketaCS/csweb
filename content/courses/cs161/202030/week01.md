@@ -59,7 +59,7 @@ The video below demonstrates the last part of the installation - placing
 the [QtProject][qtproject] folder in the correct location as well as how to
 use QTCRreator to make a build a project:
 
-[qtinstall]:https://docs.google.com/document/d/1AMvLP1THLpWVqYWTAQeBTeCoX0kXKRp6-aXfeSkNVag/edit#heading=h.rihp46pqexgr
+[qtinstall]:http://computerscience.chemeketa.edu/guides/qtcreator-setup/
 [qtproject]:https://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip
 
 {{< youtube videoid="OMG5vfI1CXA" title="QTCreator Basics" >}}

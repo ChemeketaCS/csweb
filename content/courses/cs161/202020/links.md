@@ -14,7 +14,7 @@ weight: 8
 [Source code for book examples](http://liveexample.pearsoncmg.com/liang/cpp3e/examplesource.html) \
 This corresponds to the third edition of the book, so there will be some slight differences. However, it is still a useful resource for sample code and practicing for quizzes.
 
-[Qt Creator Setup Instructions](https://docs.google.com/document/d/1AMvLP1THLpWVqYWTAQeBTeCoX0kXKRp6-aXfeSkNVag/edit#heading=h.rihp46pqexgr) \
+[Qt Creator Setup Instructions](http://computerscience.chemeketa.edu/guides/qtcreator-setup/) \
 [QtProject settings folder](https://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
 
 ## C++ References
