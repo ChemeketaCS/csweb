@@ -31,7 +31,7 @@ Upon finishing this learning module, you should be able to:
 ### Day 3
 
 * Nested Loops
-* Ch 5.10-5.13, 15.15
+* Ch 5.10-5.13, 5.15
 * CppLab Nested Loops
 
 ### Day 4
