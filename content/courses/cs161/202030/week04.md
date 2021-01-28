@@ -93,7 +93,7 @@ Read Ch 4.8 and 10.2 (you can stop at 10.2.10). Watch this video that introduces
 
 {{< youtube videoid="dT-p6Dfl4e8" title="String Basics" >}}
 
-Go look up string on [cplusplus.com](cplusplus.com) - use the search box at the top, and do
+Go look up string on [cplusplus.com](http://cplusplus.com) - use the search box at the top, and do
 a search for "string". Then click on one of the functions, like "insert" and skim the
 documentation. You need to start getting used to looking up things - most programmers do that
 on the web instead of in textbooks, so start practicing\!
