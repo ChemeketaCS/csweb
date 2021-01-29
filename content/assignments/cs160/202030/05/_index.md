@@ -8,7 +8,7 @@ math: true
 weight: 50
 ---
 
-{{% cs160General responses="https://docs.google.com/document/d/1px287VrpZ0FmRgqaJKgCBuYeViv_IufGJQxrAG10PjU/copy" %}}
+{{% cs160General responses="https://docs.google.com/document/d/18rdzM3CsQ75HCZlbkh6z7__jYilcYeY2ikEobNxoVsY/copy" %}}
 
 ## Machine Architecture
 
@@ -41,7 +41,7 @@ weight: 50
         | 6   | 311   |
         | 7   | 111   |
         | 8   | 902   |
-        | 9   | 0   |
+        | 9   | 000   |
 
     1. Call the inputs x and y. **Describe** the output of the program.
     (What expression does it calculate?) *DO NOT list what it does step by step.*
