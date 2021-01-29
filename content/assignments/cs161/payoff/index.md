@@ -1,8 +1,8 @@
 ---
-title: Future Value
+title: Payoff Planner
 summary: Assignment covering loops
 weight: 40
-#last used 202020
+#last used 202030
 ---
 
 {{% cs161General %}}
@@ -34,16 +34,16 @@ Enter balance: `1000`
 Enter payment: `150`
 Enter APR: `19.9`
 
-Month  Int.  Pay    Balance
-0         1000.00
-1  16.58  150.00    866.58
-2  14.37  150.00    730.95
-3  12.12  150.00    593.08
-4  9.84   150.00    452.91
-5  7.51   150.00    310.42
-6  5.15   150.00    165.57
-7  2.75   150.00    18.32
-8  0.30   18.62     0.00
+Month  Int.   Pay       Balance
+0             1000.00
+1      16.58  150.00    866.58
+2      14.37  150.00    730.95
+3      12.12  150.00    593.08
+4      9.84   150.00    452.91
+5      7.51   150.00    310.42
+6      5.15   150.00    165.57
+7      2.75   150.00    18.32
+8      0.30   18.62     0.00
 {{% /sample_run %}}
 
 You do NOT have to format the money to print to two decimals. We will learn more about io

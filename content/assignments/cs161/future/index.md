@@ -1,8 +1,8 @@
 ---
-title: Payoff Planner
+title: Future Value
 summary: Assignment covering loops
 weight: 40
-#last used 202030
+#last used 202020
 ---
 
 {{% cs161General %}}
@@ -40,10 +40,10 @@ Year\# / Month\# / Balance
 1 / 1 / 100.00
 1 / 2 / 200.58
 1 / 3 / 301.76
-...
+\...
 1 / 12 / 1239.37
 2 / 1 / 1346.62
-...
+\...
 15 / 12 / 31750.54
 {{% /sample_run %}}
 {{% alert info %}}
