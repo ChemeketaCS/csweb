@@ -1,7 +1,7 @@
 CFLAGS =  -Wall -Wextra -I. -g -std=c++11
 
 CFLAGS += -pedantic
-CFLAGS += -pedantic-errors
+
 
 CFLAGS += -Wmissing-include-dirs
 CFLAGS += -Wfloat-equal
