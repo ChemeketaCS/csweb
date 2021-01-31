@@ -36,14 +36,14 @@ Upon finishing this week, you should be able to:
 -   Read 15.6-15.10
 -   Do CPPLab Inheritance 2
 
-### Day 2
+### Day 3
 
 -   Designing with inheritance, multiple inheritance, and object
     slicing
 -   Read 15.11
 -   Do design activity
 
-### Day 3
+### Day 4
 
 -   Operator Overloading I
 -   Read 14.1-14.3, 14.5-14.7

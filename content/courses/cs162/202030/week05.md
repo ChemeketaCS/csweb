@@ -18,7 +18,6 @@ Upon finishing this week, you should be able to:
 -   Wed 11:59PM - CppLab Operator Basics
 -   Fri 11:59PM - CppLab Operators Advanced
 -   Sat 11:59PM - CppLab Exceptions
--   Friday - Midterm (online students must take Tues-Friday)
 -   Sat 11:59PM - Quiz 2 open in elearn Thurs-Sat covering weeks 3-5.
     (Includes all topics from this week)
 
@@ -47,13 +46,13 @@ There is no assignment this week!
 
 ### Day 4
 
--   Midterm
+-   Quiz
 
 ## Online Activity Outline
 
 ### Operator Overloading - Trickier Topics
 
-Read 14.4, 14.8-14.12. I think the stream extraction operator (>>)
+Read 14.4, 14.8-14.12. I think the stream extraction operator (\>\>)
 example from 14.9 is pretty poor - normally we would not write an
 extraction operator to prompt the user. Instead it should do something
 like suck in "12/32" and parse it into a RationalNumber. See the video

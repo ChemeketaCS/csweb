@@ -19,6 +19,7 @@ Upon finishing this week, you should be able to:
 ## Deadlines this Week
 
 -   Sat 11:59PM - CppLab Copy/Assignment Operator
+-   Friday 11:59PM - Midterm (open in elearn Tuesday–Friday)
 
 ## Suggested pacing
 
