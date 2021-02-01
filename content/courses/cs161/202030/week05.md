@@ -93,11 +93,18 @@ You don't need them for the assignment, but I highly recommend you
 read 10.2.11 and 10.2.12—talks about how to use strings as a
 stream (like a file you can read and write).
 
+### Midterm Review
+
+Midterm is next week\! Check in Elearn in the Assignments : Practice Quizzes area to
+try some practice questions. Make sure to check it out to make sure you both
+understand how the midterm works and to practice typing code in elearn.
+
+
+### Wrapup
+
 Take the quiz.
 
 Do the assignment.
-
-Midterm is next week\! Check the Files area for a sample midterm.
 
 ## Extra Info
 
