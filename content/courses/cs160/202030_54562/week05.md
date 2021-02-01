@@ -23,8 +23,8 @@ Upon finishing this learning module, you should be able to:
 
 **Independent:**
 
-* Do code.org programming
 * Practice with Little Computer
+* Start code.org programming?
 
 ### Second Meeting
 
@@ -36,7 +36,7 @@ Upon finishing this learning module, you should be able to:
 **Independent:**
 
 * Do the Algorithm of the Week reading
-* Finish programming
+* Code.org programming
 * Take Quiz 2
 
 ## Programming
