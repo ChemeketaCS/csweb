@@ -71,7 +71,7 @@ Do the CPPLab String Basics.
 This video shows you how to use a loop to work your way through a
 string:  
 
-{{< youtube videoid="KZjP3zZgViE" title="String Looping" >}}
+{{< youtube videoid="2016z4IZiR4" title="String Looping" >}}
 
 Do the CPPLab String Loops.
 
