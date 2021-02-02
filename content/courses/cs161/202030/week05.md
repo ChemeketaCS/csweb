@@ -56,15 +56,17 @@ Make sure you have done the strings material from the end of last
 week. Then watch this video for some tips and tricks and read Ch
 5.14:
 
-{{< youtube videoid="LHWfiNNS1ZE" title="String Function Tips" >}}
+{{< youtube videoid="Gtv284l23oA" title="String Use" >}}
 
 You should at least be aware of why it isn't 100% correct to say
-that .find() returns -1 when it can't find something in a string.
-This video explains what is really going on—don't worry about
-memorizing every detail, focus on identifying what is safe to do and
-what is not.:  
+that .find() returns -1 when it can't find something in a string and
+why the compiler gives a warning about storing string.length() to an int.
 
-{{< youtube videoid="8VkUrwSYm1Q" title="String Details" >}}
+This video explains what is really going on — don't worry about
+memorizing every detail, focus on understanding the issue in play and
+then pick one of the strategies at the end to use in your code:
+
+{{< youtube videoid="sNbOII8Pzoo" title="String Ugly Details" >}}
 
 Do the CPPLab String Basics.
 
