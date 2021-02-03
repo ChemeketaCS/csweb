@@ -27,12 +27,13 @@ of data separated by tabs:
 
     IPAddress  Username  Date  Time  Minutes
 
-Where Date is in the format dd-Mon-yy and time is listed in 24-hour time.
+Where Date is in the format d-Mon-yy (day, Month as three letters, then year as two digits)
+and time is listed in 24-hour time.
 
 Read in the entire file and **print out each record from April** (do not print records from
 other months) in the format:
 
-    username   mm/dd/yy   hour:minuteAM/PM   duration
+    username   m/d/yy   hour:minuteAM/PM   duration
 
 Where mm/dd/yy is a date in the format month number, day number, year and the time is listed in
 12-hour time (with AM/PM).
@@ -42,7 +43,7 @@ For example, the record:
 82.85.127.184  dgounin4  19-Apr-18  13:26:16    13
 {{% /sample_run  %}}
 
-Should be printed as:
+Should be printed as something like:
 {{% sample_run  %}}
 dgounin4   04/19/18   1:26PM     13
 {{% /sample_run  %}}
