@@ -52,8 +52,8 @@ dgounin4   04/19/18   1:26PM     13
 Make sure that you read the right input file name.
 Capitalization counts!
 
-Do not use a hard-coded path to a particular directory, like `"C:\Stuff\Images.txt"`.
-Your code must open a file that is *just* called `"Images.txt"`.
+Do not use a hard-coded path to a particular directory, like `"C:\Stuff\WebLog.txt"`.
+Your code must open a file that is *just* called `"WebLog.txt"`.
 
 Do not submit the test file; I will use my own.
 {{% /alert %}}
