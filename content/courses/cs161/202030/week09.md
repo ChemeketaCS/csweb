@@ -15,24 +15,22 @@ Upon finishing this learning module, you should be able to:
 
 ## Readings & Activities
 
-### Monday
+### Day 1
     
 * Enums, Typedef & Namespaces
-* Do Enum CPPLab
 * See Activity outline section below for readings
 
-### Tuesday
+### Day 2
     
 * Bitflags
 * Structs
-* Do Struct CPPLab
 * See Activity outline section below for readings
 
-### Wednesday
+### Day 3
     
 * Structs and arrays
 
-### Thursday
+### Day 4
     
 * Final assignment
 * Extra credit assignment

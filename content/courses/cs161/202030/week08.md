@@ -25,28 +25,26 @@ week 3 to refresh yourself.
 
 ## Schedule
 
-### Monday
+### Day 1
 
 * C Strings and C based string/io functions
 * Read Ch 7.11.1 and 7.11.2, skim rest of 7.11
-* CPPLab CString assignment
 
-### Tuesday
+### Day 2
 
 * Multidimensional arrays
 * CPPLab 2DArrays
 * Read Ch 8.1-8.4
 
-### Wednesday
+### Day 3
 
 * Multidimensional arrays–Sample Programs
 * Read Ch 8.6-8.8.1
 
-### Friday
+### Day 4
 
 * Quiz Review
 * Graphics transformations with matrices demo
-* Open lab: CPPLab time
 
 ## Activity Outline
 
