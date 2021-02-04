@@ -8,7 +8,7 @@ math: true
 weight: 30
 ---
 
-{{% cs160General %}}
+{{% cs160General responses="https://docs.google.com/document/d/18j2oMyhG32VVHO-iYsxSMWxTheGUB-6zZZc2ZN6bsIk/copy" %}}
 
 ## Binary Math
 

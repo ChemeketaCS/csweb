@@ -8,7 +8,7 @@ layout: single
 weight: 10
 ---
 
-{{% cs160General %}}
+{{% cs160General responses="https://docs.google.com/document/d/1_k-z9Jw06c-4vp46BVKRNz-wGorUeGwOv0P5Y4hzITM/copy" %}}
 
 ## Computer Fields & Careers
 

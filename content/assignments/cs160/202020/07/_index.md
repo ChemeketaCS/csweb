@@ -7,7 +7,7 @@ layout: single
 weight: 70
 ---
 
-{{% cs160General %}}
+{{% cs160General responses="https://docs.google.com/document/d/1S79a26Zzqw5Ph-jV1WqG9B-aUDvCgnurm257mxj3Ye8/copy" %}}
 
 ## Searching and Sorting
 
@@ -37,7 +37,7 @@ weight: 70
 ## AI Search
 
 {{% alert warning %}}
-For both problems in this secion, most of the points are for the WORK, not just figuring
+For both problems in this section, most of the points are for the WORK, not just figuring
 out the correct answer.
 {{% /alert %}}
 

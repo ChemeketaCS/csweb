@@ -8,7 +8,7 @@ layout: single
 weight: 100
 ---
 
-{{% cs160General %}}
+{{% cs160General responses="https://docs.google.com/document/d/1X_Cs5EB6oovhlp6NlmyN5qKz0zgHmBnB16ZnqcIWxzE/copy" %}}
 
 ## Computability
 

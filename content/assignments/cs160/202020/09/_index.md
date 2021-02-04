@@ -7,7 +7,7 @@ layout: single
 weight: 90
 ---
 
-{{% cs160General %}}
+{{% cs160General responses="https://docs.google.com/document/d/17xIlkWLPLtK81_yWD9Vlhwc7oi75wc93fhaA0hin9qk/copy" %}}
 
 ## Algorithmic Efficiency
 
@@ -28,6 +28,8 @@ the work done with:
     1. 2 workers?
     1. 5 workers?
     1. 500 workers?
+
+    Show work.
 
 1. The two programs shown below are running at the same time. Each program is three instructions
 long. The instructions are labeled something like A1 or B3.  
@@ -111,10 +113,12 @@ These are a graded part of this assignment.
 
         var colors = ["red","orange","yellow","green","blue","indigo","violet"];
 
-    1. Write one line of code that would remove "green" from colors.
+    1. Write one line of code that would remove "green" (the 4th item) from colors.
     (Not OK to just assign the right final value to the array - you must remove the word that is there.)
 
-    1. Write one line of code that would turn the "red" item from colors into the word "gold".
+    1. Write one line of code that would turn the first item ("red") into "gold".
+    (Not OK to just assign the right final value to the array - you must change just that one
+    piece of data that is there.)
 
     1. Write one line of code that would print the next to the last thing in the list (currently "indigo").
     Your line of code should still print the next to the last thing even if the list changes.

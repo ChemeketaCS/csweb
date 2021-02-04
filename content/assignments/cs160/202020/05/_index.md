@@ -8,7 +8,7 @@ math: true
 weight: 50
 ---
 
-{{% cs160General %}}
+{{% cs160General responses="https://docs.google.com/document/d/19UWpjdgv_KihBj0pfUJf3vT2Mg62_94FnOQx7Dq3Fww/copy" %}}
 
 ## Machine Architecture
 
