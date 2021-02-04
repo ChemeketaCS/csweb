@@ -64,10 +64,15 @@ file. You cannot count on there always being exactly 100 records.
 
 ### Hints
 
-* Remember, my test file will have a different number of lines.
 * Start small! Making sure your program works correctly on 1 line, or three
 lines is a lot easier than 100.
-* You should not need to turn strings into numbers, but if you do, here is how to do so:
+
+* Remember, my test file will have a different number of lines.
+
+* You can read in something like `13:26:16` all as a string, or as an int, a char (:), 
+an int, a char (:), and another int.
+
+* If you need to turn a string into an int or a double, you can use this method:
 
   ```
   string foo = "123";
