@@ -107,6 +107,11 @@ any visible errors in your program—the only way to know that you have
 a leak is to use DrMemory (or run your code long enough that you can
 measure a steady increase in used memory).
 
+Remember, DrMemory shows you where it detected an issue. Often, the place
+where you caused the issue is somewhere else!  For example, maybe your
+constructor did not allocate an array but that was not a problem until
+later when you went to write to that array.
+
 ### Function Tips
 
 {{% alert info %}}
@@ -123,6 +128,11 @@ The downside of immutable objects is we end up making lots of copies
 since every “change” really just makes a new object. If we wanted the
 class to be completely immutable, we would not provide an assignment
 operator.
+
+However, remember to allocate the “new” objects on the stack as
+local variables and return them. Do not use the `new` keyword, or the
+objects would be allocated on the heap and you would have to pass them
+around as pointers and remember to explicitly `delete` them.
 {{% /alert %}}
 
 {{% alert warning %}}
@@ -219,3 +229,12 @@ making a string-like object and doing your own memory management.
   constructor as a helper for this. This should throw an `out_of_range`
   exception if the index or length are negative, or if the start + length
   would go past the end of the strand.
+
+{{% alert info %}}
+As a student of computing science, you should notice that we are being
+a bit wasteful with storage in this design.  With four possibilities for
+each nucleotide, 2 bits are sufficient to distinguish which one we mean,
+while the `char` type is 1 byte, or 8 bits. If storage were a concern,
+we could fit 4 nucleotides per byte, at the expense of the code to read
+and write them being more complicated.
+{{% /alert %}}
