@@ -19,25 +19,24 @@ to allow time for grading during finals week.
 
 ## Schedule
 
-### Monday
+### Day 1
     
 * Pointer Basics
 * Read chapter 11.1-11.3
 * Pointer Worksheet
 
-### Tuesday
+### Day 2
     
 * Dynamic Memory
 * Read chapter 11.9
 
-### Wednesday
+### Day 3
     
 * Final review
 
-### Thursday
+### Day 4
     
-* Take quiz 4 online
-* Come in for quiz/final practice or assignment questions
+* Take quiz 4
 
 ## Activity Outline
 

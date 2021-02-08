@@ -16,26 +16,31 @@ Upon finishing this learning module, you should be able to:
 
 ## Classroom Schedule
 
-### Tuesday
-    
+### Day 1
+
 * Functions
 * Read Ch 6.1-6.5
-* CPPLabs: Function basics
 
-### Wednesday
+### Day 2
 
 * Midterm
+
+### Day 3
+
 * Special Cases and Reference Parameters
 * Read Ch 6.6-6.7, 6.9, 6.11-13
-* CPPLabs: Functions 2
 
-### Friday
-    
+### Day 4
+
 * .h/.cpp files
 * Building Programs
 * Read Ch 6.8, 6.15
 
 ## Online Activity Outline
+
+### Midterm
+
+Must be taken by Tuesday 11:59PM
 
 ### Functions
 

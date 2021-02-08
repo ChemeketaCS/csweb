@@ -14,22 +14,22 @@ Upon finishing this learning module, you should be able to:
 
 ## Schedule
 
-### Monday
-    
-* No class
+### Day 1
 
-### Tuesday
-    
+* No class - if you want to work ahead, work on Day 4 material
+
+### Day 2
+
 * Arrays
 * Read Ch 7.1-7.2, 7.4
 
-### Wednesday
-    
+### Day 3
+
 * Arrays & Functions
 * Read Ch7.5-7.8
 
-### Friday
-    
+### Day 4
+
 * Introduction to C - Headers and IO
 * See Activity Outline below for details
 
