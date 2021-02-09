@@ -63,7 +63,7 @@ Read 6.12-6.13 and watch these videos on reference parameters.
 
 Do the CPPLab Functions 2
 
-Read 6.8 and [LearnCpp.com Chapter 2.11-2.12](http://www.learncpp.com/) which covers header
+Read 6.8 and skim [LearnCpp.com Chapter 2.10-2.11](http://www.learncpp.com/) which covers header
 files (not covered well in the book). Then watch this video that
 talks about some other techniques for building and documenting
 complex programs and libraries of functions:  
@@ -82,5 +82,5 @@ Do the assignment.
 ### Learncpp.com
 
 This online tutorial covers *some* of the same ground as the readings:  
-[LearnCpp.com 7.1 to 7.7 (Can skip 7.6)](http://www.learncpp.com/) cover
+[LearnCpp.com 2.1 to 2.7](http://www.learncpp.com/) cover
 functions  
