@@ -52,7 +52,7 @@ use this exact file. You cannot count on there always being exactly 5
 images. The file will end with an empty line (like the sample file).
 Make sure to test your program with more/fewer lines than 5.
 
-Your program should print out an organized table that for each image
+Your program should print out a well organized table that for each image
 shows: the filename, image type (the file extension), the width, the
 height and the size in kB (1024 bytes in a kB) rounded to one decimal
 place. It should then display the total size in kB of the images.
@@ -60,13 +60,13 @@ place. It should then display the total size in kB of the images.
 ### Sample output
 
 {{% sample_run %}}
-Name        Type  Width  Height  Size
-Lacus.jpeg      jpeg  170  330  21.5
-Vel.jpeg      jpeg  300  220  10.4
-ElementumNullam.png    png  270  280  58.6
-MontesNasceturRidiculus.jpeg  jpeg  180  220  101.5
-AtLorem.jpeg      jpeg  200  240  21.6
-Total Size:            213.5
+Name                            Type   Width   Height   Size
+Lacus.jpeg                      jpeg   170     330      21.5
+Vel.jpeg                        jpeg   300     220      10.4
+ElementumNullam.png             png    270     280      58.6
+MontesNasceturRidiculus.jpeg    jpeg   180     220      101.5
+AtLorem.jpeg                    jpeg   200     240      21.6
+Total Size:                                             213.5
 {{% /sample_run %}}
 
 ### Hints
