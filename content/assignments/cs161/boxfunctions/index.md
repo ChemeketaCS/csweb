@@ -41,7 +41,11 @@ Test building and running from the command prompt. It is possible to have someth
 in QTCreator that works there but does not work when I compile your code using the
 commands shown above.
 
-NEVER include a .cpp file in another .cpp file.
+The most likely source of error is saying `#include \<boxFunctions.h>` instead of
+`#include "boxFunctions.h"`. Remember that \<> is for standard libraries and "" is
+for including your own files.
+
+The other common error is including a .cpp file. **NEVER** try to include a .cpp file.
 {{% /alert %}}
 
 ## Part A: 80% Function Building

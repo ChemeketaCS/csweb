@@ -70,7 +70,11 @@ Test building and running from the command prompt. It is possible to have someth
 in QTCreator that works there but does not work when I compile your code using the
 commands shown above.
 
-NEVER include a .cpp file in another .cpp file.
+The most likely source of error is saying `#include \<cardFunctions.h>` instead of
+`#include "cardFunctions.h"`. Remember that \<> is for standard libraries and "" is
+for including your own files.
+
+The other common error is including a .cpp file. **NEVER** try to include a .cpp file.
 {{% /alert %}}
 
 ## Part A: 80% Function Building
@@ -130,9 +134,19 @@ Examples: Calling doubledDigitValue(4) should give 8. Calling doubledDigitValue(
 ### string getCardType(const string& cardNumber)
 
 Returns a string representing the type of credit card a number is: Visa, MasterCard,
-American Express, or Unknown.
+American Express, or Unknown. The card type can be determined by the first digit or two of the
+credit card number:
+
+* Starts with 4 : Visa
+* Starts with 5 : MasterCard
+* Starts with 34 or 37 : American Express
 
 *Behavior is undefined for strings of length < 2. (Your code does not have to worry about them).*
+
+{{% alert info %}}
+Tip: Because we use string in these functions, your .h file needs to `#include <string>`
+and have `using namespace std;`
+{{% /alert %}}
 
 ### int luhnDigitSum(const string& cardNumber)
 
