@@ -15,22 +15,22 @@ Upon finishing this learning module, you should be able to:
 * Use if/else statements in javascript
 * Write compound conditionals using Boolean logic
 
+{{% alert warning %}}
+No Monday class meeting!
+{{% /alert %}}
+
 ### First Meeting
 
 **In class:**
 
 * Sorting & Searching Algorithms
+* Algorithm of the Week - AI Search
 
 **Independent:**
 
 * Do code.org programming
 * Practice searching & sorting
-* Do the AI Search section
 * Take the Quiz
-
-{{% alert warning %}}
-No second class meeting!
-{{% /alert %}}
 
 ## Programming
 
