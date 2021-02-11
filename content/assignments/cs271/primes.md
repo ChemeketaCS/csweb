@@ -3,9 +3,12 @@ title: Primes
 summary: Write a useful program in assembly language
 ---
 
-Write a complete program in x64 assembly that prints the first 500
-[prime numbers](https://oeis.org/A000040).  Submit your assembly code as
-`primes.asm` through elearn.
+Write a complete program in x64 assembly that prints the [first 500]
+[prime numbers].  Submit your assembly code as `primes.asm` through
+elearn.
+
+  [first 500]: https://en.wikipedia.org/wiki/List_of_prime_numbers#The_first_1000_prime_numbers
+  [prime numbers]: https://oeis.org/A000040
 
 To calculate the primes, set aside an array to hold all 500, uninitialized
 at first.  Set the first prime to 2, and then counting up 3, 5, 7,
