@@ -16,7 +16,7 @@ programs that use functions to decompose a problem.
 ## Background
 
 The last digit of a credit card number is always chosen to provide a checksum of the other digits.
-(The scheme used is called the Luhn algorithm: http://en.wikipedia.org/wiki/Luhn_algorithm).
+(The scheme used is called the [Luhn algorithm](http://en.wikipedia.org/wiki/Luhn_algorithm)).
 If one digit in a credit card is changed, or they are typed in the wrong order, the checksum
 should detect the data entry mistake.
 
@@ -70,7 +70,7 @@ Test building and running from the command prompt. It is possible to have someth
 in QTCreator that works there but does not work when I compile your code using the
 commands shown above.
 
-The most likely source of error is saying `#include \<cardFunctions.h>` instead of
+The most likely source of error is saying `#include <cardFunctions.h>` instead of
 `#include "cardFunctions.h"`. Remember that \<> is for standard libraries and "" is
 for including your own files.
 
