@@ -85,7 +85,7 @@ It will have the proper header for doing IO in C: **\<stdio.h\>**.
 If you want to use printf and scanf in a C++ program you would
 include that header as **\<cstdio\>**
 
-[This document](http://www.ntu.edu.sg/home/ehchua/programming/cpp/c1_Basics.html)
+[This document](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/c1_Basics.html)
 has concise examples of using printf and scanf (scroll way down to
 sections 3.8 and 3.9. [cplusplus.com has a less friendly but more complete listing](http://www.cplusplus.com/reference/cstdio/printf/)
 of printf options.
@@ -97,4 +97,4 @@ Do the C IO CPPLab - due Sunday
 ### Learncpp.com
 
 This online tutorial covers *some* of the same ground as the readings:  
-[LearnCpp.com 6.1-6.3](http://www.learncpp.com/)  
+[LearnCpp.com 9.1-9.3, 9.6](http://www.learncpp.com/)  

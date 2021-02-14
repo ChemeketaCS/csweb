@@ -112,4 +112,4 @@ transformation matrix.
 
 This online tutorial covers *some* of the same ground as the book
 readings:  
-[LearnCpp.com 6.6, 6.5](http://www.learncpp.com/)  
+[LearnCpp.com 9.5](http://www.learncpp.com/)  
