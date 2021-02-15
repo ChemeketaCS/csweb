@@ -100,6 +100,8 @@ with values less than 5 than it does with values of 5 or greater - make sure
 to show that it works for both cases! Here are what those tests might look like:
 
 ```
+int result0 = charToInt('4');
+cout << "charToInt('4') is " << result0 << endl; 
 int result1 = doubledDigitValue(6);
 cout << "doubledDigitValue(6) is " << result1 << endl; 
 int result2 = doubledDigitValue(3);
@@ -122,6 +124,10 @@ Turns a char like '3' into the number it represents (3).
 
 *Behavior is undefined for chars that do not representing digits. (Your code does not have to
 worry about them).*
+
+{{% alert info %}}
+Tip: Because the ASCII codes for '0', '1', '2', are sequential, you can subtract '0' from a digit to get its value. '1' - '0' = 1; '4' - '0' = 4...
+{{% /alert %}}
 
 ### int doubledDigitValue(int number)
 
