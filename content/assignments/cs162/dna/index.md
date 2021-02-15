@@ -129,10 +129,11 @@ since every “change” really just makes a new object. If we wanted the
 class to be completely immutable, we would not provide an assignment
 operator.
 
-However, remember to allocate the “new” objects on the stack as
-local variables and return them. Do not use the `new` keyword, or the
-objects would be allocated on the heap and you would have to pass them
-around as pointers and remember to explicitly `delete` them.
+However, remember to allocate the “new” objects on the stack as local
+variables and return them. Do not use the `new` keyword to allocate the
+DNAStrand object you want to return, or the object would be allocated
+on the heap and you would have to pass it as a pointer and remember to
+explicitly `delete` it.
 {{% /alert %}}
 
 {{% alert warning %}}
