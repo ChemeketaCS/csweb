@@ -1,6 +1,7 @@
 ---
 title: DNA Strand
 summary: Practice implementing operations on strings of data
+weight: 50
 ---
 
 {{% cs162General %}}

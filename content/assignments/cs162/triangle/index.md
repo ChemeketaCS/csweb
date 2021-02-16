@@ -2,6 +2,7 @@
 title: Triangle
 summary: Unit testing
 
+weight: 20
 ---
 
 {{% cs162General %}}

@@ -1,7 +1,7 @@
 /**
   * @file main.cpp
-  * @author Andrew Scholer
-  * @brief Main function for the LittlePersonComputer project
+  * @author Chemeketa CS
+  * @brief Main function for the LittleComputer project
   */
 #include <iostream>
 #include <iomanip>

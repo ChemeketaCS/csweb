@@ -3,6 +3,7 @@
 title: Little Person Computer
 summary:  Class definition and object use
 
+weight: 10
 ---
 
 {{% cs162General %}}
@@ -72,7 +73,7 @@ The LittlePersonComputer.h file should have Doxygen comments for each function.
 
 Initializes accumulator (ACC), program counter (PC) and all memory slots to 0.
 
-{{% alert hint %}}
+{{% alert info %}}
 There is no magic way to initialize all elements of an array to 0 with one statement inside the
 constructor. You need to initialize the array where it is declared or use a loop to initialize
 the elements in the constructor.

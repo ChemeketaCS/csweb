@@ -1,6 +1,7 @@
 ---
 title: Location
 summary: Create a simple text based adventure game
+weight: 30
 ---
 
 {{% cs162General %}}
