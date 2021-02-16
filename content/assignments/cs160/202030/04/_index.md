@@ -17,7 +17,8 @@ weight: 40
     1. Turn on if at least one input is on
     1. Turn on if both inputs are on
 
-1. How should we set the inputs in this circuit to force the Output to be Off?
+1. How should we set the inputs in this circuit to force the Output to be Off? Explain your answer
+by describing the values that will come into each gate and the value it will output.
     ![Circuit 1](circuit1.png)
 
 1. Fill in a truth table for the circuit below:
@@ -25,7 +26,9 @@ weight: 40
 
 ## Asymmetric Cryptography
 
-4. Someone sends you a message of "15". They also send you a copy of their message encrypted with their private key. The "signed", or encrypted copy is "71". Their public key is **(exponent 13, clock 77)**. Show how to authenticate if the message is from them. 
+4. Someone sends you a message of "15". They also send you a copy of their message encrypted with
+their private key. The "signed", or encrypted copy is "71". Their public key is
+**(exponent 13, clock 77)**. Show how to authenticate if the message is from them. 
 
 1. Briefly and clearly summarize (1-3 sentences) how public/private key cryptography can
 guarantee each of the following. Make sure to include the phrases **public key** and 
