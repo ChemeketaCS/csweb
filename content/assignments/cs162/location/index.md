@@ -18,7 +18,7 @@ Location class.
 I should be able to build your code with:
 `g++ -std=c++11 Location.cpp main.cpp -o program.exe`
 
-## Location Class (75%)
+## Location Class (80%)
 
 The location class represents a location in the game. Each location can
 be connected to up to 4 other locations (the locations that are North,
@@ -84,7 +84,7 @@ You can set up a tester project and use it to confirm that your
 functions are working as expected before working on the real main
 function. Note that the unit tests do not test getDescription.
 
-## Main (25%)
+## Main (20%)
 
 Your `main.cpp` file should have the code for the game. It will build
 a maze like the picture below and then run the game of trying to find
