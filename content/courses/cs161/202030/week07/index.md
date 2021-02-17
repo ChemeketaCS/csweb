@@ -11,7 +11,6 @@ Upon finishing this learning module, you should be able to:
 
 * Write programs using arrays to store collections of related information
 
-
 ## Schedule
 
 ### Day 1
@@ -20,22 +19,20 @@ Upon finishing this learning module, you should be able to:
 
 ### Day 2
 
-* Arrays
-* Read Ch 7.1-7.2, 7.4
+* No class
 
 ### Day 3
 
-* Arrays & Functions
-* Read Ch7.5-7.8
+* No class - Work on C -Headers and IO Material
 
 ### Day 4
 
-* Introduction to C - Headers and IO
-* See Activity Outline below for details
+* Arrays
+* Read Ch 7.1-7.2, 7.4
 
 ## Activity Outline
 
-### Arrays
+### Array Basics
 
 Read Ch 7.1-7.2. These videos covers some of the important (and
 sometimes unmentioned) details  
@@ -45,21 +42,6 @@ sometimes unmentioned) details
 
 Do the CPPLab Array Basics
 
-Watch the video below and then read Ch 7.4 for various examples of
-using arrays.  
-
-{{< youtube videoid="Lb0pjRKzJEg" title="Array Uses" >}}
-
-Read 7.5-7.8. This video shows some important details of how arrays
-work with functions and how to use QtCreator to debug arrays in
-functions:  
-
-{{< youtube videoid="I2bwac_gIRQ" title="Array Functions" >}}
-
-Do the CPPLab Arrays 2
-
-Start the assignment - you can work on it in parallel with this next
-part.
 
 ### C based IO
 

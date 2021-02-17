@@ -31,11 +31,19 @@ Upon finishing this learning module, you should be able to:
 * Structs and arrays
 
 ### Day 4
-    
-* Final assignment
-* Extra credit assignment
+
+* Assignment Intro & Photochop
 
 ## Online Activity Outline
+
+## Quiz
+
+Open Thursday-Sat in Elearn, *time limited* (60 minutes), and *not*
+collaborative.  
+Covers weeks 5, 6, and 7. Make sure you block out an hour of uninterrupted
+time before you start the quiz - you can not pause the timer once you
+start.
+
 
 {{% alert info %}}
 This week we are hitting some topics that are not
@@ -79,6 +87,7 @@ in the reading:
 
 Do Structs CPPLab
 
+
 ### Assignment
 
 Start working on the assignment. Because this is the final assignment,
@@ -94,8 +103,3 @@ gives you a fun way to experiment with image manipulation and working
 in a codebase that you didn't make yourself (which is what most programmers
 spend most of their time doing). This assignment is due at the same time
 as the regular assignment, and also will not be accepted late.
-
-Previous versions of this class used the PhotoChop assignment as the
-basis for a question on the final; that is not true this term, and I have
-tried to remove all mention of it, but in case you have found something
-to that effect, it is wrong. The final will not refer to PhotoChop.

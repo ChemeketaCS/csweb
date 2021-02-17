@@ -14,21 +14,13 @@ Upon finishing this learning module, you should be able to:
 * Design and write code using multidimensional arrays
 
 
-## Quiz
-
-Open Thursday-Sat in Elearn, *time limited* (60 minutes), and *not*
-collaborative.  
-Covers weeks 5, 6, and 7. Make sure you block out an hour of uninterrupted
-time before you start the quiz–you can not pause the timer once you
-start. All the advice from the first quiz still holds true–go back to
-week 3 to refresh yourself.  
 
 ## Schedule
 
 ### Day 1
 
-* C Strings and C based string/io functions
-* Read Ch 7.11.1 and 7.11.2, skim rest of 7.11
+* Arrays & Functions
+* Read Ch7.5-7.8
 
 ### Day 2
 
@@ -43,12 +35,44 @@ week 3 to refresh yourself.
 
 ### Day 4
 
-* Quiz Review
-* Graphics transformations with matrices demo
+* C Strings and C based string/io functions
+* Read Ch 7.11.1 and 7.11.2, skim rest of 7.11
 
 ## Activity Outline
 
-Quiz 3 opens Thursday and closes Saturday. Focuses on weeks 5, 6, 7.  (Strings, functions, arrays)
+### Arrays Continued
+
+Watch the video below and then read Ch 7.4 for various examples of
+using arrays.  
+
+{{< youtube videoid="Lb0pjRKzJEg" title="Array Uses" >}}
+
+Read 7.5-7.8. This video shows some important details of how arrays
+work with functions and how to use QtCreator to debug arrays in
+functions:  
+
+{{< youtube videoid="I2bwac_gIRQ" title="Array Functions" >}}
+
+Do the CPPLab Arrays 2
+
+### Multi-dimensional Arrays
+
+Read Ch 8.1-8.4  
+This video has some background on why 2D arrays behave the way they
+do and how to use the debugger on them in QtCreator:  
+
+{{< youtube videoid="mPfsuslAt84" title="Multidimensional Arrays" >}}
+
+Do the CPPLab Multidimensional Arrays CPPLab–due Friday
+
+Read Ch 8.5-8.8.1 [Book video](http://wps.pearsoned.com/ecs_liang_itp_cpp3/235/60225/15417765.cw/index.html)  
+This video talks through some of the interesting things in the
+sample programs from those sections, as well as some things that
+could be improved in them.  
+
+{{< youtube videoid="H-qOMrdbG00" title="Multidimensional Samples" >}}
+
+Start the assignment.
 
 ### C-Strings
 
@@ -78,35 +102,17 @@ video explains the basic ideas involved:
 
 Do the CStrings CPPLab.
 
-### Multi-dimensional Arrays
-
-Read Ch 8.1-8.4  
-This video has some background on why 2D arrays behave the way they
-do and how to use the debugger on them in QtCreator:  
-
-{{< youtube videoid="mPfsuslAt84" title="Multidimensional Arrays" >}}
-
-Do the CPPLab Multidimensional Arrays CPPLab–due Friday
-
-Read Ch 8.5-8.8.1 [Book video](http://wps.pearsoned.com/ecs_liang_itp_cpp3/235/60225/15417765.cw/index.html)  
-This video talks through some of the interesting things in the
-sample programs from those sections, as well as some things that
-could be improved in them.  
-
-{{< youtube videoid="H-qOMrdbG00" title="Multidimensional Samples" >}}
-
-Start the assignment.
-
-Optional extra: Watch this video about how matrices are used to
-handle transformations in computer graphics.  
-There is a project folder MatrixGraphics and a pdf with instructions
-in the Classroom slides/examples. Grab the project and
-instructions and experiment with setting up a 2D array to work as a
-transformation matrix.
-
-{{< youtube videoid="vQ60rFwh2ig" title="The True Power of the Matrix" >}}
 
 ## Extra Info
+
+### Optional extra
+
+Watch this video about how matrices are used to handle transformations in computer graphics.  
+There is a project folder MatrixGraphics and a pdf with instructions
+in the Classroom slides/examples. Grab the project and
+instructions and experiment with setting up a 2D array to work as a transformation matrix.
+
+{{< youtube videoid="vQ60rFwh2ig" title="The True Power of the Matrix" >}}
 
 ### Learncpp.com
 
