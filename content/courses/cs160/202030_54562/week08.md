@@ -9,67 +9,58 @@ weight: 80
 
 Upon finishing this learning module, you should be able to:
 
-* Rank common classes of algorithm based on relative complexity
-* Identify what class the basic search and sort algorithms fall into
-* Write javascript functions that return values
-* Identify pattern recognition algorithms and predict the behavior of simple decision trees and
-neural networks
+* Describe the requirements of an algorithm
+* Execute basic searching and sorting algorithms by hand
+* Conduct a "best first" heuristic search of a graph
+* Use if/else statements in javascript
+* Write compound conditionals using Boolean logic
 
 ### First Meeting
 
 **In class:**
 
-* Algorithmic Efficiency intro
-* code.org tips
+* Sorting & Searching Algorithms
+* Algorithm of the Week - AI Search
 
 **Independent:**
 
-* Algorithmic Efficiency reading & worksheet
-* Start the programming
-
-### Second Meeting
-
-**In class:**
-
-* Pattern Recognition & machine learning exploration
-
-**Independent:**
-
-* Do Pattern Recognition practice
-* Finish programming
-* Finish readings & do assignment
+* Do code.org programming
+* Practice searching & sorting
+* Take the Quiz
 
 ## Programming
 
-* Complete [Code.org](https://studio.code.org/home) Unit 5, Ch 2, Lesson 11, parts 1-21.
-* Complete [Code.org](https://studio.code.org/home) Unit 5, Ch 2, Lesson 12, Parts 1-11.
+* Complete [Code.org](https://studio.code.org/home) Unit 5, Ch 1, Lesson 9, parts 1-15.
+* Complete [Code.org](https://studio.code.org/home) Unit 5, Ch 1, Lesson 10, parts 1-23.
 
-## Algorithmic Efficiency
+## Basic Searching And Sorting Algorithms
 
-This week we are looking at how typically measure the efficiency of algorithms. The
-algorithms we studied last week will be the main focus of our study.
+Searching and sorting are two fundamental tasks that any program dealing with lists
+of data generally needs to do. We will be studying some algorithms for accomplishing
+these tasks this week. Next week we will use these algorithms as the basis to learn about
+how we compare the efficiencies of algorithms.
 
-* Read the [CS160 Reader - Algorithms chapter](http://computerscience.chemeketa.edu/cs160Reader/Algorithms/index.html),
-sections 8.9-8.13.
-* Do the **Efficiency Worksheet**
+* Start by reading [CS160 Reader - Algorithms](http://computerscience.chemeketa.edu/cs160Reader/Algorithms/index.html).
+Read through section 8.8 (stop when you hit Efficiency - 8.9)
+* Do the **SearchAndSort** worksheet. See the SortExamples document for examples of how to properly
+do the sorts. (Class Files in elearn)
+* **Optional**: These videos on how Selection and Insertion sort work might be handy:
 
-## Pattern Recognition and Machine Learning
+{{< youtube videoid="f8hXR_Hvybo" >}}
 
-* Read Ch 6 of The Nine Algorithms book
-* Read [CS160 Reader - Pattern Recognition supplement](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/PatternRecognition2.html)
-* Do the **PatternRecognitionPractice** worksheet
+{{< youtube videoid="DFG-XuyPYUQ" >}}
+
+## Algorithm of the Week: AI Search
+
+{{% alert info %}}
+This is NOT in Nine Algorithms. We will resume working out if it next week.
+{{% /alert %}}
+
+* Read the pages on [Search and AI in the CS160 Reader](http://computerscience.chemeketa.edu/cs160Reader/NineAlgorithms/SearchAI/index.html).
+
+* Do the **AISearchPractice** worksheet.
 
 ## Optional Extras
 
-Machine learning algorithms are one of the critical ingredients in the race to build self driving
-cars. Car companies, tech companies and others are all trying to develop autonomous vehicles to
-make roads more safe and efficient. Here are some videos about Google's efforts:
-
-<iframe src="https://embed.ted.com/talks/sebastian_thrun_google_s_driverless_car" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="max-width: 100%; margin: 0 auto; margin-bottom: 1rem; display: block;"></iframe>
-
-{{< youtube videoid="dk3oc1Hr62g" >}}
-
-Machine learning has also been put to use to train computers to do more trivial things... like
-play Super Mario:
-
-{{< youtube videoid="qv6UVOQ0F44" note="*[Closed captioned version of the video](https://video.chemeketa.edu/media/MarI+O+-+Machine+Learning+for+Video+Games/1_0gesfh85)*">}}
+Insertion Sort, the new dance craze:
+{{< youtube videoid="ROalU379l3U" >}}
