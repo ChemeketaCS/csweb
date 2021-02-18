@@ -27,22 +27,21 @@ CS161/162/260 are offered online in a sequence that runs Fall/Winter/Spring.
 Computer Science and Math courses must be taken in the order shown below. A **?**
 indicates the course may or may not be offered in that term.
 
-```mermaid
+{{< diagram >}}
 graph TD
-
   subgraph CS
-  CS160([CS160<div class='terms'>All</div>])-->CS161([CS161<div class='terms'>F W Sp?</div>]);
-  CS161-->CS162([CS162<div class='terms'>F? W Sp]);
-  CS162-->CS260([CS260<div class='terms'>F Sp</div>]);
-  CS161-->CS271([CS271<div class='terms'>W Sp?</div>]);
-  CS162-->CS290([CS290<div class='terms'>Sp</div>]);
+  CS160([CS160<div class=&quot;terms&quot;>All</div>])-->CS161([CS161<div class=&quot;terms&quot;>F W Sp</div>]);
+  CS161-->CS162([CS162<div class=&quot;terms&quot;>F W Sp</div>]);
+  CS162-->CS260([CS260<div class=&quot;terms&quot;>F Sp</div>]);
+  CS161-->CS271([CS271<div class=&quot;terms&quot;>W Sp?</div>]);
+  CS162-->CS290([CS290<div class=&quot;terms&quot;>Sp</div>]);
   end
-  MTH111([MTH111<div class='terms'>All</div>])-->MTH112([MTH112<div class='terms'>All</div>]);
+  MTH111([MTH111<div class=&quot;terms&quot;>All</div>])-->MTH112([MTH112<div class=&quot;terms&quot;>All</div>]);
   subgraph Math
   MTH111-. co or pre .->CS160
-  MTH111-->MTH231([MTH231<div class='terms'>F W</div>]);
-  MTH231-->MTH232([MTH231<div class='terms'>W Sp</div>]);
-  MTH112-->MTH251([MTH251<div class='terms'>All</div>]);
-  MTH251-->MTH252([MTH252<div class='terms'>All</div>]);
-  end
-```
+  MTH111-->MTH231([MTH231<div class=&quot;terms&quot;>F W</div>]);
+  MTH231-->MTH232([MTH231<div class=&quot;terms&quot;>W Sp</div>]);
+  MTH112-->MTH251([MTH251<div class=&quot;terms&quot;>All</div>]);
+  MTH251-->MTH252([MTH252<div class=&quot;terms&quot;>All</div>]);
+  end;
+{{< /diagram >}}
