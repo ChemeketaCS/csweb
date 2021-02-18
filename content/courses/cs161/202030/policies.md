@@ -135,7 +135,7 @@ giving help" section below.
 ### Weekly assignments
 
 Assignments are to be done individually. You should not share
-(email, dropbox, github, etc...) with anyone else—either to ask
+(email, dropbox, github, etc...) with anyone else — either to ask
 for help or to attempt to provide it. I will use an automatic tool
 to scan assignments for code that is duplicated in different
 submissions. If I have doubts about whether you wrote your own

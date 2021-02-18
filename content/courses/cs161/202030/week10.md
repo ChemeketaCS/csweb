@@ -20,37 +20,55 @@ to allow time for grading during finals week.
 ## Schedule
 
 ### Day 1
+
+* C Strings and C based string/io functions
+* Read Ch 7.11.1 and 7.11.2, skim rest of 7.11
+
+### Day 2
     
 * Pointer Basics
 * Read chapter 11.1-11.3
 * Pointer Worksheet
 
-### Day 2
-    
+### Day 3
+
 * Dynamic Memory
 * Read chapter 11.9
 
-### Day 3
-    
-* Final review
-
 ### Day 4
     
-* Take quiz 4
+* Final/Quiz Review
 
 ## Activity Outline
 
-### Quiz
+### C-Strings
 
-Quiz 4 will be open from Thursday to Saturday, as usual for the previous
-quizzes. Also as usual, it will cover material from the previous
-two weeks.  Unusually, it will include the material on pointers from
-this week (from Chapter 11).
+Strings in C are just arrays of characters. Because arrays need to have
+a fixed size, we often have to allocate more space then necessary and
+use a special character to mark the end of our string within the
+array.  
 
-{{% alert warning %}}
-Make sure you get through that material on pointers in Chapter 11
-before taking the quiz this week.
+{{% alert info %}}
+In general, you should keep using C++ strings to do your work.
+ou should know about C-strings, but they should not be your go-to tool in C++.
 {{% /alert %}}
+
+Read Ch 7.11.1 and 7.11.2, skim rest of 7.11 (don't need to memorize
+any of this, usually won't use these in C++, but nice to know what
+is there if you are programming C). This video talks about
+C-strings.  
+
+{{< youtube videoid="VXSUcGSuOS4" title="C String" >}}
+
+Buffer overflows are a way to use user input to change what is in
+user memory. A distressingly large number of critical security
+issues over the years have been related to this technique. This
+video explains the basic ideas involved:  
+
+{{< youtube videoid="ZEQ67dxNw1Q" title="Buffer Overflows" >}}
+
+Do the CStrings CPPLab.
+
 
 ### Pointers
   
@@ -98,19 +116,10 @@ that practice final might still be a good way to study the other material.
 
 ### C++ Notes
 
-These items linked to on this page have nice conscise pointer information  
+These items linked to on this page have nice concise pointer information  
 [C++ Notes](http://www.fredosaurus.com/notes-cpp/) focus on ones called:
 
 * Addresses, pointers, references
 * Pointers
 * The NULL pointer
 * Dynamic Allocation of Arrays
-
-### Learncpp.com
-
-This online tutorial covers *some* of the same ground as the Liang readings:  
-[LearnCpp.com 6.7-6.9](http://www.learncpp.com/) for Pointers and dynamic allocation  
-
-### Lastly
-
-Congratulations—you are almost there\!

@@ -6,9 +6,9 @@ weight: 110
 ---
 
 
-{{% alert warning %}}
-No late work will be accepted past Monday.
-{{% /alert %}}
+## Quiz
+
+Quiz 4 will be open from Monday-Wed and covers weeks 8-10.
 
 ## Final
 

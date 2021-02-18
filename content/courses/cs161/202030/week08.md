@@ -9,9 +9,11 @@ weight: 80
 
 Upon finishing this learning module, you should be able to:
 
+
+* Write programs using arrays to store collections of related information
+* Design and write code using multidimensional arrays
 * Describe the high level differences between C++ strings and C strings
 * Use C style strings and the string functions that work on them
-* Design and write code using multidimensional arrays
 
 
 
@@ -19,26 +21,41 @@ Upon finishing this learning module, you should be able to:
 
 ### Day 1
 
-* Arrays & Functions
-* Read Ch7.5-7.8
+* Arrays
+* Read Ch 7.1-7.2, 7.4
+* CPPLab Arrays
 
 ### Day 2
+
+* Arrays & Functions
+* Read Ch7.5-7.8
+* CPPLab Array Functions
+
+### Day 3
 
 * Multidimensional arrays
 * CPPLab 2DArrays
 * Read Ch 8.1-8.4
 
-### Day 3
+### Day 4
 
 * Multidimensional arrays–Sample Programs
 * Read Ch 8.6-8.8.1
 
-### Day 4
-
-* C Strings and C based string/io functions
-* Read Ch 7.11.1 and 7.11.2, skim rest of 7.11
 
 ## Activity Outline
+
+
+### Array Basics
+
+Read Ch 7.1-7.2. These videos covers some of the important (and
+sometimes unmentioned) details  
+
+{{< youtube videoid="YEpuglOfH38" title="Array Basics" >}}
+{{< youtube videoid="BRZOfH-kbRQ" title="Array Processing" >}}
+
+Do the CPPLab Array Basics
+
 
 ### Arrays Continued
 
@@ -73,34 +90,6 @@ could be improved in them.
 {{< youtube videoid="H-qOMrdbG00" title="Multidimensional Samples" >}}
 
 Start the assignment.
-
-### C-Strings
-
-Strings in C are just arrays of characters. Because arrays need to have
-a fixed size, we often have to allocate more space then necessary and
-use a special character to mark the end of our string within the
-array.  
-
-{{% alert info %}}
-In general, you should keep using C++ strings to do your work.
-ou should know about C-strings, but they should not be your go-to tool in C++.
-{{% /alert %}}
-
-Read Ch 7.11.1 and 7.11.2, skim rest of 7.11 (don't need to memorize
-any of this, usually won't use these in C++, but nice to know what
-is there if you are programming C). This video talks about
-C-strings.  
-
-{{< youtube videoid="VXSUcGSuOS4" title="C String" >}}
-
-Buffer overflows are a way to use user input to change what is in
-user memory. A distressingly large number of critical security
-issues over the years have been related to this technique. This
-video explains the basic ideas involved:  
-
-{{< youtube videoid="ZEQ67dxNw1Q" title="Buffer Overflows" >}}
-
-Do the CStrings CPPLab.
 
 
 ## Extra Info
