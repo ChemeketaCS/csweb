@@ -105,23 +105,28 @@ Delete all the existing code (easiest to do in text mode), then paste in this st
 
         //Your code here
         
-        //You do not need to modify this
-        function drawSquare(size) {
-          for (var i = 0; i < 4; i++) {
+
+        //You should not modify this code:
+        function drawStar(size) {
+          for(var i = 0; i < 5; i++) {
             moveForward(size);
-            turnLeft(90);
+            turnRight(150);
+            moveForward(size);
+            turnLeft(78);
           }
         }
 
-    Add code to draw 200 squares of random colors and sizes to produce a picture that looks
+    Add code to draw 100 stars of random colors and random sizes to produce a picture that looks
     like the one below. (It won't be exactly the same because we are using randomness).
+    The size of the stars should all be between 10 and 50.
+
     Provide a screenshot of the picture your program draws and the text version of your code.
 
     Levels of credit: (Only submit one "level" - the highest you get working.)
 
-    * Level 1: Draw 200 squares in different locations - but there are lines between each
-    * Level 2: Draw 200 squares - no lines connecting them
-    * Level 3: Draw 200 squares of random sizes
-    * Level 4: Draw 200 squares of random sizes, each square is a random color  
+    * Level 1: Draw 100 stars in different locations - but there are lines between each
+    * Level 2: Draw 100 stars - no lines connecting them
+    * Level 3: Draw 100 stars of random sizes
+    * Level 4: Draw 100 stars of random sizes, each star is a random color  
      
-    ![Sample picture](random_squares.png)
+    ![Sample picture](random_stars.png)
