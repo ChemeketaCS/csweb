@@ -82,7 +82,7 @@ do and how to use the debugger on them in QtCreator:
 
 Do the CPPLab Multidimensional Arrays CPPLab–due Friday
 
-Read Ch 8.5-8.8.1 [Book video](http://wps.pearsoned.com/ecs_liang_itp_cpp3/235/60225/15417765.cw/index.html)  
+Read Ch 8.5-8.8.1
 This video talks through some of the interesting things in the
 sample programs from those sections, as well as some things that
 could be improved in them.  
