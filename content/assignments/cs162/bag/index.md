@@ -117,6 +117,11 @@ templated over a value type `T`:
   
   You can use an assert to blow up the program if called on empty bag.
 
+  Don't try to seed the random number generator inside pickRandom—it
+  would end up generating the same number every time. We don't need a
+  different random sequence with each run, so don't worry about seeding
+  at all.
+
 - `void dumpInto(Bag<T>& other)`
 
   Put all items from this bag into the other bag (this bag ends up empty).
