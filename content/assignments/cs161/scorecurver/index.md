@@ -110,7 +110,7 @@ Hint... while testing you might want to avoid typing in all that input over and 
 and just hard code some example numbers into `main`:
 
 ```
-int scores[] = {70  85  75  65  82  96  58  93  86  90};
+int scores[] = {70,  85,  75,  65,  82,  96,  58,  93,  86,  90};
 ```
 
 Once you are done with the other functions or about to turn in the
