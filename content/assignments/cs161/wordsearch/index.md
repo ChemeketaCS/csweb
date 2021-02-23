@@ -46,25 +46,33 @@ E  T  U  H  F  O  I  X  W  G
 
 ## Assignment
 
-Your assignment is to write some functions that will help build a word search. 
+Your assignment is to write some functions that could be used to help build
+a word search puzzle. You will not be actually building a "real" program
+that a user would interact with to make a puzzle. Instead,
+you are writing some functions and code to test those functions. The functions
+you are writing would be useful building blocks for building a "real"
+program that someone might use.
 
 I have provided for you an almost-complete version of the header you will use,
 [`wordSearch.h`](wordSearch.h). It is missing Doxygen comments—you should write comments for
 each function in the header. The functions are explained below.
 
 Then create `wordSearch.cpp` and define the functions declared in `wordSearch.h`.
-Write code to test them in `assign8.cpp`. You should test each function at
-least once, though if it can provide different results (like return true/false),
+Write code to test them in a main function in `assign8.cpp`. You should test each
+unction at least once, though if it can provide different results (like return true/false),
 you will need more than one test to prove that the function works in
 different cases.
 
 {{% alert warning %}}
 Functions that do not have sufficient code to test them will NOT
-receive full credit.
+receive full credit. I will also test your code with my own tests, but I want to see
+what you have done 
 {{% /alert %}}
 
-It is perfectly OK (and quite smart), to start your tests with a hard-coded partial
-grid so there is something there to work with right off the bat:
+Although a "real" program would start with an empty grid, as you are writing your
+test code you probably will want to start off with some words already loaded so
+you can easily test your print functions right off the bat. Feel free to hard
+code a starting array like this:
 
     char puzzle[ROWS][COLS] = {
             {'H','_','_','_','_','_','_','_','_','_'},
