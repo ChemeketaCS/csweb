@@ -44,7 +44,7 @@ commands shown above.
 NEVER include a .cpp file in another .cpp file.
 {{% /alert %}}
 
-## Part A: 80% Function Building
+## Part A: Function Building (~85% of grade)
 
 Build the following functions. They are tools that will help us write a
 program for calculating information about the boxes that can be made
@@ -114,7 +114,7 @@ and return value. The functions you must build and test are:
   For a given size cutout ($x$), return the total waste produced (total
   area cut out at the corners). For example, `getWaste(3)` should return 36.
 
-## Part B: 20% Final Program
+## Part B: Final Program (~15% of grade)
 
 Comment out the testing code you wrote in the main function. Leave it
 there in comments; do not delete it, because your part A grade includes
