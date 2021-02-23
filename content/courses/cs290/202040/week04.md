@@ -17,7 +17,7 @@ weight: 40
 
 ### Wednesday
 
-* Midterm - Covers weeks 1-3
+* Team Project Work
 
 ### Thursday
 

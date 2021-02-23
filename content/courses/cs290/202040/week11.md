@@ -7,5 +7,5 @@ weight: 11
 
 ## Final
 
-Must be taken at scheduled time. Time/date varies by section. See elearn for details.
+Teams will have scheduled presentations during the schedule block. See elearn for details.
 

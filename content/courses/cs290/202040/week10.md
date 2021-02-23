@@ -13,15 +13,15 @@ weight: 10
 
 ### Tuesday
 
-* Team - Work sessions
+* AJAX and Client Side Frameworks
 
 ### Wednesday
 
-* Team - Presentations
+* Team - Work sessions
 
 ### Thursday
 
-* Team - Presentations
+* Flex/Team - Work sessions
 
 ## Readings
 
