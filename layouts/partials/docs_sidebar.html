@@ -24,7 +24,7 @@
   {{ $.Page.Title }}
 </div>
 
-<nav class="sidebar-nav-menu collapse docs-links" id="docs-nav">
+<nav class="sidebar-nav-menu collapse docs-links" id="docs-nav" aria-label="side_nav">
   
   {{ with (index site.Menus $menu_name) }}
 
@@ -42,6 +42,7 @@
     {{ end }}
 
     {{- if .HasChildren }}
+    <nav class="nav docs-sidenav" aria-label="page_nav">
     <ul class="nav docs-sidenav">
       {{ range .Children }}
       <li {{ if $current_page.IsMenuCurrent $menu_name . }}class="active"{{ end }}>
@@ -49,6 +50,8 @@
       </li>
       {{ end }}
     </ul>
+    </nav>
+    </div>
     {{ end }}
 
   </div>
