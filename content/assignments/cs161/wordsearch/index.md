@@ -198,7 +198,7 @@ S  T  A  C  K  _  _  _  _  _
 \_  _  _  _  _  _  _  _  _  _
 {{% /sample_run %}}
 
-### bool placeDiagonal(char grid[ROWS][COLS],  int startRow, int startCol, const string& word)
+### void placeDiagonal(char grid[ROWS][COLS],  int startRow, int startCol, const string& word)
 
 Places the given word going diagonally down to the right from the given starting row and column.
 It does NOT have to check if the word will fit - you can assume it always will.
