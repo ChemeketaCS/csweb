@@ -98,7 +98,17 @@ Calculate the standard deviation of an array given its values and its mean
 
 #### char getLetterGrade(int score, double mean, double stdDev)
 
-Calculate a letter grade based on a score, a mean and standard deviation
+Calculate a letter grade for one score given a mean and standard deviation based on the
+logic described above.
+
+Examples:
+
+Given a score of 70, mean of 80.0, and std deviation of 11.9: The score is 10 below the
+mean. That is more than 0.5 times the standard deviation below the mean but less than 1.0
+standard deviations below the mean. That means a grade of 'D'.
+
+Given a score of 96, mean of 80.0, and std deviation of 11.9: The score is 16 above the
+mean. That is more than 1.0 standard deviations above the mean. That means a grade of 'A'.
 
 {{% alert warning %}}
 A solution without these functions will take a significant penalty even
