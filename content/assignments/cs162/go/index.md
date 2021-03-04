@@ -52,6 +52,8 @@ dark green.
   
 ![Example inputs and outputs](examples.png)
 
+(There is an error in the above diagram. In the first example, the group is of size 6 (not 7), with 5 liberties.)
+
 {{% alert info %}}
 Your program must make use of a recursive function for determining the
 size of the group and number of liberties. Do not use global variables;
@@ -82,7 +84,7 @@ program should only ask for one location).
 
 {{% sample_run %}}
 Enter row & col: `3 4`
-group size 7
+group size 6
 5 liberties
 {{% /sample_run %}}
 
