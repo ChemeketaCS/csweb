@@ -86,7 +86,7 @@ Figuring out what tests to run is part of the challenge of this assignment.
 Make sure to think through the different inputs a function might get
 and what might cause issues.
 
-Each function must be preceded by a doxygen comment with a brief
+Each function **must** be preceded by a doxygen comment with a brief
 description of the function overall, and descriptions of its parameters
 and return value. The functions you must build and test are:
 

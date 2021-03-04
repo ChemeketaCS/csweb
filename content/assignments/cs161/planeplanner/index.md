@@ -57,11 +57,9 @@ remember that the indices will start from 0 in your code.
 Your assignment is to write some functions that could be used to write
 a program for tracking and assigning seats.
 
-I have provided for you an almost-complete version of the header you will use,
-[`airplane.h`](airplane.h). It is missing Doxygen comments—you should write comments for
-each function in the header. They are explained below.
-
-Then create `airplane.cpp` and define the functions declared in `airplane.h`.
+I have provided for you a complete version of the header you will use,
+[`airplane.h`](airplane.h). You should
+create `airplane.cpp` and define the functions declared in `airplane.h`.
 Write code to test them in `assign8.cpp`. You should test each function at
 least once, though if it can provide different results (like return true/false),
 you will need more than one test to prove that the function works in

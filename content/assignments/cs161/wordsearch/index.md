@@ -53,11 +53,9 @@ you are writing some functions and code to test those functions. The functions
 you are writing would be useful building blocks for building a "real"
 program that someone might use.
 
-I have provided for you an almost-complete version of the header you will use,
-[`wordSearch.h`](wordSearch.h). It is missing Doxygen comments—you should write comments for
-each function in the header. The functions are explained below.
-
-Then create `wordSearch.cpp` and define the functions declared in `wordSearch.h`.
+I have provided for you a complete version of the header you will use,
+[`wordSearch.h`](wordSearch.h). You should
+create `wordSearch.cpp` and define the functions declared in `wordSearch.h`.
 Write code to test them in a main function in `assign8.cpp`. You should test each
 unction at least once, though if it can provide different results (like return true/false),
 you will need more than one test to prove that the function works in
@@ -66,7 +64,7 @@ different cases.
 {{% alert warning %}}
 Functions that do not have sufficient code to test them will NOT
 receive full credit. I will also test your code with my own tests, but I want to see
-what you have done 
+what you have done.
 {{% /alert %}}
 
 Although a "real" program would start with an empty grid, as you are writing your
