@@ -100,6 +100,13 @@ Calculate the standard deviation of an array given its values and its mean
 
 Calculate a letter grade based on a score, a mean and standard deviation
 
+#### void calculateLetterGrades(const int scores[], char letterGrades[], int size)
+
+Use the scores in **scores** to calculate letter grades for each student and place
+them into **letterGrades** so that the grade for `scores[0]` is stored in
+`letterGrades[0]`, the grade for `scores[1]` is stored into `letterGrades[1]`, etc...
+
+
 {{% alert warning %}}
 A solution without these functions will take a significant penalty even
 if it produces the correct output.
