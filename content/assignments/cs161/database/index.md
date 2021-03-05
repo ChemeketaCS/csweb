@@ -2,7 +2,7 @@
 title: Database
 summary: Assignment covering structs
 weight: 90
-#last used 202020
+#last used 202030
 ---
 
 {{% cs161General %}}
@@ -46,7 +46,8 @@ Here are some spots to look for other data sets:
 Your program should use functions to break up the work. You can break
 the code up into separate files but that is not required.
 
-Errors in style will cost you points.
+You should provide doxygen style comments for all functions other than main.
+
 
 ### Part 1 : PDF
 
