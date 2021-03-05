@@ -2,7 +2,7 @@
 title: Week 10 - AJAX and Project Wrapup
 linktitle: Week 10
 
-weight: 10
+weight: 100
 ---
 
 ## Schedule
