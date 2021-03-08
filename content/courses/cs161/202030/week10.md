@@ -105,12 +105,8 @@ Read 11.9
 
 ### Final prep
 
-The final exam will be taken in a similar manner to the midterm.
-This term's final will be different than previous term's finals, so
-the class files final prep material does not correspond perfectly to
-the material that you will encounter. In particular, there will not
-be a question about image manipulation related to PhotoChop.  However,
-that practice final might still be a good way to study the other material.
+The final exam will be a similar format to the midterm. There is a practice
+final available in elearn.
 
 ## Extra Info
 
