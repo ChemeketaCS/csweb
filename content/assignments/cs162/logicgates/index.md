@@ -209,7 +209,7 @@ worry about the printing functions.
 Write a unit test in LogicGateTester.cpp for the basic functionality of
 the NOT gate. Implement something like below in the test:
 
-![](NOT%20C)
+![](NOT%20C.png)
 
 This would mean making a Pin C, then a NotGate n1, then setting n1's
 input to C.
@@ -226,7 +226,7 @@ Write three separate unit tests in LogicGateTester.cpp for the basic
 functionality of the three different types gate. For example, the AND
 test might construct a circuit like this:
 
-![](media/A%20AND%20B.png)
+![](A%20AND%20B.png)
 
 This would mean making two Pins A and B, then one TwoInputGate and
 setting the two inputs to be A and B.
