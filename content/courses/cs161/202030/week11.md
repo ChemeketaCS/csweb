@@ -8,7 +8,7 @@ weight: 110
 
 ## Quiz
 
-Quiz 4 will be open from Monday-Wed and covers weeks 8-10.
+Quiz 4 will be open until Tuesday and covers weeks 8-10.
 
 ## Final
 
