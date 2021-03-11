@@ -39,6 +39,23 @@ Here are some spots to look for other data sets:
 * <https://www.kaggle.com/datasets>
 * <https://data.oregon.gov/browse>
 
+
+## Submit files
+
+*  A PDF document that describes and shows what you did (see Part 1).
+*  One or more C++ files and .h files. You can call them whatever you like.
+*  Your data file. (Make sure your program uses a relative file name without slashes.)
+
+If you want, you can zip up the code and data file (NOT the PDF), to submit as one package.
+You do not need to do so.
+
+*I should be able to compile and run your program with:*
+
+    g++ -std=c++11 *.cpp -o program.exe
+    program.exe       (./program.exe on a mac)
+
+In that recipe, *.cpp says "any .cpp files".
+
 ## Assignment
 
 ### Style and Structure
@@ -51,14 +68,17 @@ You should provide doxygen style comments for all functions other than main.
 
 ### Part 1 : PDF
 
-Provide the following in a PDF document (you should be able to save as
-PDF from Word/Pages/Google Docs):
+Since you are deciding what your program will do, you need to provide some
+information about what it is you chose to do. Provide the following in a PDF
+document (you should be able to save as PDF from Word/Pages/Google Docs):
 
 *  A description of the data your program reads and a description/table
    showing what the struct you use to store it looks like.
 *  Brief, clear descriptions of what your program does for parts 4, 5, & 6.
 *  The captured output of one or more runs of your program that shows
-   off all of its features.
+   off all of its features. You can either take screenshots of the output
+   to put in the PDF, or you can capture the output to a text file and
+   copy/paste that into the PDF (see appendix for tip on capturing output).
 
 ### Part 2 : Reading/Storing Data
 
@@ -139,7 +159,7 @@ label):\
 *Highest ranked app:\
 ...record info*
 
-### Part 6 : Aggregate data 
+### Part 6 : Aggregate data
 
 The program should have a way to output a total, average, or other
 aggregated stat about all items that match some criterion. 
@@ -159,11 +179,6 @@ label):\
 *Average Salary for a \"radiologist\":\
 ...salary info*
 
-## Submit files
-
-*  A PDF document that describes and shows what you did (see Part 1).
-*  One or more C++ files and .h files.
-*  Your data file. (Make sure your program uses a relative file name without slashes.)
 
 ## Appendix
 
@@ -180,7 +195,7 @@ until whitespace is encountered.
 
 ### Cleaning .csv Files
 
-Fields are seperated with commas, so what happens if there is a comma in
+Fields are separated with commas, so what happens if there is a comma in
 the field like cell B below?\
 ![data fields containing hello there, "a, b, c", "Sue 'Mad Skills' Smith"](csv.png)
 
@@ -249,3 +264,27 @@ Becky only has 2.
     
     Using this trick can make it so you don't need to chop up the line
     after reading—you can chop as you go.
+
+### Capturing Output
+
+To capture output of your program, you can send its output to a file
+instead of having it print to the screen. To do this, use `> FILENAME` as
+you run the program.
+
+Assuming you have compiled your code into program.exe, you can use this
+from the command prompt to run your program and save all the output
+to *output.txt*. (Output will **not** appear on the screen.)
+
+{{% sample_run %}}
+program.exe > output.txt
+{{% /sample_run %}}
+
+Or on a mac:
+
+{{% sample_run %}}
+.\program.exe > output.txt
+{{% /sample_run %}}
+
+Then open *output.txt* to see your program's output and copy/paste it into
+your PDF.
+
