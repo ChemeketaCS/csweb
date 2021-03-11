@@ -7,7 +7,7 @@ layout: single
 weight: 20
 ---
 
-{{% cs160General responses="https://docs.google.com/document/d/1BIB9M1yvLzV5GW96Tn9qjHHdyk2Pca1rT8jpiFUaqxQ/copy" %}}
+{{% cs160General responses="https://docs.google.com/document/d/1rNXeZAhGuo33BcPmIfRBEKhM_uFV_9hP1iw5wkedC6c/copy" %}}
 
 
 ## Binary And Bits

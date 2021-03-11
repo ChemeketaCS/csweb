@@ -7,7 +7,7 @@ layout: single
 weight: 90
 ---
 
-{{% cs160General responses="https://docs.google.com/document/d/17xIlkWLPLtK81_yWD9Vlhwc7oi75wc93fhaA0hin9qk/copy" %}}
+{{% cs160General responses="https://docs.google.com/document/d/1Hq7TX0v6hohJ9Hgxwp0VjOieJUCa6Gp5NoxMRsO1qZ8/copy" %}}
 
 ## Algorithmic Efficiency
 

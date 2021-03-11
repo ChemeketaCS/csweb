@@ -7,7 +7,7 @@ layout: single
 weight: 60
 ---
 
-{{% cs160General responses="https://docs.google.com/document/d/1PtZMl8EH-aaIon9PheZri5a02SrarOQUrXZRRP3biDM/copy" %}}
+{{% cs160General responses="https://docs.google.com/document/d/1ghmYVprzQ2v28msc961h2hZCPUxhpEUljpxBJScpbIw/copy" %}}
 
 ## Little Computer
 
