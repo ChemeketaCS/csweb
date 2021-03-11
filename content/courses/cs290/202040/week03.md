@@ -21,12 +21,15 @@ weight: 30
 
 ### Thursday
 
-* Accessibility & Design Auditing
+* Accessibility Auditing
 
 ## Readings
 
-* [MDN : Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)  
-*OK to just focus on the basics in **WAI-ARIA basics**, **Accessible multimedia** and to skip **Mobile accessibility***
+* [Accessible to all](https://web.dev/accessible/#create-a-design-and-css-that-supports-users-with-different-needs)
+
+* [Introduction to ARIA](https://developers.google.com/web/fundamentals/accessibility/semantics-aria)
+
+* [Using ARIA](https://webaim.org/techniques/aria/)
 
 ## References
 
