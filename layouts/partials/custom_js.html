@@ -8,5 +8,12 @@
 <script src="{{ printf "%s%s" $pageLink . }}?{{ now.Unix }}" defer></script>
 {{- end }}
 
+<script>
+$(function() {
+  $("#TableOfContents").each(function(){
+    $(this).attr("aria-label","Table of Contents");
+  });
+});
+</script>
 
   
