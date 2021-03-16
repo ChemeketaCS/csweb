@@ -49,6 +49,13 @@ On the following page, scroll down to the bottom to download the online installe
 
 ![QTCreator online installer link](qtonlineinstaller.png)
 
+The installer needs to run on a computer that is connected to the internet
+so it can download the components you select. If you need to install on a computer
+that is not connected to the internet, or has a slow or metered connection, you
+should try downloading the [Offline Installer]({{< relref "#offline" >}}) at school
+or somewhere with a fast connection, putting it on a flash drive, and then install from
+that.
+
 ## Installation
 
 Launch the QT Online installer. Continue until you get to the account screen. If this
@@ -64,9 +71,15 @@ Then continue until you get to the **Installation Folder** screen. On it, select
 
 ![Default Desktop Installation](desktopinstallation.png)
 
+{{% alert warning %}}
+If you get an error from the installer about not being able to download components,
+you can try the [Offline Installer]({{< relref "#offline" >}}).
+{{% /alert %}}
+
 ## QTProject Template Setup
 
-QTCreator stores its preferences in a folder called **QTProject**.  To install the Chemeketa project templates and set some important preferences, grab this compressed QTProject folder:
+QTCreator stores its preferences in a folder called **QTProject**.  To install the Chemeketa
+project templates and set some important preferences, grab this compressed QTProject folder:
 [https://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip](https://computerscience.chemeketa.edu/CSResources/QtCreator/QtProject.zip)
 
 Then unzip the folder. You should end up with a folder called **QtProject** with this inside it:
@@ -143,3 +156,24 @@ menu item (or ``ctrl-B``). Then run the program with **Build > Run** (or ``ctrl-
 1. A window should appear that displays the text ``Hello World!``. (If you are on a mac it will
 display some other text as well - you can ignore the other text.)
 ![Hello World displayed in a terminal window.](helloworld.png)
+
+## Offline Installer {#offline}
+
+{{% alert info %}}
+The offline installer downloads all of the components needed to install QTCreator. This means
+it downloads more data than the online installer. So you generally only want to use it
+if you don't have fast internet available at home and need to download the installer
+at school to take home and install.
+{{% /alert %}}
+
+The offline install can be found at https://www.qt.io/offline-installers. Select the tab
+for QTCreator downloads. Then pick the most recent option for your operating system:
+
+![Selecting the QT Creator offline installer download](offlineInstaller.png)
+
+As you install, you will get to a **Select Components** screen. On that screen, if you are
+using Windows, you need to select two options to install MinGW (the actual compiler that
+will build your code). It is OK if you see a different version of MinGW - just pick the biggest
+number version you see and make sure to chose it in both of the locations shown below.
+
+![Selecting mingw options](offlineInstallerOptions.png)
