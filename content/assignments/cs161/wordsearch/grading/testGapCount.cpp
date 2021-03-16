@@ -27,8 +27,4 @@ int main()
     printKey(puzzle);
     cout << endl << "--------------------" << endl;
     printLargestGaps(puzzle);
-    cout << endl << "--------------------" << endl;
-	placeDiagonal(puzzle, 3, 3, "ABCDEF");
-    printKey(puzzle);
-    cout << endl << "--------------------" << endl;
 }

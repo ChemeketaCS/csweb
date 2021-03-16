@@ -115,15 +115,6 @@ _ _ _ C _ _ _ _ _ _
 _ _ _ _ D _ _ _ _ _ 
 _ _ _ _ _ _ _ _ _ _ 
 ...
---------------------
-Row Gap Size    Start Col
-0   6           0
-1   8           2
-2   4           3
-3   2           1
-4   10          0
-5   10          0
-...
 """,
                 'exe': 'testD.exe',
                 'output_file': '_testDiagonal',
