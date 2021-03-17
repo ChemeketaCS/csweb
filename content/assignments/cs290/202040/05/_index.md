@@ -93,7 +93,7 @@ with the HTML you want. To avoid style deductions, avoid having one giant functi
 all the work to build the page. (Consider making a function that takes a js object and produces
 an HTML entity that can be added to the page.)
 
-**Writeup Question #3:**If you are doing something dynamic - describe it briefly so I know what
+**Writeup Question #3:** If you are doing something dynamic - describe it briefly so I know what
 I am looking for. Otherwise not required.
 
 We have not covered forms in general, but here is an HTML snippet you can use to make a text field

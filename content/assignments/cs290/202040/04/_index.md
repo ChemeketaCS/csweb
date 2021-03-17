@@ -22,7 +22,7 @@ Make a directory `dicegame` in your Assignments repository. To that directory ad
 they will open in your browser):
 
 * [index.html](files/index.html)
-* [diceGame.js](files/diceGame.html)
+* [diceGame.js](files/diceGame.js)
 
 You will not have to (and probably should not) modify the provided HTML file. All of your
 work should be in the js file. In it are some provided functions you should make use of.

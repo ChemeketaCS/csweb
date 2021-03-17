@@ -154,5 +154,3 @@ most of the same basic CRUD options that your website interface does.
 
 The "something extra" is per student. Group mates can do completely separate
 "extras", in which case the "extra" only has to exist for their pages/data items.
-
-

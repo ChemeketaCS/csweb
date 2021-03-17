@@ -10,7 +10,6 @@
     <title>Dice Game</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-    <script src="yahtzee.js"></script>
     <style>
         .die {
             visibility: hidden;
@@ -48,98 +47,6 @@
             width: 400px;
         }
     </style>
-
-    <script>
-        //You should not need to use or even think about these functions
-
-        function shuffle(diceArray) {
-            //You don't have to know how this works for now
-            //https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-            return diceArray.map((a) => ({
-                    sort: Math.random(),
-                    value: a
-                }))
-                .sort((a, b) => a.sort - b.sort)
-                .map((a) => a.value);
-        }
-
-        function makeOfKind(number) {
-            let array = [1, 2, 3, 4, 5, 6];
-
-            array = shuffle(array);
-
-            let itemsToKeep = 6 - number;
-            array = array.slice(0, itemsToKeep); //leave (5-n) items behind
-
-            //copy last item n - 1 times
-            for (let i = 0; i < number - 1; i++)
-                array.push(array[itemsToKeep - 1]);
-
-            array = shuffle(array);
-            return array;
-        }
-
-        function makeFullHouse() {
-            let array = [1, 2, 3, 4, 5, 6];
-
-            array = shuffle(array);
-            array = array.slice(0, 2);
-
-            //copy first item 1 time and second item 2 times
-            array.push(array[0]);
-            array.push(array[1]);
-            array.push(array[1]);
-
-            array = shuffle(array);
-            return array;
-        }
-
-        function pickRandom(array) {
-            let index = Math.floor(Math.random() * array.length);
-            return array[index];
-        }
-
-        function makeFourStraight() {
-            let array = [];
-            let maxStart = 2;
-
-            let possibleExtraNumbers;
-            let start = 1
-            if (Math.random() >= 0.5) {
-                //Straight will be 1-4
-                possibleExtraNumbers = [1, 2, 3, 4, 6];
-
-            } else {
-                //Straight will be 3-6
-                start = 3;
-                possibleExtraNumbers = [1, 3, 4, 5, 6];
-            }
-
-            for (let i = 0; i < 4; i++)
-                array.push(start + i);
-
-            array.push(pickRandom(possibleExtraNumbers));
-
-            array = shuffle(array);
-            return array;
-        }
-
-        function makeFiveStraight() {
-            let array = [];
-            let maxStart = 2;
-            let start = 1
-
-            if (Math.random() >= 0.5)
-                start = 2;
-
-            for (let i = 0; i < 5; i++)
-                array.push(start + i);
-
-            array = shuffle(array);
-            return array;
-        }
-    </script>
-
 </head>
 
 <body>
@@ -169,6 +76,124 @@
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script>
+        //You should not need to use or even think about these functions
+
+        //Takes in an array of 5 numbers (each 1-6) and sets the dice to those values
+        function setDice(diceArray) {
+            if (diceArray.length != 5)
+                return;
+
+            diceArray.forEach((value, index) => {
+                setDie(index + 1, value);
+            });
+        }
+
+        //changes the given die number (1-5) from locked to unlocked or vice verse
+        function flipState(dieNumber) {
+            let die = document.getElementById('die' + dieNumber);
+            if (isLocked(dieNumber)) {
+                die.className = die.className.replace("-fill", "");
+            } else {
+                let regex = /bi-dice-\d/;
+                die.className = die.className.replace(regex, "$&-fill");
+            }
+        }
+
+        //pick a random element from an array
+        function pickRandom(array) {
+            let index = Math.floor(Math.random() * array.length);
+            return array[index];
+        }
+
+        //shuffles an array
+        function shuffle(diceArray) {
+            //You don't have to know how this works for now
+            //https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+            return diceArray.map((a) => ({
+                    sort: Math.random(),
+                    value: a
+                }))
+                .sort((a, b) => a.sort - b.sort)
+                .map((a) => a.value);
+        }
+
+        //make sure that there are number dice that all have the same value and other dice have unique values
+        function makeOfKind(number) {
+            let array = [1, 2, 3, 4, 5, 6];
+
+            array = shuffle(array);
+
+            let itemsToKeep = 6 - number;
+            array = array.slice(0, itemsToKeep); //leave (5-n) items behind
+
+            //copy last item n - 1 times
+            for (let i = 0; i < number - 1; i++)
+                array.push(array[itemsToKeep - 1]);
+
+            array = shuffle(array);
+            return array;
+        }
+
+        //make sure the dice represent a full house
+        function makeFullHouse() {
+            let array = [1, 2, 3, 4, 5, 6];
+
+            array = shuffle(array);
+            array = array.slice(0, 2);
+
+            //copy first item 1 time and second item 2 times
+            array.push(array[0]);
+            array.push(array[1]);
+            array.push(array[1]);
+
+            array = shuffle(array);
+            return array;
+        }
+
+        //make sure the dice show a small straight
+        function makeFourStraight() {
+            let array = [];
+            let maxStart = 2;
+
+            let possibleExtraNumbers;
+            let start = 1
+            if (Math.random() >= 0.5) {
+                //Straight will be 1-4
+                possibleExtraNumbers = [1, 2, 3, 4, 6];
+
+            } else {
+                //Straight will be 3-6
+                start = 3;
+                possibleExtraNumbers = [1, 3, 4, 5, 6];
+            }
+
+            for (let i = 0; i < 4; i++)
+                array.push(start + i);
+
+            array.push(pickRandom(possibleExtraNumbers));
+
+            array = shuffle(array);
+            return array;
+        }
+
+        //make sure the dice show a large straight
+        function makeFiveStraight() {
+            let array = [];
+            let maxStart = 2;
+            let start = 1
+
+            if (Math.random() >= 0.5)
+                start = 2;
+
+            for (let i = 0; i < 5; i++)
+                array.push(start + i);
+
+            array = shuffle(array);
+            return array;
+        }
+    </script>
+    <script src="diceGame.js"></script>
 </body>
 
 </html>
