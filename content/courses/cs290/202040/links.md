@@ -13,6 +13,10 @@ weight: 8
 [Node.js](https://nodejs.org/en/download/) - select the 64-bit Windows Installer (msi) version
 if on Windows
 
+### WebDev Tools
+
+[http://users.skynet.be/mgueury/mozilla/] Local HTML Validator for Chrome/Firefox
+
 ### Accessibility Tools
 
 [Accessibility Insights Chrome plugin](https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni)

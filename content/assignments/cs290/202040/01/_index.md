@@ -31,7 +31,8 @@ node server.js
 {{% /sample_run %}}
 
 Make the webpages listed below - it is fine to make more than the listed three.
-Your HTML should be well formed and cleanly formatted.
+Your HTML should be well formed and cleanly formatted. You can name each file whatever
+you like other than **Home** which must be `index.html`.
 
 All your web pages should share some common elements. They should each have a `<nav>` area at
 the top of the page with a list of links to all of the pages in your site.
@@ -42,7 +43,10 @@ should be grouped into reasonable "chunks" using divs or other organizing tags. 
 
 {{< figure src="pageFormat.png" width="80%" >}}
 
-You can name each file whatever you like other than **Home** which must be `index.html`.
+For one part of this assignment, you will need to describe what you did in a PDF you will
+submit to elearn. Use google docs or Word to make a document and then save it as a PDF to submit.
+
+## Pages
 
 ### Home
 
@@ -85,6 +89,12 @@ you have not taken that many.
 
 {{< figure src="courseTable.png" width="80%" >}}
 
+## Validation
+
+Install the HTML Validator (see Resource Links in the 290 course pages). Run it on each of your
+three pages. Take a screenshot of the results (just the **HTML errors and warnings** summary) for
+each page and paste them into a document you will submit as a PDF.
+
 ## Scoring Overview
 
 Home page - 10 pts
@@ -100,4 +110,4 @@ Common formating (nav/footer) - 10 pts
 : Required elements are common across all pages.
 
 Valid HTML - 5 pts
-: No validation errors for any pages.
+: No validation errors or warnings for any pages.

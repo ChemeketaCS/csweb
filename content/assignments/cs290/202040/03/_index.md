@@ -22,24 +22,31 @@ Continue working in the `aboutme` directory.
 You should do the accessibility audit on the version of your pages you turned in for week 2. If you
 do the Bootstrap work first, use git to "time travel" back to the pre Bootstrap version of your pages.
 
+The accessibility audit you will submit as a PDF.
+
 You will also need to describe the work you do for  parts of the assignment. This should be submitted
 as a separate document from the accessibility audit.
 
 ## Accessibility Audit
 
-Complete an accessibility audit of your work on assignment 1 and 2. Submit a PDF of it.
+Complete an accessibility audit of your work on assignment 1 and 2.
+
+[Accessibility Audit Template](https://docs.google.com/document/d/1Bp3t2i_kt24Ktbf1ckuKZL3QWaj2FiM-9WJHzBedxRk/copy)
+
+You can receive full credit even if there are issues at this stage as long as you document
+and explain them where required.
 
 ## Accessibility Improvements
 
 Fix any issues identified in your audit.
-
-**Writeup Question #1:** Briefly describe what changes, if any, you made.
 
 Then, mark up your table to improve its accessibility. Add a `caption` to the table and
 `scope` attributes to all `th` tags.
 
 You can find good examples of using these tags here:
 https://www.w3.org/WAI/tutorials/tables/
+
+**Writeup Question #1:** Briefly describe what fixes you made. Use a list instead of a paragraph.
 
 ## Bootstrap
 
@@ -70,5 +77,5 @@ Bootstrap use - 20 pts
 incorporate Bootstrap into multiple areas of your pages.
 
     * Incorporate it into every page and multiple different elements: Max score 20
-    * Incorporate it into multiple elements on one page: Max score 17
-    * Incorporate it into one element on one page: Max score 14
+    * Incorporate it into every page at least once, multiple elements on one page: Max score 17
+    * Incorporate it into multiple elements on one page: Max score 14
