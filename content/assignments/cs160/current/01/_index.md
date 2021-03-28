@@ -12,26 +12,16 @@ weight: 10
 
 ## Computer Fields & Careers
 
-1. A friend is thinking about going into a tech career. In your own words,
-use a sentence or two to describe what each educational field would train them to do:  
+1. A friend is thinking about pursuing a career in computing. In your own words, use a sentence or two to describe what each field below would prepare them to do.
     1. Computer Science  
     1. Software Engineering  
     1. Computer Engineering  
     1. Information Technology  
     1. Information Systems  
 
-1. Explain what you think Edsger Dijkstra meant by his statement:
-*"Computer science is no more about computers than astronomy is about telescopes."*
+1. For each of the fields above, what department at Chemeketa provides the most appropriate next step towards that field?
 
-1. 
-    1. Using a job-hunting site (like monster.com or dice.com), find a technology oriented job that
-    appeals to you and cut and paste the complete job descriptions & requirements into the answer.
-    (Don't worry about reformatting the information; it is fine if the formatting is all jumbled
-    after pasting in from the website.)
-
-    1. What program would you start in at Chemeketa to start working towards that job?  
-    https://www.chemeketa.edu/programs-classes/program-finder/  
-    If you need a four-year degree for the job, what degree program might you transfer to?
+1. Explain what you think Edsger Dijkstra meant by his statement, “Computer science is no more about computers than astronomy is about telescopes.”
 
 ## Programming
 
@@ -41,9 +31,10 @@ Complete the programming tutorials that were assigned this week. This work will 
 **Practice** grade.
 
 {{% alert warning %}}
-You will not receive credit for this work if your username in Code.org is not set to your
-my.chemeketa username - if you are bsmith12@my.chemeketa.edu your Code.org name should be
-bsmith12.
+Common mistakes that will prevent you from getting credit for your work
+include not setting your username in code.org correctly, working on the
+wrong version of the material, or not signing up for the correct section.
+Refer to the [code.org setup guide](/guides/code.org-setup/).
 {{% /alert %}}
 
 ### Assignment Problems
