@@ -31,8 +31,8 @@ expect to just get questions ("What have you tried?") in response.
 
 ## The Work
 
-Plan on spending 8-12 hours per week working on this course outside of
-the classroom (12-16 total for online students). Predicting how long it
+Plan on spending 8–12 hours per week working on this course outside of
+the classroom (12–16 total for online students). Predicting how long it
 will take to write a computer program can be very difficult to
 estimate—do not count on being able to block out a set number of hours each
 week to complete your work.
@@ -135,7 +135,7 @@ giving help" section below.
 ### Weekly assignments
 
 Assignments are to be done individually. You should not share
-(email, dropbox, github, etc...) with anyone else — either to ask
+(email, dropbox, github, etc...) with anyone else—either to ask
 for help or to attempt to provide it. I will use an automatic tool
 to scan assignments for code that is duplicated in different
 submissions. If I have doubts about whether you wrote your own
