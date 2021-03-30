@@ -17,7 +17,7 @@ Recommended extensions:
 * HTML Hint
 * HTML CSS Support
 * EJS Language Support
-* JS-CSS-HTML Formatter
+* Prettier
 
 ### Node JS
 
