@@ -17,7 +17,7 @@ Recommended extensions:
 * HTML Hint
 * HTML CSS Support
 * EJS Language Support
-* Prettier
+* Prettier - here are [instructions for using prettier](https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code)
 
 ### Node JS
 
