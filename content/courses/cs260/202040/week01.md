@@ -27,6 +27,16 @@ under Resource Links. See this video for how to use it:
 
 {{< youtube videoid="CtjCECDGefM" title="Working With Projects & Files" >}}
 
+### CPPLab
+
+If you are not familiar with CPPLab, watch the video below. We will use
+it to get some of the small scale practice required to really understand
+what you are doing. Your username is the same as your my.chemeketa gmail
+username. Your starting password is "changeme"; you can change it on
+the login screen.
+
+{{< youtube videoid="o5rc6CCup_k" title="CPPLab Intro Video" >}}
+
 ## Day 1
 
 ### Zoom Topics

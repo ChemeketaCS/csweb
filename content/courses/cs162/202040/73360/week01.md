@@ -88,7 +88,7 @@ what you are doing. Your username is the same as your my.chemeketa gmail
 username. Your starting password is "changeme"; you can change it on
 the login screen.
 
-{{< youtube videoid="DlhjVdCFv1w" title="CPPLab Intro Video" >}}
+{{< youtube videoid="o5rc6CCup_k" title="CPPLab Intro Video" >}}
 
 ### Encapsulation, Headers and Information Hiding
 
