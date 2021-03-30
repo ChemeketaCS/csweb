@@ -89,7 +89,15 @@ crashes but later parts work correctly, comment it out and leave a note in the o
 (0% of grade - required for assignment to be graded)
 
 Make a makefile called **MyMake** - when the make utility is executed with it, it should build an
-executable called **linux/assign1.exe** from your code files. Test this early and often.
+executable called **linux/assign1.exe** from your code files. I will test
+your project by doing exactly this from your project directory:
+
+{{ sample_run }}
+make -f MyMake
+linux/assign1.exe
+{{ /sample_run }}
+
+Make sure this works to build and run the code - test early and often. 
 
 {{% alert info %}}
 There should not be an extension on the makefile filename. Make sure you do not turn in MyMake.txt
@@ -99,9 +107,7 @@ There should not be an extension on the makefile filename. Make sure you do not 
 
 (20% of grade)
 
-Add a **main.cpp** with a main function.
-
-In it, *read in a single integer* (from the console) representing ***size*** - the number of
+In main, *read in a single integer* (from the console) representing ***size*** - the number of
 records your program will read and work with. Anywhere else in the instructions ***size***
 is mentioned, it refers to this one value. *This should be the only input your program
 requires - do not ask for any other.*
