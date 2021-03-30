@@ -52,16 +52,16 @@ office_map: https://www.google.com/maps/dir//44.981061,-122.9782209/@44.9806098,
 #Building 6 map
 # https://www.google.com/maps/place/Chemeketa+Community+College+Building+6/@44.978835,-122.9781507,17z/data=!3m1!4b1!4m5!3m4!1s0x54bffdd706570ca9:0xd48c455d1391ce2!8m2!3d44.978835!4d-122.9759567
 
-office_hours_for: Winter 2021
+office_hours_for: Spring 2021
 office_hours:
-- days: Monday, Wednesday, Thursday
+- days: Monday, Tuesday, Wednesday, Thursday
   times: 
-  - time: 12:30am–13:30pm
+  - time: 10:30am–11:30am
     location: Google Chat
     location_map: 'http://chat.google.com/'
-- days: Monday, Wednesday
+- days: Thursday
   times: 
-  - time: 14:30pm–15:30pm
+  - time: 12:30pm–1:30pm
     location: Google Chat
     location_map: 'http://chat.google.com/'
 
