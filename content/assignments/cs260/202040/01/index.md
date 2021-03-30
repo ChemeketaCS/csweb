@@ -112,7 +112,7 @@ Then read in ***size*** records from people.txt and place them all into two arra
 Sort personsSorted using: `std::sort(personsSorted, personsSorted + size);` (This is an
 exception to the no std:: algorithms rule.)
 
-**Print out the name of the last person you read.**
+**Print out the name of the last person in your array.**
 
 {{% alert info %}}
 Don't forget to make sure that the text file is in your working directory.

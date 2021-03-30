@@ -26,6 +26,9 @@ if on Windows
 
 ### Git
 
+Examples for this class can be found at:
+https://github.com/ascholerChemeketa/cs290Code
+
 You will use Git to accept and turn in assignments.
 [Git Download](https://git-scm.com/downloads)
 

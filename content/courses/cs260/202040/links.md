@@ -32,7 +32,7 @@ You will use Git to accept and turn in assignments.
 
 ## Class Resources
 
-[CS260 Code Repository](https://github.com/ascholerChemeketa/cs260Code)
+[CS260 Github Code Repository](https://github.com/ascholerChemeketa/cs260Code)
 
 [Book Website](https://console.pearson.com/console/home)
 
