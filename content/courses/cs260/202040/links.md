@@ -30,9 +30,10 @@ You will use Git to accept and turn in assignments.
 
 [Git Crash Course](https://docs.google.com/document/d/1S8dMsT6B2B7jW2Z0OWoV6TT8GOlYkDa9Bw0mhrUTuSU)
 
-## Class Resources
+Examples for this class can be found at:
+https://github.com/ascholerChemeketa/cs260Code
 
-[CS260 Github Code Repository](https://github.com/ascholerChemeketa/cs260Code)
+## Class Resources
 
 [Book Website](https://console.pearson.com/console/home)
 
