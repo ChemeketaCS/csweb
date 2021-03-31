@@ -2,6 +2,13 @@
 <script>mermaid.initialize({securityLevel: 'loose'});</script>  */}}
 
 
+<!--<script>hljs.highlightAll();</script>-->
+<script>
+document.querySelectorAll("code[class^='language-'").forEach((block) => {
+  hljs.highlightBlock(block);
+});
+</script>
+
 {{ $pageLink := .RelPermalink }}
 {{- range .Params.js }}
 <link rel="stylesheet" href='{{ printf "%s%s" $pageLink . }}?{{ now.Unix }}'>

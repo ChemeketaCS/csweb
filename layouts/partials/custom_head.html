@@ -17,3 +17,8 @@
 {{- range .Params.css }}
 <link rel="stylesheet" href='{{ printf "%s%s" $pageLink . }}?{{ now.Unix }}'>
 {{- end }}
+
+
+<link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/vs2015.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
