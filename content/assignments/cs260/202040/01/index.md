@@ -92,10 +92,10 @@ Make a makefile called **MyMake** - when the make utility is executed with it, i
 executable called **linux/assign1.exe** from your code files. I will test
 your project by doing exactly this from your project directory:
 
-{{ sample_run }}
+{{% sample_run %}}
 make -f MyMake
 linux/assign1.exe
-{{ /sample_run }}
+{{% /sample_run %}}
 
 Make sure this works to build and run the code - test early and often. 
 
