@@ -89,6 +89,19 @@ you have not taken that many.
 
 {{< figure src="courseTable.png" width="80%" >}}
 
+You can use this style information to get borders for your table (place it in the \<head> of your document):
+~~~html
+<style>
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      padding: 5px;
+      border: 1px solid black;
+    }
+</style>
+~~~
+
 ## Validation
 
 Install the HTML Validator (see Resource Links in the 290 course pages). Run it on each of your
