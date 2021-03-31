@@ -83,7 +83,7 @@ You were responsible for a type of data with multiple fields that includes refer
 to some other data records. There is a schema defined for your data type and the
 database is pre-populated with a decent number of sample/starter records.
 
-### Server functionality - 10 pts
+### Server functionality - 5 pts
 
 The server as a whole functions to serve your pages and handles basic errors (404/500).
 
@@ -125,10 +125,10 @@ and collaboration. The easiest ways to provide this are:
 * A link to a slack channel on the Chemeketa CS - Scholer slack server.
 * A link to a google doc with meeting notes.
 
-### Something extra - 10pts
+### Something extra - 15pts
 
-Doing a good job on the expected work is 90% of the assignment. The last 10% can
-be earned by doing something not explicitly requested. Here are some suggestions:
+Doing a good job on the expected work is 85% of the assignment. The last 15% can
+be earned by doing something(s) not explicitly requested. Here are some suggestions:
 
 * Find a JS library that draws charts/graphs and incorporate it into one or
 more pages to visualize your data.
