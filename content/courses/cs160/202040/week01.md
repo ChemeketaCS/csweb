@@ -69,9 +69,7 @@ career opportunities and the associated educational requirements:
 * Complete [Code.org](https://studio.code.org/home) Unit 3, Lesson 4, Parts 2-5.
 
 {{% alert info %}}
-To find the right
-Code.org course and to receive credit for doing the work, you will need to see the discussion board
-for instructions about how to join my section in Code.org.
+Follow [the code.org setup guide](http://computerscience.chemeketa.edu/guides/code.org-setup/) to get started. The code for joining the correct section is in the syllabus.
 
 We will be working on the 2019-2020 version of the curriculum. Make sure you don't start the 2020-2021 version!
 {{% /alert %}}
