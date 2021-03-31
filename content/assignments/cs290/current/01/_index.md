@@ -27,7 +27,7 @@ npm install
 
 Then, to run the server, do:
 {{% sample_run %}}
-node server.js
+node serve.js
 {{% /sample_run %}}
 
 Make the webpages listed below - it is fine to make more than the listed three.
