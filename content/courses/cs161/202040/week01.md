@@ -18,7 +18,7 @@ Upon finishing this learning module, you should be able to:
 
 ### Day 1
 
-* Setup access to Revel Introduction to Programming with C++ - see discussion board for link
+* Setup access to Revel Introduction to Programming with C++ - see syllabus for link
 * Review Syllabus and Class Policies. Take class policies quiz & background survey
 * Read Ch 1.1-1.6
 * Install QtCreator at home
