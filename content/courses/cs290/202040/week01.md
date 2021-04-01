@@ -37,6 +37,9 @@ on how to access code samples and set up assignment repositories.
 
 ## References
 
+* [HTML Validator](https://validator.w3.org/unicorn/#validate-by-input+task_conformance)
+
+### Git
 
 This video explains how we will use git for core tasks. If you didn't just see it in CS260, check it out: 
 {{< youtube videoid="yC0BSx-Emtg" title="Git & Github" >}}

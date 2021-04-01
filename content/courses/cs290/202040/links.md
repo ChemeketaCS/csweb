@@ -40,7 +40,8 @@ Here is a guide to the basics:
 
 ### WebDev Tools
 
-[Local HTML Validator for Chrome/Firefox](http://users.skynet.be/mgueury/mozilla/) 
+* [HTML Validator](https://validator.w3.org/unicorn/#validate-by-input+task_conformance)
+* [Local HTML Validator for Chrome/Firefox](http://users.skynet.be/mgueury/mozilla/)
 
 ### Accessibility Tools
 
