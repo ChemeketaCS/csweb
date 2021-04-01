@@ -95,7 +95,7 @@ You can use this style information to get borders for your table (place it in th
     table {
       border-collapse: collapse;
     }
-    td {
+    td, th {
       padding: 5px;
       border: 1px solid black;
     }
@@ -105,8 +105,15 @@ You can use this style information to get borders for your table (place it in th
 ## Validation
 
 Install the HTML Validator (see Resource Links in the 290 course pages). Run it on each of your
-three pages. Take a screenshot of the results (just the **HTML errors and warnings** summary) for
-each page and paste them into a document you will submit as a PDF.
+three pages - make sure to click the **W3c Online** button:
+
+{{< figure src="errorReport.png" width="80%" >}}
+
+Take a screenshot of the results (just the **HTML errors and warnings** summary) for
+each page and paste them into a document you will submit as a PDF. Ideally there should be no
+errors or warnings. If there are, try to fix them and take a new shot. If there are things
+you think should not be fixed, explain in your document under the screenshot why
+you think the "error" isn't really an issue.
 
 ## Scoring Overview
 
@@ -123,4 +130,4 @@ Common formating (nav/footer) - 10 pts
 : Required elements are common across all pages.
 
 Valid HTML - 5 pts
-: No validation errors or warnings for any pages.
+: No validation errors or warnings for any pages. Or issues are explained.
