@@ -126,7 +126,7 @@ Hobby/Interest page - 15 pts
 Coursework page - 10 pts
 : Contains required elements.
 
-Common formating (nav/footer) - 10 pts
+Common formatting (nav/footer) - 10 pts
 : Required elements are common across all pages.
 
 Valid HTML - 5 pts

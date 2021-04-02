@@ -63,7 +63,6 @@ You should make use of Bootstrap to style some of the following features.
 **Writeup Question #2:** Briefly describe what changes, what features of Bootstrap you incorporated
 into your project.
 
-
 ## Scoring Overview
 
 Accessibility audit - 20 pts

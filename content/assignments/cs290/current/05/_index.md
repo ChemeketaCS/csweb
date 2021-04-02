@@ -24,6 +24,8 @@ a publicly available data api.
 For parts of this assignment, you will need to describe what you did in a PDF you will
 submit to elearn. Use google docs or Word to make a document and then save it as a PDF to submit.
 
+Make a directory `objects` in your Assignments repository. Do all your work in this directory.
+
 ## Data
 
 Find a web based data source from which your application can retrieve a list of one
@@ -50,8 +52,8 @@ data, what attributes are you focused on.)
 
 ## JS Object Use
 
-You should define either an ES6 class, or a js function that defines a class that represents the
-objects you are retrieving from the data source.
+Make a .js file. In it, you should define either an ES6 class, or a js function that defines a class
+that represents the objects you are retrieving from the data source.
 
 Your "class" should have fields for each of the data attributes you are working with, a constructor,
 and some kind of member function/property (or prototype function) that is used to retrieve some calculated
@@ -69,6 +71,8 @@ objects across many different pages or in much more complex logic.
 **Writeup Question #2:** Describe the property or method you implemented in a sentence or two.
 
 ## Page Generation
+
+Make an `index.html` page that makes use of your .js file.
 
 Your page should let the user enter some piece of information, use that to request specific data
 from the data source, store the results to an array of objects, then display the results as some
@@ -101,19 +105,20 @@ where the user can enter some information and a button to execute the search. If
 one input, make more label/input pairs and make sure that each input has a different id and each
 label's for matches the id of the input it describes.
 
-{{% sample_run %}}
-    <label for="inputField1">Enter a search string:</label>
-    <input type="text" id="inputField1" value="Some default value here">
-    <button class="btn btn-primary" id="searchBtn">Search</button>
-{{% /sample_run %}}
+~~~ html
+<label for="inputField1">Enter a search string:</label>
+<input type="text" id="inputField1" value="Some default value here">
+<button class="btn btn-primary" id="searchBtn">Search</button>
+~~~
 
 Please make sure *"Some default value here"* is changed to something that actually works to search
 with.
 
 Then, in your javascript do this to retrieve what the user typed (once per input):
-{{% sample_run %}}
-    const inputValue = document.querySelector('#inputField1').value;
-{{% /sample_run %}}
+
+~~~ js
+const inputValue = document.querySelector('#inputField1').value;
+~~~
 
 ## Scoring Overview
 
