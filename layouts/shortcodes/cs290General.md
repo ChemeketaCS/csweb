@@ -6,3 +6,6 @@ to push your code to GitHub and do an assignment submission in Elearn.
 completely broken, leave/comment it out.  
 * Readability and maintainability of your code count.  Style/formatting is not awarded
 points, but lack of it may result in a deduction on any assignment.
+* Unless noted otherwise, it is always fine to add extra .css and .js files to support
+the web pages you are building. Failing to do this and copy/pasting the same code into
+multiple files in a project will likely be a style deduction.
