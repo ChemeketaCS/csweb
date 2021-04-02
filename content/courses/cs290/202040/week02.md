@@ -31,7 +31,8 @@ weight: 20
 *OK to skip/skim **Handling different text directions**, **Overflowing content** and **Styling Tables***
 
 * [MDN : CSS - Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)  
-*Finish through **Flexbox**, then skip to **Floats** and then **Responsive Design***
+*Finish through **Flexbox**, then skip to **Floats** and then **Responsive Design** and finally
+**Beginner's guide to media queries***
 
 ## References
 
