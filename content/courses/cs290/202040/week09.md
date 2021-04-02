@@ -13,7 +13,7 @@ weight: 90
 
 ### Tuesday
 
-* Cookies and Sessions
+* REST & APIs
 
 ### Wednesday
 
@@ -21,18 +21,15 @@ weight: 90
 
 ### Thursday
 
-* Authentication and Privacy
+* Think JS libraries
 
 ## Readings
 
-* [Express Cookies Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_cookies.htm)  
+* [MDN : AJAX Getting Started](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
+*You've seen this before, but not dive deeper a little deeper*
 
-* [Express Sessions Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_sessions.htm)  
-
-* [Express Authentication Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_authentication.htm)  
+* https://stackabuse.com/building-a-rest-api-with-node-and-express/
 
 ## Reference
 
-* [MDN : Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
-
-* [Cookies - Ultimate Guide](https://html.com/resources/cookies-ultimate-guide/)
+* [MDN : Fetching Data From the Server](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data)  

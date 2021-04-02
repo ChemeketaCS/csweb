@@ -9,11 +9,11 @@ weight: 100
 
 ### Monday
 
-* AJAX
+* Cookies/Sessions
 
 ### Tuesday
 
-* AJAX and Client Side Frameworks
+* Authentication & Privacy
 
 ### Wednesday
 
@@ -25,8 +25,14 @@ weight: 100
 
 ## Readings
 
-* [MDN : Fetching Data From the Server](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data)  
+* [Express Cookies Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_cookies.htm)  
+
+* [Express Sessions Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_sessions.htm)  
+
+* [Express Authentication Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_authentication.htm)  
 
 ## Reference
 
-* [MDN : AJAX Getting Started](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
+* [MDN : Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+
+* [Cookies - Ultimate Guide](https://html.com/resources/cookies-ultimate-guide/)
