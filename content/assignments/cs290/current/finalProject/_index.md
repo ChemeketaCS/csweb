@@ -66,9 +66,6 @@ in the repository. For a real project this would be a big no no - things like
 that should either be stored in a config file that is not checked into source
 control or stored in environmental variables set on each machine.
 
-To run your project I should be able to just do `npm install` and `npm start`
-and then visit `localhost:3000/`.
-
 ## Scoring Overview
 
 Although you will be doing the project in a small group, most of the score
@@ -133,6 +130,8 @@ and collaboration. The easiest ways to provide this are:
 Doing a good job on the expected work is 85% of the assignment. The last 15% can
 be earned by doing something(s) not explicitly requested. Here are some suggestions:
 
+* Find a JS library that draws charts/graphs and incorporate it into one or
+more pages to visualize your data.
 * Implement one or more "user focused" pages. These should allow an end user
 to interact with the records in some "real world" fashion more complex than simple
 create/update logic.
@@ -145,30 +144,13 @@ create/update logic.
 your data.
 * Do something interesting with cookies/sessions to track "favorites",
 "recently viewed", or something similar.
-* Make a json web request API for your data and document it. It should support
-most of the same basic CRUD options that your website interface does.
-* Find a JS library that draws charts/graphs and incorporate it into one or
-more pages to visualize your data.
 * Handle file uploads as part of your data. (e.g. You can upload an image
 that goes with a new record being added.)
 * Do something **really** complex with the styling for your pages. 
-A couple of style rules on top of a bootstrap based layout does not cut it here.
-* Learn about [SASS](https://sass-lang.com/) and use the npm based [Dart SASS](https://www.npmjs.com/package/sass)
-to preprocess your CSS. This one isn't much use unless you are also doing some substantial
-CSS styling.
-
-To earn the full 15%, you need to put significant effort in above the basic requirements.
-Effort can come through figuring out how to incorporate some complex idea, or
-via writing lots of code yourself. You can do multiple smaller "something extras"
-or one that is complex enough on its own to be significant.
-
-Hopefully, you throw yourself into going deep into one or more things that sounds interesting
-to you. If you do that, you probably are going meet the "significant effort"
-requirement naturally. You are welcome to ask me for some feedback on whether something
-sounds like it is in the ballpark for qualifying for full credit. However, I will not
-do a formal evaluation of your work prior to grading. (In other words, you can't keep
-checking with me: 'is this enough?', 'how about now, is this enough?'... to min/max
-what you do.)
+A couple of style rules on top of a bootstrap based layout does not cut it. 
+This is *"I have art/design skills and I'm going to show them off."*
+* Make a json web request API for your data and document it. It should support
+most of the same basic CRUD options that your website interface does.
 
 The "something extra" is per student. Group mates can do completely separate
 "extras", in which case the "extra" only has to exist for their pages/data items.
