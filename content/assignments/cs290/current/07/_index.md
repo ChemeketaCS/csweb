@@ -24,8 +24,8 @@ code from your `express` folder.
 
 {{% alert warning %}}
 If you do reuse your express setup, you do not want to copy your node_modules folder.
-Instead, copy use `npm install` to install copies of the 
-{{% %}}
+Instead, copy use `npm install` to install copies of the needed software.
+{{% /alert %}}
 
 To start, make a directory `database` in your repository. Do all your work in that folder.
 I should be able to test it by doing `npm install` and `npm start` in that folder and
