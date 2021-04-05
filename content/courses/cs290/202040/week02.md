@@ -37,3 +37,9 @@ weight: 20
 ## References
 
 * [Sourcetree Git Help](https://confluence.atlassian.com/get-started-with-sourcetree)
+
+* [LiveWeave CSS Explorer](https://liveweave.com/cssgen/index.html)
+
+* [CSS Font Stack](https://www.cssfontstack.com/)
+
+* [Google Fonts](https://fonts.google.com/)
