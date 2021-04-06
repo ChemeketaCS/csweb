@@ -20,9 +20,11 @@ Continue working in the `aboutme` directory. You will almost
 certainly need to add new HTML or modify what you did in assignment 1 in order to do this
 assignment.
 
-CSS rules should use classes and IDs to target elements in a logical and consistent fashion.
-Your classes and IDs should all have meaningful names. Any interesting "block" of HTML should
-have either a class and/or ID so it can be targetted.
+CSS rules should use target elements in a logical and consistent fashion. Add classes and IDs
+to your existing HTML where needed to identify elements. Use element selectors (p, h1, etc...)
+only for truly generic styling. If you are doing something special to an element that you
+would not want to do to all elements of that type (even if there is only one of them on your
+page), use an id or class for the rule.
 
 For one part of this assignment, you will need to describe what you did in a PDF you will
 submit to elearn. Use google docs or Word to make a document and then save it as a PDF to submit.
@@ -62,7 +64,7 @@ Style all the links to use some custom color.
 Make the table more visually interesting and easier to "read". Give the top/and or
 left headers distinct styling.
 
-### Responsiveness
+### Layout & Responsiveness
 
 Your pages should look clean in both a computer and mobile sized window. Use `@media` queries,
 flexbox, etc... to customize the layout on different sized screens.

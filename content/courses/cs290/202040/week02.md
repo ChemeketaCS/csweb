@@ -13,7 +13,7 @@ weight: 20
 
 ### Tuesday
 
-* CSS Layout
+* CSS Intro Continued
 
 ### Wednesday
 
@@ -21,7 +21,7 @@ weight: 20
 
 ### Thursday
 
-* Responsive Design
+* Layout & Responsive Design Basics
 
 ## Readings
 
