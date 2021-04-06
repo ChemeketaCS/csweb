@@ -2,6 +2,7 @@
 title: Contamination Checker
 summary: Implement a recursive solution to a problem
 weight: 70
+#last used 202030
 ---
 
 {{% cs162General %}}

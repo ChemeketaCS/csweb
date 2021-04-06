@@ -2,6 +2,7 @@
 title: Curve Grader
 summary: Assignment covering arrays
 weight: 70
+#last used 202030
 ---
 
 {{% cs161General %}}

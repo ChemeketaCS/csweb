@@ -2,6 +2,7 @@
 title: Inheritance
 summary: Create a class hierarchy representing game elements
 weight: 40
+#last used 202030
 ---
 
 {{% cs162General %}}

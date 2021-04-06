@@ -2,6 +2,7 @@
 title: Location
 summary: Create a simple text based adventure game
 weight: 30
+#last used 202020
 ---
 
 {{% cs162General %}}

@@ -4,6 +4,7 @@ title: Little Person Computer
 summary:  Class definition and object use
 
 weight: 10
+#last used 202020
 ---
 
 {{% cs162General %}}
