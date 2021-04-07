@@ -97,7 +97,17 @@ make -f MyMake
 linux/assign1.exe
 {{% /sample_run %}}
 
-Make sure this works to build and run the code - test early and often. 
+Make sure this works to build and run the code - test early and often. To test using DrMemory, do:
+
+{{% sample_run %}}
+drmemory -- linux/assign1.exe
+{{% /sample_run %}}
+
+If DrMemory reports some errors (not possible ones), you should probably care about them. Things
+like going past the end of an array may not always crash your program - you might have bugs
+that aren't causing visible problem for you. But maybe when I run your code in a different
+environment, all of a sudden the bug starts causing a crash. DrMemory will help identify those lurking
+issues.
 
 {{% alert info %}}
 There should not be an extension on the makefile filename. Make sure you do not turn in MyMake.txt
