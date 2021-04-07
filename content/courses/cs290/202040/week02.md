@@ -17,7 +17,7 @@ weight: 20
 
 ### Wednesday
 
-* Github Collaboration
+* Project Intro and Management
 
 ### Thursday
 
