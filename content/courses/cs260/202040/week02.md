@@ -87,7 +87,7 @@ right algorithm.
 
 * Watch:
 
-{{< youtube videoid="iUM77gRwFxg" >}}
+{{< youtube videoid="ZcZsLnXtqQg" >}}
 
 * Do Quicksort WS to practice partitioning.
 
