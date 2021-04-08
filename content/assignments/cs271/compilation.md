@@ -234,3 +234,16 @@ in each of those 5 files, it is possible to change the program to stop
 at a target other than 10, or to print the numbers out separated by
 spaces rather than newlines. Submit the changed versions and a short
 description of what you changed and what the result was.
+
+To edit the binary files, a good trick is to use `xxd` to dump them, edit
+the dump, and then use `xxd` “in reverse” to patch the binary file.
+
+~~~
+xxd file dumped     # dump file into dumped
+                    # now edit dumped
+xxd -r dumped file  # patch the changes back into the original
+~~~
+
+Note that although `xxd` includes an attempt at interpreting the raw hex
+as ASCII in a column on the right, editing it has no effect on `xxd -r`,
+which only considers the hex dump part.
