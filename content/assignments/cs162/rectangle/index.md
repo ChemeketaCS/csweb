@@ -21,7 +21,7 @@ If I place all your code in one folder along with `doctest.h` and my
 
 ## Overview
 
-You will create a class Rectangle that represents a triangle on a Cartesian
+You will create a class Rectangle that represents a simple rectangle on a Cartesian
 plane.  You are not writing any particular program that uses rectangles,
 but the tool that could be used by someone who wanted to write a program
 and use your Rectangle class to do it. The way you will demonstrate your
