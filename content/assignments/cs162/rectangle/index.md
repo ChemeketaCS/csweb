@@ -189,26 +189,30 @@ Into this one line that asks r1 for its upper left vertex, then ask that if it i
 
 4.  Make your `Rectangle.h` and `Rectangle.cpp`
 
-5.  Rename the sample test file to RectangleTester.
-
-### Option B - Make a "real" project and a separate Unit Test Project
-
-1.  Make a normal Chemeketa project. Add a `Rectangle.h` and `Rectangle.cpp` to it.
-
-2.  Copy [`Point.h`](Point.h) and [`Point.cpp`](Point.cpp) into that folder.
-
-3.  Right click the project in QTCreator, "Add Existing" and choose the
-    `Point.h` and `Point.cpp` that you copied into it. You should have this:  
+5.  Rename the sample test file to RectangleTester. You should have something like
+    this(but Rectangle instead of Circle):  
 
     ![View of project files](project.png)
 
-4.  Follow the instruction from the UnitTestDemo activity to set up a
+### Option B - Make a "real" project and a separate Unit Test Project
+
+1. Make a normal Chemeketa project. Add a `Rectangle.h` and `Rectangle.cpp` to it.
+
+1. Copy [`Point.h`](Point.h) and [`Point.cpp`](Point.cpp) into that folder.
+
+1. Right click the project in QTCreator, "Add Existing" and choose the
+    `Point.h` and `Point.cpp` that you copied into it.
+
+1. Follow the instruction from the UnitTestDemo activity to set up a
     second unit testing project. You will need to use Add Existing to
     the tester project to link in these four files from your other
     project folder: `Point.h`, `Point.cpp`, `Rectangle.h`, and `Rectangle.cpp`.
+    Make sure to add the `INCLUDEPATH += ???` line where ??? is a path to
+    the real project.
 
-5.  Rename `sampleTester.cpp` `RectangleTester.cpp`.
+1. Rename `sampleTester.cpp` `RectangleTester.cpp`.
 
-6.  Your two projects should look like this:  
+1. Your two projects should look like this (but with Rectangle instead
+    of Circle):  
 
     ![View of tester project files](testerproject.png)

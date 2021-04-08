@@ -160,36 +160,39 @@ TEST\_CASE( "Triangle/Constructor" ) {
 
 ### Option A - Just make a Unit Test Project (no "real" project).
 
-1.  Make a Chemeketa Unit Test project.
+1. Make a Chemeketa Unit Test project.
 
-2.  Copy [`Point.h`](Point.h) and [`Point.cpp`](Point.cpp) into that folder.
+2. Copy [`Point.h`](Point.h) and [`Point.cpp`](Point.cpp) into that folder.
 
-3.  Right click the project in QTCreator, "Add Existing" and choose the
+3. Right click the project in QTCreator, "Add Existing" and choose the
     `Point.h` and `Point.cpp` that you copied into it.
 
-4.  Make your `Triangle.h` and `Triangle.cpp`
+4. Make your `Triangle.h` and `Triangle.cpp`
 
-5.  Rename the sample test file to TriangleTester.
-
-### Option B - Make a "real" project and a separate Unit Test Project
-
-1.  Make a normal Chemeketa project. Add a `Triangle.h` and `Triangle.cpp` to it.
-
-2.  Copy [`Point.h`](Point.h) and [`Point.cpp`](Point.cpp) into that folder.
-
-3.  Right click the project in QTCreator, "Add Existing" and choose the
-    `Point.h` and `Point.cpp` that you copied into it. You should have this (but Triangle instead of Rectangle):  
+5. Rename the sample test file to TriangleTester. You should have something like
+    this(but Triangle instead of Circle):  
 
     ![View of project files](project.png)
 
-4.  Follow the instruction from the UnitTestDemo activity to set up a
+### Option B - Make a "real" project and a separate Unit Test Project
+
+1. Make a normal Chemeketa project. Add a `Triangle.h` and `Triangle.cpp` to it.
+
+1. Copy [`Point.h`](Point.h) and [`Point.cpp`](Point.cpp) into that folder.
+
+1. Right click the project in QTCreator, "Add Existing" and choose the
+    `Point.h` and `Point.cpp` that you copied into it. 
+
+1. Follow the instruction from the UnitTestDemo activity to set up a
     second unit testing project. You will need to use Add Existing to
     the tester project to link in these four files from your other
     project folder: `Point.h`, `Point.cpp`, `Triangle.h`, and `Triangle.cpp`.
+    Make sure to add the `INCLUDEPATH += ???` line where ??? is a path to
+    the real project.
 
-5.  Rename `sampleTester.cpp` `TriangleTester.cpp`.
+1. Rename `sampleTester.cpp` `TriangleTester.cpp`.
 
-6.  Your two projects should look like this (but with Triangle instead
-    of Rectangle):  
+1. Your two projects should look like this (but with Triangle instead
+    of Circle):  
 
     ![View of tester project files](testerproject.png)
