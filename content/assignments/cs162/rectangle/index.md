@@ -193,7 +193,7 @@ Into this one line that asks r1 for its upper left vertex, then ask that if it i
 
 ### Option B - Make a "real" project and a separate Unit Test Project
 
-1.  Make a normal Chemeketa project. Add a `Triangle.h` and `Triangle.cpp` to it.
+1.  Make a normal Chemeketa project. Add a `Rectangle.h` and `Rectangle.cpp` to it.
 
 2.  Copy [`Point.h`](Point.h) and [`Point.cpp`](Point.cpp) into that folder.
 
