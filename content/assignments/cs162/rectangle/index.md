@@ -146,8 +146,8 @@ My Assignment2CircleSample project in the class git repository has sample
 unit tests. You won't be writing the same exact tests, but use them
 as a reference.
 
-Here is a sample test, for your Rectangle constructor and `getPoint`,
-to get you going.  The `getPoint` method will be tested in lots of other
+Here is a sample test, for your Rectangle constructor and `getUpperLeftVertex`,
+to get you going.  The `getUpperLeftVertex` method will be tested in lots of other
 places; you do not need to write a separate test for it.
 
 ```
