@@ -2,7 +2,7 @@
 title: Logic Gates
 summary: Circuit simulator
 weight: 80
-#last used 202030
+#last used 202040
 ---
 
 {{% cs162General %}}

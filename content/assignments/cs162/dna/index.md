@@ -2,7 +2,7 @@
 title: DNA Strand
 summary: Practice implementing operations on strings of data
 weight: 50
-#last used 202030
+#last used 202040
 ---
 
 {{% cs162General %}}

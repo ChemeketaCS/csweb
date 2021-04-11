@@ -2,7 +2,7 @@
 title: Go
 summary: Practice recursion
 weight: 70
-#last used 202020
+#last used 202030
 ---
 
 {{% cs162General %}}

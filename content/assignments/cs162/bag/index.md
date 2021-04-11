@@ -2,7 +2,7 @@
 title: Bag
 summary: Use templates and generic structures.
 weight: 60
-#last used 202020
+#last used 202030
 ---
 
 {{% cs162General %}}

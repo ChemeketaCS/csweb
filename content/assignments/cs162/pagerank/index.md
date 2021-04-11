@@ -2,7 +2,7 @@
 title: Page Rank
 summary: Use pointers to form links between objects.
 weight: 30
-#last used 202030
+#last used 202040
 ---
 
 {{% cs162General %}}
