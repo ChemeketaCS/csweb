@@ -14,12 +14,6 @@ weight: 90
 
 ## Day 1
 
-### Zoom Topics
-
-* Hashing overview
-* Assignment 5 tips
-* Midterm feedback
-
 ### Hashing
 
 Watch this video:
@@ -65,10 +59,6 @@ Graphs & Basic Searches
 
 ## Day 4
 
-### Zoom Topics
-
-* Assignment 4 debrief
-* Stacks & Queues, and Searches
 
 Search Trees & Search Implementation
 

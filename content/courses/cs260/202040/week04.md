@@ -13,10 +13,6 @@ weight: 40
 
 ## Day 1
 
-### Zoom Topics
-
-* List tips & tricks
-* Midterm Overview
 
 Circular Linked Lists, Doubly Linked Lists
 

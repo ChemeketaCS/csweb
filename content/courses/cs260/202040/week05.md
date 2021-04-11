@@ -15,10 +15,6 @@ weight: 50
 
 ## Day 1
 
-### Zoom Topics
-
-* Midterm Debrief
-* Assignment 3 Overview
 
 List Iterators
 
@@ -61,9 +57,6 @@ Queues
 
 ## Day 4
 
-### Zoom Topics
-
-* Assignment 2 Debrief
 
 Heaps
 

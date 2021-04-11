@@ -16,10 +16,6 @@ weight: 70
 
 ## Day 1
 
-### Zoom Topics
-
-* Balancing overview
-* Assignment 4 overview
 
 Rotations & Splay Trees
 
@@ -63,11 +59,6 @@ B-Trees
 
 ## Day 4
 
-### Zoom Topics
-
-* BST and balancing pointers
-* Assignment 4 tips
-* Midterm advice
 
 * Watch this video on Red-Black trees:
 {{< youtube videoid="Pc1hfNTGh2A" >}}

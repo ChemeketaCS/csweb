@@ -16,12 +16,6 @@ Upon finishing this learning module, you should be able to:
 
 ## Day 1
 
-### Zoom Topics
-
-* Debugging
-* Assignment Tips
-* Advice for week
-
 ### Debugging at scale
 
 Watch this video with tips about debugging at scale:
@@ -46,9 +40,6 @@ Watch this video with tips about debugging at scale:
 
 ## Day 2
 
-### Zoom Topics
-
-* Sort Overview
 
 Mergesort, Recursion & Big O
 
@@ -71,9 +62,6 @@ Mergesort, Recursion & Big O
 
 ## Day 3
 
-### Zoom Topics
-
-* Quicksort Intro
 
 Quicksort
 
@@ -95,10 +83,6 @@ right algorithm.
 
 ## Day 4
 
-### Zoom Topics
-
-* Recap sorting algorithms
-* Introduce bucket and radix sorts
 
 Bucket and Radix Sort
 

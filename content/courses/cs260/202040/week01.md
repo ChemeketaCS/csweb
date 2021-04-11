@@ -39,12 +39,6 @@ the login screen.
 
 ## Day 1
 
-### Zoom Topics
-
-* Class policies/overview
-* Assignment Setup
-* Big O Intro
-
 ### Class startup
 
 Read the syllabus and class policies. Take the background survey and class policies quiz in
@@ -65,11 +59,6 @@ elearn.
 * Optional additional source: Tim Budd notes, Ch 4, pg 1-6.
 
 ## Day 2
-
-### Zoom Topics
-
-* BigO Debrief. Bring your questions from BigO worksheets.
-* Setup git
 
 ### Git Crash Course
 
@@ -110,10 +99,6 @@ I also recommend that you try to start in on the Search material from day 4.
 
 ## Day 3
 
-### Zoom Topics
-
-* Assignment Intro
-
 ### Big-O Continued
 
 * Watch
@@ -127,10 +112,6 @@ I also recommend that you try to start in on the Search material from day 4.
 * Do BigO Analysis Worksheet
 
 ## Day 4
-
-### Zoom Topics
-
-* BigO Debrief. Bring your questions from BigO worksheets.
 
 ### C++ timing and memory
 

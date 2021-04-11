@@ -21,10 +21,6 @@ This video shows how Gnarly Trees works:
 
 ## Day 1
 
-### Zoom Topics
-
-* Queues & Trees & LogN
-* Gnarly Trees
 
 Priority Queues and HeapSort
 

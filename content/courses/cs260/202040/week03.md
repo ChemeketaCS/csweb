@@ -14,10 +14,6 @@ weight: 30
 
 ## Day 1
 
-### Zoom Topics
-
-* Final assignment advice
-* ArrayList review
 
 Review Array Lists and Learn about Amortized Analysis
 
@@ -31,9 +27,6 @@ Review Array Lists and Learn about Amortized Analysis
 
 ## Day 2
 
-### Zoom Topics
-
-* LL Intro
 
 Start Linked Lists
 
@@ -59,9 +52,6 @@ it.
 
 ## Day 3
 
-### Zoom Topics
-
-* LL Q & A
 
 Linked Lists Continued
 
@@ -77,9 +67,6 @@ Linked Lists Continued
 
 ## Day 4
 
-### Zoom Topics
-
-* Recursive Thinking Exercise
 
 Linked Lists With Recursion
 

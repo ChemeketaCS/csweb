@@ -48,8 +48,5 @@ and [Prim's minimum spanning tree algorithm](http://computerscience.chemeketa.ed
 
 ## Day 4
 
-### Zoom Topics
-
-* Last minute assignment / final Q & A
 
 Review - see Class Files for review guide.
