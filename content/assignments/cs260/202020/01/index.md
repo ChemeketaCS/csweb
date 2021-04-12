@@ -202,6 +202,6 @@ Then print out the first 10 records to verify the sort.
 
 ### Writeup
 
-6A) Provide a table of the time given by the sort for a size of 100, 1000, 10000, and 100000
+6A) Provide a table of the time given by the sort for a size of 1000, 10000, and 100000
 
 6B) How long in wall time would the process take for 1,000,000 names? Justify your answer (show math).
