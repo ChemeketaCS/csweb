@@ -56,7 +56,7 @@ Upon finishing this week, you should be able to:
 Inheritance is one of the fundamental tools for code reuse in Object
 Oriented programming. It allows one class to define itself as a
 specialized version of another class. Learncpp.com has a [nice
-overview](http://www.learncpp.com/cpp-tutorial/111-introduction-to-inheritance/)
+overview](https://www.learncpp.com/cpp-tutorial/introduction-to-inheritance/)
 of why we care about inheritance and the conceptual idea.
 
 Read 15.1-15.5. In 15.4 don't worry too much about what a
@@ -117,11 +117,3 @@ This video introduces the basics of operator overloading:
 {{< youtube videoid="6DhingvywnU" title="Operator Basics" >}}
 
 Do CPPLab Operator Basics.
-
-## Extra Info
-
-### Learncpp.com
-
-This online tutorial covers *some* of the same ground as the Liang
-readings:
-[LearnCpp.com chapters 11.1-11.6](http://www.learncpp.com/)

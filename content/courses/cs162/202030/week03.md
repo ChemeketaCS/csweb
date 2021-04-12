@@ -29,7 +29,7 @@ Upon finishing this week, you should be able to:
 -   Pointers & Objects
 -   Aggregation
 -   Do Aggregation CPPLab
--   Read Liang Ch 11.10 & learncpp.com Ch 10.3
+-   Read Liang Ch 11.10 & learncpp.com Ch 16.3
 
 ### Day 3
 
@@ -54,7 +54,7 @@ Watch this video:
 
 ### Aggregation
 
-Read [learncpp.com](http://www.learncpp.com/) Ch 10.3 for the ideas behind
+Read [learncpp.com](http://www.learncpp.com/) Ch 16.3 for the ideas behind
 aggregation—don't worry too much about the Teacher/Department sample
 they use; though the idea makes sense, their example is too stripped
 down to be informative. (Book Ch10.8 also talks about it, but in a very
@@ -90,10 +90,3 @@ You are not responsible for 10.1/10.2 (string stuff) on the quiz.
 When studying for the quiz, you might find it useful to use the sample
 questions from the book author's website, linked from the resources
 page here.
-
-## Extra Info
-
-### Learncpp.com
-
-This online tutorial covers *some* of the same ground as the Liang readings:
-[LearnCpp.com chapters 6.7-6.10, 6.12, 10.3](http://www.learncpp.com/)

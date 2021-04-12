@@ -99,10 +99,3 @@ Setting up Boost can be a bit of a chore - if you want to try out some
 code, grab the BoostUnits.zip file from the classroom files.  It has a
 project set up with all the needed parts of the boost libraries.
 
-## Extra Info
-
-### Learncpp.com
-
-This online tutorial covers *some* of the same ground as the Liang
-readings:
-[LearnCpp.com chapters 13.1-13.6 and 9.14-15](http://www.learncpp.com/)

@@ -116,9 +116,3 @@ There is a great [algorithm reference] at cplusplus.com, with examples
 of different algorithms in use.
 
   [algorithm reference]: http://www.cplusplus.com/reference/algorithm/
-
-### Learncpp.com
-
-This online tutorial covers *a limited portion* of the same ground as
-the Liang readings:
-[LearnCpp.com chapters 16.1-16.4](http://www.learncpp.com/)

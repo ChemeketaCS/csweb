@@ -155,10 +155,3 @@ Follow the instructions in parts 2 and 3 of the [Git Tutorial] to make
 your own CS162 repository and add some files to it.
 
   [Git Tutorial]: https://docs.google.com/document/d/1S8dMsT6B2B7jW2Z0OWoV6TT8GOlYkDa9Bw0mhrUTuSU/edit?usp=sharing
-
-## Extra Info
-
-### Learncpp.com
-
-This online tutorial covers *some* of the same ground as the Liang readings:
-[LearnCpp.com chapters 7.12, 16.1-16.2](http://www.learncpp.com/)

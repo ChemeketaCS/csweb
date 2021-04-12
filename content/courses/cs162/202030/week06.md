@@ -177,9 +177,3 @@ pointers). Read pages 1-4 of the SmartPointers tutorial in classroom
 link. That provides an overview of what they are... if you are
 interested you can read the rest of the tutorial for more info on
 the syntax and more complex samples.
-
-### Learncpp.com
-
-This online tutorial covers *some* of the same ground as the Liang
-readings:
-[LearnCpp.com chapters 8.7, 9.11, 9.12, 9.14](http://www.learncpp.com/)

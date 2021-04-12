@@ -98,10 +98,3 @@ version of a virtual function. The rest of it will be writing code
 for OOP style problems using inheritance, aggregation, composition
 and basic objects.
 
-## Extra Info
-
-### Learncpp.com
-
-This online tutorial covers *some* of the same ground as the Liang
-readings:
-[LearnCpp.com chapters 9 and 14.1-14.5](http://www.learncpp.com/)

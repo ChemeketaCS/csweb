@@ -76,10 +76,3 @@ in the Github repository
 
 Start working on this week's assignment.
 
-## Extra Info
-
-### Learncpp.com
-
-This online tutorial covers *a limited portion* of the same ground as
-the Liang readings:
-[LearnCpp.com chapters 7.11](http://www.learncpp.com/)
