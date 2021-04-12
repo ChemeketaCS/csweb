@@ -38,10 +38,12 @@ Here is a UML diagram of what you are building.
 
 ![A UML diagram of the Triangle and Point classes](UML.png)
 
+{{% alert info %}}
 Below are descriptions of expected behavior. Descriptions are written
 in UML format, not C++. You need to translate parameters/return types.
-UML also does not specify things like const qualifiers and passing by
-reference; it is up to you to use them where it is appropriate.
+**UML also does not specify things like const qualifiers and passing by
+reference**; it is up to you to use them where it is appropriate.
+{{% /alert %}}
 
 For each function, provide one or more TEST\_CASES in the
 `TriangleTester.cpp` file that show the function works. See Testing

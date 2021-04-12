@@ -34,6 +34,16 @@ Your Rectangle class will use a provided Point class.
 
 See Project Setup Instructions section for more details.
 
+{{% alert warning %}}
+
+If you are on Windows, you may have a conflict between your Rectangle class and one that
+is part of a standard library. If you see weird errors talking about Rectangle, add this
+line to the top (it must come before `#include "doctest.h"`) of your RectangleTester.cpp file:
+
+    #define NOGDI
+
+{{% /alert %}}
+
 ## Rectangle Details
 
 For the purposes of this problem, we will assume our rectangles are always aligned
@@ -52,17 +62,22 @@ Your task is to implement one of these representations using the UML shown below
 
 ![A UML diagram of the Rectangle and Point classes](UML.png)
 
-Note the **OR** in the section that describes the member variables. You can chose
-either of those representations, or make a different one. Any given representation
-will make some jobs easier and some jobs harder. *(The upperLeftVertex, height, and width
-representation is probably the easiest overall.)*
+**Note the OR in the section that describes the member variables.** You can chose
+either to store one Point, a width and a height, **OR** you can store two Points.
+Each representation will make some jobs easier and some jobs harder.
+*(The upperLeftVertex, height, and width representation is probably the easiest overall.)* 
+
+You should **NOT** combine the two by storing two Points and a width and a height
+(that is redundant).
 
 ## Function Descriptions
 
+{{% alert info %}}
 Below are descriptions of expected behavior. Descriptions are written
 in UML format, not C++. You need to translate parameters/return types.
-UML also does not specify things like const qualifiers and passing by
-reference; it is up to you to use them where it is appropriate.
+**UML also does not specify things like const qualifiers and passing by
+reference**; it is up to you to use them where it is appropriate.
+{{% /alert %}}
 
 For each function, provide one or more TEST\_CASES in the
 `RectangleTester.cpp` file that show the function works. See Testing
@@ -74,7 +89,7 @@ When possible, use functions from Point to help you do work.
 
 ### Rectangle(p1 : Point, heightValue : double, widthValue : double)
 
-Construct rectangle using given point as upper left corner and the indicated width and height
+Construct rectangle using given point as upper left corner and the indicated width and height.
 
 ### Rectangle(p1 : Point, p2 : Point)
 
@@ -83,7 +98,13 @@ in order as upperLeft and lowerRight. The constructor should figure out appropri
 to use for its state based on coordinates of these two points.
 
 Example: If the Points given are (10, 5) and (4, 2), the rectangle should have an upper left
-vertex of (4, 5), and either a height of 3 and  width of 6 or a lower right vertex of (10, 2)
+vertex of (4, 5), and either a height of 3 and  width of 6 or a lower right vertex of (10, 2).
+
+{{% alert info %}}
+**Note** You need to provide both constructors listed above regardless of how your
+data is stored (Point/height/width vs two Points). One of the two constructors
+will require you to do a bit of work to figure out the data you need to store.
+{{% /alert %}}
 
 ### getUpperLeftVertex() : Point
 
@@ -128,16 +149,6 @@ necessary, to use other functions as part of your tests—for example,
 it would be impossible to test the constructors without using getPoint
 function.
 
-{{% alert warning %}}
-
-If you are on Windows, you may have a conflict between your Rectangle class and one that
-is part of a standard library. If you see weird errors talking about Rectangle, add this
-line to the top (it must come before `#include "doctest.h"`) of your RectangleTester.cpp file:
-
-    #define NOGDI
-
-{{% /alert %}}
-
 You may need multiple tests for any given function (a bool function
 should be tested to make sure it answers both true and false at
 appropriate times).
@@ -175,8 +186,17 @@ Into this one line that asks r1 for its upper left vertex, then ask that if it i
 
     REQUIRE( r1.getUpperLeftVertex().isSameAs(p1) == true );
 
-
 ## Setup/Starting Tips:
+
+{{% alert warning %}}
+
+If you are on Windows, you may have a conflict between your Rectangle class and one that
+is part of a standard library. If you see weird errors talking about Rectangle, add this
+line to the top (it must come before `#include "doctest.h"`) of your RectangleTester.cpp file:
+
+    #define NOGDI
+
+{{% /alert %}}
 
 ### Option A - Just make a Unit Test Project (no "real" project).
 
