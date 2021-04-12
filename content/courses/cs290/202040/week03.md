@@ -14,6 +14,7 @@ weight: 30
 ### Tuesday
 
 * Design and Accessibility
+* Challenge - Install spend 20 minutes using the web without a mouse
 
 ### Wednesday
 
@@ -25,12 +26,21 @@ weight: 30
 
 ## Readings
 
-* [Accessible to all](https://web.dev/accessible/#create-a-design-and-css-that-supports-users-with-different-needs)
+* [Accessible to all](https://web.dev/accessible/#create-a-design-and-css-that-supports-users-with-different-needs)  
+    There are four sections on this page, you should read each of pages listed in those sections.
+    You can skip "Media accessibility". Feel free to skim 
 
-* [Introduction to ARIA](https://developers.google.com/web/fundamentals/accessibility/semantics-aria)
-
-* [Using ARIA](https://webaim.org/techniques/aria/)
+* [Introduction to ARIA](https://developers.google.com/web/fundamentals/accessibility/semantics-aria)  
+    Then continue on to ARIA Labels and Relationships, but stop when you hit Relationships.
 
 ## References
 
 * [Bootstrap - Getting Started](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+
+* [Web Content Accessibility Guidelines Checklist](https://webaim.org/standards/wcag/checklist)
+
+### Keyboard Navigation
+
+* [Basic Keyboard Navigation Guide - No screen reader](https://webaim.org/techniques/keyboard/)
+* [NVDA Keyboard Navigation (Windows)](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts#nvda-browse_focus_modes) 
+* [VoiceOver Navigation (Mac)](https://accessibility.psu.edu/screenreaders/voiceover/)
