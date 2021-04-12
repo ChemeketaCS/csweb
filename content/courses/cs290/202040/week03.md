@@ -35,7 +35,7 @@ weight: 30
 
 ## References
 
-* [Bootstrap - Getting Started](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+* [Bootstrap - Getting Started](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
 * [Web Content Accessibility Guidelines Checklist](https://webaim.org/standards/wcag/checklist)
 
