@@ -19,19 +19,26 @@ weight: 30
 
 Continue working in the `aboutme` directory.
 
-You should do the accessibility audit on the version of your pages you turned in for week 2.
+You can either audit the pre or post bootstrap version of your pages.
 
-If you do the Bootstrap work first, use git to "time travel" back to
-the pre Bootstrap version of your pages. Commit any new work, then use github or the
-`git log` command in your assignment folder to identify a commit before you started this week's work.
+If you are in the middle of making changes with bootstrap, and you want to work on the
+audit, you can use git to travel back to an earlier version of your pages.
+Commit any new work, then use github or the
+`git log` command in your assignment folder to identify a commit before you started Bootstrap work.
 Find the long hexadecimal commit id. You can checkout that commit by typing the first 7 or so characters.
 Lets say your commit id is `ecfe9729601b1746a7c2a177d9be88a9424afc31`, you would do:
 
     git checkout ecfe972
 
+(This will check out the commit as a detached head - you will not want to make any new commits
+unless you first make a branch.)
+
+When done with the audit, you can use `git checkout XXXXX` where XXXXX is your most recent
+commit id to restore your work in progress.
+
 The accessibility audit you will submit as a PDF.
 
-You will also need to describe the work you do for  parts of the assignment. This should be submitted
+You will also need to describe the work you do for parts of the assignment. This should be submitted
 as a separate document from the accessibility audit.
 
 ## Accessibility Audit
@@ -73,12 +80,14 @@ Pick a public webpage. Use the accessibility audit tools to evaluate how accessi
 Modify your webpages to make use of Bootstrap. As part of doing this, you may want to
 remove some of your old style rules.
 
-You should make use of Bootstrap to style some of the following features.
+You should make use of Bootstrap to style some of the following features:
 
 * The nav menu on each page
 * Your images
 * The table on your coursework page
 * Layout of one or more pages using Bootstrap's grid
+
+You do **NOT** have to completely redo everything using Bootstrap.
 
 **Writeup Question #3:** Briefly list what changes, what features of Bootstrap you incorporated
 into your project.
