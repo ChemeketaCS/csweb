@@ -122,7 +122,7 @@ Returns value
 
 Calculate and return value
 
-#### getPerimeter() : double
+### getPerimeter() : double
 
 Calculate and return value
 
