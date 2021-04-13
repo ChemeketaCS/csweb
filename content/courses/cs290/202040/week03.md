@@ -39,6 +39,8 @@ weight: 30
 
 * [Web Content Accessibility Guidelines Checklist](https://webaim.org/standards/wcag/checklist)
 
+* [Sourcetree tutorials](https://confluence.atlassian.com/get-started-with-sourcetree)
+
 ### Keyboard Navigation
 
 * [Basic Keyboard Navigation Guide - No screen reader](https://webaim.org/techniques/keyboard/)
