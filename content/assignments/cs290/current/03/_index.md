@@ -103,7 +103,7 @@ Accessibility audit - 20 pts
 Accessibility improvements - 5 pts
 : Must include documentation in the writeup to score points.
 
-Accessibility investigation - 10 pts
+Accessibility investigation - 5 pts
 :  
 
 Bootstrap use - 20 pts
