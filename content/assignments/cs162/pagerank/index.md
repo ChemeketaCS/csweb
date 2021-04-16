@@ -44,7 +44,7 @@ and a list of up to 3 other pages it links to (**links** array).
 
 Below are notes about expected behavior for functions.
 
-You do NOT need full doxygen comments.
+You do NOT need doxygen comments.
 
 #### Page()
 
@@ -53,6 +53,10 @@ Should set url to "", both ints to 0 and all links to nullptr
 #### Page(urlValue : string)
 
 Should set url to indicated value, everything else as above
+
+#### getURL()
+
+Return the Page's URL
 
 #### getNumLinks()
 
@@ -69,8 +73,9 @@ Should select a random address from the links the page has and return it.
 Note you should only return "valid" links. If usedLinks is currently 2, you should
 only return either link 0 or 1.
 
-Assume the random number generator is already seeded - you do NOT want to re-seed it
-each time this is called.
+Assume the random number generator (RNG) is already seeded - you do NOT want to re-seed it
+each time this is called. If you reseed the RNG each time this function runs, you will generate the same
+"random" number over and over.
 
 If this function is called on a page with 0 links, you can either kill the program with
 an assertion or return nullptr
@@ -109,10 +114,9 @@ The network you create should exactly match this one.
 
     * Select a new current page by doing the following:
         * Pick a random number between 1-100.
-        * If the current page has no links, or the number if 15 or less, change the current page to 
-        one of the four pages selected at random (equal chance for each).
+        * If the current page has no links, or the number you picked if 15 or less,
+        change the current page to one of the four pages selected at random (equal chance for each).
         * Otherwise ask the current page for a random link and make that the new current page.
-
     * Visit that page
 
 3.  After doing the random surfing, for each page, print out its name and what percentage of the

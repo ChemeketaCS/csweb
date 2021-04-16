@@ -51,6 +51,8 @@ screenshot, provide one of each page.
 
 When complete, safe as a PDF for submission.
 
+Here is a [sample of what a completed audit should look like](https://docs.google.com/document/d/1wByxNwg7YGKotEEzcVhctzh5InFXj68pDaBVEpqGTwo/view).
+
 You can receive full credit even if there are issues at this stage as long as you document
 and explain them where required.
 
@@ -72,7 +74,8 @@ https://www.w3.org/WAI/tutorials/tables/
 Pick a public webpage. Use the accessibility audit tools to evaluate how accessible it it.
 
 * **Writeup Question #2a:** What is the URL of the page?
-* **Writeup Question #2b:** What are three things that the page does well to support accessibility?
+* **Writeup Question #2b:** What are 2-3 things that the page does well to support accessibility?  
+    *Hint: You can use Lighthouse on it and look at "Passed Tests" in the accessibility section.*
 * **Writeup Question #2c:** What is an accessibility issue you can identify in the site?
 
 ## Bootstrap
