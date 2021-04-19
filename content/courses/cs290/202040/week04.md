@@ -48,4 +48,5 @@ weight: 40
 ## References
 
 * [JS Fiddle](https://jsfiddle.net/) - test out JS
+* [JS Array Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [Eloquent Javascript](https://eloquentjavascript.net/) - Free JS book

@@ -54,6 +54,5 @@ on what to review and some practice questions.
 ## Day 4
 
 {{% alert warning %}}
-Midterm - take during class time in Elearn
+Midterm: take Thursday - Saturday
 {{% /alert %}}
-
