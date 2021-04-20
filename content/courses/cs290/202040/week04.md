@@ -44,6 +44,7 @@ weight: 40
 * [MDN : JS - First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)  
 * [MDN : JS - Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks)  
 * [MDN : JS - Objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)  
+    (You can stop at the JSON part - we will tackle that next week)
 
 ## References
 
