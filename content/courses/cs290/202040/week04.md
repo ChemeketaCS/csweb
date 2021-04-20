@@ -21,8 +21,8 @@ weight: 40
 
 * JS Part 2
 * Recommended practice - https://edabit.com/
+  * [Pair Management](https://edabit.com/challenge/BFnsRqe8PFvEwcRNt)
   * [Change Enough](https://edabit.com/challenge/erFxBbqzZPSegMwnc)
-  * [Sort by Length](https://edabit.com/challenge/aNZzLBxQpidWBF26X)
   * [Nested Check](https://edabit.com/challenge/Gpy2qSFnfhGJnWMMj)
   * [RPS](https://edabit.com/challenge/jtvCv6cjHorKpmyFc)
 
@@ -44,6 +44,7 @@ weight: 40
 * [MDN : JS - First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)  
 * [MDN : JS - Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks)  
 * [MDN : JS - Objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)  
+    (You can stop at the JSON part - we will tackle that next week)
 
 ## References
 

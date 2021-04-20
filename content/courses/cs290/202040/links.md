@@ -19,6 +19,13 @@ Recommended extensions:
 * EJS Language Support
 * Prettier - here are [instructions for using prettier](https://www.digitalocean.com/community/tutorials/how-to-format-code-with-prettier-in-visual-studio-code)
 
+When we start working with Javascript, you will likely want to add:
+
+* eslint
+To setup eslint, you also will need to install the npm package eslint and setup a config file
+see the [readme of the cs290 code repo](https://github.com/ascholerChemeketa/cs290Code/blob/main/README.md)
+for information on how to do that.
+
 ### Node JS
 
 [Node.js](https://nodejs.org/en/download/) - select the 64-bit Windows Installer (msi) version

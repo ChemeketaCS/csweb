@@ -28,7 +28,7 @@ weight: 30
 
 * [Accessible to all](https://web.dev/accessible/#create-a-design-and-css-that-supports-users-with-different-needs)  
     There are four sections on this page, you should read each of pages listed in those sections.
-    You can skip "Media accessibility". Feel free to skim 
+    You can skip "Media accessibility".
 
 * [Introduction to ARIA](https://developers.google.com/web/fundamentals/accessibility/semantics-aria)  
     Then continue on to ARIA Labels and Relationships, but stop when you hit Relationships.
