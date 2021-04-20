@@ -58,7 +58,10 @@ office_hours_for: Spring 2021
 office_hours:
 - days: Mon
   times: 
-  - time: 12:30-2:30
+  - time: 11:30-12:30
+    location: Slack
+    location_map: https://chemeketa-scholer.slack.com/
+  - time: 1:30-2:30
     location: Slack
     location_map: https://chemeketa-scholer.slack.com/
 - days: Tues
@@ -68,7 +71,7 @@ office_hours:
     location_map: https://chemeketa-scholer.slack.com/
 - days: Thurs
   times: 
-  - time: 12:30-1:30
+  - time: 11:30-12:30
     location: Slack
     location_map: https://chemeketa-scholer.slack.com/
 - days: Fri
