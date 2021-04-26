@@ -34,17 +34,18 @@ weight: 40
 
 * JS Objects
 * Recommended practice - https://edabit.com/
-  * [The Sweetest Ice Cream](https://edabit.com/challenge/HKmJFmZZCX53ff4ke)
   * [Imgur Parser](https://edabit.com/challenge/iEDvqagg62roh5q3K)
   * [Make Circle](https://edabit.com/challenge/Hgb38yhWGwJCMHbRQ)
+  * [The Sweetest Ice Cream](https://edabit.com/challenge/HKmJFmZZCX53ff4ke)
   * [Frugal Gentleman](https://edabit.com/challenge/ujzhzyvGoASKxSAib)
 
 ## Readings
 
 * [MDN : JS - First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)  
-* [MDN : JS - Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks)  
+* [MDN : JS - Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks)    
+    *(You can stop when you reach Introduction to Events)*
 * [MDN : JS - Objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)  
-    (You can stop at the JSON part - we will tackle that next week)
+    *(You can stop at the JSON part - we will tackle that next week)*
 
 ## References
 

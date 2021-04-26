@@ -53,10 +53,9 @@ Queues
 
 * Read Ch 20.8
 
-* Do the Queues CPPLab where you will implement the logic for an efficient array-based queue. There is a Queue WS in the files directory that has diagrams that might be helpful while you do the CPPLab problems.
+* Do the Queues CPPLab where you will implement the logic for an efficient array-based queue.There is a Queue WS in the files directory that has diagrams that might be helpful while you do the CPPLab problems.
 
 ## Day 4
-
 
 Heaps
 
@@ -67,9 +66,3 @@ Heaps
 
 * Do the Heap WS to practice adding and removing values from a heap by hand
 Here is a [min heap simulation you can try out](http://computerscience.chemeketa.edu/UCSFDataStructures/Heap.html)
-
-## Assignment 3
-
-After completing Monday's material, are ready to do parts 1 and 2 of the assignment.
-Part 3 you are already set to go on. Parts 4 and 5 depend on the logic you will implement in the
-Heaps CPPLab later in the week

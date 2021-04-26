@@ -9,11 +9,11 @@ weight: 50
 
 ### Monday
 
-* JS Callbacks
+* Asynchronous JS
 
 ### Tuesday
 
-* JS Asynchronous Calls
+* JSON & REST APIs
 
 ### Wednesday
 
@@ -21,17 +21,24 @@ weight: 50
 
 ### Thursday
 
-* AJAX basics & JS Dom Manipulation
+* JS DOM Manipulation
 
 ## Readings
 
 * [MDN : JS - Asynchronous](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)  
+    *Read through Introducing asynchronous JavaScript, then skim rest of pages in section.*
 
-* [MDN : Fetching Data From the Server](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data)  
+* [MDN : Fetching Data From the Server](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data) 
+    *One page*
+
+* [MDN : JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)  
+    *Just this one page*
 
 * [MDN : Client Side web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)  
+    *First four pages in this section, stop after Third Party APIs*
 
 ## References
 
-* [MDN : AJAX Getting Started](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
-*You don't need to memorize all the details of AJAX at this point, just follow examples.*
+* [MDN : Traversing with the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces)
+
+* [MDN : Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
