@@ -1,0 +1,23 @@
+FLAG = -std=c++11 -g -fpermissive -I.
+COMPILER = g++
+
+all: createDir stack.exe assign3Stack.exe pq.exe assign3PriorityQueue.exe
+
+createDir:
+	mkdir -p linux
+
+stack.exe: 
+	$(COMPILER) $(FLAG) stackTester.cpp -o linux/stack.exe
+
+assign3Stack.exe: 
+	$(COMPILER) $(FLAG) HTMLParse.cpp -o linux/assign3Stack.exe
+
+pq.exe: 
+	$(COMPILER) $(FLAG) pqTester.cpp -o linux/pq.exe
+
+assign3PriorityQueue.exe:
+	$(COMPILER) $(FLAG) DataStream.cpp processPackets.cpp -o linux/assign3PriorityQueue.exe
+
+
+clean:
+	rm linux/*.exe
