@@ -120,6 +120,13 @@ two separate programs:
 * **linux/assign3Stack.exe** from htmlParse.cpp
 * **linux/assign3PriorityQueue.exe** using processPackets.cpp and DataStream.cpp
 
+See part 3 of the Makefile Tutorial from week 1 for a sample of how to build two programs
+from one makefile.
+
+You also will likely want to set up QTCreator projects. It will work perfectly fine to
+have two QTCreator projects that both live in the same folder (two .pro files) and each
+make use of a different set of files.
+
 ## Part 1
 
 (25% of grade)
