@@ -112,10 +112,18 @@ with the attributes (at least four) that you are focusing on. The different piec
 should be contained in separate HTML entities so they could easily be further styled. (All
 the information should not just be a blob of text in the HTML file.)
 
-You should do some styling to make the presentation look organized and appealing. Try
-to do something dynamic with the rendering, so that one or more attributes of an object are displayed
-visually (as an icon or image) or affect the styling in some way (color used for displaying
-the object).
+You should do some very basic styling to make the presentation organized. For example, put 
+the name of each record into an h2, if there is a list of things in the object, show it with an
+ol or ul. You don't have to do a bunch of CSS, but the data should be organized better than
+just a bunch of text you added to innerHTML.
+
+For full credit, do something dynamic with the rendering, so that one or more attributes of
+an object are displayed visually (as an icon or image) or affect the styling in some way
+(color used for displaying the object). Examples the json you get back has a url for an image
+and you use that to display an actual picture for each item; Or as you display Pokemon cards
+your use a color for each based on the type of card it is (water = blue, fire = red, ...). If there
+is no obvious natural information you might turn into something visual, it is OK to get creative and
+do something kind of random.
 
 **Writeup Question #2:** If you are doing something dynamic - describe it briefly so I know what
 I am looking for. Otherwise not required.
@@ -127,7 +135,10 @@ and refresh the page with the retrieved data. The any existing data should be cl
 new data is displayed.
 
 For example, I might add a text field where the user
-can enter an author name and a button that will get that value and retrieve `"books/author/" + authorName`.
+can enter an author name and a button that will get that value and retrieve something like
+`"books/author/" + authorName` or `"books?author=" + authorName` as appropriate for the API. If the API
+does not support parameters, you can instead use your javascript to select and display only
+the matching records.
 
 We have not covered forms, but here is an HTML snippet you can use to make a text field
 where the user can enter some information and a button to execute the search. If you want more than
@@ -164,8 +175,7 @@ Display data - 20 pts
 : For full credit, you should do something interesting and dynamic while displaying the data.
 However, clean, well structured HTML is more important than "pretty".
 
-    * 14 pts max - Clean HTML, no styling
-    * 17 pts max - Some styling
+    * 16 pts max - Clean HTML, no styling
     * full credit - Dynamic styling of objects based on data - must have writeup
 
 Custom query - 10 pts

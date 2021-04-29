@@ -31,6 +31,8 @@ but should know what is there and make use of them.
 
 At the top of the file are two functions you need to write - `roll()` and `score()`.
 
+You will submit the diceGame.js file to elearn in addition to pushing your code.
+
 ### roll()
 
 This should roll the unlocked (white) dice. When a die is rolled it should be set to
