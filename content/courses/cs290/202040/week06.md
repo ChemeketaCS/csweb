@@ -9,12 +9,11 @@ weight: 60
 
 ### Monday
 
-* Node & Express
-* HTTP Protocol
+* Node & NPM
 
 ### Tuesday
 
-* Routing and Static Files
+* Express Basics - Routing and Static Files
 
 ### Wednesday
 
@@ -26,6 +25,10 @@ weight: 60
 
 ## Readings
 
+* [Node introduction](https://nodejs.dev/learn/introduction-to-nodejs)  
+    *Read intro, then skip to "Getting Started" and read until you get
+    done with "Where does npm install the packages?"*
+
 * [Express - Getting Started](http://expressjs.com/en/starter/installing.html)  
 *Up through **Static Files***
 
@@ -33,8 +36,9 @@ weight: 60
 
 ## References
 
+* [Express - Guide](https://expressjs.com/en/guide/routing.html)  
+    *Consult the **Guide** or **API reference** drop downs.*
+
+* [EJS Documentation](https://www.npmjs.com/package/ejs)
+
 * [MDN : Express & Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)  
-
-* [Express - Debugging](http://expressjs.com/en/guide/debugging.html)  
-
-* [EJS Documentation](https://www.npmjs.com/package/ejs)  
