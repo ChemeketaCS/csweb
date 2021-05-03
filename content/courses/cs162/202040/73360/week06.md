@@ -60,7 +60,8 @@ QTCreator in your normal operating system, but you should be testing it
 in the linux virtual machine as well.
 
 At home, install the dev environment (VirtualBox & Vagrant) - see
-Chemeketa DevEn Setup instructions under Resources link at top of page.
+[Chemeketa DevEn Setup](http://computerscience.chemeketa.edu/CSResources/Vagrant/ChemeketaCSDevEnvironment.pdf)
+instructions - also available under the Resources Links at top of page.
 The most common source of problems involving timeouts or other failures
 by Vagrant to start up the virtual machine is that hardware virtualization
 is not enabled on your computer - pay attention to #3 under Requirements!
@@ -69,8 +70,8 @@ Watch this video introducing how to use the development environment:
 
 {{< youtube videoid="CtjCECDGefM" >}}
 
-Follow the instructions provided in the **Chemeketa DevEn Use** document
-linked under Resources at the top of the page. Walk through building,
+Follow the instructions provided in the [Chemeketa DevEn Use](http://computerscience.chemeketa.edu/CSResources/Vagrant/ChemeketaCSDevBuildRun.pdf)
+document linked under Resources at the top of the page. Walk through building,
 running and testing the code provided.
 
 ### Dynamic Memory
