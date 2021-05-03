@@ -14,7 +14,7 @@ weight: 60
 ## Gnarly Trees
 Gnarly Trees is a data structure simulator that is particularly valuable for learning how
 trees work. You can download it from the [Gnarly Trees webpage](https://people.ksp.sk/~kuko/gnarley-trees/)
-or this direct link. You will need to have [java installed](https://www.java.com/en/download/) on your computer to us it.
+or this [direct link](http://people.ksp.sk/~kuko/gt.jar). You will need to have [java installed](https://www.java.com/en/download/) on your computer to us it.
 
 This video shows how Gnarly Trees works:
 {{< youtube videoid="kNNUq-SDw4E" >}}
