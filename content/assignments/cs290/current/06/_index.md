@@ -25,7 +25,7 @@ You will be making a directory `myserver` in your repository. Do all your work i
 ## Express Server Setup
 
 Make an `myserver` directory and in it, set up an Express based web server. I should be able to
-launch it with `npm install` and then `npm start` from the `myserver` directory and
+launch it with `npm install` and then `npm run start` from the `myserver` directory and
 then browsing to `localhost:3000`. Make sure that as you use npm to install packages, they
 are being added to the package.json and that you checkin both the package.json and the
 package-lock.json.
@@ -44,7 +44,7 @@ You can either set this up by hand or express-generator and then customize the r
 * If you use express-generator, make sure to use `express myserver --view=ejs` to specify ejs as the
 template language).
 * If you setup by hand, make sure to add a script to your package.json to run your main .js file
-when I do `npm start`.
+when I do `npm run start`.
 
 ## EJS Rendering Single
 
