@@ -38,11 +38,6 @@ Upon finishing this week, you should be able to:
 ### Day 4
 
 -   Garbage collection and smart pointers
--   Smart Pointers Tutorial - CPP11\_smart\_ptrs in the classroom files. Read pages 1-4 for overview, rest has
-    details for actually using.
--   [Garbage collection applet](http://web.informatik.uni-bonn.de/IV/martini/Lehre/Veranstaltungen/SS00/InformatikII/JavaSimulation/HeapOfFish.html)
--   [Garbage collection overview](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html) -
-    Describing Garbage Collection section
 
 ## Online Activity Outline
 
@@ -149,7 +144,6 @@ this week's assignment.
 
 {{< youtube videoid="5ZNkVuvoZeo" title="Simple Int Lists" >}}
 
-## Extra Info
 
 ### Garbage collection and smart pointers
 
@@ -165,12 +159,14 @@ week). This video introduces the big ideas:
 
 Readings on garbage collection.
 
-- [Garbage collection overview](https://plumbr.io/handbook/what-is-garbage-collection) - compares garbage collection to the alternatives
-- [Garbage collection details](https://plumbr.io/handbook/garbage-collection-algorithms) - focus on Mark-Sweep and Mark-Sweep-Compact
+- [Garbage collection overview](https://plumbr.io/handbook/what-is-garbage-collection):
+    compares garbage collection to the alternatives
+- [Garbage collection details](https://plumbr.io/handbook/garbage-collection-algorithms):
+    focus on Mark-Sweep and Mark-Sweep-Compact
 
 Smart pointers are a tool available in C++ to make memory management
 easier (but they don't help you much until you actually understand
-pointers). Read pages 1-4 of the SmartPointers tutorial in classroom
-link. That provides an overview of what they are... if you are
-interested you can read the rest of the tutorial for more info on
-the syntax and more complex samples.
+pointers). If you want to learn more, check out **CPP11_smart_ptrs** in the
+Files area. Pages1-4 are a good overview and the rest has more advanced samples.
+*This is optional - you won't be using smart pointers right now,
+so as long as you understand the concept of what they are doing, you are fine.*
