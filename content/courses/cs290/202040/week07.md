@@ -21,23 +21,25 @@ weight: 70
 
 ### Thursday
 
-* Dynamic web pages
+* Connecting it all: Routes/Controllers/Models/Views
 
 ## Readings
 
-* [Express - Getting Started](http://expressjs.com/en/starter/installing.html)  
-*Up through **Static Files***
+* [MDN - Using a Database with Mongoose](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
 
-* [Using EJS](https://www.digitalocean.com/community/tutorials/how-to-use-ejs-to-template-your-node-application)  
-
-* [MDN : Using a Database with Mongoose](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)  
 
 ## References
 
-* [MDN : Express & Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)  
+* [Mongoose Documentation](https://mongoosejs.com/docs/guide.html)
 
-* [Express - Debugging](http://expressjs.com/en/guide/debugging.html)  
+* [MDN - Displaying Library Data](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Displaying_data)
+    *Just use parts 5-12 as reference for how the Library sample solves problems.*
 
-* [EJS Documentation](https://www.npmjs.com/package/ejs)  
+* [MongoDB Basics Web Course](https://university.mongodb.com/courses/M001/about)  
+    *If you want to dive deep in Mongo learning*
 
-* [MongoDB Basics Web Course](https://university.mongodb.com/courses/M001/about?enroll=1)  
+* [MongoDB Node Quickstart](https://docs.mongodb.com/drivers/node/v3.6/quick-start/)
+    *Accessing mongodb directly (no Mongoose) - you probably don't need this*
+
+* [Schema Design for Mongoose](https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1)
+    *This is the first page in a 3 page sequence*
