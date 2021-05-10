@@ -17,22 +17,15 @@ weight: 70
 
 ## Overview
 
-You will be doing something very similar to last week only data to be displayed will come
-from a database you create and populate. You can reuse parts of what
-you did last week (express setup, basic page style). Feel free so by copy resources or
-code from your `express` folder.
-
-{{% alert warning %}}
-If you do reuse your express setup, you do not want to copy your node_modules folder.
-Instead, copy use `npm install` to install copies of the needed software.
-{{% /alert %}}
-
-To start, make a directory `database` in your repository. Do all your work in that folder.
-I should be able to test it by doing `npm install` and `npm start` in that folder and
-then browsing to `localhost:3000`.
+To start, make a directory `database` in your repository. You will likely want to
+use the `express` generator to make it (`express database -view=ejs`)
+as you will need it to be an express based server. Alternatively, you can manually setup the folder.
 
 You will have to install mongoose using npm - when you do so, make sure it gets saved to your
 package.json.
+
+I should be able to test your work by doing `npm install` and `npm start` in your
+`database` folder and then browsing to `localhost:3000`.
 
 For parts of this assignment, you will need to describe what you did in a PDF you will
 submit to elearn. Use google docs or Word to make a document and then save it as a PDF to submit.
@@ -58,14 +51,9 @@ fields and return the result.
 
 ## MongoDB
 
-Set up a database on cloud.mongodb.com. Populate it with at least 10 records that
+Set up a database on cloud.mongodb.com. Populate it with at least 4 records that
 match your schema. You should do this by making a `addData.js` script to the
 root project and set it up to create and save the records when you do `node addData.js`.
-
-{{% alert info %}}
-You do **NOT** need to do something as complex as the `populate.js` script shown in the
-library sample. That is overkill.
-{{% /alert %}}
 
 Credentials to connect to your database should be stored in your repository so that
 I do not have to modify anything to test out your code.
@@ -83,44 +71,36 @@ of your data items in the collection (doesn't have to show all).
 
 ## Rendering List of Objects
 
-Make a route/controller/view `/YOURTYPE/` that displays a list of all the data items using some
-basic formatting.
+Make a route/view for `/` that displays a list of all the data items in a view.
 
-When items are displayed, all fields should and you should make use of the virtuals you defined.
-(Display them or make use of them to affect the styling).
-The URL should be used to make a hyperlink that in theory would display just that object. It does
-not actually have to work - you do not need a route/view to handle those links.
+You do not need to do any fancy styling of the data. You are only required to render a series
+of list items or divs for each item that show a piece of information or two
+about the record (title, name, something else key about it) and use the URL virtual
+to make a hyperlink that will link to a page that displays that record. (You will make that
+link work in the next part.)
 
-Make an `index.html` that has a clear link to display the list page. The index should be displayed when
-your server is started.
+## Display Single
 
-## Parameterized Route
+Make a route/controller/view that is parameterized to select a single object. The route should
+correspond to the URL virtual in your object. (So if the URL for a book is `/books/123/`, the
+route `/books/123/` displays that book.)
 
-Make a route/controller that is parameterized to select some group of objects. Something like `/books/year/XXXX/`
-that displays books from a certain year (e.g. `/books/year/2020/` or `/books/year/2021/`).
+When items are displayed, you should use all fields and virtuals. (Display them or make use of
+them to affect the styling). You do not need to do anything super fancy style wise with the data,
+just make sure it is all displayed in some html tags (not just as a wall of text).
 
-You can reuse your existing view from above or make a new one.
-
-{{% alert info %}}
-Spaces and many special characters are hard to deal with in urls - I recommend you avoid using
-a field that involves strings that may have spaces or other special characters. For the books sample,
-year is a better choice than author (assuming author is a string) as author probably has spaces in it.
-{{% /alert %}}
-
-Make an `index.html` that has 2+ links that point at this route and display different
-lists of information. The index should be displayed when your server
-is started.
+I should be able to test this by loading `/` and then clicking links.
 
 ## Scoring Overview
 
-Mongoose Schema - 10 pts
+Mongoose Schema - 15 pts
 :  Schema created and documented in PDF.
 
 MongoDB - 15 pts
 :  Database is setup and populated, evidence in PDF.
 
-Objects Rendered - 20 pts
+Objects Rendered - 10 pts
 :  
 
-Parameterized Route - 5 pts
+Display Single - 10 pts
 :  
