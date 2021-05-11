@@ -87,22 +87,22 @@ public:
     /**
      * @brief substr Gets a DNAStrand that contains the requested portion of a DNAStrand
      * @param start index of first base to grab
-     * @param length number of bases to include
+     * @param substrLength number of bases to include
      * @return DNAstrand
      *
-     * Throws an out_of_range exception if the index or length are less than 0
-     *      or start + length end up past the end of the array
+     * Throws an out_of_range exception if the index or substrLength are less than 0
+     *      or start + substrLength end up past the end of the array
      */
-    DNAStrand substr(int start, int length) const;
+    DNAStrand substr(int start, int substrLength) const;
 
 
 private:
     /**
      * @brief DNAStrand Helper ctor - use in other functions to make a DNAStrand of given size that
      *          then can be modified
-     * @param length Size DNA String to create
+     * @param lengthValue Size DNA String to create
      */
-    DNAStrand(int length);
+    DNAStrand(int lengthValue);
 
     char* bases = nullptr;   ///Tracks array contining a char array
     int length = 0;         ///Length of the char array and DNAStrand

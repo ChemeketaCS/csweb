@@ -191,7 +191,7 @@ making a string-like object and doing your own memory management.
 
   This needs to throw an `out_of_range` exception if given a bad index.
 
-- `DNAStrand(int length)`
+- `DNAStrand(int lengthValue)`
 
   This private constructor builds a DNAStrand with the given length and
   should allocate an array big enough to hold that many chars (and not
@@ -225,12 +225,12 @@ making a string-like object and doing your own memory management.
   `char[]` to a stream, it assumes it must be a null-terminated C-style
   string. Yours is not.) Send the chars one by one to the stream.
 
-- `DNAStrand substr(int start, int length) const`
+- `DNAStrand substr(int start, int substrLength) const`
 
   Get a new DNAStrand that contains the indicated portion of this
   DNAStrand. You will probably need/want the DNAString(int length)
   constructor as a helper for this. This should throw an `out_of_range`
-  exception if the index or length are negative, or if the start + length
+  exception if the index or substrLength are negative, or if the start + substrLength
   would go past the end of the strand.
 
 {{% alert info %}}

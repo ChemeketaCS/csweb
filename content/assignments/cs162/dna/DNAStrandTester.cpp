@@ -121,12 +121,14 @@ TEST_CASE( "operator[]" ) {
 
     try {
         char c = str2[-1];
+        cout << c;  //never should get here
     } catch (out_of_range e) {
         exceptionsCaught++;
     }
 
     try {
         char c = str2[4];
+        cout << c;  //never should get here
     } catch (out_of_range e) {
         exceptionsCaught++;
     }
