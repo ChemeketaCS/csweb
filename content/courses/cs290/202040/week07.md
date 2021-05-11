@@ -27,6 +27,7 @@ weight: 70
 
 * [MDN - Using a Database with Mongoose](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose)
 
+* [Schema Design for Mongoose](https://developer.mongodb.com/article/mongodb-schema-design-best-practices/)
 
 ## References
 
@@ -41,5 +42,4 @@ weight: 70
 * [MongoDB Node Quickstart](https://docs.mongodb.com/drivers/node/v3.6/quick-start/)
     *Accessing mongodb directly (no Mongoose) - you probably don't need this*
 
-* [Schema Design for Mongoose](https://www.mongodb.com/blog/post/6-rules-of-thumb-for-mongodb-schema-design-part-1)
-    *This is the first page in a 3 page sequence*
+* [Schema Design for Mongoose](https://developer.mongodb.com/article/mongodb-schema-design-best-practices/)
