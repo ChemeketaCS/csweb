@@ -1,0 +1,11 @@
+FLAG = -std=c++11 -g -I.
+COMPILER = g++
+
+assign4: main.cpp MySet.h
+	mkdir -p linux
+	rm -f linux/*
+	$(COMPILER) $(FLAG) main.cpp -g -o linux/assign4.exe
+	$(COMPILER) $(FLAG) testerA.cpp -g -o linux/testerA.exe
+	$(COMPILER) $(FLAG) testerB.cpp -g -o linux/testerB.exe
+	$(COMPILER) $(FLAG) testerC.cpp -g -o linux/testerC.exe
+
