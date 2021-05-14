@@ -21,8 +21,9 @@ tasks = [
         'runs': [
             Run({
                 'exe': 'program.exe',
-                'max_time': 1,
+                'max_time': 10,
                 'output_file': '__output',
+                'use_drmemory': True,
                 'append_output_file': False,
             }),
         ]
