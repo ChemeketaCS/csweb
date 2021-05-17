@@ -9,68 +9,69 @@ weight: 80
 
 Upon finishing this learning module, you should be able to:
 
-
-* Write programs using arrays to store collections of related information
 * Design and write code using multidimensional arrays
 * Describe the high level differences between C++ strings and C strings
 * Use C style strings and the string functions that work on them
 
+## Quiz
 
+Open Thursday–Sat in Elearn, *time limited* (60 minutes), and *not*
+collaborative.  Covers weeks 5, 6, and 7.
 
 ## Schedule
 
 ### Day 1
 
-* Arrays
-* Read Ch 7.1-7.2, 7.4
-* CPPLab Arrays
+* C Strings and C based string/io functions
+* Read Ch 7.11.1 and 7.11.2, skim rest of 7.11
+* CPPLab C Strings
 
 ### Day 2
 
-* Arrays & Functions
-* Read Ch7.5-7.8
-* CPPLab Array Functions
-
-### Day 3
-
 * Multidimensional arrays
-* CPPLab 2DArrays
+* CPPLab Multidimensional arrays
 * Read Ch 8.1-8.4
 
-### Day 4
+### Day 3
 
 * Multidimensional arrays–Sample Programs
 * Read Ch 8.6-8.8.1
 
+### Day 4
+
+* Quiz Review
+* Graphics transformations with matrices
+* CPPLab time
 
 ## Activity Outline
 
+### C-Strings
 
-### Array Basics
+Strings in C are just arrays of characters. Because arrays need to have
+a fixed size, we often have to allocate more space then necessary and
+use a special character to mark the end of our string within the
+array.  
 
-Read Ch 7.1-7.2. These videos covers some of the important (and
-sometimes unmentioned) details  
+{{% alert info %}}
+In general, you should keep using C++ strings to do your work.
+You should know about C-strings, but they should not be your go-to tool in C++.
+{{% /alert %}}
 
-{{< youtube videoid="YEpuglOfH38" title="Array Basics" >}}
-{{< youtube videoid="BRZOfH-kbRQ" title="Array Processing" >}}
+Read Ch 7.11.1 and 7.11.2, skim rest of 7.11 (don't need to memorize
+any of this, usually won't use these in C++, but nice to know what
+is there if you are programming C). This video talks about
+C-strings.  
 
-Do the CPPLab Array Basics
+{{< youtube videoid="VXSUcGSuOS4" title="C String" >}}
 
+Buffer overflows are a way to use user input to change what is in
+user memory. A distressingly large number of critical security
+issues over the years have been related to this technique. This
+video explains the basic ideas involved:  
 
-### Arrays Continued
+{{< youtube videoid="ZEQ67dxNw1Q" title="Buffer Overflows" >}}
 
-Watch the video below and then read Ch 7.4 for various examples of
-using arrays.  
-
-{{< youtube videoid="Lb0pjRKzJEg" title="Array Uses" >}}
-
-Read 7.5-7.8. This video shows some important details of how arrays
-work with functions and how to use QtCreator to debug arrays in
-functions:  
-
-{{< youtube videoid="I2bwac_gIRQ" title="Array Functions" >}}
-
-Do the CPPLab Arrays 2
+Do the C Strings CPPLab.
 
 ### Multi-dimensional Arrays
 
@@ -80,7 +81,7 @@ do and how to use the debugger on them in QtCreator:
 
 {{< youtube videoid="mPfsuslAt84" title="Multidimensional Arrays" >}}
 
-Do the CPPLab Multidimensional Arrays CPPLab–due Friday
+Do the CPPLab Multidimensional Arrays.
 
 Read Ch 8.5-8.8.1
 This video talks through some of the interesting things in the
@@ -90,7 +91,6 @@ could be improved in them.
 {{< youtube videoid="H-qOMrdbG00" title="Multidimensional Samples" >}}
 
 Start the assignment.
-
 
 ## Extra Info
 
