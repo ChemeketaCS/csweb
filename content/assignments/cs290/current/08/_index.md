@@ -25,38 +25,39 @@ this week, or because a choice you made last week turns out to be really challen
 implement as a form, you may do so. But if so, you should make sure to update all of your
 premade objects so they conform to the new schema.
 
+You can add validation rules to a schema without having to worry about updating the data. But,
+if any of your existing records violate the rules you set up, you will not be able to
+save modifications to them without conforming to the validation rules you have set up.
+
 For parts of this assignment, you will need to describe what you did in a PDF you will
 submit to elearn. Use google docs or Word to make a document and then save it as a PDF to submit.
 
-## Form
+## Schema Based Validation
 
-Make a form that corresponds to your data item. There should be some kind of input for
-each field in the item. You should use appropriate controls for inputting values - not everything
+Setup Mongoose validation rules in your Schema. You can test these with your load data
+script. Modify it so that your starter data violates some of the rules and try to rerun
+the script. Calls to save() on invalid data should result in an error. Then fix the
+data so it is valid and confirm the load script still works.
+
+**Writeup Question #1:** List your fields. For each one, how is it validated? Is there
+anything you can think of that might cause problems you could not figure out how to
+validate for?
+
+## Form and Create
+
+Add a route/controller/view for `/YOURTYPE/create/` that can be used to access a form to
+create a new item for your schemaa. Submitting the form, if successful, should add a
+new object to your database and then display the list of objects (`/YOURTYPE/`).
+
+The form should have some kind of input for each field in the item.
+You should use appropriate controls for inputting values - not everything
 should be a plain text input. Dates should use date inputs, enums should use a select or
 radio buttons, bools check boxes, relation to other objects some kind of select list, etc...
 
-Eventually, this form will need to be an EJS based view. If you want to start off that way,
-set do this work at the same time you do the [Create](#create) part below. If you want to
-just focus on the form, make a plain HTML file to work in. You can then merge that work into
-a view as you do the rest of the assignment.
-
-**Writeup Question #1:** Provide a screenshot of your form. Briefly describe what part
-of the form was the most complex to figure out.
-
-## Create
-
-Add a route/controller/view for `/YOURTYPE/create/` that can be used to access your form to
-create a new item. Submitting the form, if successful, should add a new object to your
-database and then display the list of objects (`/YOURTYPE/`).
-
-You should do validation on all the entered data using any combination of browser and/or
-server side validation.
+Your form should have client side validation where supported with HTML basic features. (i.e. 
+Use things like required and max - but you don't have to write any custom js validation logic.)
 
 In your `index.html` add a link that goes to the create page.
-
-**Writeup Question #2:** List your fields. For each one, how is it validated? Is there
-anything you can think of that might cause problems you could not figure out how to
-validate for?
 
 ## Update
 
@@ -65,22 +66,30 @@ to display an existing object (identified by ID) in your form and allow changes 
 A successful submission should update the existing object and display the list of
 objects (`/YOURTYPE/`).
 
-Again, should do validation on all the entered data using any combination of browser and/or
-server side validation.
-
 In the list display of your object (`/YOURTYPE/`) add links or buttons to the display for
 each object that link to this update page and allow you to modify the object.
 
+## Accessibility Audit
+
+Use the
+[Accessibility Audit Template](https://docs.google.com/document/d/1Bp3t2i_kt24Ktbf1ckuKZL3QWaj2FiM-9WJHzBedxRk/copy)
+to do an audit of your form page. You only need to complete sections 3, 6, and 7.
+
+When complete, safe as a PDF for submission (you will submit it and the writeup as separate documents).
+
 ## Scoring Overview
 
-Form - 15 pts
-:  
+Schema Validation - 10 pts
+:  Must have writeup.
 
-Create - 15 pts
-:  Working create form with link from index.
+Form - 10 pts
+:  Has a form that corresponds to data type. Has client side validation.
 
-Validation - 10 pts
-:  Do appropriate validation. Writeup clearly describes and documents any issues.
+Create - 10 pts
+:  Can successfully save new items using the form.
 
 Update - 10 pts
+:  Can use the form to load existing objects and successfully save them after making changes.
+
+Audit - 10 pts
 :  

@@ -12,14 +12,6 @@ Upon finishing this week, you should be able to:
 -   Trace recursive algorithms by hand
 -   Write recursive algorithms to solve problems
 
-## Deadlines this week
-
--   Mon 11:59PM - Assignment 6
--   Friday 11:59 Recursion CPPLab 1
--   Sat 11:59 Recursion CPPLab 2
--   Sat 11:59PM - Quiz 3 open in elearn Thurs-Sat covering
-    weeks 5, 6-7
-
 ## Suggested pacing
 
 ### Day 1

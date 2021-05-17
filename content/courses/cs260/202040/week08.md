@@ -20,17 +20,18 @@ Probabilistically balanced structures - Treaps and Skip Lists
 
 ## Day 2
 
-Review - study guide available in Class Files link
+### Hashing
+
+*This material is NOT on the second midterm. It is in preparation for the topic next week.*
+Watch this video:
+{{< youtube videoid="p6J8iuc8Bp8" >}}
 
 ## Day 3
 
-{{% alert warning %}}
-Midterm
-{{% /alert %}}
+Review - study guide available in Class Files link
 
 ## Day 4
 
-### Hashing
-
-Watch this video:
-{{< youtube videoid="p6J8iuc8Bp8" >}}
+{{% alert warning %}}
+Midterm: take Thursday - Saturday
+{{% /alert %}}

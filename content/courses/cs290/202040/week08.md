@@ -13,19 +13,32 @@ weight: 80
 
 ### Tuesday
 
-* HTTP Requests & Request Processing
+* Form Validation & Processing
 
 ### Wednesday
 
-* Team - Work sessions
+* Team - Schema Verification
+    *Come ready to tell me about your schema relationships*
 
 ### Thursday
 
-* DB Concurrency & Security
+* Form Wrapup
+
+    * Input sanitization
+    * Accessibility
+    * More samples
 
 ## Readings
 
-* [MDN : Web Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms)  
-*Read first 3 parts, then skim from HTML 5 Inputs to Styling Web Forms, skip ahead and skim Validation, then read Sending Form Data*
+* [MDN : Web Forms](https://developer.mozilla.org/en-US/docs/Learn/Forms) 
+
+    * Read the two pages in "Introductory guides"
+    * Skim the pages in "The different form controls"
+    * Read both pages in "Validating and submitting form data"
+
+## References
+
+* [Mongoose Validation Docs](https://mongoosejs.com/docs/validation.html)
 
 * [MDN : Express - Working With Forms](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms)  
+    *This page is weak - doesn't really provide much detail about getting form data.*
