@@ -36,6 +36,8 @@ weight: 80
     * Skim the pages in "The different form controls"
     * Read both pages in "Validating and submitting form data"
 
+* [Labeling Controls](https://www.w3.org/WAI/tutorials/forms/labels/)
+
 ## References
 
 * [Mongoose Validation Docs](https://mongoosejs.com/docs/validation.html)
