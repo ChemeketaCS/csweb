@@ -13,63 +13,37 @@ Upon finishing this learning module, you should be able to:
 * Create dynamically allocated storage
 
 {{% alert warning %}}
-No late work will be accepted after Sunday 11:59,
+No late work will be accepted after the last assignment's due date,
 to allow time for grading during finals week.
 {{% /alert %}}
+
+## Quiz
+
+Open Thursday–Sat in Elearn, *time limited* (60 minutes), and *not*
+collaborative.  Covers weeks 8 and 9, and some pointer material from this week.
 
 ## Schedule
 
 ### Day 1
-
-* C Strings and C based string/io functions
-* Read Ch 7.11.1 and 7.11.2, skim rest of 7.11
-
-### Day 2
     
 * Pointer Basics
 * Read chapter 11.1-11.3
 * Pointer Worksheet
 
-### Day 3
+### Day 2
 
 * Dynamic Memory
 * Read chapter 11.9
 
-### Day 4
+### Day 3
     
-* Final/Quiz Review
+* Final review
+
+### Day 4
+
+* Quiz 4
 
 ## Activity Outline
-
-### C-Strings
-
-Strings in C are just arrays of characters. Because arrays need to have
-a fixed size, we often have to allocate more space then necessary and
-use a special character to mark the end of our string within the
-array.  
-
-{{% alert info %}}
-In general, you should keep using C++ strings to do your work.
-ou should know about C-strings, but they should not be your go-to tool in C++.
-{{% /alert %}}
-
-Read Ch 7.11.1 and 7.11.2, skim rest of 7.11 (don't need to memorize
-any of this, usually won't use these in C++, but nice to know what
-is there if you are programming C). This video talks about
-C-strings.  
-
-{{< youtube videoid="VXSUcGSuOS4" title="C String" >}}
-
-Buffer overflows are a way to use user input to change what is in
-user memory. A distressingly large number of critical security
-issues over the years have been related to this technique. This
-video explains the basic ideas involved:  
-
-{{< youtube videoid="ZEQ67dxNw1Q" title="Buffer Overflows" >}}
-
-Do the CStrings CPPLab.
-
-
 ### Pointers
   
 {{% alert info %}}
