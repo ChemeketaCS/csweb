@@ -36,7 +36,7 @@ Upon finishing this week, you should be able to:
 
 -   Quiz review, CPPLab Help
 -   Optional [recursion challenge problem](http://computerscience.chemeketa.edu/cpplab/problems/StringPermutations/)
--   Take Quiz 3 online - covers weeks 5, 6 & 7
+-   Take Quiz 3 online - covers weeks  6 & 7
 
 ## Online Activity Outline
 
