@@ -9,7 +9,7 @@ diagram: true
 
 menu:
   advising:
-    name: 'Course Ordering'
+    name: 'Course Schedule'
     weight: 90
 
 
