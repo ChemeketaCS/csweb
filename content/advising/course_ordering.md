@@ -1,5 +1,5 @@
 ---
-title: Course Ordering
+title: Course Offerings and Ordering
 linktitle: Courses
 type: docs
 #date: "2019-05-05T00:00:00+01:00"
@@ -19,8 +19,6 @@ css: ["course_ordering.css"]
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 90
 ---
-
-## Ordering
 
 Computer Science and Math courses must be taken in the order shown below. The terms listed for
 each class are when they are normally offered - offerings in any particular term may be different
