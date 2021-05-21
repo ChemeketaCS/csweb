@@ -57,10 +57,10 @@ void donotcallthisfunction(void) {
 
 The critical function is `checkpassword`, which reads in the password
 using the notorious `gets` (get string) library function. Nobody uses
-`gets` anymore, and in fact I got a lot of warnings when I compiled this
-code for you, because it is vulnerable to a buffer overflow attack.
-The following resources are helpful for understanding what's going on
-with a buffer overflow attack.
+`gets` anymore, and in fact I got a lot of warnings when I compiled
+this code for you, because it is vulnerable to a buffer overflow attack.
+You might find the following resources helpful for understanding what's
+going on with this kind of attack.
 
 * [Smashing the stack for fun and profit], by Aleph One. This is the
   original tutorial on stack smashing, published in the infamous Phrack
@@ -75,12 +75,15 @@ with a buffer overflow attack.
   with some additional details about how it works and how to exploit it.
 * [Stack frames], for review about how the critical information is
   stored on the stack.
+* [Tenouk's buffer overflow tutorial], an incredibly long and detailed deep
+  dive on the topic of buffer overflows in C and C++, including a lot of
+  information that overlaps with other topics we've covered in this class.
 
   [Smashing the stack for fun and profit]: http://phrack.org/issues/49/14.html
   [Smashing the Stack For Fun and Profit (Today)]: https://travisf.net/smashing-the-stack-today
   [Stack-Based Buffer Overflow Attacks: Explained and Examples]: https://www.rapid7.com/blog/post/2019/02/19/stack-based-buffer-overflow-attacks-what-you-need-to-know/
   [Stack frames]: https://www.cs.rutgers.edu/~pxk/419/notes/frames.html
-
+  [Tenouk's buffer overflow tutorial]: https://www.tenouk.com/cncplusplusbufferoverflow.html
 
 To satisfy this assignment, I want you to produce two exploits and
 then write up how you designed them. An exploit is a file that can be
