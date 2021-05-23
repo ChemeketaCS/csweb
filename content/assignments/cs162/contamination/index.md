@@ -38,14 +38,11 @@ You can assume that we will always be operating on a 10x10 grid like the ones sh
 
 ![Radiation leaks](leaks.png)
 
-You may use a loop to get the inputs and for other jobs, **but the "contamination" and
+You may use a loop to get the inputs and outputs, **but the "contamination" and
 count of the affected squares should be done recursively.**
 
 No global variables allowed. You may not make a class that contains your functions.
 Constants are OK.
-
-
-
 
 
 ## Sample Runs
