@@ -14,11 +14,6 @@ weight: 90
 
 ## Day 1
 
-### Hashing
-
-Watch this video:
-{{< youtube videoid="p6J8iuc8Bp8" >}}
-
 ### Hash Tables
 
 * Read Ch 24.1-24.4
