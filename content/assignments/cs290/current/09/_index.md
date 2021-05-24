@@ -12,75 +12,63 @@ weight: 90
 
 ## Goals
 
-* Use express to provide a Data API.
-* Implement complex client side updates via AJAX.
+* Use cookies/sessions to track information between visits to a website.
 
 ## Overview
 
-This week, you will be updating your `databases` directory to provide a data API that
-produces json versions of your data. You will then use it to display and filter data
-via AJAX on a plain HTML page.
+You will be making a simple application the tracks information about the user between visits.
+
+Make a `usertrack` directory in your project. Make an express based application in it that
+I can run using `npm install` and `npm start` and then browsing to `localhost:3000/`. Make
+sure any installed packages are saved to package.json.
 
 For parts of this assignment, you will need to describe what you did in a PDF you will
 submit to elearn. Use google docs or Word to make a document and then save it as a PDF to submit.
 
-## Data List API
+## Investigation
 
-Add a route/controller `/api/YOURDATATYPE/` (like `/api/books/`) that returns all items
-from your database as a JSON list.
+**Writeup Question:**
 
-Make a link in `index.html` to this URL.
+Pick a website you interact with a fair amount and see what information is tracked via cookies
+when you access it.
 
-## Data Filtered List API
+Include a screenshot of the chrome developer panel:
 
-Make a route/controller that is parameterized to select some group of objects and return it
-as a json list. Something like `/books/year/XXXX/` (e.g. `/books/year/2020/` or `/books/year/2021/`).
-Like in the past, you may want to avoid using a field that will have spaces or special characters in it.
+{{< figure src="cookies.png" alt="A list of cookies shown in the Chrome Developer panel, Application Tab" >}}
 
-Make 2+ links in `index.html` that link to this URL with different parameters.
+Then answer the following
 
-## Display List
+1. What domains other than google are cookies being included from?
+1. Is there any information other than id numbers being stored (anything that isn't just
+a string of long numbers)
+1. Can you figure out any of the programming language/platforms being used? Try googling
+some of the cookie names.
 
-Add a plain html file `ajax.html` at the root level of your site. Make a link to it on your `index.html`.
+## Cookie Use
 
-This file should use javascript to retrieve all of your items via the `/api/YOURDATATYPE/` route
-and then display them in an HTML table. This table needs only basic formatting and the data in the
-table does not need to be formatted.
+Add a route/controller that sends `/` to a view that simply displays "You have viewed
+this page XXX times on this computer" where XXX is the number of times the page has been loaded.
+You should use a cookie to track the page views so that the count does not reset if the user
+leaves the page.
 
-## Filterable List
+## Session Use
 
-Add an input above your table that can be used to filter the data in the table.
-For example, I might have a select drop-down menu with various years that allow the user to pick a
-year of book they want to see. There should be a button that does not actually submit the form/page
-but instead just triggers javascript to retrieve a new list of data using your
-parameterized API and then update the table to display those items (probably by clearing the existing
-rows and then adding new ones). 
+To your view, add a form with one or more text fields and at least two radio buttons/checkboxes.
+When submitted, you should save the submitted information to a user session.
 
-**Writeup Question #1:** Provide a screenshot of using this input to specify some value and the
-table that results.
+When the page is reloaded (by browsing to `/` on your site), if there is information saved in the
+session, it should be used to fill in the form so it looks like how the user last submitted it.
 
-## Sortable List
-
-Make 2+ columns of your table have a button that says "Sort" in the header. Clicking "Sort" should
-trigger js that sorts the existing data by that field and updates the table to show the new ordering.
-
-You should not do a new request via the API. The sort should be done using the last data retrieved.
-That means any time you retrieve a list, you need to store it in some page level variable for later
-access.
+The session itself can be memory based or you can use MongoDB. If using MongoDB, make sure to
+include a working connection string.
 
 ## Scoring Overview
 
-Data List API - 15 pts
+Investigation- 10 pts
+: If you do not do this problem, make sure
+
+Cookie Storage - 20 pts
 : 
 
-Data Filtered List API - 10 pts
+Session Storage API - 20 pts
 :  
-
-Display List - 15 pts
-:  Working create form with link from index.
-
-Filterable List - 5 pts
-:  Working create form with link from index.
-
-Sortable List - 5 pts
-:  Do appropriate validation. Writeup clearly describes and documents any issues.

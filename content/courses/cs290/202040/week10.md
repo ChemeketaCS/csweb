@@ -9,11 +9,11 @@ weight: 100
 
 ### Monday
 
-* Cookies/Sessions
+* Holiday
 
 ### Tuesday
 
-* Authentication & Privacy
+* Working remotely - SSH & FTP
 
 ### Wednesday
 
@@ -21,7 +21,7 @@ weight: 100
 
 ### Thursday
 
-* Flex/Team - Work sessions
+* Setting up nginx
 
 ## Readings
 

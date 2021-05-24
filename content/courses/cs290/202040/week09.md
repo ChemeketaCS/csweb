@@ -9,27 +9,35 @@ weight: 90
 
 ### Monday
 
-* Holiday
+* Cookies & Sessions
 
 ### Tuesday
 
-* REST & APIs
+* Sessions & Authentication
 
 ### Wednesday
 
-* Team - Work sessions
+* Deliverable - Working Webserver/Database/Views
 
 ### Thursday
 
-* Think JS libraries
+* Publishing to Heroku
+* Managing Secrets
 
 ## Readings
 
-* [MDN : AJAX Getting Started](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
-*You've seen this before, but not dive deeper a little deeper*
+* [MDN : Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
-* https://stackabuse.com/building-a-rest-api-with-node-and-express/
+https://www.w3schools.com/js/js_cookies.asp
+
+* [Express Sessions Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_sessions.htm)  
 
 ## Reference
 
-* [MDN : Fetching Data From the Server](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data)  
+* [Express Cookies Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_cookies.htm)
+
+* [Express Sessions Docs](https://expressjs.com/en/resources/middleware/session.html)
+
+* [Cookies - Ultimate Guide](https://html.com/resources/cookies-ultimate-guide/)
+
+* [Passport JS Authentication](http://www.passportjs.org/docs/username-password/)
