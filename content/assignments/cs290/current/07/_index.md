@@ -24,7 +24,7 @@ as you will need it to be an express based server. Alternatively, you can manual
 You will have to install mongoose using npm - when you do so, make sure it gets saved to your
 package.json.
 
-I should be able to test your work by doing `npm install` and `npm start` in your
+I should be able to test your work by doing `npm install` and `npm run start` in your
 `database` folder and then browsing to `localhost:3000`.
 
 For parts of this assignment, you will need to describe what you did in a PDF you will

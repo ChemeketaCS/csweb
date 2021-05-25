@@ -66,7 +66,7 @@ in the repository. For a real project this would be a big no no - things like
 that should either be stored in a config file that is not checked into source
 control or stored in environmental variables set on each machine.
 
-To run your project I should be able to just do `npm install` and `npm start`
+To run your project I should be able to just do `npm install` and `npm run start`
 and then visit `localhost:3000/`.
 
 ## Scoring Overview

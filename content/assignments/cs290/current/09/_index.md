@@ -19,7 +19,7 @@ weight: 90
 You will be making a simple application the tracks information about the user between visits.
 
 Make a `usertrack` directory in your project. Make an express based application in it that
-I can run using `npm install` and `npm start` and then browsing to `localhost:3000/`. Make
+I can run using `npm install` and `npm run start` and then browsing to `localhost:3000/`. Make
 sure any installed packages are saved to package.json.
 
 For parts of this assignment, you will need to describe what you did in a PDF you will
