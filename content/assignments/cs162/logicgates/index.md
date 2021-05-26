@@ -59,14 +59,17 @@ back and pulls values from its inputs, which will pull values from any
 inputs they need, and so forth back to the pins.  Components don't know
 where their output is going, they just know where to get their input from.
 
-If you want to implement the connections as type `shared_ptr<Component>`
-instead of plain `Component *`, you may do so. It will not make the
-project any easier or harder.
-
 There is no need for dynamic memory allocation (no `new` or `delete`)
 in this assignment; you can just declare components as local variables
-and set them up with connections to each other. You should also have no
-need to implement destructors for your classes.
+and set up connections as pointers to each other. You should also have no
+need to implement destructors for your classes. They will not manage any
+memory.
+
+If you want to implement the connections as type `shared_ptr<Component>`
+instead of plain `Component *`, you may do so. However, if you do so, you
+will need to allocate each Component on the heap using `new` and then store
+that address into a shared_ptr. You cannot use a shared_ptr to point at
+an object that was allocated on the stack (a normal local variable).
 
 Here is the UML for the expected final structure (see below for
 implementation tips):
