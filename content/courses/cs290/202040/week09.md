@@ -28,7 +28,7 @@ weight: 90
 
 * [MDN : Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
-https://www.w3schools.com/js/js_cookies.asp
+* [Cookies from JS](https://www.w3schools.com/js/js_cookies.asp)
 
 * [Express Sessions Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_sessions.htm)  
 
