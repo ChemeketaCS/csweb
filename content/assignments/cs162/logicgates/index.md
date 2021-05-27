@@ -13,7 +13,7 @@ weight: 80
 
 Before submitting, delete any Makefiles in your directory, as well as
 any subfolders (like “debug” or “release”).  Then zip up your
-final version of the Inheritance folder.  Use zip, not 7z, rar, etc.
+final version of the LogicGateProject folder.  Use zip, not 7z, rar, etc.
 
 For example, on windows, you can right click the LogicGateProject folder,  
 ![right click the folder](right%20click.png)    
