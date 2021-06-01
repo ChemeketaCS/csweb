@@ -21,18 +21,12 @@ weight: 100
 
 ### Thursday
 
-* Setting up nginx
-
-## Readings
-
-* [Express Cookies Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_cookies.htm)  
-
-* [Express Sessions Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_sessions.htm)  
-
-* [Express Authentication Tutorial](https://www.tutorialspoint.com/expressjs/expressjs_authentication.htm)  
+* Other frameworks
 
 ## Reference
 
-* [MDN : Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+* [Cyberduck](https://cyberduck.io/)
 
-* [Cookies - Ultimate Guide](https://html.com/resources/cookies-ultimate-guide/)
+* [Setting up SSH Keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-2)  
+
+* [VueJS Intro](https://vuejs.org/v2/guide/)
