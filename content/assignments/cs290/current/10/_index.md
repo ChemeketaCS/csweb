@@ -22,6 +22,20 @@ When you are complete, do a submission to elearn with just a note "Done".
 You may need to refer to this [linux command line tutorial](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
 or a [command line cheat sheet](https://files.fosswire.com/2007/08/fwunixref.pdf).
 
+## Login
+
+You need to log in and change your default password to something new. You will not be able to
+connect with an sftp client unless you do this first.
+
+You will connect to it using `ssh YOURNAME@x.x.x.x` where **YOURNAME** is your my.chemeketa username
+and **x.x.x.x** is the server address given in the assignment in elearn.
+
+You will be asked for your password (the default one is listed on the assignment in elearn). Once you
+enter it, you will be prompted to make a new password.
+
+* First you type the old password again, then the new one twice.
+* Then you are logged out automatically. Reconnect using your new password.
+
 ## Add a webpage
 
 nginx is set up to serve up static files from the folder `www` in your home
@@ -29,10 +43,13 @@ directory. If I try to request to `xxx.xxx.xxx.xxx/~ascholer/` it will serve
 up the file `~ascholer/www/index.html`. If I try to request
  `xxx.xxx.xxx.xxx/~ascholer/foo.html`, it would serve up `~ascholer/www/foo.html`.
 
-Log into the server using sftp and make a `www` directory in your home
+Log into the server and make a `www` directory in your home
 folder and in it add a simple **index.html** page. Your index.html should be
 an actual html file (has \<head>, \<body>,etc...) but the contents can just be
 "Hello world".
+
+You can do this using an sftp client OR by remoting in with ssh and using
+a text editor like **nano** or **vim** directly from the command prompt.
 
 ## Add an ssh key
 
