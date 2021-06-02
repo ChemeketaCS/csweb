@@ -42,7 +42,7 @@ Weighted Graphs and Shortest Paths
 {{< youtube videoid="wbzOwWtKI3U" >}}
 
 * Try out simulators of [Dijkstra's shortest path algorithm](http://computerscience.chemeketa.edu/UCSFDataStructures/Dijkstra.html)
-and [Prim's minimum spanning tree algorithm](http://computerscience.chemeketa.edu/UCSFDataStructures/Primm.html)
+and [Prim's minimum spanning tree algorithm](http://computerscience.chemeketa.edu/UCSFDataStructures/Prim.html)
 
 * Do Weighted Graph WS
 
