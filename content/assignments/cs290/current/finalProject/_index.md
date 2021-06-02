@@ -90,6 +90,8 @@ database is pre-populated with a decent number of sample/starter records.
 
 The server as a whole functions to serve your pages and handles basic errors (404/500).
 
+*One score awarded to everyone on team.*
+
 ### Displays data records - 10 pts
 
 Clean, attractive pages to display existing records. Well structured pages with
@@ -99,9 +101,24 @@ in the HTML to enable further styling.
 
 You should display some information about related objects and links to them.
 
+**Writeup Question 1:**
+What data did you work on?
+
+### Page Cohesiveness - 5 pts
+
+The individual pages use a consistent navigation scheme and basic styling. 
+The primary  navigation looks similar across all the pages.
+There is a logical "home" page to the site.  
+
+It is fine if "something extra" features that someone adds to their pages are
+make them stand out. But, they should still share some of the same basic page structure
+and navigation.
+
+*One score awarded to everyone on team.*
+
 ### Supports Create/Update/Delete operations - 30 pts
 
-Provide ways to delete records, update existing records, and add new records. You must
+Provide ways to delete records, update existing records, and add new records. You should
 support editing the associations for your object (reference(s) to other data items).
 
 Delete operation should make sure nothing else in the database still refers to the removed
@@ -109,29 +126,30 @@ object.
 
 Pages for doing this should follow the same basic guidelines as for the "Display" pages.
 
-### Page Cohesiveness - 5 pts
-
-(One score awarded to everyone on team.) The individual pages use a consistent
-navigation scheme and basic styling. The primary  navigation looks similar across all the pages.
-There is a logical "home" page to the site.  
-
-It is fine if "something extra" features that someone adds to their pages are
-make them stand out. But, they should still share some of the same basic page structure
-and navigation.
-
 ### Planning & Communication - 5 pts
 
-(One score awarded to everyone on team.) The team can provide evidence of task tracking
-and collaboration. The easiest ways to provide this are:
+The team can provide evidence of task tracking and collaboration. The easiest ways
+to provide this are:
 
 * Project boards on your github repo.
-* A link to a slack channel on the Chemeketa CS - Scholer slack server.
 * A link to a google doc with meeting notes.
+
+*One score awarded to everyone on team.*
+
+**Writeup Question 2:**
+Provide a link to where I can find this. Google doc, project boards, etc... If necessary,
+attach to submission as a separate PDF.
 
 ### Something extra - 15pts
 
 Doing a good job on the expected work is 85% of the assignment. The last 15% can
-be earned by doing something(s) not explicitly requested. Here are some suggestions:
+be earned by doing something(s) not explicitly requested.
+
+**Writeup Question 3:**
+What is your something extra? What did you have to learn to get it done? What
+was most challenging about it?
+
+Here are some suggestions:
 
 * Implement one or more "user focused" pages. These should allow an end user
 to interact with the records in some "real world" fashion more complex than simple
