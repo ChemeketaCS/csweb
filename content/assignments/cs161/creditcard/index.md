@@ -77,7 +77,7 @@ for including your own files.
 The other common error is including a .cpp file. **NEVER** try to include a .cpp file.
 {{% /alert %}}
 
-## Part A: 80% Function Building
+## Part A: Function Building (~85% of grade)
 
 Build the following functions. They are tools that will help us write a program for checking
 a credit card number. You will not actually worry about writing the full program until you
@@ -169,7 +169,7 @@ according to the Luhn algorithm.
 
 This should use a call to luhnDigitSum and not reimplement the logic of that function.
 
-## Part B: 20% Final Program
+## Part B: Main Program (~15% of grade)
 
 Comment out the testing code you wrote in the main function. Leave it
 there in comments; do not delete it, because your part A grade includes

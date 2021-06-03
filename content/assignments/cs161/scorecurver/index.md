@@ -111,6 +111,13 @@ standard deviations below the mean. That means a grade of 'D'.
 Given a score of 96, mean of 80.0, and std deviation of 11.9: The score is 16 above the
 mean. That is more than 1.0 standard deviations above the mean. That means a grade of 'A'.
 
+#### void calculateLetterGrades(const int scores[], char letterGrades[], int size)
+
+Use the scores in **scores** to calculate letter grades for each student and place
+them into **letterGrades** so that the grade for `scores[0]` is stored in
+`letterGrades[0]`, the grade for `scores[1]` is stored into `letterGrades[1]`, etc...
+
+
 {{% alert warning %}}
 A solution without these functions will take a significant penalty even
 if it produces the correct output.
