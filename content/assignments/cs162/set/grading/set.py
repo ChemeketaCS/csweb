@@ -3,7 +3,6 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../pygrader')))
 
-
 import pygrader.pygrader as pygrader
 from pygrader.pygrader import Task, Run
 
@@ -12,7 +11,7 @@ tasks = [
         'name': 'files',
         'clean_files': True,
         'sort_files': True,
-        'copy_files': ['makefile', 'DNAStrand.h', 'doctest.h'],
+        'copy_files': ['makefile', 'doctest.h'],
     }),
     Task({
         'name': 'make',
@@ -25,7 +24,7 @@ tasks = [
         'runs': [
             Run({
                 'exe': 'program.exe',
-                'max_time': 10,
+                'max_time': 60,
                 'output_file': '__output',
                 'use_drmemory': True,
                 'append_output_file': False,
