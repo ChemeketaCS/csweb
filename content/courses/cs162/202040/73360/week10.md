@@ -82,5 +82,4 @@ Do Algorithms CPPLab.
 
 The final quiz includes material from weeks 8, 9, and 10.
 
-You can take the final next Tues-Wed online in elearn. There is a review
-guide in the Files area of week 10.
+There is a review guide for the final in the Files area of week 10.
