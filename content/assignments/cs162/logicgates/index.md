@@ -111,7 +111,7 @@ Represents a controllable input to the circuit.
 
 - `prettyPrint`
 
-  Print the padding, then the label, and then the value. For example, with a padding of “----”, print:
+  Print the padding, then the label, and then the value. For example, with a padding of “\-\-\-\-”, print:
 
   ```
   ----A : 1
