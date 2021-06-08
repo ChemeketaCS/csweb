@@ -43,11 +43,15 @@ you will have a two year path to finish a CS degree after transferring.
 
 {{% alert info %}}
 The CS Major Transfer Map is brand new for this academic year. If you are an existing student
-who was  working on the ASOT-CS or AAOT, you should be able to switch your focus to the CS MTM
-with no changes or minimal changes to your planned schedule.
+who was  working on the ASOT-CS or AAOT, you can either switch your focus to the MTM or
+continue working on your existing degree plan.
 
-However, you can keep working towards the ASOT-CS or AAOT and transfer with one of those
-degrees.
+If you have not taken any science courses yet, or are planning on going to WOU, it will
+likely be easy to switch to the MTM. If you are planning on going to OSU and have started
+taking science courses that are not part of one of the sequences outlined in the MTM, switching
+plans might not make sense. You will still be able to transfer just like before with the
+ASOT-CS degree - as long as you complete the courses listed on the advising pages (3 & 4)
+you will be on track to start Junior year and complete on time.
 
 Universities will not begin accepting the MTM for transfer until Fall 2022. If you are
 planning on starting at a university before then, you will need to focus on
