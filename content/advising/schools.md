@@ -85,12 +85,9 @@ Option, you should:
 
 ## OSU Cascades
 
-The [CS program at the Bend campus of OSU](https://osucascades.edu/academics/computer-science)
+The [Bend campus of OSU CS program](https://osucascades.edu/academics/computer-science)
 has a focus in Software Engineering. You should prepare for it in the same way as the OSU
-Corvallis Applied CS degree. It is a great option for students looking to become software
-developers who want the rigor of the OSU curriculum in a more personal environment.
-
-See the **Transfer Tips** listed for OSU above.
+Corvallis Applied CS degree. See the **Transfer Tips** listed above.
 
 [Mock Transfer Schedule]({{< relref  "mock_schedule#school=OSU-APPLIED" >}})
 

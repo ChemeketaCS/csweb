@@ -17,10 +17,6 @@ menu:
 
 ---
 
-<div class="d-flex justify-content-center mt-4">
-{{< youtube videoid="Zwvu515kmhE" title="Chemeketa CS Intro">}}
-</div>
-
 ## Identify your discipline
 
 Make sure you know the difference between [Computer Engineering (CE), Computer Science (CS),
