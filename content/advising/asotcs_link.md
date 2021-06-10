@@ -3,7 +3,7 @@ headless: true
 
 menu:
   advising:
-    name: CS MTM
+    name: ASOT-CS
     weight: 15
-    url: "https://www.oregon.gov/highered/policy-collaboration/Documents/Transfer-Credit/2998/Statewide%20Articulation%20Agreement,%20Major%20Transfer%20Map%20in%20Computer%20Science.pdf"
+    url: "https://www.chemeketa.edu/media/content-assets/documents/pdf/degrees/ASOT---CS-Degree-Requirements-and-Advising-Guide.pdf"
 ---
