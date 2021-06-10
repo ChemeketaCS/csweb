@@ -27,33 +27,35 @@ css: ["mock_schedule.css"]
 
   <form>
   <div class="form-row">
-  <div class="form-group col-md-6 col-xl-3">
+  <div class="form-group col-md-6">
   <label for="school">Transfer School</label><br />
   <select id="school" class="form-control">
     <option value="UNKNOWN">Unknown School</option>
-    <option value="OREGON-TECH">Oregon Tech</option>
-    <option value="OREGON">Oregon</option>
+    <option value="EOU">Eastern Oregon University</option>
+    <option value="OIT">Oregon Tech</option>
     <option value="OSU-APPLIED">OSU-Applied</option>
     <option value="OSU-SYSTEMS">OSU-Systems</option>
-    <option>PSU</option>
-    <option>WOU</option>
+    <option value="PSU">Portland State University</option>
+    <option value="OREGON">University of Oregon</option>
+    <option value="WOU">Western Oregon University</option>
   </select>
   </div>
   <div class="form-group col-md-3">
   <label for="math">Math Placement</label><br />
   <select id="math" class="form-control">
-    <option>111</option>
-    <option>112</option>
-    <option>251</option>
-    <option>252</option>
-    <option>Past 252</option>
+    <option value="111">111</option>
+    <option value="112">112</option>
+    <option value="251">251</option>
+    <option value="252">252</option>
+    <option value="XXX">Past 252</option>
   </select>
   </div>
   <div class="form-group col-md-3">
   <label for="CS">CS Start Term</label><br />
   <select id="cs" class="form-control">
-    <option value="Early">Fall</option>
-    <option value="Late">Spring</option>
+    <option value="0">Fall</option>
+    <option value="1">Winter</option>
+    <option value="2">Spring</option>
   </select>
   </div>
   </div>
@@ -66,6 +68,9 @@ css: ["mock_schedule.css"]
 {{% alert warning %}}
 Warning - this tool is intended for exploration. The schedule it produces is **NOT** intended to
 be used as is - use  as a starting point for planning your own schedule.
+
+These plans are for students who will be transferring in Fall 2022 or later. If you are transferring
+before then, you will want to focus on the [ASOT-CS degree](https://www.chemeketa.edu/media/content-assets/documents/pdf/degrees/ASOT---CS-Degree-Requirements-and-Advising-Guide.pdf)
 {{% /alert %}}
 
 <div id="schoolNotes">
@@ -77,14 +82,16 @@ be used as is - use  as a starting point for planning your own schedule.
 
 <h4>General Notes</h4>
 {{% alert info %}}
-* This assumes you finish an ASOT-CS or AAOT degree at Chemeketa. If you do not finish the complete
-degree, you need to make sure to meet the general ed requirements of the school you transfer to.
-* Comm 111: Although there are other options to satisfy the ASOT-CS/AAOT, many schools require
-Comm111 as part of their major requirements.
-* To earn the ASOT-CS or AAOT you must earn 90 credits of qualifying classes. This schedule does
-not necessarily include 90 credits.
-* Make sure one arts/social sciences course meets the Cultural Literacy requirement.
-{{% /alert %}}
 
-<script type="text/javascript" src="mock_schedule.js" defer></script>
-<link rel="stylesheet" href="mock_schedule.css">
+* Do not start taking science courses until you decide on a transfer target.
+* Do not start take your second writing course (WR122 or 227) until you decide
+on a transfer target.
+* All Arts and Letters and Social Science courses should be ones on the.
+[AAOT](https://www.chemeketa.edu/programs-classes/degrees/) course list
+* Electives: To complete the CS Major Transfer Map (or the ASOT-CS) you must earn 90 credits
+of qualifying classes. The schedule shown above does not necessarily include 90 credits.
+Take elective classes to fulfill needed credits.
+* All Oregon Universities have a foreign language admission requirement. Most students have
+satisfied this via two years of the same language in high school. If you have not, you either
+need to take two terms of a foreign language at Chemeketa or prove proficiency in a second language.
+{{% /alert %}}
