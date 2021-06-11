@@ -71,11 +71,6 @@ Then continue until you get to the **Installation Folder** screen. On it, select
 
 ![Default Desktop Installation](desktopinstallation.png)
 
-{{% alert warning %}}
-If you get an error from the installer about not being able to download components,
-you can try the [Offline Installer]({{< relref "#offline" >}}).
-{{% /alert %}}
-
 ## QTProject Template Setup
 
 QTCreator stores its preferences in a folder called **QTProject**.  To install the Chemeketa
@@ -157,6 +152,7 @@ menu item (or ``ctrl-B``). Then run the program with **Build > Run** (or ``ctrl-
 display some other text as well - you can ignore the other text.)
 ![Hello World displayed in a terminal window.](helloworld.png)
 
+<!-- 
 ## Offline Installer {#offline}
 
 {{% alert info %}}
@@ -177,3 +173,4 @@ will build your code). It is OK if you see a different version of MinGW - just p
 number version you see and make sure to chose it in both of the locations shown below.
 
 ![Selecting mingw options](offlineInstallerOptions.png)
+-->
