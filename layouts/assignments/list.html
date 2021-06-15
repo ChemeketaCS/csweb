@@ -7,12 +7,11 @@
   <div class="article-style">{{ . }}</div>
   {{ end }}
 
-  {{ $paginator := .Paginate .Data.Pages }}
 
-  {{ $pageList := ($paginator.Pages.ByWeight)  }}
+  {{ $pageList := (.Paginate (.Pages.ByWeight) 30).Pages }}
 
   {{ if .Params.orderDesc }}
-  {{ $pageList = ($paginator.Pages.ByWeight).Reverse }}
+  {{ $pageList = (.Paginate.Pages.ByWeight 30).Reverse }}
   {{ end }}
 
   {{ range $pageList }}
