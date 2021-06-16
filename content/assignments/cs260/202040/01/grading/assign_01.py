@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 
-# Allow relative import of pygrader. Not needed if pygrader package is installed on python search path
-import os
-import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
 import pygrader.pygrader as pygrader
 from pygrader.pygrader import Task, Run
+
+#Warning - code assumes projects are named COURSE-TERM-ASSIGNMENTNAME
+repo_path = 'cs260-202020-a01'
 
 tasks = [
     Task({
@@ -41,12 +39,11 @@ tasks = [
     }),
     Task({
         'name': 'list',
-        'git_list': 'cs260-202020-a01'
+        'git_list': repo_path
     }),
-    
     Task({
         'name': 'clone',
-        'git_clone': 'cs260-202020-a01'
+        'git_clone': repo_path
     }),
 ]
 

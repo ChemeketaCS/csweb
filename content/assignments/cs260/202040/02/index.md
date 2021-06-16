@@ -140,6 +140,7 @@ Do they make sense for what you claimed?
 In AddressArrayList.cpp, implement the extractAllMatches function. See the .h file for documentation.
 
 In main, use it to extract all of the Oregon addresses from aListA into a new list, aListC.
+For full credit, this should be done in O(n) time.
 
 **Print out the lengths of aListA and aListC.**
 

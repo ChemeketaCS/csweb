@@ -3,6 +3,9 @@
 import pygrader.pygrader as pygrader
 from pygrader.pygrader import Task, Run
 
+#Warning - code assumes projects are named COURSE-TERM-ASSIGNMENTNAME
+repo_path = 'cs260-202020-a04'
+
 tasks = [
 
     #Minimal sample broken into subtasks. Generates separate output files for each run.
@@ -67,32 +70,13 @@ Test remove on various locations.
             })
         ]
     }),
-
-    #Sample of listing git repositories
-    #config.py must have github options defined for git_list to work
-    #git_list can also be run without being explicitly listed as a task using:
-    #./assign01.py -t git_list PATTERN
     Task({
         'name': 'list',
-        'git_list': 'cs260-202040-a04'           #list all repos matching this pattern. If not supplied, defaults to None and no clone is done
-                                                # the search pattern can be overriden with command line args. This call:
-                                                #./assign_01.py a5-bob
-                                                #would search for repos matching a5-bob, not cs260-201940-a5
+        'git_list': repo_path
     }),
-
-    #Sample of cloning git repositories
-    #config.py must have github options defined for git_clone to work
-    #git_clone can also be run without being explicitly listed as a task using:
-    #./assign01.py -t git_clone PATTERN
-    
-    #Warning - code assumes projects are named COURSE-TERM-ASSIGNMENT-NAME
-    
     Task({
         'name': 'clone',
-        'git_clone': 'cs260-202040-a04'          #clone all repos matching this pattern. If not supplied, defaults to None and no clone is done
-                                                # the search pattern can be overriden with command line args. This call:
-                                                #./assign_01.py a5-bob
-                                                #would search for repos matching a5-bob, not cs260-201940-a5
+        'git_clone': repo_path
     }),
 ]
 

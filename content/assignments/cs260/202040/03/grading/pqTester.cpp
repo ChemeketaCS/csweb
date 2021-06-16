@@ -11,6 +11,7 @@ int main()
     p.add(50);
     p.add(20);
     p.add(60);
+    p.add(70);
     p.add(40);
     p.add(30);
     p.add(80);
