@@ -11,7 +11,7 @@
   {{ $pageList := (.Paginate (.Pages.ByWeight) 30).Pages }}
 
   {{ if .Params.orderDesc }}
-  {{ $pageList = (.Paginate.Pages.ByWeight 30).Reverse }}
+  {{ $pageList = (.Paginate (.Pages.ByWeight) 30).Pages.Reverse }}
   {{ end }}
 
   {{ range $pageList }}
