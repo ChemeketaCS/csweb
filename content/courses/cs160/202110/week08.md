@@ -27,7 +27,7 @@ Day 3
 : Do the Algorithm of the Week.
 
 Day 4
-: Finish the programming.
+: Finish the programming. Take the final.
 
 ## Programming
 
@@ -66,7 +66,7 @@ play Super Mario:
 
 {{< youtube videoid="qv6UVOQ0F44" note="*[Closed captioned version of the video](https://video.chemeketa.edu/media/MarI+O+-+Machine+Learning+for+Video+Games/1_0gesfh85)*">}}
 
-## Finals Week Prep
+## Final
 
 The final is cumulative. If you want to get a head start on studying, the best thing
 to do is go back and review the earlier quizzes and assignments.

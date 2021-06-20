@@ -30,7 +30,7 @@ Day 3
 : Algorithm of the Week.
 
 Day 4
-: Finish the programming. Take the Quiz.
+: Finish the programming.
 
 ## Programming
 

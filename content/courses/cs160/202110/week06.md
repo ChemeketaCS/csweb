@@ -26,7 +26,7 @@ Day 3
 : And do the Algorithm of the Week.
 
 Day 4
-: Finish the programming. Read the High Level Programming section.
+: Finish the programming. Read the High Level Programming section. Take the quiz.
 
 ## Programming
 

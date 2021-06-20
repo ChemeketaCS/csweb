@@ -27,7 +27,7 @@ Day 3
 : Do the AI Search section
 
 Day 4
-: Finish the programming. Take the Quiz.
+: Finish the programming.
 
 ## Programming
 
