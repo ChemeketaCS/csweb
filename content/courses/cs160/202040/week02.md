@@ -81,7 +81,6 @@ the discussion board or in office hours.
 * You can find a worksheet called PageRankPractice and a key for it in the Class Files link
 in elearn. Use them to explore some interesting aspects of how PageRank works.
 
-
 ## Optional Extras
 
 Program or be Programmed - What does it mean not to know how programming works in the modern world?

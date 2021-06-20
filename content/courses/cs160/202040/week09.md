@@ -57,14 +57,14 @@ Prepare-Then-Commit Trick For Replicated Databases**. (Start reading again at
 ## Structured Query Language
 
 * Do the following SQL Tutorials. They introduce the real language used by many databases
-    to specify queries. This video explains how to use them:
+  to specify queries. This video explains how to use them:
 
-    {{< youtube videoid="frzjo7qhaFo" >}}
+  {{< youtube videoid="frzjo7qhaFo" >}}
 
-    * [Select queries](https://sqlbolt.com/lesson/select_queries_introduction)
-    * [Queries with Constraints Part 1](https://sqlbolt.com/lesson/select_queries_with_constraints)
-    * [Queries with Constraints Part 2](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2)
-    * [Filtering and ordering](https://sqlbolt.com/lesson/filtering_sorting_query_results)  
+  * [Select queries](https://sqlbolt.com/lesson/select_queries_introduction)
+  * [Queries with Constraints Part 1](https://sqlbolt.com/lesson/select_queries_with_constraints)
+  * [Queries with Constraints Part 2](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2)
+  * [Filtering and ordering](https://sqlbolt.com/lesson/filtering_sorting_query_results)  
     *Tip: This tutorial does not spell out what ASC and DESC mean.
     ASC is short for "ascending"- going up from smallest to largest.
     DESC is "descending" - listed from largest to smallest.*

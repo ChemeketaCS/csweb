@@ -45,7 +45,7 @@ Read [CS160 Reader sections 4.4 and 4.5](http://computerscience.chemeketa.edu/cs
 
 ## Other Types of Data
 
-* Read about ASCII representation of text and about how images can be represented: 
+* Read about ASCII representation of text and about how images can be represented:
 [CS160 Reader - Data Representation from 4.9 to 4.10](http://computerscience.chemeketa.edu/cs160Reader/DataRepresentation/index.html)
 
 * Read about Hexadecimal and hex color codes: [CS160 Reader - Data Representation from 4.11 to 4.12](http://computerscience.chemeketa.edu/cs160Reader/DataRepresentation/index.html)
